@@ -1,0 +1,69 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+hapijs/.github,SECURITY.md,b07751cbde26093a35f53863e2621b4cdb5229c0,2019-09-17 07:29:20+00:00,,"# Security Policy
+
+Let’s keep things simple –
+
+If you think you have identified a security related issue with any hapi.js module or repository, please report it immediately to **security@sideway.com**. If you are not sure, don’t worry. Better safe than sorry – just send an email. Do not open issues related to any security concerns publicly. Please do not include anyone else on the disclosure email.
+
+When reporting an issue, include as much information as possible, but no need to fill fancy forms or answer tedious questions. Just tell us what you found, how to reproduce it, and any concerns you have about it. We will respond as soon as possible and follow up with any missing information.
+
+## Disclosure Policy
+
+The hapi.js organization reports all identified security issues to the [npm Security Team](https://www.npmjs.com/advisories) as soon as an issue has been confirmed and works closely to issue responsible disclosures. When issues are disclosed, the person or team responsible for the discovery receives full credit.
+
+In general, public disclosure are made after the issue has been fully identified and a patch is ready to be released. Companies with an active [commercial support plan]( https://hapi.dev/support/) receive advance notice of upcoming security disclosures and patches up to 72 hours prior to public disclosure.
+",1342,b hapijs/hapi b07751cbde26093a35f53863e2621b4cdb5229c0
+hapijs/.github,SECURITY.md,ed1c1c5c8f4c7dbe93f4004e736df5036ad23f0e,2019-09-17 07:31:39+00:00,"# Security Policy
+
+Let’s keep things simple –
+
+If you think you have identified a security related issue with any hapi.js module or repository, please report it immediately to **security@sideway.com**. If you are not sure, don’t worry. Better safe than sorry – just send an email. Do not open issues related to any security concerns publicly. Please do not include anyone else on the disclosure email.
+
+When reporting an issue, include as much information as possible, but no need to fill fancy forms or answer tedious questions. Just tell us what you found, how to reproduce it, and any concerns you have about it. We will respond as soon as possible and follow up with any missing information.
+
+## Disclosure Policy
+
+The hapi.js organization reports all identified security issues to the [npm Security Team](https://www.npmjs.com/advisories) as soon as an issue has been confirmed and works closely to issue responsible disclosures. When issues are disclosed, the person or team responsible for the discovery receives full credit.
+
+In general, public disclosure are made after the issue has been fully identified and a patch is ready to be released. Companies with an active [commercial support plan]( https://hapi.dev/support/) receive advance notice of upcoming security disclosures and patches up to 72 hours prior to public disclosure.
+","# Security Policy
+
+Let’s keep things simple –
+
+If you think you have identified a security related issue with any hapi module or repository, please report it immediately to **security@sideway.com**. If you are not sure, don’t worry. Better safe than sorry – just send an email. Do not open issues related to any security concerns publicly. Please do not include anyone else on the disclosure email.
+
+When reporting an issue, include as much information as possible, but no need to fill fancy forms or answer tedious questions. Just tell us what you found, how to reproduce it, and any concerns you have about it. We will respond as soon as possible and follow up with any missing information.
+
+## Disclosure Policy
+
+The hapi organization reports all identified security issues to the [npm Security Team](https://www.npmjs.com/advisories) as soon as an issue has been confirmed and works closely to issue responsible disclosures. When issues are disclosed, the person or team responsible for the discovery receives full credit.
+
+In general, public disclosure are made after the issue has been fully identified and a patch is ready to be released. Companies with an active [commercial support plan]( https://hapi.dev/support/) receive advance notice of upcoming security disclosures and patches up to 72 hours prior to public disclosure.
+",6,b hapijs/hapi ed1c1c5c8f4c7dbe93f4004e736df5036ad23f0e
+hapijs/.github,SECURITY.md,1897ffb357ee4f659c5e6900819ab99a9c8c021d,2020-08-03 12:09:20+00:00,"# Security Policy
+
+Let’s keep things simple –
+
+If you think you have identified a security related issue with any hapi module or repository, please report it immediately to **security@sideway.com**. If you are not sure, don’t worry. Better safe than sorry – just send an email. Do not open issues related to any security concerns publicly. Please do not include anyone else on the disclosure email.
+
+When reporting an issue, include as much information as possible, but no need to fill fancy forms or answer tedious questions. Just tell us what you found, how to reproduce it, and any concerns you have about it. We will respond as soon as possible and follow up with any missing information.
+
+## Disclosure Policy
+
+The hapi organization reports all identified security issues to the [npm Security Team](https://www.npmjs.com/advisories) as soon as an issue has been confirmed and works closely to issue responsible disclosures. When issues are disclosed, the person or team responsible for the discovery receives full credit.
+
+In general, public disclosure are made after the issue has been fully identified and a patch is ready to be released. Companies with an active [commercial support plan]( https://hapi.dev/support/) receive advance notice of upcoming security disclosures and patches up to 72 hours prior to public disclosure.
+","# Security Policy
+
+Let’s keep things simple –
+
+If you think you have identified a security related issue with any hapi module or repository, please report it immediately to **security@hapi.dev**. If you are not sure, don’t worry. Better safe than sorry – just send an email. Do not open issues related to any security concerns publicly. Please do not include anyone else on the disclosure email.
+
+When reporting an issue, include as much information as possible, but no need to fill fancy forms or answer tedious questions. Just tell us what you found, how to reproduce it, and any concerns you have about it. We will respond as soon as possible and follow up with any missing information.
+
+## Disclosure Policy
+
+The hapi organization reports all identified security issues to the [npm Security Team](https://www.npmjs.com/advisories) as soon as an issue has been confirmed and works closely to issue responsible disclosures. When issues are disclosed, the person or team responsible for the discovery receives full credit.
+
+In general, public disclosure are made after the issue has been fully identified and a patch is ready to be released.
+",200,b hapijs/hapi 1897ffb357ee4f659c5e6900819ab99a9c8c021d

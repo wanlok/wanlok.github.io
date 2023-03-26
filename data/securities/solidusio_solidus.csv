@@ -1,0 +1,12 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+solidusio/solidus,SECURITY.md,f2dd052ec285c8ef2e08dd05e78bc03b57a22477,2019-08-22 13:57:15+00:00,,"# Security policy
+
+You can find the Solidus security policy at https://solidus.io/security.
+",92,b solidusio/solidus f2dd052ec285c8ef2e08dd05e78bc03b57a22477
+solidusio/solidus,SECURITY.md,9686f5394c246a889fc47813d89b5bdd4d597853,2022-11-11 11:08:20+00:00,"# Security policy
+
+You can find the Solidus security policy at https://solidus.io/security.
+","# Security policy
+
+You can find the Solidus security policy at https://solidus.io/security.
+",0,b solidusio/solidus 9686f5394c246a889fc47813d89b5bdd4d597853

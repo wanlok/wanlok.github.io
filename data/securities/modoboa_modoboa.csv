@@ -1,0 +1,57 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+modoboa/modoboa,SECURITY.md,1a47e095448d5e1f1d9bc2479a5367d2050ffe6c,2023-01-17 08:35:46+00:00,,"# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 2.x     | :white_check_mark: |
+| 1.x     | :x:                |
+
+## Reporting a Vulnerability
+
+Due to sensitive nature of security issues, we ask that they not be publicly reported using Github issues. Instead, if you believe 
+you’ve found something in Modoboa which has security implications, please send a description of the issue via email to security@modoboa.org.
+
+Once you’ve submitted an issue via email, you should receive an acknowledgment from the team as soon as possible, 
+and depending on the action to be taken, you may receive further followup emails.
+",799,b modoboa/modoboa 1a47e095448d5e1f1d9bc2479a5367d2050ffe6c
+modoboa/modoboa,SECURITY.md,30e9549c9052235aa7df9f3c1136c60e17d7a795,2023-01-17 09:07:57+00:00,"# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 2.x     | :white_check_mark: |
+| 1.x     | :x:                |
+
+## Reporting a Vulnerability
+
+Due to sensitive nature of security issues, we ask that they not be publicly reported using Github issues. Instead, if you believe 
+you’ve found something in Modoboa which has security implications, please send a description of the issue via email to security@modoboa.org.
+
+Once you’ve submitted an issue via email, you should receive an acknowledgment from the team as soon as possible, 
+and depending on the action to be taken, you may receive further followup emails.
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 2.x     | :white_check_mark: |
+| 1.x     | :x:                |
+
+## Reporting a Vulnerability
+
+Due to sensitive nature of security issues, we ask that they not be publicly reported using Github issues. Instead, if you believe 
+you’ve found something in Modoboa which has security implications, please send a description of the issue via email to security@modoboa.org.
+
+Once you’ve submitted an issue via email, you should receive an acknowledgment from the team as soon as possible, 
+and depending on the action to be taken, you may receive further followup emails.
+",123,b modoboa/modoboa 30e9549c9052235aa7df9f3c1136c60e17d7a795

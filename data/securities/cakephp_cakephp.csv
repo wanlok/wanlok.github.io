@@ -1,0 +1,333 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+cakephp/cakephp,SECURITY.md,62911c86eed672c9036aa4143e11017c677f7b04,2019-05-24 02:57:35+00:00,,"# Security Policy
+
+## Supported Versions
+
+We support fixing security issues on the following releases:
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 3.7.x   | :white_check_mark: |
+| 3.6.x   | :white_check_mark: |
+| <= 3.5  | :x:                |
+| 2.10.x  | :white_check_mark: |
+| <= 2.9  | :x:                |
+
+## Reporting a Vulnerability
+
+If you’ve found a security issue in CakePHP, please use the following procedure 
+instead of the normal bug reporting system. Instead of using the bug tracker, 
+mailing list or IRC please send an email to security [at] cakephp.org. Emails 
+sent to this address go to the CakePHP core team on a private mailing list.
+
+For each report, we try to first confirm the vulnerability. Once confirmed, 
+the CakePHP team will take the following actions:
+
+* Acknowledge to the reporter that we’ve received the issue, and are 
+  working on a fix. We ask that the reporter keep the issue confidential until we announce it.
+* Get a fix/patch prepared.
+* Prepare a post describing the vulnerability, and the possible exploits.
+* Release new versions of all affected versions.
+* Prominently feature the problem in the release announcement
+",1188,b cakephp/cakephp 62911c86eed672c9036aa4143e11017c677f7b04
+cakephp/cakephp,SECURITY.md,4bb89e7c5c3d57ea21daeb0fc4ac7e66ccaf0382,2020-03-01 03:37:23+00:00,"# Security Policy
+
+## Supported Versions
+
+We support fixing security issues on the following releases:
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 3.7.x   | :white_check_mark: |
+| 3.6.x   | :white_check_mark: |
+| <= 3.5  | :x:                |
+| 2.10.x  | :white_check_mark: |
+| <= 2.9  | :x:                |
+
+## Reporting a Vulnerability
+
+If you’ve found a security issue in CakePHP, please use the following procedure 
+instead of the normal bug reporting system. Instead of using the bug tracker, 
+mailing list or IRC please send an email to security [at] cakephp.org. Emails 
+sent to this address go to the CakePHP core team on a private mailing list.
+
+For each report, we try to first confirm the vulnerability. Once confirmed, 
+the CakePHP team will take the following actions:
+
+* Acknowledge to the reporter that we’ve received the issue, and are 
+  working on a fix. We ask that the reporter keep the issue confidential until we announce it.
+* Get a fix/patch prepared.
+* Prepare a post describing the vulnerability, and the possible exploits.
+* Release new versions of all affected versions.
+* Prominently feature the problem in the release announcement
+","# Security Policy
+
+## Supported Versions
+
+We support fixing security issues on the following releases:
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 4.0.x   | :white_check_mark: |
+| 3.8.x   | :white_check_mark: |
+| 3.7.x   | :white_check_mark: |
+| <= 3.6  | :x:                |
+| 2.10.x  | :white_check_mark: |
+| <= 2.9  | :x:                |
+
+## Reporting a Vulnerability
+
+If you’ve found a security issue in CakePHP, please use the following procedure 
+instead of the normal bug reporting system. Instead of using the bug tracker, 
+mailing list or IRC please send an email to security [at] cakephp.org. Emails 
+sent to this address go to the CakePHP core team on a private mailing list.
+
+For each report, we try to first confirm the vulnerability. Once confirmed, 
+the CakePHP team will take the following actions:
+
+* Acknowledge to the reporter that we’ve received the issue, and are 
+  working on a fix. We ask that the reporter keep the issue confidential until we announce it.
+* Get a fix/patch prepared.
+* Prepare a post describing the vulnerability, and the possible exploits.
+* Release new versions of all affected versions.
+* Prominently feature the problem in the release announcement
+",36,b cakephp/cakephp 4bb89e7c5c3d57ea21daeb0fc4ac7e66ccaf0382
+cakephp/cakephp,SECURITY.md,53077041de1ff108af71f42aac7741f625ffdf0f,2021-09-11 16:58:40+00:00,"# Security Policy
+
+## Supported Versions
+
+We support fixing security issues on the following releases:
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 4.0.x   | :white_check_mark: |
+| 3.8.x   | :white_check_mark: |
+| 3.7.x   | :white_check_mark: |
+| <= 3.6  | :x:                |
+| 2.10.x  | :white_check_mark: |
+| <= 2.9  | :x:                |
+
+## Reporting a Vulnerability
+
+If you’ve found a security issue in CakePHP, please use the following procedure 
+instead of the normal bug reporting system. Instead of using the bug tracker, 
+mailing list or IRC please send an email to security [at] cakephp.org. Emails 
+sent to this address go to the CakePHP core team on a private mailing list.
+
+For each report, we try to first confirm the vulnerability. Once confirmed, 
+the CakePHP team will take the following actions:
+
+* Acknowledge to the reporter that we’ve received the issue, and are 
+  working on a fix. We ask that the reporter keep the issue confidential until we announce it.
+* Get a fix/patch prepared.
+* Prepare a post describing the vulnerability, and the possible exploits.
+* Release new versions of all affected versions.
+* Prominently feature the problem in the release announcement
+","# Security Policy
+
+## Supported Versions
+
+We support fixing security issues on the following releases:
+
+| Version | Supported          | Security fixes until
+| ------- | ------------------ | -------------------- 
+| 4.x     | :white_check_mark: | 
+| 3.10.x  | :white_check_mark: | 15th December 2022 (36 months after 4.0.0)
+| <= 3.9  | :x:                |
+| 2.10.x  | :white_check_mark: | 15th June 2021 (18 months after 4.0.0)
+| <= 2.9  | :x:                |
+
+## Reporting a Vulnerability
+
+If you’ve found a security issue in CakePHP, please use the following procedure 
+instead of the normal bug reporting system. Instead of using the bug tracker, 
+mailing list or IRC please send an email to security [at] cakephp.org. Emails 
+sent to this address go to the CakePHP core team on a private mailing list.
+
+For each report, we try to first confirm the vulnerability. Once confirmed, 
+the CakePHP team will take the following actions:
+
+* Acknowledge to the reporter that we’ve received the issue, and are 
+  working on a fix. We ask that the reporter keep the issue confidential until we announce it.
+* Get a fix/patch prepared.
+* Prepare a post describing the vulnerability, and the possible exploits.
+* Release new versions of all affected versions.
+* Prominently feature the problem in the release announcement
+",128,b cakephp/cakephp 53077041de1ff108af71f42aac7741f625ffdf0f
+cakephp/cakephp,SECURITY.md,e23d5fcf130ad58485e1029e7c2f6f24f7a20639,2021-09-11 16:59:29+00:00,"# Security Policy
+
+## Supported Versions
+
+We support fixing security issues on the following releases:
+
+| Version | Supported          | Security fixes until
+| ------- | ------------------ | -------------------- 
+| 4.x     | :white_check_mark: | 
+| 3.10.x  | :white_check_mark: | 15th December 2022 (36 months after 4.0.0)
+| <= 3.9  | :x:                |
+| 2.10.x  | :white_check_mark: | 15th June 2021 (18 months after 4.0.0)
+| <= 2.9  | :x:                |
+
+## Reporting a Vulnerability
+
+If you’ve found a security issue in CakePHP, please use the following procedure 
+instead of the normal bug reporting system. Instead of using the bug tracker, 
+mailing list or IRC please send an email to security [at] cakephp.org. Emails 
+sent to this address go to the CakePHP core team on a private mailing list.
+
+For each report, we try to first confirm the vulnerability. Once confirmed, 
+the CakePHP team will take the following actions:
+
+* Acknowledge to the reporter that we’ve received the issue, and are 
+  working on a fix. We ask that the reporter keep the issue confidential until we announce it.
+* Get a fix/patch prepared.
+* Prepare a post describing the vulnerability, and the possible exploits.
+* Release new versions of all affected versions.
+* Prominently feature the problem in the release announcement
+","# Security Policy
+
+## Supported Versions
+
+We support fixing security issues on the following releases:
+
+| Version | Supported          | Security fixes until
+| ------- | ------------------ | -------------------- 
+| 4.x     | :white_check_mark: | 
+| 3.10.x  | :white_check_mark: | 15th December 2022 (36 months after 4.0.0)
+| <= 3.9  | :x:                |
+| 2.10.x  | :x:                | 15th June 2021 (18 months after 4.0.0)
+| <= 2.9  | :x:                |
+
+## Reporting a Vulnerability
+
+If you’ve found a security issue in CakePHP, please use the following procedure 
+instead of the normal bug reporting system. Instead of using the bug tracker, 
+mailing list or IRC please send an email to security [at] cakephp.org. Emails 
+sent to this address go to the CakePHP core team on a private mailing list.
+
+For each report, we try to first confirm the vulnerability. Once confirmed, 
+the CakePHP team will take the following actions:
+
+* Acknowledge to the reporter that we’ve received the issue, and are 
+  working on a fix. We ask that the reporter keep the issue confidential until we announce it.
+* Get a fix/patch prepared.
+* Prepare a post describing the vulnerability, and the possible exploits.
+* Release new versions of all affected versions.
+* Prominently feature the problem in the release announcement
+",17,b cakephp/cakephp e23d5fcf130ad58485e1029e7c2f6f24f7a20639
+cakephp/cakephp,SECURITY.md,ab6bb333cb513873fe8cac70f0e9008cc666eeb4,2021-10-18 02:20:47+00:00,"# Security Policy
+
+## Supported Versions
+
+We support fixing security issues on the following releases:
+
+| Version | Supported          | Security fixes until
+| ------- | ------------------ | -------------------- 
+| 4.x     | :white_check_mark: | 
+| 3.10.x  | :white_check_mark: | 15th December 2022 (36 months after 4.0.0)
+| <= 3.9  | :x:                |
+| 2.10.x  | :x:                | 15th June 2021 (18 months after 4.0.0)
+| <= 2.9  | :x:                |
+
+## Reporting a Vulnerability
+
+If you’ve found a security issue in CakePHP, please use the following procedure 
+instead of the normal bug reporting system. Instead of using the bug tracker, 
+mailing list or IRC please send an email to security [at] cakephp.org. Emails 
+sent to this address go to the CakePHP core team on a private mailing list.
+
+For each report, we try to first confirm the vulnerability. Once confirmed, 
+the CakePHP team will take the following actions:
+
+* Acknowledge to the reporter that we’ve received the issue, and are 
+  working on a fix. We ask that the reporter keep the issue confidential until we announce it.
+* Get a fix/patch prepared.
+* Prepare a post describing the vulnerability, and the possible exploits.
+* Release new versions of all affected versions.
+* Prominently feature the problem in the release announcement
+","# Security Policy
+
+## Supported Versions
+
+We support fixing security issues on the following releases:
+
+| Version | Supported          | Security fixes until
+| ------- | ------------------ | -------------------- 
+| 4.x     | :white_check_mark: | 
+| 3.10.x  | :white_check_mark: | 15th December 2022 (36 months after 4.0.0)
+| 2.10.x  | :x:                | 15th June 2021 (18 months after 4.0.0)
+
+## Reporting a Vulnerability
+
+If you’ve found a security issue in CakePHP, please use the following procedure 
+instead of the normal bug reporting system. Instead of using the bug tracker, 
+mailing list or IRC please send an email to security [at] cakephp.org. Emails 
+sent to this address go to the CakePHP core team on a private mailing list.
+
+For each report, we try to first confirm the vulnerability. Once confirmed, 
+the CakePHP team will take the following actions:
+
+* Acknowledge to the reporter that we’ve received the issue, and are 
+  working on a fix. We ask that the reporter keep the issue confidential until we announce it.
+* Get a fix/patch prepared.
+* Prepare a post describing the vulnerability, and the possible exploits.
+* Release new versions of all affected versions.
+* Prominently feature the problem in the release announcement
+",66,b cakephp/cakephp ab6bb333cb513873fe8cac70f0e9008cc666eeb4
+cakephp/cakephp,SECURITY.md,0ef9b9dde07d94d2703264665d529909f489660c,2021-10-20 09:34:01+00:00,"# Security Policy
+
+## Supported Versions
+
+We support fixing security issues on the following releases:
+
+| Version | Supported          | Security fixes until
+| ------- | ------------------ | -------------------- 
+| 4.x     | :white_check_mark: | 
+| 3.10.x  | :white_check_mark: | 15th December 2022 (36 months after 4.0.0)
+| 2.10.x  | :x:                | 15th June 2021 (18 months after 4.0.0)
+
+## Reporting a Vulnerability
+
+If you’ve found a security issue in CakePHP, please use the following procedure 
+instead of the normal bug reporting system. Instead of using the bug tracker, 
+mailing list or IRC please send an email to security [at] cakephp.org. Emails 
+sent to this address go to the CakePHP core team on a private mailing list.
+
+For each report, we try to first confirm the vulnerability. Once confirmed, 
+the CakePHP team will take the following actions:
+
+* Acknowledge to the reporter that we’ve received the issue, and are 
+  working on a fix. We ask that the reporter keep the issue confidential until we announce it.
+* Get a fix/patch prepared.
+* Prepare a post describing the vulnerability, and the possible exploits.
+* Release new versions of all affected versions.
+* Prominently feature the problem in the release announcement
+","# Security Policy
+
+## Supported Versions
+
+We support fixing security issues on the following releases:
+
+| Version | Supported          | Security fixes until
+| ------- | ------------------ | -------------------- 
+| 4.x     | :white_check_mark: | 
+| 3.10.x  | :white_check_mark: | 15th December 2022 (36 months after 4.0.0)
+| 2.10.x  | :x:                | 15th June 2021 (18 months after 4.0.0)
+
+## Reporting a Vulnerability
+
+If you’ve found a security issue in CakePHP, please use the following procedure
+instead of the normal bug reporting system. Instead of using the bug tracker,
+mailing list or IRC please send an email to security [at] cakephp.org. Emails
+sent to this address go to the CakePHP core team on a private mailing list.
+
+For each report, we try to first confirm the vulnerability. Once confirmed,
+the CakePHP team will take the following actions:
+
+* Acknowledge to the reporter that we’ve received the issue, and are
+  working on a fix. We ask that the reporter keep the issue confidential until we announce it.
+* Get a fix/patch prepared.
+* Prepare a post describing the vulnerability, and the possible exploits.
+* Release new versions of all affected versions.
+* Prominently feature the problem in the release announcement
+",5,b cakephp/cakephp 0ef9b9dde07d94d2703264665d529909f489660c

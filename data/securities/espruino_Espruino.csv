@@ -1,0 +1,39 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+espruino/Espruino,SECURITY.md,694c3f3d02b1905401b6346148d33a89cedc4608,2022-01-27 15:37:35+00:00,,"# Security Policy
+
+## Supported Versions
+
+We are currently providing software updates for all [official Espruino devices](https://www.espruino.com/Order)
+
+## Reporting a Vulnerability
+
+To report a vulnerability please just create a [GitHub issue](https://github.com/espruino/Espruino/issues)
+
+If you feel the vulnerability is extremely serious and could be exploited if details were published,
+please contact us by email at gw@espruino.com
+",440,b espruino/Espruino 694c3f3d02b1905401b6346148d33a89cedc4608
+espruino/Espruino,SECURITY.md,ff3fc6dcdffa736edfeeba91b5720edc7c09679d,2022-07-22 09:48:00+00:00,"# Security Policy
+
+## Supported Versions
+
+We are currently providing software updates for all [official Espruino devices](https://www.espruino.com/Order)
+
+## Reporting a Vulnerability
+
+To report a vulnerability please just create a [GitHub issue](https://github.com/espruino/Espruino/issues)
+
+If you feel the vulnerability is extremely serious and could be exploited if details were published,
+please contact us by email at gw@espruino.com
+","# Security Policy
+
+## Supported Versions
+
+We are currently providing software updates for all [official Espruino devices](https://www.espruino.com/Order).
+
+## Reporting a Vulnerability
+
+To report a vulnerability please just create a [GitHub issue](https://github.com/espruino/Espruino/issues).
+
+If you feel the vulnerability is extremely serious and could be exploited if details were published,
+please contact us by email at gw@espruino.com.
+",3,b espruino/Espruino ff3fc6dcdffa736edfeeba91b5720edc7c09679d

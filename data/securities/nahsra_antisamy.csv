@@ -1,0 +1,455 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+nahsra/antisamy,SECURITY.md,efeaebbf6954aaf0afc827003517b69b500602e4,2020-03-10 16:33:26+00:00,,"# Security Policy
+
+## Reporting a Vulnerability
+
+If you believe that you have found a vulnerability in AntiSamy, first please search the
+GitHut issues list (for both open and closed issues) to see if it has already been reported.
+
+If it has not, then please contact Dave Wichers (dwichers at owasp.org) _directly_.
+Please do **not** report any suspected vulnerabilities via GitHub issues
+as we wish to keep our users secure while a patch is implemented and deployed. 
+This is because if this is reported as a GitHub issue, it more or less is equivalent 
+to dropping a 0-day on all applications using AntiSamy. Instead, we encourage
+responsible disclosure.
+
+If you wish to be acknowledged for finding the vulnerability, then please follow
+this process. One of the project leaders will try to contact you within
+at least 5 business days.
+If you eventually wish to have it published as a CVE, we will also work with you
+to ensure that you are given proper credit with MITRE and NIST. Even if you do
+not wish to report the vulnerability as a CVE, we will acknowledge you when we
+create a GitHub issue (once the issue is patched).
+
+If possible, provide a working proof-of-concept or at least minimally describe
+how it can be exploited in sufficient details that the AntiSamy development team
+can understand what needs to be done to fix it.
+
+## Security Bulletins
+
+There are some ESAPI security bulletins published in the ""documentation"" directory on GitHub.
+For details see:
+
+* [Security Bulletin #1 - CVE-2016-10006: XSS Bypass in AntiSamy before v1.5.5 - https://www.cvedetails.com/cve/CVE-2016-10006
+* [Security Bulletin #2 - CVE-2017-14735: XSS via HTML5 Entities in AntiSamy before v1.5.7 - https://www.cvedetails.com/cve/CVE-2017-14735 
+
+",1739,b nahsra/antisamy efeaebbf6954aaf0afc827003517b69b500602e4
+nahsra/antisamy,SECURITY.md,edcfd645480508d6ad70f2d474f3175aa1a6ed0e,2020-03-11 14:38:31+00:00,"# Security Policy
+
+## Reporting a Vulnerability
+
+If you believe that you have found a vulnerability in AntiSamy, first please search the
+GitHut issues list (for both open and closed issues) to see if it has already been reported.
+
+If it has not, then please contact Dave Wichers (dwichers at owasp.org) _directly_.
+Please do **not** report any suspected vulnerabilities via GitHub issues
+as we wish to keep our users secure while a patch is implemented and deployed. 
+This is because if this is reported as a GitHub issue, it more or less is equivalent 
+to dropping a 0-day on all applications using AntiSamy. Instead, we encourage
+responsible disclosure.
+
+If you wish to be acknowledged for finding the vulnerability, then please follow
+this process. One of the project leaders will try to contact you within
+at least 5 business days.
+If you eventually wish to have it published as a CVE, we will also work with you
+to ensure that you are given proper credit with MITRE and NIST. Even if you do
+not wish to report the vulnerability as a CVE, we will acknowledge you when we
+create a GitHub issue (once the issue is patched).
+
+If possible, provide a working proof-of-concept or at least minimally describe
+how it can be exploited in sufficient details that the AntiSamy development team
+can understand what needs to be done to fix it.
+
+## Security Bulletins
+
+There are some ESAPI security bulletins published in the ""documentation"" directory on GitHub.
+For details see:
+
+* [Security Bulletin #1 - CVE-2016-10006: XSS Bypass in AntiSamy before v1.5.5 - https://www.cvedetails.com/cve/CVE-2016-10006
+* [Security Bulletin #2 - CVE-2017-14735: XSS via HTML5 Entities in AntiSamy before v1.5.7 - https://www.cvedetails.com/cve/CVE-2017-14735 
+
+","# Security Policy
+
+## Reporting a Vulnerability
+
+If you believe that you have found a vulnerability in AntiSamy, first please search the
+GitHut issues list (for both open and closed issues) to see if it has already been reported.
+
+If it has not, then please contact Dave Wichers (dwichers at owasp.org) _directly_.
+Please do **not** report any suspected vulnerabilities via GitHub issues
+as we wish to keep our users secure while a patch is implemented and deployed. 
+This is because if this is reported as a GitHub issue, it more or less is equivalent 
+to dropping a 0-day on all applications using AntiSamy. Instead, we encourage
+responsible disclosure.
+
+If you wish to be acknowledged for finding the vulnerability, then please follow
+this process. One of the project leaders will try to contact you within
+at least 5 business days.
+If you eventually wish to have it published as a CVE, we will also work with you
+to ensure that you are given proper credit with MITRE and NIST. Even if you do
+not wish to report the vulnerability as a CVE, we will acknowledge you when we
+create a GitHub issue (once the issue is patched).
+
+If possible, provide a working proof-of-concept or at least minimally describe
+how it can be exploited in sufficient details that the AntiSamy development team
+can understand what needs to be done to fix it.
+
+## Security Bulletins
+
+These are the known CVEs reported for AntiSamy:
+
+* Security Bulletin #1 - CVE-2016-10006: XSS Bypass in AntiSamy before v1.5.5 - https://www.cvedetails.com/cve/CVE-2016-10006
+* Security Bulletin #2 - CVE-2017-14735: XSS via HTML5 Entities in AntiSamy before v1.5.7 - https://www.cvedetails.com/cve/CVE-2017-14735
+
+",85,b nahsra/antisamy edcfd645480508d6ad70f2d474f3175aa1a6ed0e
+nahsra/antisamy,SECURITY.md,f536c567fb33c8663a3e918749225ade106f3fa8,2020-03-11 14:42:39+00:00,"# Security Policy
+
+## Reporting a Vulnerability
+
+If you believe that you have found a vulnerability in AntiSamy, first please search the
+GitHut issues list (for both open and closed issues) to see if it has already been reported.
+
+If it has not, then please contact Dave Wichers (dwichers at owasp.org) _directly_.
+Please do **not** report any suspected vulnerabilities via GitHub issues
+as we wish to keep our users secure while a patch is implemented and deployed. 
+This is because if this is reported as a GitHub issue, it more or less is equivalent 
+to dropping a 0-day on all applications using AntiSamy. Instead, we encourage
+responsible disclosure.
+
+If you wish to be acknowledged for finding the vulnerability, then please follow
+this process. One of the project leaders will try to contact you within
+at least 5 business days.
+If you eventually wish to have it published as a CVE, we will also work with you
+to ensure that you are given proper credit with MITRE and NIST. Even if you do
+not wish to report the vulnerability as a CVE, we will acknowledge you when we
+create a GitHub issue (once the issue is patched).
+
+If possible, provide a working proof-of-concept or at least minimally describe
+how it can be exploited in sufficient details that the AntiSamy development team
+can understand what needs to be done to fix it.
+
+## Security Bulletins
+
+These are the known CVEs reported for AntiSamy:
+
+* Security Bulletin #1 - CVE-2016-10006: XSS Bypass in AntiSamy before v1.5.5 - https://www.cvedetails.com/cve/CVE-2016-10006
+* Security Bulletin #2 - CVE-2017-14735: XSS via HTML5 Entities in AntiSamy before v1.5.7 - https://www.cvedetails.com/cve/CVE-2017-14735
+
+","# Security Policy
+
+## Reporting a Vulnerability
+
+If you believe that you have found a vulnerability in AntiSamy, first please search the
+GitHut issues list (for both open and closed issues) to see if it has already been reported.
+
+If it has not, then please contact Dave Wichers (dave.wichers at owasp.org) _directly_.
+Please do **not** report any suspected vulnerabilities via GitHub issues
+as we wish to keep our users secure while a patch is implemented and deployed. 
+This is because if this is reported as a GitHub issue, it more or less is equivalent 
+to dropping a 0-day on all applications using AntiSamy. Instead, we encourage
+responsible disclosure.
+
+If you wish to be acknowledged for finding the vulnerability, then please follow
+this process. One of the project leaders will try to contact you within
+at least 5 business days.
+If you eventually wish to have it published as a CVE, we will also work with you
+to ensure that you are given proper credit with MITRE and NIST. Even if you do
+not wish to report the vulnerability as a CVE, we will acknowledge you when we
+create a GitHub issue (once the issue is patched).
+
+If possible, provide a working proof-of-concept or at least minimally describe
+how it can be exploited in sufficient details that the AntiSamy development team
+can understand what needs to be done to fix it.
+
+## Security Bulletins
+
+These are the known CVEs reported for AntiSamy:
+
+* AntiSamy CVE #1 - CVE-2016-10006: XSS Bypass in AntiSamy before v1.5.5 - https://www.cvedetails.com/cve/CVE-2016-10006
+* AntiSamy CVE #2 - CVE-2017-14735: XSS via HTML5 Entities in AntiSamy before v1.5.7 - https://www.cvedetails.com/cve/CVE-2017-14735
+
+",34,b nahsra/antisamy f536c567fb33c8663a3e918749225ade106f3fa8
+nahsra/antisamy,SECURITY.md,7635cb24e42062a09e904fde9336aa257678f543,2021-02-24 04:16:20+00:00,"# Security Policy
+
+## Reporting a Vulnerability
+
+If you believe that you have found a vulnerability in AntiSamy, first please search the
+GitHut issues list (for both open and closed issues) to see if it has already been reported.
+
+If it has not, then please contact Dave Wichers (dave.wichers at owasp.org) _directly_.
+Please do **not** report any suspected vulnerabilities via GitHub issues
+as we wish to keep our users secure while a patch is implemented and deployed. 
+This is because if this is reported as a GitHub issue, it more or less is equivalent 
+to dropping a 0-day on all applications using AntiSamy. Instead, we encourage
+responsible disclosure.
+
+If you wish to be acknowledged for finding the vulnerability, then please follow
+this process. One of the project leaders will try to contact you within
+at least 5 business days.
+If you eventually wish to have it published as a CVE, we will also work with you
+to ensure that you are given proper credit with MITRE and NIST. Even if you do
+not wish to report the vulnerability as a CVE, we will acknowledge you when we
+create a GitHub issue (once the issue is patched).
+
+If possible, provide a working proof-of-concept or at least minimally describe
+how it can be exploited in sufficient details that the AntiSamy development team
+can understand what needs to be done to fix it.
+
+## Security Bulletins
+
+These are the known CVEs reported for AntiSamy:
+
+* AntiSamy CVE #1 - CVE-2016-10006: XSS Bypass in AntiSamy before v1.5.5 - https://www.cvedetails.com/cve/CVE-2016-10006
+* AntiSamy CVE #2 - CVE-2017-14735: XSS via HTML5 Entities in AntiSamy before v1.5.7 - https://www.cvedetails.com/cve/CVE-2017-14735
+
+","# Security Policy
+
+## Reporting a Vulnerability
+
+If you believe that you have found a vulnerability in AntiSamy, first please search the
+GitHut issues list (for both open and closed issues) to see if it has already been reported.
+
+If it has not, then please contact Dave Wichers (dave.wichers at owasp.org) _directly_.
+Please do **not** report any suspected vulnerabilities via GitHub issues
+as we wish to keep our users secure while a patch is implemented and deployed. 
+This is because if this is reported as a GitHub issue, it more or less is equivalent 
+to dropping a 0-day on all applications using AntiSamy. Instead, we encourage
+responsible disclosure.
+
+If you wish to be acknowledged for finding the vulnerability, then please follow
+this process. One of the project leaders will try to contact you within 1-2 business days.
+
+If you eventually wish to have it published as a CVE, we will also work with you
+to ensure that you are given proper credit with MITRE and NIST. Even if you do
+not wish to report the vulnerability as a CVE, we will acknowledge you when we
+create a GitHub issue (once the issue is patched).
+
+If possible, provide a working proof-of-concept or at least minimally describe
+how it can be exploited in sufficient details that the AntiSamy development team
+can understand what needs to be done to fix it.
+
+## Security Bulletins
+
+These are the known CVEs reported for AntiSamy:
+
+* AntiSamy CVE #1 - CVE-2016-10006: XSS Bypass in AntiSamy before v1.5.5 - https://www.cvedetails.com/cve/CVE-2016-10006
+* AntiSamy CVE #2 - CVE-2017-14735: XSS via HTML5 Entities in AntiSamy before v1.5.7 - https://www.cvedetails.com/cve/CVE-2017-14735
+",12,b nahsra/antisamy 7635cb24e42062a09e904fde9336aa257678f543
+nahsra/antisamy,SECURITY.md,01ee9a2b5a2d57754533a5059d62049abbf848a6,2021-08-04 18:50:17+00:00,"# Security Policy
+
+## Reporting a Vulnerability
+
+If you believe that you have found a vulnerability in AntiSamy, first please search the
+GitHut issues list (for both open and closed issues) to see if it has already been reported.
+
+If it has not, then please contact Dave Wichers (dave.wichers at owasp.org) _directly_.
+Please do **not** report any suspected vulnerabilities via GitHub issues
+as we wish to keep our users secure while a patch is implemented and deployed. 
+This is because if this is reported as a GitHub issue, it more or less is equivalent 
+to dropping a 0-day on all applications using AntiSamy. Instead, we encourage
+responsible disclosure.
+
+If you wish to be acknowledged for finding the vulnerability, then please follow
+this process. One of the project leaders will try to contact you within 1-2 business days.
+
+If you eventually wish to have it published as a CVE, we will also work with you
+to ensure that you are given proper credit with MITRE and NIST. Even if you do
+not wish to report the vulnerability as a CVE, we will acknowledge you when we
+create a GitHub issue (once the issue is patched).
+
+If possible, provide a working proof-of-concept or at least minimally describe
+how it can be exploited in sufficient details that the AntiSamy development team
+can understand what needs to be done to fix it.
+
+## Security Bulletins
+
+These are the known CVEs reported for AntiSamy:
+
+* AntiSamy CVE #1 - CVE-2016-10006: XSS Bypass in AntiSamy before v1.5.5 - https://www.cvedetails.com/cve/CVE-2016-10006
+* AntiSamy CVE #2 - CVE-2017-14735: XSS via HTML5 Entities in AntiSamy before v1.5.7 - https://www.cvedetails.com/cve/CVE-2017-14735
+","# Security Policy
+
+## Reporting a Vulnerability
+
+If you believe that you have found a vulnerability in AntiSamy, first please search the
+GitHut issues list (for both open and closed issues) to see if it has already been reported.
+
+If it has not, then please contact Dave Wichers (dave.wichers at owasp.org) _directly_.
+Please do **not** report any suspected vulnerabilities via GitHub issues
+as we wish to keep our users secure while a patch is implemented and deployed. 
+This is because if this is reported as a GitHub issue, it more or less is equivalent 
+to dropping a 0-day on all applications using AntiSamy. Instead, we encourage
+responsible disclosure.
+
+If you wish to be acknowledged for finding the vulnerability, then please follow
+this process. One of the project leaders will try to contact you within 1-2 business days.
+
+If you eventually wish to have it published as a CVE, we will also work with you
+to ensure that you are given proper credit with MITRE and NIST. Even if you do
+not wish to report the vulnerability as a CVE, we will acknowledge you when we
+create a GitHub issue (once the issue is patched).
+
+If possible, provide a working proof-of-concept or at least minimally describe
+how it can be exploited in sufficient details that the AntiSamy development team
+can understand what needs to be done to fix it.
+
+## Security Bulletins
+
+These are the known CVEs reported for AntiSamy:
+
+* AntiSamy CVE #1 - CVE-2016-10006: XSS Bypass in AntiSamy before v1.5.5 - https://www.cvedetails.com/cve/CVE-2016-10006
+* AntiSamy CVE #2 - CVE-2017-14735: XSS via HTML5 Entities in AntiSamy before v1.5.7 - https://www.cvedetails.com/cve/CVE-2017-14735
+* AntiSamy CVE #3 - CVE-2021-35043: XSS via HTML attributes using : as replacement for : character before v1.6.4 - https://www.cvedetails.com/cve/CVE-2021-35043
+",161,b nahsra/antisamy 01ee9a2b5a2d57754533a5059d62049abbf848a6
+nahsra/antisamy,SECURITY.md,a788ebee148894b35997a4a81b5bc6d845a827a8,2022-07-01 22:39:43+00:00,"# Security Policy
+
+## Reporting a Vulnerability
+
+If you believe that you have found a vulnerability in AntiSamy, first please search the
+GitHut issues list (for both open and closed issues) to see if it has already been reported.
+
+If it has not, then please contact Dave Wichers (dave.wichers at owasp.org) _directly_.
+Please do **not** report any suspected vulnerabilities via GitHub issues
+as we wish to keep our users secure while a patch is implemented and deployed. 
+This is because if this is reported as a GitHub issue, it more or less is equivalent 
+to dropping a 0-day on all applications using AntiSamy. Instead, we encourage
+responsible disclosure.
+
+If you wish to be acknowledged for finding the vulnerability, then please follow
+this process. One of the project leaders will try to contact you within 1-2 business days.
+
+If you eventually wish to have it published as a CVE, we will also work with you
+to ensure that you are given proper credit with MITRE and NIST. Even if you do
+not wish to report the vulnerability as a CVE, we will acknowledge you when we
+create a GitHub issue (once the issue is patched).
+
+If possible, provide a working proof-of-concept or at least minimally describe
+how it can be exploited in sufficient details that the AntiSamy development team
+can understand what needs to be done to fix it.
+
+## Security Bulletins
+
+These are the known CVEs reported for AntiSamy:
+
+* AntiSamy CVE #1 - CVE-2016-10006: XSS Bypass in AntiSamy before v1.5.5 - https://www.cvedetails.com/cve/CVE-2016-10006
+* AntiSamy CVE #2 - CVE-2017-14735: XSS via HTML5 Entities in AntiSamy before v1.5.7 - https://www.cvedetails.com/cve/CVE-2017-14735
+* AntiSamy CVE #3 - CVE-2021-35043: XSS via HTML attributes using : as replacement for : character before v1.6.4 - https://www.cvedetails.com/cve/CVE-2021-35043
+","# Security Policy
+
+## Reporting a Vulnerability
+
+If you believe that you have found a vulnerability in AntiSamy, first please search the
+GitHut issues list (for both open and closed issues) to see if it has already been reported.
+
+If it has not, then please contact Dave Wichers (dave.wichers at owasp.org) _directly_.
+Please do **not** report any suspected vulnerabilities via GitHub issues
+as we wish to keep our users secure while a patch is implemented and deployed. 
+This is because if this is reported as a GitHub issue, it more or less is equivalent 
+to dropping a 0-day on all applications using AntiSamy. Instead, we encourage
+responsible disclosure.
+
+If you wish to be acknowledged for finding the vulnerability, then please follow
+this process. One of the project leaders will try to contact you within 1-2 business days.
+
+If you eventually wish to have it published as a CVE, we will also work with you
+to ensure that you are given proper credit with MITRE and NIST. Even if you do
+not wish to report the vulnerability as a CVE, we will acknowledge you when we
+create a GitHub issue (once the issue is patched).
+
+If possible, provide a working proof-of-concept or at least minimally describe
+how it can be exploited in sufficient details that the AntiSamy development team
+can understand what needs to be done to fix it.
+
+## Security Bulletins
+
+These are the known CVEs reported for AntiSamy:
+
+* AntiSamy CVE #1 - CVE-2016-10006: XSS Bypass in AntiSamy before v1.5.5 - https://www.cvedetails.com/cve/CVE-2016-10006
+* AntiSamy CVE #2 - CVE-2017-14735: XSS via HTML5 Entities in AntiSamy before v1.5.7 - https://www.cvedetails.com/cve/CVE-2017-14735
+* AntiSamy CVE #3 - CVE-2021-35043: XSS via HTML attributes using : as replacement for : character before v1.6.4 - https://www.cvedetails.com/cve/CVE-2021-35043
+* AntiSamy CVE #4 - CVE-2022-28367: AntiSamy before 1.6.6 allows XSS via HTML tag smuggling on STYLE content. https://www.cvedetails.com/cve/CVE-2022-28367. NOTE: This release only included a PARTIAL fix.
+* AntiSamy CVE #5 - CVE-2022-29577: AntiSamy before 1.6.7 allows XSS via HTML tag smuggling on STYLE content. - https://www.cvedetails.com/cve/CVE-2022-29577. This is the complete fix to the previous CVE.
+
+CVEs in AntiSamy dependencies:
+* AntiSamy prior to 1.6.6 used the old CyberNeko HTML library v1.9.22, which is subject to https://www.cvedetails.com/cve/CVE-2022-28366 and no longer maintained. AntiSamy 1.6.6 upgraded to an active fork of CyberNeko called HtmlUnit-Neko which fixed this CVE in v2.27 of that library. AntiSamy 1.6.6 upgraded to version 2.60.0 of HtmlUnit-Neko.
+* AntiSamy 1.6.8 upgraded to HtmlUnit-Neko v2.61.0 because v2.60.0 is subject to https://www.cvedetails.com/cve/CVE-2022-29546
+",915,b nahsra/antisamy a788ebee148894b35997a4a81b5bc6d845a827a8
+nahsra/antisamy,SECURITY.md,8eb24879c10e8db754638ed303b976d18ca6d4b7,2022-07-09 21:49:30+00:00,"# Security Policy
+
+## Reporting a Vulnerability
+
+If you believe that you have found a vulnerability in AntiSamy, first please search the
+GitHut issues list (for both open and closed issues) to see if it has already been reported.
+
+If it has not, then please contact Dave Wichers (dave.wichers at owasp.org) _directly_.
+Please do **not** report any suspected vulnerabilities via GitHub issues
+as we wish to keep our users secure while a patch is implemented and deployed. 
+This is because if this is reported as a GitHub issue, it more or less is equivalent 
+to dropping a 0-day on all applications using AntiSamy. Instead, we encourage
+responsible disclosure.
+
+If you wish to be acknowledged for finding the vulnerability, then please follow
+this process. One of the project leaders will try to contact you within 1-2 business days.
+
+If you eventually wish to have it published as a CVE, we will also work with you
+to ensure that you are given proper credit with MITRE and NIST. Even if you do
+not wish to report the vulnerability as a CVE, we will acknowledge you when we
+create a GitHub issue (once the issue is patched).
+
+If possible, provide a working proof-of-concept or at least minimally describe
+how it can be exploited in sufficient details that the AntiSamy development team
+can understand what needs to be done to fix it.
+
+## Security Bulletins
+
+These are the known CVEs reported for AntiSamy:
+
+* AntiSamy CVE #1 - CVE-2016-10006: XSS Bypass in AntiSamy before v1.5.5 - https://www.cvedetails.com/cve/CVE-2016-10006
+* AntiSamy CVE #2 - CVE-2017-14735: XSS via HTML5 Entities in AntiSamy before v1.5.7 - https://www.cvedetails.com/cve/CVE-2017-14735
+* AntiSamy CVE #3 - CVE-2021-35043: XSS via HTML attributes using : as replacement for : character before v1.6.4 - https://www.cvedetails.com/cve/CVE-2021-35043
+* AntiSamy CVE #4 - CVE-2022-28367: AntiSamy before 1.6.6 allows XSS via HTML tag smuggling on STYLE content. https://www.cvedetails.com/cve/CVE-2022-28367. NOTE: This release only included a PARTIAL fix.
+* AntiSamy CVE #5 - CVE-2022-29577: AntiSamy before 1.6.7 allows XSS via HTML tag smuggling on STYLE content. - https://www.cvedetails.com/cve/CVE-2022-29577. This is the complete fix to the previous CVE.
+
+CVEs in AntiSamy dependencies:
+* AntiSamy prior to 1.6.6 used the old CyberNeko HTML library v1.9.22, which is subject to https://www.cvedetails.com/cve/CVE-2022-28366 and no longer maintained. AntiSamy 1.6.6 upgraded to an active fork of CyberNeko called HtmlUnit-Neko which fixed this CVE in v2.27 of that library. AntiSamy 1.6.6 upgraded to version 2.60.0 of HtmlUnit-Neko.
+* AntiSamy 1.6.8 upgraded to HtmlUnit-Neko v2.61.0 because v2.60.0 is subject to https://www.cvedetails.com/cve/CVE-2022-29546
+","# Security Policy
+
+## Reporting a Vulnerability
+
+If you believe that you have found a vulnerability in AntiSamy, first please search the
+GitHut issues list (for both open and closed issues) to see if it has already been reported.
+
+If it has not, then please contact Dave Wichers (dave.wichers at owasp.org) _directly_.
+Please do **not** report any suspected vulnerabilities via GitHub issues
+as we wish to keep our users secure while a patch is implemented and deployed.
+This is because if this is reported as a GitHub issue, it more or less is equivalent
+to dropping a 0-day on all applications using AntiSamy. Instead, we encourage
+responsible disclosure.
+
+If you wish to be acknowledged for finding the vulnerability, then please follow
+this process. One of the project leaders will try to contact you within 1-2 business days.
+
+If you eventually wish to have it published as a CVE, we will also work with you
+to ensure that you are given proper credit with MITRE and NIST. Even if you do
+not wish to report the vulnerability as a CVE, we will acknowledge you when we
+create a GitHub issue (once the issue is patched).
+
+If possible, provide a working proof-of-concept or at least minimally describe
+how it can be exploited in sufficient details that the AntiSamy development team
+can understand what needs to be done to fix it.
+
+## Security Bulletins
+
+These are the known CVEs reported for AntiSamy:
+
+* AntiSamy CVE #1 - CVE-2016-10006: XSS Bypass in AntiSamy before v1.5.5 - https://www.cvedetails.com/cve/CVE-2016-10006
+* AntiSamy CVE #2 - CVE-2017-14735: XSS via HTML5 Entities in AntiSamy before v1.5.7 - https://www.cvedetails.com/cve/CVE-2017-14735
+* AntiSamy CVE #3 - CVE-2021-35043: XSS via HTML attributes using : as replacement for : character before v1.6.4 - https://www.cvedetails.com/cve/CVE-2021-35043
+* AntiSamy CVE #4 - CVE-2022-28367: AntiSamy before 1.6.6 allows XSS via HTML tag smuggling on STYLE content. https://www.cvedetails.com/cve/CVE-2022-28367. NOTE: This release only included a PARTIAL fix.
+* AntiSamy CVE #5 - CVE-2022-29577: AntiSamy before 1.6.7 allows XSS via HTML tag smuggling on STYLE content. - https://www.cvedetails.com/cve/CVE-2022-29577. This is the complete fix to the previous CVE.
+
+CVEs in AntiSamy dependencies:
+* AntiSamy prior to 1.6.6 used the old CyberNeko HTML library v1.9.22, which is subject to https://www.cvedetails.com/cve/CVE-2022-28366 and no longer maintained. AntiSamy 1.6.6 upgraded to an active fork of CyberNeko called HtmlUnit-Neko which fixed this CVE in v2.27 of that library. AntiSamy 1.6.6 upgraded to version 2.60.0 of HtmlUnit-Neko.
+* AntiSamy 1.6.8 upgraded to HtmlUnit-Neko v2.61.0 because v2.60.0 is subject to https://www.cvedetails.com/cve/CVE-2022-29546
+",2,b nahsra/antisamy 8eb24879c10e8db754638ed303b976d18ca6d4b7

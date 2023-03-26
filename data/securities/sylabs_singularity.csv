@@ -1,0 +1,14 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+sylabs/singularity,SECURITY.md,caddf4fb249cdb7daca22f6a32587de765675b24,2022-11-02 14:54:37+00:00,,"# Security Policy
+
+SingularityCE follows the Sylabs Security Policy available at:
+
+
+
+## Reporting a Vulnerability
+
+If you have found a vulnerability in SingularityCE, please review the policy
+linked above and then contact security@sylabs.io
+
+PGP encrypted email is accepted, with key details at the link above.
+",311,b sylabs/singularity caddf4fb249cdb7daca22f6a32587de765675b24

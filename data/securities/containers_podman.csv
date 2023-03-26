@@ -1,0 +1,19 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+containers/podman,SECURITY.md,b43e0eb6a177f8f86219713cf84c6cb6694b425e,2020-05-09 20:15:41+00:00,,"## Security and Disclosure Information Policy for the Libpod Project
+
+The Libpod Project follows the [Security and Disclosure Information Policy](https://github.com/containers/common/blob/master/SECURITY.md) for the Containers Projects.
+",237,b containers/podman b43e0eb6a177f8f86219713cf84c6cb6694b425e
+containers/podman,SECURITY.md,4a4fe48ccdcf51aa34600d53292e01d05e881bba,2021-06-10 15:30:41+00:00,"## Security and Disclosure Information Policy for the Libpod Project
+
+The Libpod Project follows the [Security and Disclosure Information Policy](https://github.com/containers/common/blob/master/SECURITY.md) for the Containers Projects.
+","## Security and Disclosure Information Policy for the Libpod Project
+
+The Libpod Project follows the [Security and Disclosure Information Policy](https://github.com/containers/common/blob/main/SECURITY.md) for the Containers Projects.
+",4,b containers/podman 4a4fe48ccdcf51aa34600d53292e01d05e881bba
+containers/podman,SECURITY.md,4d1c327edfcea8a9ed1470a51b620ff219c41246,2022-01-19 01:06:42+00:00,"## Security and Disclosure Information Policy for the Libpod Project
+
+The Libpod Project follows the [Security and Disclosure Information Policy](https://github.com/containers/common/blob/main/SECURITY.md) for the Containers Projects.
+","## Security and Disclosure Information Policy for the Podman Project
+
+The Podman Project follows the [Security and Disclosure Information Policy](https://github.com/containers/common/blob/main/SECURITY.md) for the Containers Projects.
+",12,b containers/podman 4d1c327edfcea8a9ed1470a51b620ff219c41246

@@ -1,0 +1,13 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+lightningnetwork/lnd,SECURITY.md,609cc8b883c7e6186e447e8d7e6349688d78d4fd,2022-10-17 19:05:15+00:00,,"# Security Policy
+
+## Supported Versions
+
+The last major lnd release is to be considered the current support version. Given an issue severe enough, a backport will be issued either to the prior major release or the set of releases considered utilized enough. 
+
+## Reporting a Vulnerability
+
+To report security issues, send an email to security@lightning.engineering (this list isn't to be used for support). 
+
+The following key can be used to communicate sensitive information: `91FE 464C D751 01DA 6B6B  AB60 555C 6465 E5BC B3AF`. 
+",533,b lightningnetwork/lnd 609cc8b883c7e6186e447e8d7e6349688d78d4fd

@@ -1,0 +1,51 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+chamilo/chamilo-lms,SECURITY.md,ffbf3a3c0f660c20db1b0ebe245647fd8df2791f,2021-05-21 13:03:07+00:00,,"# Security Policy
+
+## Supported Versions
+The following versions are currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 2.0     | :x: (to be released) |
+| 1.11.16 | :x: (to be released) |
+| 1.11.14 | :white_check_mark: |
+| 1.11.12 | :white_check_mark: |
+| <1.11.12 | :x: |
+
+## Reporting a Vulnerability
+
+Please follow the instructions at https://support.chamilo.org/projects/chamilo-18/wiki/Security_issues to report vulnerabilities.
+",500,b chamilo/chamilo-lms ffbf3a3c0f660c20db1b0ebe245647fd8df2791f
+chamilo/chamilo-lms,SECURITY.md,d1e060b6bd67af61c9658e0afd73c1f0ced4aaac,2022-10-11 20:04:55+00:00,"# Security Policy
+
+## Supported Versions
+The following versions are currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 2.0     | :x: (to be released) |
+| 1.11.16 | :x: (to be released) |
+| 1.11.14 | :white_check_mark: |
+| 1.11.12 | :white_check_mark: |
+| <1.11.12 | :x: |
+
+## Reporting a Vulnerability
+
+Please follow the instructions at https://support.chamilo.org/projects/chamilo-18/wiki/Security_issues to report vulnerabilities.
+","# Security Policy
+
+## Supported Versions
+The following versions are currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 2.0     | :x: (to be released) |
+| 1.11.18 | :x: (to be released) |
+| 1.11.16 | :white_check_mark: |
+| 1.11.14 | :white_check_mark: |
+| <1.11.14 | :x: |
+
+## Reporting a Vulnerability
+
+Please follow the instructions at https://support.chamilo.org/projects/chamilo-18/wiki/Security_issues to report vulnerabilities.
+",4,b chamilo/chamilo-lms d1e060b6bd67af61c9658e0afd73c1f0ced4aaac

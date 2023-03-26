@@ -1,0 +1,12 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+numpy/.github,SECURITY.md,9043f9eddee269dd909908bf02f98e7c140e8009,2019-07-26 21:53:46+00:00,,"To report a security vulnerability to NumPy, please go to
+https://tidelift.com/docs/security and see the instructions there.
+
+",126,b numpy/numpy 9043f9eddee269dd909908bf02f98e7c140e8009
+numpy/.github,SECURITY.md,ae60f37ba1161641a4bebda14591e7bb6a7be0ac,2019-07-26 22:10:07+00:00,"To report a security vulnerability to NumPy, please go to
+https://tidelift.com/docs/security and see the instructions there.
+
+","To report a security vulnerability to NumPy, please go to
+https://tidelift.com/security and see the instructions there.
+
+",5,b numpy/numpy ae60f37ba1161641a4bebda14591e7bb6a7be0ac

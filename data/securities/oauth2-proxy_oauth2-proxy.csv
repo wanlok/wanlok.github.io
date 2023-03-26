@@ -1,0 +1,5 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+oauth2-proxy/oauth2-proxy,SECURITY.md,e50e6ed373f757cc7ed581e94b1f42e0509026db,2021-01-16 19:47:47+00:00,,"# Security Disclosures
+
+Please see [our community docs](https://oauth2-proxy.github.io/oauth2-proxy/docs/community/security) for our security policy.
+",150,b oauth2-proxy/oauth2-proxy e50e6ed373f757cc7ed581e94b1f42e0509026db

@@ -1,0 +1,369 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+nextauthjs/next-auth,SECURITY.md,daf97d298d538c962b407a18cec4cf92f1ef699e,2020-08-13 11:19:17+00:00,,"# Security Policy
+
+NextAuth.js practices responsible disclosure.
+
+## Supported Versions
+
+Security updates are only released for the current version.
+
+Old releases are not maintained and do not receive updates.
+
+## Reporting a Vulnerability
+
+We request that you contact us directly to report serious issues that might impact the security of sites using NextAuth.js.
+
+If you contact us regarding a serious issue:
+
+* We will endeavor to get back to you within 72 hours.
+* We will aim to publish a fix within 30 days.
+* We will disclose the issue (and credit you, with your consent) once a fix to resolve the issue has been released.
+* If 90 days has elapsed and we still don't have a fix, we will disclose the issue publically.
+
+Currently, the best way to report an issue is by emailing me@iaincollins.com
+
+For less serious issues (e.g. RFC compliance for unsupported flows or potential issues that may cause a problem future or default behaviour / options) it is appropriate to submit these these publically as bug reports or feature requests or to raise a question to open a discussion around them.
+",1098,b nextauthjs/next-auth daf97d298d538c962b407a18cec4cf92f1ef699e
+nextauthjs/next-auth,SECURITY.md,1042e9a93d3355035e2bc665529a94a879996f4c,2021-06-08 06:57:13+00:00,"# Security Policy
+
+NextAuth.js practices responsible disclosure.
+
+## Supported Versions
+
+Security updates are only released for the current version.
+
+Old releases are not maintained and do not receive updates.
+
+## Reporting a Vulnerability
+
+We request that you contact us directly to report serious issues that might impact the security of sites using NextAuth.js.
+
+If you contact us regarding a serious issue:
+
+* We will endeavor to get back to you within 72 hours.
+* We will aim to publish a fix within 30 days.
+* We will disclose the issue (and credit you, with your consent) once a fix to resolve the issue has been released.
+* If 90 days has elapsed and we still don't have a fix, we will disclose the issue publically.
+
+Currently, the best way to report an issue is by emailing me@iaincollins.com
+
+For less serious issues (e.g. RFC compliance for unsupported flows or potential issues that may cause a problem future or default behaviour / options) it is appropriate to submit these these publically as bug reports or feature requests or to raise a question to open a discussion around them.
+","# Security Policy
+
+NextAuth.js practices responsible disclosure.
+
+## Supported Versions
+
+Security updates are only released for the current version.
+
+Old releases are not maintained and do not receive updates.
+
+## Reporting a Vulnerability
+
+We request that you contact us directly to report serious issues that might impact the security of sites using NextAuth.js.
+
+If you contact us regarding a serious issue:
+
+* We will endeavor to get back to you within 72 hours.
+* We will aim to publish a fix within 30 days.
+* We will disclose the issue (and credit you, with your consent) once a fix to resolve the issue has been released.
+* If 90 days has elapsed and we still don't have a fix, we will disclose the issue publicly.
+
+Currently, the best way to report an issue is by emailing me@iaincollins.com
+
+For less serious issues (e.g. RFC compliance for unsupported flows or potential issues that may cause a problem future or default behaviour / options) it is appropriate to submit these these publically as bug reports or feature requests or to raise a question to open a discussion around them.
+",2,b nextauthjs/next-auth 1042e9a93d3355035e2bc665529a94a879996f4c
+nextauthjs/next-auth,SECURITY.md,be74dd0e7eaf5fcaa9218786866e12caea6a1d9f,2021-08-02 15:18:17+00:00,"# Security Policy
+
+NextAuth.js practices responsible disclosure.
+
+## Supported Versions
+
+Security updates are only released for the current version.
+
+Old releases are not maintained and do not receive updates.
+
+## Reporting a Vulnerability
+
+We request that you contact us directly to report serious issues that might impact the security of sites using NextAuth.js.
+
+If you contact us regarding a serious issue:
+
+* We will endeavor to get back to you within 72 hours.
+* We will aim to publish a fix within 30 days.
+* We will disclose the issue (and credit you, with your consent) once a fix to resolve the issue has been released.
+* If 90 days has elapsed and we still don't have a fix, we will disclose the issue publicly.
+
+Currently, the best way to report an issue is by emailing me@iaincollins.com
+
+For less serious issues (e.g. RFC compliance for unsupported flows or potential issues that may cause a problem future or default behaviour / options) it is appropriate to submit these these publically as bug reports or feature requests or to raise a question to open a discussion around them.
+","# Security Policy
+
+NextAuth.js practices responsible disclosure.
+
+## Supported Versions
+
+Security updates are only released for the current version.
+
+Old releases are not maintained and do not receive updates.
+
+## Reporting a Vulnerability
+
+We request that you contact us directly to report serious issues that might impact the security of sites using NextAuth.js.
+
+If you contact us regarding a serious issue:
+
+- We will endeavor to get back to you within 72 hours.
+- We will aim to publish a fix within 30 days.
+- We will disclose the issue (and credit you, with your consent) once a fix to resolve the issue has been released.
+- If 90 days has elapsed and we still don't have a fix, we will disclose the issue publicly.
+
+Currently, the best way to report an issue is by contacting us via email at me@iaincollins.com or info@balazsorban.com and yo@ndo.dev.
+
+For less serious issues (e.g. RFC compliance for unsupported flows or potential issues that may cause a problem future or default behaviour / options) it is appropriate to submit these these publically as bug reports or feature requests or to raise a question to open a discussion around them.
+",65,b nextauthjs/next-auth be74dd0e7eaf5fcaa9218786866e12caea6a1d9f
+nextauthjs/next-auth,SECURITY.md,2670bbb28ff48af7bd6eaa724efc21bbfc931935,2021-12-06 20:05:41+00:00,"# Security Policy
+
+NextAuth.js practices responsible disclosure.
+
+## Supported Versions
+
+Security updates are only released for the current version.
+
+Old releases are not maintained and do not receive updates.
+
+## Reporting a Vulnerability
+
+We request that you contact us directly to report serious issues that might impact the security of sites using NextAuth.js.
+
+If you contact us regarding a serious issue:
+
+- We will endeavor to get back to you within 72 hours.
+- We will aim to publish a fix within 30 days.
+- We will disclose the issue (and credit you, with your consent) once a fix to resolve the issue has been released.
+- If 90 days has elapsed and we still don't have a fix, we will disclose the issue publicly.
+
+Currently, the best way to report an issue is by contacting us via email at me@iaincollins.com or info@balazsorban.com and yo@ndo.dev.
+
+For less serious issues (e.g. RFC compliance for unsupported flows or potential issues that may cause a problem future or default behaviour / options) it is appropriate to submit these these publically as bug reports or feature requests or to raise a question to open a discussion around them.
+","# Security Policy
+
+NextAuth.js practices responsible disclosure.
+
+## Reporting a Vulnerability
+
+We request that you contact us directly to report serious issues that might impact the security of sites using NextAuth.js.
+
+If you contact us regarding a serious issue:
+
+- We will endeavor to get back to you within 72 hours.
+- We will aim to publish a fix within 30 days.
+- We will disclose the issue (and credit you, with your consent) once a fix to resolve the issue has been released.
+- If 90 days has elapsed and we still don't have a fix, we will disclose the issue publicly.
+
+The best way to report an issue is by contacting us via email at info@balazsorban.com or me@iaincollins.com and yo@ndo.dev, or raise a public issue requesting someone get in touch with you via whatever means you prefer for more details. (Please do not disclose sensitive details publicly at this stage.)
+
+> For less serious issues (e.g. RFC compliance for unsupported flows or potential issues that may cause a problem in the future) it is appropriate to submit these these publically as bug reports or feature requests or to raise a question to open a discussion around them.
+
+## Supported Versions
+
+Security updates are only released for the current version.
+
+Old releases are not maintained and do not receive updates.
+",530,b nextauthjs/next-auth 2670bbb28ff48af7bd6eaa724efc21bbfc931935
+nextauthjs/next-auth,SECURITY.md,9f2cdad4578e015e43aac561cf0e87942ae03e41,2022-07-22 18:31:19+00:00,"# Security Policy
+
+NextAuth.js practices responsible disclosure.
+
+## Reporting a Vulnerability
+
+We request that you contact us directly to report serious issues that might impact the security of sites using NextAuth.js.
+
+If you contact us regarding a serious issue:
+
+- We will endeavor to get back to you within 72 hours.
+- We will aim to publish a fix within 30 days.
+- We will disclose the issue (and credit you, with your consent) once a fix to resolve the issue has been released.
+- If 90 days has elapsed and we still don't have a fix, we will disclose the issue publicly.
+
+The best way to report an issue is by contacting us via email at info@balazsorban.com or me@iaincollins.com and yo@ndo.dev, or raise a public issue requesting someone get in touch with you via whatever means you prefer for more details. (Please do not disclose sensitive details publicly at this stage.)
+
+> For less serious issues (e.g. RFC compliance for unsupported flows or potential issues that may cause a problem in the future) it is appropriate to submit these these publically as bug reports or feature requests or to raise a question to open a discussion around them.
+
+## Supported Versions
+
+Security updates are only released for the current version.
+
+Old releases are not maintained and do not receive updates.
+","# Security Policy
+
+NextAuth.js practices responsible disclosure.
+
+## Reporting a Vulnerability
+
+We request that you contact us directly to report serious issues that might impact the security of sites using NextAuth.js.
+
+If you contact us regarding a serious issue:
+
+- We will endeavor to get back to you within 72 hours.
+- We will aim to publish a fix within 30 days.
+- We will disclose the issue (and credit you, with your consent) once a fix to resolve the issue has been released.
+- If 90 days has elapsed and we still don't have a fix, we will disclose the issue publicly.
+
+The best way to report an issue is by contacting us via email at info@balazsorban.com, yo@ndo.dev, thvu@hey.com and me@iaincollins.com, or raise a public issue requesting someone get in touch with you via whatever means you prefer for more details. (Please do not disclose sensitive details publicly at this stage.)
+
+> For less serious issues (e.g. RFC compliance for unsupported flows or potential issues that may cause a problem in the future) it is appropriate to submit these these publically as bug reports or feature requests or to raise a question to open a discussion around them.
+
+## Supported Versions
+
+Security updates are only released for the current version.
+
+Old releases are not maintained and do not receive updates.
+",34,b nextauthjs/next-auth 9f2cdad4578e015e43aac561cf0e87942ae03e41
+nextauthjs/next-auth,SECURITY.md,a0beb02f7709233b2752c892ec684491ee1f6502,2022-09-11 03:43:28+00:00,"# Security Policy
+
+NextAuth.js practices responsible disclosure.
+
+## Reporting a Vulnerability
+
+We request that you contact us directly to report serious issues that might impact the security of sites using NextAuth.js.
+
+If you contact us regarding a serious issue:
+
+- We will endeavor to get back to you within 72 hours.
+- We will aim to publish a fix within 30 days.
+- We will disclose the issue (and credit you, with your consent) once a fix to resolve the issue has been released.
+- If 90 days has elapsed and we still don't have a fix, we will disclose the issue publicly.
+
+The best way to report an issue is by contacting us via email at info@balazsorban.com, yo@ndo.dev, thvu@hey.com and me@iaincollins.com, or raise a public issue requesting someone get in touch with you via whatever means you prefer for more details. (Please do not disclose sensitive details publicly at this stage.)
+
+> For less serious issues (e.g. RFC compliance for unsupported flows or potential issues that may cause a problem in the future) it is appropriate to submit these these publically as bug reports or feature requests or to raise a question to open a discussion around them.
+
+## Supported Versions
+
+Security updates are only released for the current version.
+
+Old releases are not maintained and do not receive updates.
+","# Security Policy
+
+NextAuth.js practices responsible disclosure.
+
+## Reporting a Vulnerability
+
+We request that you contact us directly to report serious issues that might impact the security of sites using NextAuth.js.
+
+If you contact us regarding a serious issue:
+
+- We will endeavor to get back to you within 72 hours.
+- We will aim to publish a fix within 30 days.
+- We will disclose the issue (and credit you, with your consent) once a fix to resolve the issue has been released.
+- If 90 days has elapsed and we still don't have a fix, we will disclose the issue publicly.
+
+The best way to report an issue is by contacting us via email at info@balazsorban.com, yo@ndo.dev, thvu@hey.com and me@iaincollins.com, or raise a public issue requesting someone get in touch with you via whatever means you prefer for more details. (Please do not disclose sensitive details publicly at this stage.)
+
+> For less serious issues (e.g. RFC compliance for unsupported flows or potential issues that may cause a problem in the future) it is appropriate to submit these publicly as bug reports or feature requests or to raise a question to open a discussion around them.
+
+## Supported Versions
+
+Security updates are only released for the current version.
+
+Old releases are not maintained and do not receive updates.
+",8,b nextauthjs/next-auth a0beb02f7709233b2752c892ec684491ee1f6502
+nextauthjs/next-auth,SECURITY.md,2a2c3d7a451b779dc86a6c52afe494cfe5ad0b4d,2022-10-03 13:59:19+00:00,"# Security Policy
+
+NextAuth.js practices responsible disclosure.
+
+## Reporting a Vulnerability
+
+We request that you contact us directly to report serious issues that might impact the security of sites using NextAuth.js.
+
+If you contact us regarding a serious issue:
+
+- We will endeavor to get back to you within 72 hours.
+- We will aim to publish a fix within 30 days.
+- We will disclose the issue (and credit you, with your consent) once a fix to resolve the issue has been released.
+- If 90 days has elapsed and we still don't have a fix, we will disclose the issue publicly.
+
+The best way to report an issue is by contacting us via email at info@balazsorban.com, yo@ndo.dev, thvu@hey.com and me@iaincollins.com, or raise a public issue requesting someone get in touch with you via whatever means you prefer for more details. (Please do not disclose sensitive details publicly at this stage.)
+
+> For less serious issues (e.g. RFC compliance for unsupported flows or potential issues that may cause a problem in the future) it is appropriate to submit these publicly as bug reports or feature requests or to raise a question to open a discussion around them.
+
+## Supported Versions
+
+Security updates are only released for the current version.
+
+Old releases are not maintained and do not receive updates.
+","# Security Policy
+
+NextAuth.js practices responsible disclosure.
+
+## Reporting a Vulnerability
+
+We request that you contact us directly to report serious issues that might impact the security of sites using NextAuth.js.
+
+If you contact us regarding a serious issue:
+
+- We will endeavor to get back to you within 72 hours.
+- We will aim to publish a fix within 30 days.
+- We will disclose the issue (and credit you, with your consent) once a fix to resolve the issue has been released.
+- If 90 days has elapsed and we still don't have a fix, we will disclose the issue publicly.
+
+The best way to report an issue is by contacting us via email at hi@thvu.dev, info@balazsorban.com, yo@ndo.dev and me@iaincollins.com, or raise a public issue requesting someone get in touch with you via whatever means you prefer for more details. (Please do not disclose sensitive details publicly at this stage.)
+
+> For less serious issues (e.g. RFC compliance for unsupported flows or potential issues that may cause a problem in the future) it is appropriate to submit these publicly as bug reports or feature requests or to raise a question to open a discussion around them.
+
+## Supported Versions
+
+Security updates are only released for the current version.
+
+Old releases are not maintained and do not receive updates.
+",27,b nextauthjs/next-auth 2a2c3d7a451b779dc86a6c52afe494cfe5ad0b4d
+nextauthjs/next-auth,SECURITY.md,36f44a869a85a03ebe6e03d879615b352e0ef0b9,2022-12-13 16:40:17+00:00,"# Security Policy
+
+NextAuth.js practices responsible disclosure.
+
+## Reporting a Vulnerability
+
+We request that you contact us directly to report serious issues that might impact the security of sites using NextAuth.js.
+
+If you contact us regarding a serious issue:
+
+- We will endeavor to get back to you within 72 hours.
+- We will aim to publish a fix within 30 days.
+- We will disclose the issue (and credit you, with your consent) once a fix to resolve the issue has been released.
+- If 90 days has elapsed and we still don't have a fix, we will disclose the issue publicly.
+
+The best way to report an issue is by contacting us via email at hi@thvu.dev, info@balazsorban.com, yo@ndo.dev and me@iaincollins.com, or raise a public issue requesting someone get in touch with you via whatever means you prefer for more details. (Please do not disclose sensitive details publicly at this stage.)
+
+> For less serious issues (e.g. RFC compliance for unsupported flows or potential issues that may cause a problem in the future) it is appropriate to submit these publicly as bug reports or feature requests or to raise a question to open a discussion around them.
+
+## Supported Versions
+
+Security updates are only released for the current version.
+
+Old releases are not maintained and do not receive updates.
+","# Security Policy
+
+NextAuth.js practices responsible disclosure.
+
+## Reporting a Vulnerability
+
+We request that you contact us directly to report serious issues that might impact the security of sites using NextAuth.js.
+
+If you contact us regarding a serious issue:
+
+- We will endeavor to get back to you within 72 hours.
+- We will aim to publish a fix within 30 days.
+- We will disclose the issue (and credit you, with your consent) once a fix to resolve the issue has been released.
+- If 90 days has elapsed and we still don't have a fix, we will disclose the issue publicly.
+
+The best way to report an issue is by contacting us via email at hi@thvu.dev, info@balazsorban.com, yo@ndo.dev and me@iaincollins.com, or raise a public issue requesting someone get in touch with you via whatever means you prefer for more details. (Please do not disclose sensitive details publicly at this stage.)
+
+> For less serious issues (e.g. RFC compliance for unsupported flows or potential issues that may cause a problem in the future) it is appropriate to submit these publicly as bug reports or feature requests or to raise a question to open a discussion around them.
+
+## Supported Versions
+
+Security updates are only released for the current version.
+
+Old releases are not maintained and do not receive updates.
+",0,b nextauthjs/next-auth 36f44a869a85a03ebe6e03d879615b352e0ef0b9

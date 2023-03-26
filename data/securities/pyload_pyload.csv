@@ -1,0 +1,130 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+pyload/pyload,SECURITY.md,fbd9d7d7cbc05a9efa8e6eb9eb0bf1dea10137ef,2021-09-21 23:03:08+00:00,,"# Security Policy
+
+## Reporting a Vulnerability
+
+Please report security issues to nitzo2001@yahoo.com
+",102,b pyload/pyload fbd9d7d7cbc05a9efa8e6eb9eb0bf1dea10137ef
+pyload/pyload,SECURITY.md,f59c884a785c63774192415d840924d03927df12,2021-10-09 17:49:38+00:00,"# Security Policy
+
+## Reporting a Vulnerability
+
+Please report security issues to nitzo2001@yahoo.com
+","
+
+
+
+## Security Policy
+
+### Supported Versions
+
+pyLoad Next releases will receive security vulnerabilities patches.
+Old versions of pyLoad, working on Python 2, will receive plugin updates only.
+
+### Reporting a Vulnerability
+
+Please report any security vulnerabilities by sending an email to security@pyload.net.
+
+You will receive a response from us within a short time.
+If the issue is confirmed, we will release a patch as soon as possible depending on complexity.
+
+
+
+---
+
+###### © 2021 pyLoad team
+",409,b pyload/pyload f59c884a785c63774192415d840924d03927df12
+pyload/pyload,SECURITY.md,982fb3b29e4fe255536d44874b4493e10ba01ce3,2022-01-04 00:06:08+00:00,"
+
+
+
+## Security Policy
+
+### Supported Versions
+
+pyLoad Next releases will receive security vulnerabilities patches.
+Old versions of pyLoad, working on Python 2, will receive plugin updates only.
+
+### Reporting a Vulnerability
+
+Please report any security vulnerabilities by sending an email to security@pyload.net.
+
+You will receive a response from us within a short time.
+If the issue is confirmed, we will release a patch as soon as possible depending on complexity.
+
+
+
+---
+
+###### © 2021 pyLoad team
+","
+
+
+
+## Security Policy
+
+### Supported Versions
+
+pyLoad Next releases will receive security vulnerabilities patches.
+Old versions of pyLoad, working on Python 2, will receive plugin updates only.
+
+### Reporting a Vulnerability
+
+Please report any security vulnerabilities by sending an email to security@pyload.net.
+
+You will receive a response from us within a short time.
+If the issue is confirmed, we will release a patch as soon as possible depending on complexity.
+
+
+
+---
+
+###### © 2008-2022 pyLoad team
+",6,b pyload/pyload 982fb3b29e4fe255536d44874b4493e10ba01ce3
+pyload/pyload,SECURITY.md,8b6aec3aa90f347066262f83f21e32f96ab81e8e,2023-01-04 23:06:46+00:00,"
+
+
+
+## Security Policy
+
+### Supported Versions
+
+pyLoad Next releases will receive security vulnerabilities patches.
+Old versions of pyLoad, working on Python 2, will receive plugin updates only.
+
+### Reporting a Vulnerability
+
+Please report any security vulnerabilities by sending an email to security@pyload.net.
+
+You will receive a response from us within a short time.
+If the issue is confirmed, we will release a patch as soon as possible depending on complexity.
+
+
+
+---
+
+###### © 2008-2022 pyLoad team
+","
+
+
+
+## Security Policy
+
+### Supported Versions
+
+pyLoad Next releases will receive security vulnerabilities patches.
+Old versions of pyLoad, working on Python 2, will receive plugin updates only.
+
+### Reporting a Vulnerability
+
+Please report any security vulnerabilities by sending an email to security@pyload.net.
+
+You will receive a response from us within a short time.
+If the issue is confirmed, we will release a patch as soon as possible depending on complexity.
+
+
+
+---
+
+###### © 2008-2023 pyLoad team
+",1,b pyload/pyload 8b6aec3aa90f347066262f83f21e32f96ab81e8e

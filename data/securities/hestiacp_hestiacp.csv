@@ -1,0 +1,433 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+hestiacp/hestiacp,SECURITY.md,9c0f4c935ddba2a669219fdd3747ef3b60caac6f,2020-03-25 04:17:39+00:00,,"# Security Policy
+
+## Reporting a Vulnerability
+
+If you have discovered a vulnerability in Hestia Control Panel,
+let our development team know via e-mail at info@hestiacp.com and
+we will respond as soon as possible.
+",216,b hestiacp/hestiacp 9c0f4c935ddba2a669219fdd3747ef3b60caac6f
+hestiacp/hestiacp,SECURITY.md,c1562bd1fde1a7ca49c0dfcbacaf71813f9ad4cf,2020-10-24 12:41:49+00:00,"# Security Policy
+
+## Reporting a Vulnerability
+
+If you have discovered a vulnerability in Hestia Control Panel,
+let our development team know via e-mail at info@hestiacp.com and
+we will respond as soon as possible.
+","# Security Policy
+
+## Reporting a Vulnerability
+
+If you believe that you have have discovered a vulnerability in Hestia Control Panel,
+please let our development team know via email at info@hestiacp.com. 
+
+We ask that you please include a detailed description of the vulnerability,
+a list of services involved (e.g. exim, dovecot) and the versions which you've tested,
+full steps to reproduce the vulnerability, and include your findings and expected results.",257,b hestiacp/hestiacp c1562bd1fde1a7ca49c0dfcbacaf71813f9ad4cf
+hestiacp/hestiacp,SECURITY.md,027ad40c3086d6cf9cb90f41235b43b04d99bb1e,2022-05-28 03:49:37+00:00,"# Security Policy
+
+## Reporting a Vulnerability
+
+If you believe that you have have discovered a vulnerability in Hestia Control Panel,
+please let our development team know via email at info@hestiacp.com. 
+
+We ask that you please include a detailed description of the vulnerability,
+a list of services involved (e.g. exim, dovecot) and the versions which you've tested,
+full steps to reproduce the vulnerability, and include your findings and expected results.","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| Latest  | :white_check_mark: |
+
+
+## Reporting a Vulnerability
+
+If you believe that you have have discovered a vulnerability in Hestia Control Panel,
+please let our development team know by submitting a report [Huntr.dev](https://huntr.dev/bounties/disclose/?target=https://github.com/hestiacp/hestiacp) Bounties and CVEs are automatically managed and allocated via the platform.
+
+If you are unable to [Huntr.dev](https://huntr.dev/bounties/disclose/?target=https://github.com/hestiacp/hestiacp) please send an email to support@hestiacp.com
+We ask that you please include a detailed description of the vulnerability,
+a list of services involved (e.g. exim, dovecot) and the versions which you've tested,
+full steps to reproduce the vulnerability, and include your findings and expected results.
+",451,b hestiacp/hestiacp 027ad40c3086d6cf9cb90f41235b43b04d99bb1e
+hestiacp/hestiacp,SECURITY.md,adcbf6864297be4f37d521b9a083590edb6bcb07,2022-06-22 08:49:39+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| Latest  | :white_check_mark: |
+
+
+## Reporting a Vulnerability
+
+If you believe that you have have discovered a vulnerability in Hestia Control Panel,
+please let our development team know by submitting a report [Huntr.dev](https://huntr.dev/bounties/disclose/?target=https://github.com/hestiacp/hestiacp) Bounties and CVEs are automatically managed and allocated via the platform.
+
+If you are unable to [Huntr.dev](https://huntr.dev/bounties/disclose/?target=https://github.com/hestiacp/hestiacp) please send an email to support@hestiacp.com
+We ask that you please include a detailed description of the vulnerability,
+a list of services involved (e.g. exim, dovecot) and the versions which you've tested,
+full steps to reproduce the vulnerability, and include your findings and expected results.
+","# Hestia CP Security policy
+
+Welcome and thanks for taking interest in Hestia CP!
+
+We are mostly interested in reports by actual Hestia CP users but  all high quality contributions are welcome.
+
+If you believe that you have have discovered a vulnerability in Hestia Control Panel,
+please let our development team know by submitting a report [Huntr.dev](https://huntr.dev/bounties/disclose/?target=https://github.com/hestiacp/hestiacp) Bounties and CVEs are automatically managed and allocated via the platform.
+
+If you are unable to use [Huntr.dev](https://huntr.dev/bounties/disclose/?target=https://github.com/hestiacp/hestiacp) please send an email to support@hestiacp.com
+
+We ask you to include a detailed description of the vulnerability, a list of services involved (e.g. exim, dovecot) and the versions which you've tested, full steps to reproduce the vulnerability, and include your findings and expected results.
+
+Please do not open any public issue on Github or any other social media before the report has been published and a fix has been released. 
+
+With that, good luck hacking us ;)
+
+## Supported versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| Latest  | :white_check_mark: |
+
+## Qualifying Vulnerabilities
+
+### Vulnerabilities we really care about!
+- Remote command execution
+- Code/SQL Injection
+- Authentication bypass
+- Privilege Escalation
+- Cross-site scripting (XSS)
+- Performing limited admin actions without authorization
+- CSRF
+
+### Vulnerabilities we accept
+
+- Open redirects
+- Password brute-forcing that circumvents rate limiting
+
+## Non-Qualifying Vulnerabilities
+
+- Theoretical attacks without proof of exploitability
+- Attacks that are the result of a third party library should be reported to the library maintainers
+- Social engineering
+- Reflected file download
+- Physical attacks
+- Weak SSL/TLS/SSH algorithms or protocols
+- Attacks involving physical access to a user’s device, or involving a device or network that’s already seriously compromised (eg man-in-the-middle).
+- The user attacks themselves
+- anything in `/test/` folder
+
+",1349,b hestiacp/hestiacp adcbf6864297be4f37d521b9a083590edb6bcb07
+hestiacp/hestiacp,SECURITY.md,7e02569b1808676c43e0035c5f5d9c687d4adba2,2022-11-11 15:04:01+00:00,"# Hestia CP Security policy
+
+Welcome and thanks for taking interest in Hestia CP!
+
+We are mostly interested in reports by actual Hestia CP users but  all high quality contributions are welcome.
+
+If you believe that you have have discovered a vulnerability in Hestia Control Panel,
+please let our development team know by submitting a report [Huntr.dev](https://huntr.dev/bounties/disclose/?target=https://github.com/hestiacp/hestiacp) Bounties and CVEs are automatically managed and allocated via the platform.
+
+If you are unable to use [Huntr.dev](https://huntr.dev/bounties/disclose/?target=https://github.com/hestiacp/hestiacp) please send an email to support@hestiacp.com
+
+We ask you to include a detailed description of the vulnerability, a list of services involved (e.g. exim, dovecot) and the versions which you've tested, full steps to reproduce the vulnerability, and include your findings and expected results.
+
+Please do not open any public issue on Github or any other social media before the report has been published and a fix has been released. 
+
+With that, good luck hacking us ;)
+
+## Supported versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| Latest  | :white_check_mark: |
+
+## Qualifying Vulnerabilities
+
+### Vulnerabilities we really care about!
+- Remote command execution
+- Code/SQL Injection
+- Authentication bypass
+- Privilege Escalation
+- Cross-site scripting (XSS)
+- Performing limited admin actions without authorization
+- CSRF
+
+### Vulnerabilities we accept
+
+- Open redirects
+- Password brute-forcing that circumvents rate limiting
+
+## Non-Qualifying Vulnerabilities
+
+- Theoretical attacks without proof of exploitability
+- Attacks that are the result of a third party library should be reported to the library maintainers
+- Social engineering
+- Reflected file download
+- Physical attacks
+- Weak SSL/TLS/SSH algorithms or protocols
+- Attacks involving physical access to a user’s device, or involving a device or network that’s already seriously compromised (eg man-in-the-middle).
+- The user attacks themselves
+- anything in `/test/` folder
+
+","# Hestia CP Security policy
+
+Welcome and thanks for taking interest in Hestia CP!
+
+We are mostly interested in reports by actual Hestia CP users but  all high quality contributions are welcome.
+
+If you believe that you have have discovered a vulnerability in Hestia Control Panel,
+please let our development team know by submitting a report [Huntr.dev](https://huntr.dev/bounties/disclose/?target=https://github.com/hestiacp/hestiacp) Bounties and CVEs are automatically managed and allocated via the platform.
+
+If you are unable to use [Huntr.dev](https://huntr.dev/bounties/disclose/?target=https://github.com/hestiacp/hestiacp) please send an email to support@hestiacp.com
+
+We ask you to include a detailed description of the vulnerability, a list of services involved (e.g. exim, dovecot) and the versions which you've tested, full steps to reproduce the vulnerability, and include your findings and expected results.
+
+Please do not open any public issue on Github or any other social media before the report has been published and a fix has been released.
+
+With that, good luck hacking us ;)
+
+## Supported versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| Latest  | :white_check_mark: |
+
+## Qualifying Vulnerabilities
+
+### Vulnerabilities we really care about!
+- Remote command execution
+- Code/SQL Injection
+- Authentication bypass
+- Privilege Escalation
+- Cross-site scripting (XSS)
+- Performing limited admin actions without authorization
+- CSRF
+
+### Vulnerabilities we accept
+
+- Open redirects
+- Password brute-forcing that circumvents rate limiting
+
+## Non-Qualifying Vulnerabilities
+
+- Theoretical attacks without proof of exploitability
+- Attacks that are the result of a third party library should be reported to the library maintainers
+- Social engineering
+- Reflected file download
+- Physical attacks
+- Weak SSL/TLS/SSH algorithms or protocols
+- Attacks involving physical access to a user’s device, or involving a device or network that’s already seriously compromised (eg man-in-the-middle).
+- The user attacks themselves
+- anything in `/test/` folder
+
+",1,b hestiacp/hestiacp 7e02569b1808676c43e0035c5f5d9c687d4adba2
+hestiacp/hestiacp,SECURITY.md,3de3e0a73b70ce6255989ef37ac9bc54fd0fdd37,2022-11-28 18:27:11+00:00,"# Hestia CP Security policy
+
+Welcome and thanks for taking interest in Hestia CP!
+
+We are mostly interested in reports by actual Hestia CP users but  all high quality contributions are welcome.
+
+If you believe that you have have discovered a vulnerability in Hestia Control Panel,
+please let our development team know by submitting a report [Huntr.dev](https://huntr.dev/bounties/disclose/?target=https://github.com/hestiacp/hestiacp) Bounties and CVEs are automatically managed and allocated via the platform.
+
+If you are unable to use [Huntr.dev](https://huntr.dev/bounties/disclose/?target=https://github.com/hestiacp/hestiacp) please send an email to support@hestiacp.com
+
+We ask you to include a detailed description of the vulnerability, a list of services involved (e.g. exim, dovecot) and the versions which you've tested, full steps to reproduce the vulnerability, and include your findings and expected results.
+
+Please do not open any public issue on Github or any other social media before the report has been published and a fix has been released.
+
+With that, good luck hacking us ;)
+
+## Supported versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| Latest  | :white_check_mark: |
+
+## Qualifying Vulnerabilities
+
+### Vulnerabilities we really care about!
+- Remote command execution
+- Code/SQL Injection
+- Authentication bypass
+- Privilege Escalation
+- Cross-site scripting (XSS)
+- Performing limited admin actions without authorization
+- CSRF
+
+### Vulnerabilities we accept
+
+- Open redirects
+- Password brute-forcing that circumvents rate limiting
+
+## Non-Qualifying Vulnerabilities
+
+- Theoretical attacks without proof of exploitability
+- Attacks that are the result of a third party library should be reported to the library maintainers
+- Social engineering
+- Reflected file download
+- Physical attacks
+- Weak SSL/TLS/SSH algorithms or protocols
+- Attacks involving physical access to a user’s device, or involving a device or network that’s already seriously compromised (eg man-in-the-middle).
+- The user attacks themselves
+- anything in `/test/` folder
+
+","# Hestia CP Security policy
+
+Welcome and thanks for taking interest in Hestia CP!
+
+We are mostly interested in reports by actual Hestia CP users but all high quality contributions are welcome.
+
+If you believe that you have have discovered a vulnerability in Hestia Control Panel,
+please let our development team know by submitting a report [Huntr.dev](https://huntr.dev/bounties/disclose/?target=https://github.com/hestiacp/hestiacp) Bounties and CVEs are automatically managed and allocated via the platform.
+
+If you are unable to use [Huntr.dev](https://huntr.dev/bounties/disclose/?target=https://github.com/hestiacp/hestiacp) please send an email to support@hestiacp.com
+
+We ask you to include a detailed description of the vulnerability, a list of services involved (e.g. exim, dovecot) and the versions which you've tested, full steps to reproduce the vulnerability, and include your findings and expected results.
+
+Please do not open any public issue on Github or any other social media before the report has been published and a fix has been released.
+
+With that, good luck hacking us ;)
+
+## Supported versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| Latest  | :white_check_mark: |
+
+## Qualifying Vulnerabilities
+
+### Vulnerabilities we really care about!
+
+- Remote command execution
+- Code/SQL Injection
+- Authentication bypass
+- Privilege Escalation
+- Cross-site scripting (XSS)
+- Performing limited admin actions without authorization
+- CSRF
+
+### Vulnerabilities we accept
+
+- Open redirects
+- Password brute-forcing that circumvents rate limiting
+
+## Non-Qualifying Vulnerabilities
+
+- Theoretical attacks without proof of exploitability
+- Attacks that are the result of a third party library should be reported to the library maintainers
+- Social engineering
+- Reflected file download
+- Physical attacks
+- Weak SSL/TLS/SSH algorithms or protocols
+- Attacks involving physical access to a user’s device, or involving a device or network that’s already seriously compromised (eg man-in-the-middle).
+- The user attacks themselves
+- anything in `/test/` folder
+",3,b hestiacp/hestiacp 3de3e0a73b70ce6255989ef37ac9bc54fd0fdd37
+hestiacp/hestiacp,SECURITY.md,46a1e76fc271a0ac5940ee2348e1e3575d443ac3,2022-12-04 18:33:00+00:00,"# Hestia CP Security policy
+
+Welcome and thanks for taking interest in Hestia CP!
+
+We are mostly interested in reports by actual Hestia CP users but all high quality contributions are welcome.
+
+If you believe that you have have discovered a vulnerability in Hestia Control Panel,
+please let our development team know by submitting a report [Huntr.dev](https://huntr.dev/bounties/disclose/?target=https://github.com/hestiacp/hestiacp) Bounties and CVEs are automatically managed and allocated via the platform.
+
+If you are unable to use [Huntr.dev](https://huntr.dev/bounties/disclose/?target=https://github.com/hestiacp/hestiacp) please send an email to support@hestiacp.com
+
+We ask you to include a detailed description of the vulnerability, a list of services involved (e.g. exim, dovecot) and the versions which you've tested, full steps to reproduce the vulnerability, and include your findings and expected results.
+
+Please do not open any public issue on Github or any other social media before the report has been published and a fix has been released.
+
+With that, good luck hacking us ;)
+
+## Supported versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| Latest  | :white_check_mark: |
+
+## Qualifying Vulnerabilities
+
+### Vulnerabilities we really care about!
+
+- Remote command execution
+- Code/SQL Injection
+- Authentication bypass
+- Privilege Escalation
+- Cross-site scripting (XSS)
+- Performing limited admin actions without authorization
+- CSRF
+
+### Vulnerabilities we accept
+
+- Open redirects
+- Password brute-forcing that circumvents rate limiting
+
+## Non-Qualifying Vulnerabilities
+
+- Theoretical attacks without proof of exploitability
+- Attacks that are the result of a third party library should be reported to the library maintainers
+- Social engineering
+- Reflected file download
+- Physical attacks
+- Weak SSL/TLS/SSH algorithms or protocols
+- Attacks involving physical access to a user’s device, or involving a device or network that’s already seriously compromised (eg man-in-the-middle).
+- The user attacks themselves
+- anything in `/test/` folder
+","# Hestia CP Security policy
+
+Welcome and thanks for taking interest in Hestia CP!
+
+We are mostly interested in reports by actual Hestia CP users but all high quality contributions are welcome.
+
+If you believe that you have have discovered a vulnerability in Hestia Control Panel,
+please let our development team know by submitting a report [Huntr.dev](https://huntr.dev/bounties/disclose/?target=https://github.com/hestiacp/hestiacp) Bounties and CVEs are automatically managed and allocated via the platform.
+
+If you are unable to use [Huntr.dev](https://huntr.dev/bounties/disclose/?target=https://github.com/hestiacp/hestiacp) please send an email to support@hestiacp.com
+
+We ask you to include a detailed description of the vulnerability, a list of services involved (e.g. exim, dovecot) and the versions which you've tested, full steps to reproduce the vulnerability, and include your findings and expected results.
+
+Please do not open any public issue on Github or any other social media before the report has been published and a fix has been released.
+
+With that, good luck hacking us ;)
+
+## Supported versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| Latest  | :white_check_mark: |
+
+## Qualifying Vulnerabilities
+
+### Vulnerabilities we really care about
+
+- Remote command execution
+- Code/SQL Injection
+- Authentication bypass
+- Privilege Escalation
+- Cross-site scripting (XSS)
+- Performing limited admin actions without authorization
+- CSRF
+
+### Vulnerabilities we accept
+
+- Open redirects
+- Password brute-forcing that circumvents rate limiting
+
+## Non-Qualifying Vulnerabilities
+
+- Theoretical attacks without proof of exploitability
+- Attacks that are the result of a third party library should be reported to the library maintainers
+- Social engineering
+- Reflected file download
+- Physical attacks
+- Weak SSL/TLS/SSH algorithms or protocols
+- Attacks involving physical access to a user’s device, or involving a device or network that’s already seriously compromised (eg man-in-the-middle).
+- The user attacks themselves
+- anything in `/test/` folder
+",1,b hestiacp/hestiacp 46a1e76fc271a0ac5940ee2348e1e3575d443ac3

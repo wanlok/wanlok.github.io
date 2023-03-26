@@ -1,0 +1,109 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+dompdf/dompdf,SECURITY.md,b6241c3434adc699006aa61fee85e6a6da9ac566,2021-09-20 16:27:51+00:00,,"# Security Policy
+
+## Supported Versions
+
+Because of limited resources and general compatibility between version only the most recent release of Dompdf is actively supported.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.0.2   | :white_check_mark: |
+| < 1.0.2 | :x:                |
+
+## Reporting a Vulnerability
+
+In order to give the community time to respond and upgrade we strongly urge you report all security issues privately. Please email us at security@dompdf.org with details
+and we will respond ASAP.
+",535,b dompdf/dompdf b6241c3434adc699006aa61fee85e6a6da9ac566
+dompdf/dompdf,SECURITY.md,bab7410aa559034675047a07898d73472a13cd2f,2022-03-14 18:44:08+00:00,"# Security Policy
+
+## Supported Versions
+
+Because of limited resources and general compatibility between version only the most recent release of Dompdf is actively supported.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.0.2   | :white_check_mark: |
+| < 1.0.2 | :x:                |
+
+## Reporting a Vulnerability
+
+In order to give the community time to respond and upgrade we strongly urge you report all security issues privately. Please email us at security@dompdf.org with details
+and we will respond ASAP.
+","# Security Policy
+
+## Supported Versions
+
+Because of limited resources and general compatibility between version only the most recent release of Dompdf is actively supported.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.2.0   | :white_check_mark: |
+| < 1.0.2 | :x:                |
+
+## Reporting a Vulnerability
+
+In order to give the community time to respond and upgrade we strongly urge you report all security issues privately. Please email us at security@dompdf.org with details
+and we will respond ASAP.
+",2,b dompdf/dompdf bab7410aa559034675047a07898d73472a13cd2f
+dompdf/dompdf,SECURITY.md,68fabc5b93d44fb715dadd926a2185a657e1f3f7,2023-01-09 13:43:15+00:00,"# Security Policy
+
+## Supported Versions
+
+Because of limited resources and general compatibility between version only the most recent release of Dompdf is actively supported.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.2.0   | :white_check_mark: |
+| < 1.0.2 | :x:                |
+
+## Reporting a Vulnerability
+
+In order to give the community time to respond and upgrade we strongly urge you report all security issues privately. Please email us at security@dompdf.org with details
+and we will respond ASAP.
+","# Security Policy
+
+## Supported Versions
+
+Because of limited resources and general compatibility 
+between versions only the [latest release](https://github.com/dompdf/dompdf/releases) of Dompdf 
+is actively supported.
+
+## Reporting a Vulnerability
+
+In order to give the community time to respond and upgrade
+we strongly urge you report all security issues privately. 
+Please email us at security@dompdf.org with details and 
+we will respond ASAP.
+",163,b dompdf/dompdf 68fabc5b93d44fb715dadd926a2185a657e1f3f7
+dompdf/dompdf,SECURITY.md,ae1ca4ad66ed01c23caa5985cd1119dfebe3692c,2023-01-26 18:46:57+00:00,"# Security Policy
+
+## Supported Versions
+
+Because of limited resources and general compatibility 
+between versions only the [latest release](https://github.com/dompdf/dompdf/releases) of Dompdf 
+is actively supported.
+
+## Reporting a Vulnerability
+
+In order to give the community time to respond and upgrade
+we strongly urge you report all security issues privately. 
+Please email us at security@dompdf.org with details and 
+we will respond ASAP.
+","# Security Policy
+
+## Supported Versions
+
+Because of limited resources and general compatibility 
+between versions only the [latest release](https://github.com/dompdf/dompdf/releases) of Dompdf 
+is actively supported.
+
+## Reporting a Vulnerability
+
+In order to give the community time to respond and patch 
+we strongly urge you report all security issues privately. 
+New vulnerabilities can be reported through the GitHub
+[Security Advisories](https://github.com/dompdf/dompdf/security/advisories) 
+feature. If you have any questions email us at security@dompdf.org and 
+we will respond ASAP.
+",168,b dompdf/dompdf ae1ca4ad66ed01c23caa5985cd1119dfebe3692c

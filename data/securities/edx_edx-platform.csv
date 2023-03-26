@@ -1,0 +1,5 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+edx/.github,SECURITY.md,0b10faff9887b3ababd6403a9b5fbe95e28a7f0c,2021-03-03 20:04:02+00:00,,"# edX Security Policy
+
+Please refer to the official security policy located [here](https://www.edx.org/policy/security)
+",120,b edx/edx-platform 0b10faff9887b3ababd6403a9b5fbe95e28a7f0c

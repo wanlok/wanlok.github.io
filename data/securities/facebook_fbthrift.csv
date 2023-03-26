@@ -1,0 +1,24 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+facebook/.github,SECURITY.md,6443620101451b082ecece8314d7c4e5b8c14ee7,2020-03-17 14:55:04+00:00,,"# Reporting and Fixing Security Issues
+
+Please do not open GitHub issues or pull requests - this makes the problem immediately visible to everyone, including malicious actors. Security issues in this open source project can be safely reported via Facebook's Whitehat Bug Bounty program:
+
+https://www.facebook.com/whitehat
+
+Facebook's security team will triage your report and determine whether or not is it eligible for a bounty under our program.
+",448,b facebook/fbthrift 6443620101451b082ecece8314d7c4e5b8c14ee7
+facebook/.github,SECURITY.md,8d5c7eb12f13fb13e2dd471e5cbe1fdcc2e22e17,2022-01-20 20:26:31+00:00,"# Reporting and Fixing Security Issues
+
+Please do not open GitHub issues or pull requests - this makes the problem immediately visible to everyone, including malicious actors. Security issues in this open source project can be safely reported via Facebook's Whitehat Bug Bounty program:
+
+https://www.facebook.com/whitehat
+
+Facebook's security team will triage your report and determine whether or not is it eligible for a bounty under our program.
+","# Reporting and Fixing Security Issues
+
+Please do not open GitHub issues or pull requests - this makes the problem immediately visible to everyone, including malicious actors. Security issues in this open source project can be safely reported via the Meta Bug Bounty program:
+
+https://www.facebook.com/whitehat
+
+Meta's security team will triage your report and determine whether or not is it eligible for a bounty under our program.
+",22,b facebook/fbthrift 8d5c7eb12f13fb13e2dd471e5cbe1fdcc2e22e17

@@ -1,0 +1,7 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+faisalman/ua-parser-js,SECURITY.md,47c310e20380e15fa0575b45ba4c1a8d01bf00d2,2021-09-16 15:11:51+00:00,,"# Security Policy
+
+## Reporting a Vulnerability
+
+Please report security issues to `f@faisalman.com`
+",100,b faisalman/ua-parser-js 47c310e20380e15fa0575b45ba4c1a8d01bf00d2

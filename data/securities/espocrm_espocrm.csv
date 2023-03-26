@@ -1,0 +1,30 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+espocrm/espocrm,SECURITY.md,3883881afc50f077dc1456360cd81dbe383fae0d,2020-04-29 11:09:27+00:00,,"# Security Policy
+
+## Reporting a vulnerability
+
+If you believe you have discovered a vulnerability in EspoCRM please contacts us via [this](https://www.espocrm.com/contacts/) or [this](https://www.espocrm.com/support/) forms.
+
+## Supported versions
+
+For severe vulnerabilities we provide fixes for 5 minor versions (the second number in the version string) back from the current stable version.
+",396,b espocrm/espocrm 3883881afc50f077dc1456360cd81dbe383fae0d
+espocrm/espocrm,SECURITY.md,62b8b30e3a0ecb84bc7c09706163c9a41bc001dc,2020-04-29 12:16:47+00:00,"# Security Policy
+
+## Reporting a vulnerability
+
+If you believe you have discovered a vulnerability in EspoCRM please contacts us via [this](https://www.espocrm.com/contacts/) or [this](https://www.espocrm.com/support/) forms.
+
+## Supported versions
+
+For severe vulnerabilities we provide fixes for 5 minor versions (the second number in the version string) back from the current stable version.
+","# Security Policy
+
+## Reporting a vulnerability
+
+If you believe you have discovered a vulnerability in EspoCRM please contacts us via [this](https://www.espocrm.com/contacts/) or [this](https://www.espocrm.com/support/) forms.
+
+## Supported versions
+
+For severe vulnerabilities we provide fixes for 2 minor versions (the second number in the version string) back from the current stable version. Separate patches or manual fix guidelines will be provided for more old versions.
+",83,b espocrm/espocrm 62b8b30e3a0ecb84bc7c09706163c9a41bc001dc

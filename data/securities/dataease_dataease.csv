@@ -1,0 +1,75 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+dataease/dataease,SECURITY.md,6e05c7c2329bc0cd62b8f5254c53b6d6c85e0c3c,2022-01-10 07:47:01+00:00,,"# 安全说明
+
+如果你发现安全问题，请直接联系我们，我们携手让世界更好：
+
+- wei@fit2cloud.com
+- support@fit2cloud.com
+- 400-052-0755
+",97,b dataease/dataease 6e05c7c2329bc0cd62b8f5254c53b6d6c85e0c3c
+dataease/dataease,SECURITY.md,4a90d173895280ad67730fae427b30b26ff97c63,2022-02-07 08:19:29+00:00,"# 安全说明
+
+如果你发现安全问题，请直接联系我们，我们携手让世界更好：
+
+- wei@fit2cloud.com
+- support@fit2cloud.com
+- 400-052-0755
+","# 安全说明
+
+如果您发现安全问题，请直接联系我们：
+
+- wei@fit2cloud.com
+- support@fit2cloud.com
+- 400-052-0755
+
+感谢您的支持！
+
+# Security Policy
+
+All security bugs should be reported to the contact as below:
+
+- wei@fit2cloud.com
+- support@fit2cloud.com
+- 400-052-0755
+
+Thanks for you support!
+",178,b dataease/dataease 4a90d173895280ad67730fae427b30b26ff97c63
+dataease/dataease,SECURITY.md,6278f8b4a23fc7014ccdfc8322419015d47fe9b4,2022-08-25 08:09:21+00:00,"# 安全说明
+
+如果您发现安全问题，请直接联系我们：
+
+- wei@fit2cloud.com
+- support@fit2cloud.com
+- 400-052-0755
+
+感谢您的支持！
+
+# Security Policy
+
+All security bugs should be reported to the contact as below:
+
+- wei@fit2cloud.com
+- support@fit2cloud.com
+- 400-052-0755
+
+Thanks for you support!
+","# 安全说明
+
+如果您发现安全问题，请直接联系我们：
+
+- wei@fit2cloud.com
+- support@fit2cloud.com
+- 400-052-0755
+
+感谢您的支持！
+
+# Security Policy
+
+All security bugs should be reported to the contact as below:
+
+- wei@fit2cloud.com
+- support@fit2cloud.com
+- 400-052-0755
+
+Thanks for your support!
+",1,b dataease/dataease 6278f8b4a23fc7014ccdfc8322419015d47fe9b4

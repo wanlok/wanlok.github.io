@@ -1,0 +1,6 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+etcd-io/etcd,.github/SECURITY.md,08db37db544d765581228ded2cefb91dc7ea1935,2019-07-23 19:43:15+00:00,,"Please read https://github.com/etcd-io/etcd/blob/master/security/README.md.
+",76,b etcd-io/etcd 08db37db544d765581228ded2cefb91dc7ea1935
+etcd-io/etcd,.github/SECURITY.md,b6562a24b61911e733fad1f0e845b2270fada177,2021-05-12 17:41:24+00:00,"Please read https://github.com/etcd-io/etcd/blob/master/security/README.md.
+","Please read https://github.com/etcd-io/etcd/blob/main/security/README.md.
+",4,b etcd-io/etcd b6562a24b61911e733fad1f0e845b2270fada177
