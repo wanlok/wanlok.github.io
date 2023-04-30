@@ -1,0 +1,17 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+linlinjava/litemall,SECURITY.md,7d79dfc68c36bd31e30c72acfdfd366f932bde0f,2021-10-07 14:47:59+00:00,,"# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.8.x   | :white_check_mark: |
+| < 1.8   | :x:                |
+
+## Reporting a Vulnerability
+
+Please report security issues to linlinjavaer@gmail.com
+",384,b linlinjava/litemall 7d79dfc68c36bd31e30c72acfdfd366f932bde0f

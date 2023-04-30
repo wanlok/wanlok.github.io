@@ -1,0 +1,20 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+neo4j-contrib/neo4j-apoc-procedures,SECURITY.md,dc1ec5ff4a89c9e2bad5e2e821c7ccf7eb53375a,2022-05-02 07:53:07+00:00,,"# Security Policy
+
+## Supported Versions
+
+The following versions/branches are currently supported with security updates:
+
+| Version | Supported until    |
+| ------- | ------------------ |
+| dev     | Further notice     |
+| 4.4     | December 1, 2024   |
+| 4.3     | December 16, 2022  |
+| 4.2     | May 16, 2022       |
+| 3.5     | May 27, 2022       |
+
+## Reporting a Vulnerability
+
+Found a security issue you want to share with us? Please follow the steps located in our responsible disclosure policy:
+https://neo4j.com/trust-center/responsible-disclosure/
+",559,b neo4j-contrib/neo4j-apoc-procedures dc1ec5ff4a89c9e2bad5e2e821c7ccf7eb53375a

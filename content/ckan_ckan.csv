@@ -1,0 +1,36 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+ckan/ckan,SECURITY.md,20d207e8a3df7b154d261ab2c36ca65ec40e8a9a,2019-11-07 21:22:42+00:00,,"# Security Policy
+
+## Supported Versions
+
+Security updates are offered for the **3 most recent** minor CKAN releases. They are included in patch releases, but not acknowledged in the release announcement or [CHANGELOG.rst](CHANGELOG.rst), hence the advice to always run the latest patch releases.
+
+For more about CKAN releases see: https://docs.ckan.org/en/2.8/maintaining/upgrading/#ckan-releases
+
+## Reporting a Vulnerability
+
+If you find a potential security vulnerability please email security@ckan.org, rather than creating a public issue on GitHub.
+",555,b ckan/ckan 20d207e8a3df7b154d261ab2c36ca65ec40e8a9a
+ckan/ckan,SECURITY.md,1e5424fa7ce12e33c699d66f60d6bb0d3fcd0835,2022-05-04 11:49:22+00:00,"# Security Policy
+
+## Supported Versions
+
+Security updates are offered for the **3 most recent** minor CKAN releases. They are included in patch releases, but not acknowledged in the release announcement or [CHANGELOG.rst](CHANGELOG.rst), hence the advice to always run the latest patch releases.
+
+For more about CKAN releases see: https://docs.ckan.org/en/2.8/maintaining/upgrading/#ckan-releases
+
+## Reporting a Vulnerability
+
+If you find a potential security vulnerability please email security@ckan.org, rather than creating a public issue on GitHub.
+","# Security Policy
+
+## Supported Versions
+
+Security updates are offered for the **3 most recent** minor CKAN releases. They are included in patch releases, but not acknowledged in the release announcement or [CHANGELOG.rst](CHANGELOG.rst), hence the advice to always run the latest patch releases.
+
+For more about CKAN releases see: http://docs.ckan.org/en/latest/maintaining/upgrading/index.html#ckan-releases
+
+## Reporting a Vulnerability
+
+If you find a potential security vulnerability please email security@ckan.org, rather than creating a public issue on GitHub.
+",17,b ckan/ckan 1e5424fa7ce12e33c699d66f60d6bb0d3fcd0835

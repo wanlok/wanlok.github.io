@@ -1,0 +1,17 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+zencart/zencart,.github/SECURITY.md,7c6e637e23f8f499a536d9678350f6a8705fb68c,2020-11-14 17:33:21+00:00,,"# Security Policy
+
+## Supported Versions
+
+Officially only the latest two releases of Zen Cart are supported for bugs and security issues.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.5.7   | :white_check_mark: |
+| 1.5.6   | :white_check_mark: |
+| <= 1.5.5   | :x:                |
+
+## Reporting a Vulnerability
+
+If you discover a security vulnerability, please email `security` @ `zen-cart.com` with your proof-of-concept including all the necessary steps to recreate the problem.
+",507,b zencart/zencart 7c6e637e23f8f499a536d9678350f6a8705fb68c

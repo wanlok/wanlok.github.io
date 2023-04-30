@@ -1,0 +1,24 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+VSCodeVim/Vim,SECURITY.md,5d25171edcc2a01f0b19f4184ea2e801f14d1a00,2021-10-14 20:17:51+00:00,,"# Security Policy
+
+## Reporting a Vulnerability
+
+Please *do not* open an issue for a security vulnerability.
+
+Instead, please send an email to jasonfields4@gmail.com with ""SECURITY"" in the subject. I should get back to you within 48 hours; please follow up with another email if I do not.
+",289,b VSCodeVim/Vim 5d25171edcc2a01f0b19f4184ea2e801f14d1a00
+VSCodeVim/Vim,SECURITY.md,8aa78b21cf1a35972eae7c92a2e21f6297f26dbc,2021-10-14 21:09:15+00:00,"# Security Policy
+
+## Reporting a Vulnerability
+
+Please *do not* open an issue for a security vulnerability.
+
+Instead, please send an email to jasonfields4@gmail.com with ""SECURITY"" in the subject. I should get back to you within 48 hours; please follow up with another email if I do not.
+","# Security Policy
+
+## Reporting a Vulnerability
+
+Please _do not_ open an issue for a security vulnerability.
+
+Instead, please send an email to jasonfields4@gmail.com with ""SECURITY"" in the subject. I should get back to you within 48 hours; please follow up with another email if I do not.
+",2,b VSCodeVim/Vim 8aa78b21cf1a35972eae7c92a2e21f6297f26dbc

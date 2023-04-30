@@ -1,0 +1,23 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+EGroupware/egroupware,SECURITY.md,c803fdc079e006d55c5f335891c3e27063ae91e5,2021-10-23 07:33:45+00:00,,"# Security Policy
+
+## Supported Versions
+
+Please report security issues to <email>
+",83,b EGroupware/egroupware c803fdc079e006d55c5f335891c3e27063ae91e5
+EGroupware/egroupware,SECURITY.md,ab216c39cae420552b39e0d006a5568ef5c70b24,2021-10-23 07:39:55+00:00,"# Security Policy
+
+## Supported Versions
+
+Please report security issues to <email>
+","# Security Policy
+
+## Supported Versions
+* next release / master
+* latest released version: **21.1**
+* old released version: 20.1 (major security fixes only!)
+
+Please report security issues to <security@egroupware.org>
+
+If you need to send information in a secure way, please contakt us first, so we can send you our PGP keys to do so.
+",254,b EGroupware/egroupware ab216c39cae420552b39e0d006a5568ef5c70b24

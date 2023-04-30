@@ -1,0 +1,63 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+voxpelli/node-connect-pg-simple,SECURITY.md,ec2c9b8ee2788ecf03413ec75355621d826b5100,2019-08-21 21:33:22+00:00,,"# Security Policy
+
+## Supported Versions
+
+| Version   | Status                 | Note                  |
+| --------- | ---------------------- | --------------------- |
+| `6.x.x`   | :white_check_mark:     | Fully supported       |
+| `5.x.x`   | :large_orange_diamond: | Critical fixes only   |
+| < `5.x.x` | :x:                    | Generally unsupported |
+
+## Reporting a Vulnerability
+
+Communicate with the maintainer, [@voxpelli](https://github.com/voxpelli/), through pelle@kodfabrik.se or other private channel. Start the subject line with `SECURITY:` or similarly _clearly_ convey the importance of the communication.
+
+The maintainer will get back to you as soon as possible and work with you to evaluate and handle the vulnerability.
+
+As none of the maintainers are working on this module as part of their day jobs, no promises can be made in how fast a fix can be made.
+
+Whenever feasible, a patch version fixing the security vulnerability will be released and the reporting user, unless it wishes to stay anonymous, will be credited for their contribution.
+",1066,b voxpelli/node-connect-pg-simple ec2c9b8ee2788ecf03413ec75355621d826b5100
+voxpelli/node-connect-pg-simple,SECURITY.md,59c7fbcfced65e68fe9391c2b0128a6c2aca0fa6,2020-08-10 20:59:50+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version   | Status                 | Note                  |
+| --------- | ---------------------- | --------------------- |
+| `6.x.x`   | :white_check_mark:     | Fully supported       |
+| `5.x.x`   | :large_orange_diamond: | Critical fixes only   |
+| < `5.x.x` | :x:                    | Generally unsupported |
+
+## Reporting a Vulnerability
+
+Communicate with the maintainer, [@voxpelli](https://github.com/voxpelli/), through pelle@kodfabrik.se or other private channel. Start the subject line with `SECURITY:` or similarly _clearly_ convey the importance of the communication.
+
+The maintainer will get back to you as soon as possible and work with you to evaluate and handle the vulnerability.
+
+As none of the maintainers are working on this module as part of their day jobs, no promises can be made in how fast a fix can be made.
+
+Whenever feasible, a patch version fixing the security vulnerability will be released and the reporting user, unless it wishes to stay anonymous, will be credited for their contribution.
+","## Security contact information
+
+To report a security vulnerability, please use the
+[Tidelift security contact](https://tidelift.com/security).
+Tidelift will coordinate the fix and disclosure.
+",926,b voxpelli/node-connect-pg-simple 59c7fbcfced65e68fe9391c2b0128a6c2aca0fa6
+voxpelli/node-connect-pg-simple,SECURITY.md,7683d4004664ecb9b1615e151249f88271d8b111,2020-08-16 16:10:42+00:00,"## Security contact information
+
+To report a security vulnerability, please use the
+[Tidelift security contact](https://tidelift.com/security).
+Tidelift will coordinate the fix and disclosure.
+","# Security Policy
+
+## Supported Versions
+
+The latest minor release, unless stated otherwise
+
+## Reporting a Vulnerability
+
+To report a security vulnerability, please use the
+[Tidelift security contact](https://tidelift.com/security).
+Tidelift will coordinate the fix and disclosure.
+",97,b voxpelli/node-connect-pg-simple 7683d4004664ecb9b1615e151249f88271d8b111

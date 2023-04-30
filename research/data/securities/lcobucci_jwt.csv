@@ -1,0 +1,54 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+lcobucci/jwt,.github/SECURITY.md,c7670ea45916e6b64505471f1b0da5724b7d3934,2019-05-25 10:28:39+00:00,,"# Security Policy
+
+## Supported Versions
+
+| Version     | Supported          |
+| ----------- | ------------------ |
+| 4.0.x-dev   | :white_check_mark: |
+| 3.4.x-dev   | :white_check_mark: |
+| 3.3.x       | :white_check_mark: |
+| 3.2.x       | :white_check_mark: |
+| < 3.2       | :x:                |
+
+## Reporting a Vulnerability
+
+In case of a security vulnerability, please file an issue. It's shall be
+prioritised and ported back/forth to all supported versions.
+
+",467,b lcobucci/jwt c7670ea45916e6b64505471f1b0da5724b7d3934
+lcobucci/jwt,.github/SECURITY.md,93f7cd9f06db4c45c62fb84f9894ded62d1713c4,2021-02-01 14:28:38+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version     | Supported          |
+| ----------- | ------------------ |
+| 4.0.x-dev   | :white_check_mark: |
+| 3.4.x-dev   | :white_check_mark: |
+| 3.3.x       | :white_check_mark: |
+| 3.2.x       | :white_check_mark: |
+| < 3.2       | :x:                |
+
+## Reporting a Vulnerability
+
+In case of a security vulnerability, please file an issue. It's shall be
+prioritised and ported back/forth to all supported versions.
+
+","# Security Policy
+
+## Supported Versions
+
+| Version     | Supported          |
+| ----------- | ------------------ |
+| 4.2.x-dev   | :white_check_mark: |
+| 4.1.x       | :white_check_mark: |
+| 4.0.x       | :white_check_mark: |
+| 3.4         | :white_check_mark: |
+| < 3.4       | :x:                |
+
+## Reporting a Vulnerability
+
+In case of a security vulnerability, please file an issue. It's shall be
+prioritised and ported back/forth to all supported versions.
+
+",13,b lcobucci/jwt 93f7cd9f06db4c45c62fb84f9894ded62d1713c4

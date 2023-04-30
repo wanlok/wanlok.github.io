@@ -1,0 +1,42 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+ezsystems/.github,SECURITY.md,78ebe2060588be3b7106a41aafa86c28330b965a,2021-02-04 08:37:35+00:00,,"# Security
+
+## How to report security vulnerabilities
+https://doc.ibexa.co/en/latest/guide/reporting_issues/
+
+## Security advisories
+https://developers.ibexa.co/security-advisories
+
+## Security policy
+https://www.ibexa.co/software-information/security
+
+## Security blog posts
+https://www.ibexa.co/tags/view/Blog%20post%20categories/Security
+",341,b ezsystems/.github 78ebe2060588be3b7106a41aafa86c28330b965a
+ezsystems/.github,SECURITY.md,3dbbea32d17ddf291333ee30862508868217801a,2021-12-10 13:39:18+00:00,"# Security
+
+## How to report security vulnerabilities
+https://doc.ibexa.co/en/latest/guide/reporting_issues/
+
+## Security advisories
+https://developers.ibexa.co/security-advisories
+
+## Security policy
+https://www.ibexa.co/software-information/security
+
+## Security blog posts
+https://www.ibexa.co/tags/view/Blog%20post%20categories/Security
+","# Security
+
+## How to report security vulnerabilities
+https://doc.ibexa.co/en/latest/guide/reporting_issues/
+
+## Security advisories
+https://developers.ibexa.co/security-advisories
+
+## Security policy
+https://www.ibexa.co/software-information/security
+
+## Security blog posts
+https://www.ibexa.co/topics/id/60
+",37,b ezsystems/.github 3dbbea32d17ddf291333ee30862508868217801a

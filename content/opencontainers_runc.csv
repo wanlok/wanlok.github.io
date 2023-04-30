@@ -1,0 +1,27 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+opencontainers/runc,SECURITY.md,4be50fe338ac50140eb4550b7eba0be9b878d2fd,2019-10-01 11:38:50+00:00,,"# Security
+
+The reporting process and disclosure communications are outlined in [/org/security](https://github.com/opencontainers/org/blob/master/security/).
+",158,b opencontainers/runc 4be50fe338ac50140eb4550b7eba0be9b878d2fd
+opencontainers/runc,SECURITY.md,c8ba985325afa3969d171afa96cde1304ae9a271,2020-01-26 07:13:05+00:00,"# Security
+
+The reporting process and disclosure communications are outlined in [/org/security](https://github.com/opencontainers/org/blob/master/security/).
+","# Security
+
+The reporting process and disclosure communications are outlined in [/org/SECURITY.md](https://github.com/opencontainers/org/blob/master/SECURITY.md).
+",22,b opencontainers/runc c8ba985325afa3969d171afa96cde1304ae9a271
+opencontainers/runc,SECURITY.md,ed4a3e9bc6d8d21c0b7b4d25a482ba8a36c59636,2020-01-26 14:03:13+00:00,"# Security
+
+The reporting process and disclosure communications are outlined in [/org/SECURITY.md](https://github.com/opencontainers/org/blob/master/SECURITY.md).
+","# Security
+
+The reporting process and disclosure communications are outlined [here](https://github.com/opencontainers/org/blob/master/SECURITY.md).
+",18,b opencontainers/runc ed4a3e9bc6d8d21c0b7b4d25a482ba8a36c59636
+opencontainers/runc,SECURITY.md,7d940bdf994a85934154845dc3c31ffd1c94d21d,2023-03-09 15:03:41+00:00,"# Security
+
+The reporting process and disclosure communications are outlined [here](https://github.com/opencontainers/org/blob/master/SECURITY.md).
+","# Security
+
+When reporting a security issue, do not create an issue or file a pull request on GitHub.
+The reporting process and disclosure communications are outlined [here](https://github.com/opencontainers/org/blob/master/SECURITY.md).
+",90,b opencontainers/runc 7d940bdf994a85934154845dc3c31ffd1c94d21d

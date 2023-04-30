@@ -1,0 +1,240 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+kiwitcms/.github,SECURITY.md,59d3debe615d091f05ae5481608934e8d1389f83,2019-11-10 16:23:35+00:00,,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| latest  | :heavy_check_mark: |
+
+## Reporting a Vulnerability
+
+In case you have found a security problem with any of the packages produced
+by Kiwi TCMS **DO NOT** report it into GitHub Issues. Instead go to
+[https://tidelift.com/security](https://tidelift.com/security)
+and follow the instructions there.
+
+The Kiwi TCMS team is registered as a lifter at Tidelift and will be
+notified when you report the security problem with them!
+",541,b kiwitcms/.github 59d3debe615d091f05ae5481608934e8d1389f83
+kiwitcms/.github,SECURITY.md,7bb7786dc7ef8ff2e113472e3ec74e70f1f275a6,2020-08-21 12:18:16+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| latest  | :heavy_check_mark: |
+
+## Reporting a Vulnerability
+
+In case you have found a security problem with any of the packages produced
+by Kiwi TCMS **DO NOT** report it into GitHub Issues. Instead go to
+[https://tidelift.com/security](https://tidelift.com/security)
+and follow the instructions there.
+
+The Kiwi TCMS team is registered as a lifter at Tidelift and will be
+notified when you report the security problem with them!
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| latest  | :heavy_check_mark: |
+
+## Supported resources
+
+- All repositories published under https://github.com/kiwitcms/
+- Our GitHub Marketplace instegration at https://github.com/marketplace/kiwi-tcms/
+- Our GitHub integration App accessible at https://github.com/apps/kiwi-tcms
+- Public & Private Tenant SaaS from https://public.tenant.kiwitcms.org/
+
+## Reporting a Vulnerability
+
+In case you have found a security problem with any of the resources mentioned
+above **DO NOT** report it into GitHub Issues! Instead go to
+[https://tidelift.com/security](https://tidelift.com/security)
+and follow the instructions there.
+
+The Kiwi TCMS team is registered as a lifter at Tidelift and will be
+notified when you report the security problem with them!
+",348,b kiwitcms/.github 7bb7786dc7ef8ff2e113472e3ec74e70f1f275a6
+kiwitcms/.github,SECURITY.md,39cb314d9a7b925cf55f424f39c255ba10fb8f1e,2020-08-21 12:40:08+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| latest  | :heavy_check_mark: |
+
+## Supported resources
+
+- All repositories published under https://github.com/kiwitcms/
+- Our GitHub Marketplace instegration at https://github.com/marketplace/kiwi-tcms/
+- Our GitHub integration App accessible at https://github.com/apps/kiwi-tcms
+- Public & Private Tenant SaaS from https://public.tenant.kiwitcms.org/
+
+## Reporting a Vulnerability
+
+In case you have found a security problem with any of the resources mentioned
+above **DO NOT** report it into GitHub Issues! Instead go to
+[https://tidelift.com/security](https://tidelift.com/security)
+and follow the instructions there.
+
+The Kiwi TCMS team is registered as a lifter at Tidelift and will be
+notified when you report the security problem with them!
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| latest  | :heavy_check_mark: |
+
+## Supported resources
+
+- All repositories published under https://github.com/kiwitcms/
+- Our GitHub Marketplace instegration at https://github.com/marketplace/kiwi-tcms/
+- Our GitHub integration App accessible at https://github.com/apps/kiwi-tcms
+- Public & Private Tenant SaaS from https://public.tenant.kiwitcms.org/
+
+## Reporting a Vulnerability
+
+In case you have found a security problem with any of the resources mentioned
+above **DO NOT** report it into GitHub Issues!
+
+Email the Kiwi TCMS team directly at *info@kiwitcms.org* to coordinate the fix
+and discloser of the issue.
+
+
+Alternatively you can go to
+[https://tidelift.com/security](https://tidelift.com/security)
+and follow the instructions there. Kiwi TCMS is a registered partner of Tidelift
+and will be notified when you report the security problem with them!
+
+
+## Security process
+
+Here are the steps we follow:
+
+1. The person discovering an issue (the reporter) privately reports it to info@kiwitcms.org.
+1. The Kiwi TCMS team will reply to the reporter within 24 hours to acknowledge receipt.
+1. The Kiwi TCMS team will start investigating the report.
+1. The Kiwi TCMS team & reporter will keep the report confidential.
+   This means avoiding public GitHub issues or commits.
+1. Once a report has been investigated, the Kiwi TCMS team will notify the reporter whether
+   the report has been accepted or rejected, with an explanation.
+1. If a report is rejected, there is nothing else to do. If accepted, the process continues.
+1. The Kiwi TCMS team will notify GitHub within 24 hours of a confirmed report.
+   Note: this is a requirement for our listing on GitHub Marketplace!
+1. The Kiwi TCMS team will prepare a fix and an accompanying announcement.
+1. The Kiwi TCMS team will share the fix and draft announcement with the reporter.
+1. Kiwi TCMS and the reporter will negotiate the fix, announcement, and release schedule.
+1. With an announcement plan in place, we'll commit the fix and publish fixed release(s).
+   The commits and releases will be made as close to the announcement as possible, and
+   will not mention that they address a security vulnerability.
+1. Release announcements for the new version(s) will go out as normal.
+",1501,b kiwitcms/.github 39cb314d9a7b925cf55f424f39c255ba10fb8f1e
+kiwitcms/.github,SECURITY.md,b84fc41fd1b204c234f073f331d09021cb6eda96,2020-08-21 12:42:01+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| latest  | :heavy_check_mark: |
+
+## Supported resources
+
+- All repositories published under https://github.com/kiwitcms/
+- Our GitHub Marketplace instegration at https://github.com/marketplace/kiwi-tcms/
+- Our GitHub integration App accessible at https://github.com/apps/kiwi-tcms
+- Public & Private Tenant SaaS from https://public.tenant.kiwitcms.org/
+
+## Reporting a Vulnerability
+
+In case you have found a security problem with any of the resources mentioned
+above **DO NOT** report it into GitHub Issues!
+
+Email the Kiwi TCMS team directly at *info@kiwitcms.org* to coordinate the fix
+and discloser of the issue.
+
+
+Alternatively you can go to
+[https://tidelift.com/security](https://tidelift.com/security)
+and follow the instructions there. Kiwi TCMS is a registered partner of Tidelift
+and will be notified when you report the security problem with them!
+
+
+## Security process
+
+Here are the steps we follow:
+
+1. The person discovering an issue (the reporter) privately reports it to info@kiwitcms.org.
+1. The Kiwi TCMS team will reply to the reporter within 24 hours to acknowledge receipt.
+1. The Kiwi TCMS team will start investigating the report.
+1. The Kiwi TCMS team & reporter will keep the report confidential.
+   This means avoiding public GitHub issues or commits.
+1. Once a report has been investigated, the Kiwi TCMS team will notify the reporter whether
+   the report has been accepted or rejected, with an explanation.
+1. If a report is rejected, there is nothing else to do. If accepted, the process continues.
+1. The Kiwi TCMS team will notify GitHub within 24 hours of a confirmed report.
+   Note: this is a requirement for our listing on GitHub Marketplace!
+1. The Kiwi TCMS team will prepare a fix and an accompanying announcement.
+1. The Kiwi TCMS team will share the fix and draft announcement with the reporter.
+1. Kiwi TCMS and the reporter will negotiate the fix, announcement, and release schedule.
+1. With an announcement plan in place, we'll commit the fix and publish fixed release(s).
+   The commits and releases will be made as close to the announcement as possible, and
+   will not mention that they address a security vulnerability.
+1. Release announcements for the new version(s) will go out as normal.
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| latest  | :heavy_check_mark: |
+
+## Supported resources
+
+- All repositories published under https://github.com/kiwitcms/
+- Our GitHub Marketplace instegration at https://github.com/marketplace/kiwi-tcms/
+- Our GitHub integration App accessible at https://github.com/apps/kiwi-tcms
+- Public & Private Tenant SaaS from https://public.tenant.kiwitcms.org/
+
+## Reporting a Vulnerability
+
+In case you have found a security problem with any of the resources mentioned
+above **DO NOT** report it into GitHub Issues!
+
+Email the Kiwi TCMS team directly at *info@kiwitcms.org* to coordinate the fix
+and discloser of the issue.
+
+
+Alternatively you can go to
+[https://tidelift.com/security](https://tidelift.com/security)
+and follow the instructions there. Kiwi TCMS is a registered partner of Tidelift
+and will be notified when you report the security problem with them!
+
+
+## Security process
+
+Here are the steps we follow:
+
+1. The person discovering an issue (the reporter) privately reports it to info@kiwitcms.org.
+1. The Kiwi TCMS team will reply to the reporter within 24 hours to acknowledge receipt.
+1. The Kiwi TCMS team will start investigating the report.
+1. The Kiwi TCMS team & reporter will keep the report confidential.
+   This means avoiding public GitHub issues or commits.
+1. Once a report has been investigated, the Kiwi TCMS team will notify the reporter whether
+   the report has been accepted or rejected, with an explanation.
+1. If a report is rejected, there is nothing else to do. If accepted, the process continues.
+1. The Kiwi TCMS team will notify GitHub within 24 hours of a confirmed report.
+   Note: per our GitHub Marketplace agreement!
+1. The Kiwi TCMS team will prepare a fix and an accompanying announcement.
+1. The Kiwi TCMS team will share the fix and draft announcement with the reporter.
+1. Kiwi TCMS and the reporter will negotiate the fix, announcement, and release schedule.
+1. With an announcement plan in place, we'll commit the fix and publish fixed release(s).
+   The commits and releases will be made as close to the announcement as possible, and
+   will not mention that they address a security vulnerability.
+1. Release announcements for the new version(s) will go out as normal.
+",44,b kiwitcms/.github b84fc41fd1b204c234f073f331d09021cb6eda96

@@ -1,0 +1,75 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+apache/activemq,SECURITY.md,da9be56d5bae3a2a1f7242a10e55ad6685914615,2022-02-15 04:34:35+00:00,,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 5.16.x   | :white_check_mark: |
+| 5.15.x   | :white_check_mark: |
+| < 5.15.x | :x:                |
+
+## Reporting a Vulnerability
+
+For information on how to report a new security problem please see [here](https://www.apache.org/security/).
+Our existing security advisories are published [here](https://activemq.apache.org/security-advisories).
+",454,b apache/activemq da9be56d5bae3a2a1f7242a10e55ad6685914615
+apache/activemq,SECURITY.md,6681cde88c173b619552c144bee5c57e43e7b0d7,2022-02-15 06:35:30+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 5.16.x   | :white_check_mark: |
+| 5.15.x   | :white_check_mark: |
+| < 5.15.x | :x:                |
+
+## Reporting a Vulnerability
+
+For information on how to report a new security problem please see [here](https://www.apache.org/security/).
+Our existing security advisories are published [here](https://activemq.apache.org/security-advisories).
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 5.17.x   | :white_check_mark: |
+| 5.16.x   | :white_check_mark: |
+| <= 5.15.x | :x:                |
+
+## Reporting a Vulnerability
+
+For information on how to report a new security problem please see [here](https://www.apache.org/security/).
+Our existing security advisories are published [here](https://activemq.apache.org/security-advisories).
+",3,b apache/activemq 6681cde88c173b619552c144bee5c57e43e7b0d7
+apache/activemq,SECURITY.md,5fff8500b6b32ae8ba1f6f6ad4ed7ded0832ea45,2023-03-14 12:55:24+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 5.17.x   | :white_check_mark: |
+| 5.16.x   | :white_check_mark: |
+| <= 5.15.x | :x:                |
+
+## Reporting a Vulnerability
+
+For information on how to report a new security problem please see [here](https://www.apache.org/security/).
+Our existing security advisories are published [here](https://activemq.apache.org/security-advisories).
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 5.18.x   | :white_check_mark: |
+| 5.17.x   | :white_check_mark: |
+| 5.16.x   | :white_check_mark: |
+| <= 5.15.x | :x:                |
+
+## Reporting a Vulnerability
+
+For information on how to report a new security problem please see [here](https://www.apache.org/security/).
+Our existing security advisories are published [here](https://activemq.apache.org/security-advisories).
+",34,b apache/activemq 5fff8500b6b32ae8ba1f6f6ad4ed7ded0832ea45

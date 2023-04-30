@@ -1,0 +1,28 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+netlify/.github,SECURITY.md,018ec84c4be5839cd377d2a6c0b270e92b8b67ca,2021-07-21 17:43:11+00:00,,"# Security Policy
+
+To report a security issue, please use https://hackerone.com/netlify?type=team.
+
+The Netlify Security Team will respond as soon as possible.
+
+Any coordination and disclosure will be done using the Hackerone UI in order to privately discuss and fix the issue.
+
+",279,b netlify/.github 018ec84c4be5839cd377d2a6c0b270e92b8b67ca
+netlify/.github,SECURITY.md,2411346b2c901a7b93a4b375a5691609a91b79c3,2021-11-09 00:22:29+00:00,"# Security Policy
+
+To report a security issue, please use https://hackerone.com/netlify?type=team.
+
+The Netlify Security Team will respond as soon as possible.
+
+Any coordination and disclosure will be done using the Hackerone UI in order to privately discuss and fix the issue.
+
+","# Security Policy
+
+When submitting a security issue, always include: Summary, Impact, and Reproduction steps that are as clear as possible.
+
+- To report a security issue on public repos, please use https://hackerone.com/netlify?type=team.
+    - The Netlify Security Team will respond as soon as possible.
+    - Any coordination and disclosure will be done using the Hackerone UI in order to privately discuss and fix the issue.
+
+- To report a security issue on a private repo, please open the issue with the label `security`, and the Netlify Security Team will triage and perform an initial risk assessment.
+",331,b netlify/.github 2411346b2c901a7b93a4b375a5691609a91b79c3

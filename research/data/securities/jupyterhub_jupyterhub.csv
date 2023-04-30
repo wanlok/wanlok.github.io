@@ -1,0 +1,18 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+jupyterhub/jupyterhub,SECURITY.md,abc4bbebe426b76d9ec83764e7070acff14f884d,2021-04-24 06:12:51+00:00,,"# Reporting a Vulnerability
+
+If you believe you’ve found a security vulnerability in a Jupyter project,
+please report it to security@ipython.org. If you prefer to encrypt your 
+security reports, you can use [this PGP public key](https://jupyter-notebook.readthedocs.io/en/stable/_downloads/1d303a645f2505a8fd283826fafc9908/ipython_security.asc).
+",346,b jupyterhub/jupyterhub abc4bbebe426b76d9ec83764e7070acff14f884d
+jupyterhub/jupyterhub,SECURITY.md,3610454a12a92badc29cf182c1e3da1b5683b247,2021-06-01 16:51:20+00:00,"# Reporting a Vulnerability
+
+If you believe you’ve found a security vulnerability in a Jupyter project,
+please report it to security@ipython.org. If you prefer to encrypt your 
+security reports, you can use [this PGP public key](https://jupyter-notebook.readthedocs.io/en/stable/_downloads/1d303a645f2505a8fd283826fafc9908/ipython_security.asc).
+","# Reporting a Vulnerability
+
+If you believe you’ve found a security vulnerability in a Jupyter
+project, please report it to security@ipython.org. If you prefer to
+encrypt your security reports, you can use [this PGP public key](https://jupyter-notebook.readthedocs.io/en/stable/_downloads/1d303a645f2505a8fd283826fafc9908/ipython_security.asc).
+",4,b jupyterhub/jupyterhub 3610454a12a92badc29cf182c1e3da1b5683b247

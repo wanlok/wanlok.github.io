@@ -1,0 +1,21 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+prometheus/prometheus,SECURITY.md,fd022965c022f1f02858287325fb01f5ba29b936,2021-01-09 08:58:53+00:00,,"# Reporting a security issue
+
+The Prometheus security policy, including how to report vulnerabilities, can be
+found here:
+
+https://prometheus.io/docs/operating/security/
+",170,b prometheus/prometheus fd022965c022f1f02858287325fb01f5ba29b936
+prometheus/prometheus,SECURITY.md,8cc27af6eb0a3587955897b14c0693b91cb2c99c,2022-05-03 08:59:09+00:00,"# Reporting a security issue
+
+The Prometheus security policy, including how to report vulnerabilities, can be
+found here:
+
+https://prometheus.io/docs/operating/security/
+","# Reporting a security issue
+
+The Prometheus security policy, including how to report vulnerabilities, can be
+found here:
+
+<https://prometheus.io/docs/operating/security/>
+",2,b prometheus/prometheus 8cc27af6eb0a3587955897b14c0693b91cb2c99c

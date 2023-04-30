@@ -1,0 +1,84 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+OneKeyHQ/firmware,SECURITY.md,53a4116685a2b8365bf5960e87da82fb2a3ed49c,2019-06-06 17:50:57+00:00,,"# Security Policy
+
+## Reporting a Vulnerability
+
+To report security issues send an email to security@satoshilabs.com (this is not a support email!).
+
+The following keys may be used to communicate sensitive information to developers:
+
+| Name | Fingerprint |
+|------|-------------|
+| Marek Palatinus | 86E6792FC27BFD478860C11091F3B339B9A02A3D |
+| Pavol Rusnak    | 71B5A80A63FE12B0D74DABBFE4A883364AAF6E16 |
+
+You can import a key by running the following command with that individual’s fingerprint: `gpg --recv-keys <fingerprint>`.
+
+More info about our Responsible Disclosure program is available from https://trezor.io/security/
+",628,b OneKeyHQ/firmware 53a4116685a2b8365bf5960e87da82fb2a3ed49c
+OneKeyHQ/firmware,SECURITY.md,204d6f09d9633bb9956ee92433a25dd2c0790f33,2019-08-16 16:46:53+00:00,"# Security Policy
+
+## Reporting a Vulnerability
+
+To report security issues send an email to security@satoshilabs.com (this is not a support email!).
+
+The following keys may be used to communicate sensitive information to developers:
+
+| Name | Fingerprint |
+|------|-------------|
+| Marek Palatinus | 86E6792FC27BFD478860C11091F3B339B9A02A3D |
+| Pavol Rusnak    | 71B5A80A63FE12B0D74DABBFE4A883364AAF6E16 |
+
+You can import a key by running the following command with that individual’s fingerprint: `gpg --recv-keys <fingerprint>`.
+
+More info about our Responsible Disclosure program is available from https://trezor.io/security/
+","# Security Policy
+
+## Reporting a Vulnerability
+
+To report security issues send an email to security@satoshilabs.com (this is not a support email!).
+
+The following keys may be used to communicate sensitive information to developers:
+
+| Name            | Fingerprint                              |
+|-----------------|------------------------------------------|
+| Pavol Rusnak    | 86E6792FC27BFD478860C11091F3B339B9A02A3D |
+| Marek Palatinus | 71B5A80A63FE12B0D74DABBFE4A883364AAF6E16 |
+
+You can import a key by running the following command with that individual’s fingerprint: `gpg --recv-keys <fingerprint>`.
+
+More info about our Responsible Disclosure program is available from https://trezor.io/security/
+",106,b OneKeyHQ/firmware 204d6f09d9633bb9956ee92433a25dd2c0790f33
+OneKeyHQ/firmware,SECURITY.md,8d4d6b2278191b3ca42db0b06f593e815ce40686,2019-08-16 16:47:46+00:00,"# Security Policy
+
+## Reporting a Vulnerability
+
+To report security issues send an email to security@satoshilabs.com (this is not a support email!).
+
+The following keys may be used to communicate sensitive information to developers:
+
+| Name            | Fingerprint                              |
+|-----------------|------------------------------------------|
+| Pavol Rusnak    | 86E6792FC27BFD478860C11091F3B339B9A02A3D |
+| Marek Palatinus | 71B5A80A63FE12B0D74DABBFE4A883364AAF6E16 |
+
+You can import a key by running the following command with that individual’s fingerprint: `gpg --recv-keys <fingerprint>`.
+
+More info about our Responsible Disclosure program is available from https://trezor.io/security/
+","# Security Policy
+
+## Reporting a Vulnerability
+
+To report security issues send an email to security@satoshilabs.com (this is not a support email!).
+
+The following keys may be used to communicate sensitive information to developers:
+
+| Name            | Fingerprint                                |
+|-----------------|--------------------------------------------|
+| Pavol Rusnak    | `86E6792FC27BFD478860C11091F3B339B9A02A3D` |
+| Marek Palatinus | `71B5A80A63FE12B0D74DABBFE4A883364AAF6E16` |
+
+You can import a key by running the following command with that individual’s fingerprint: `gpg --recv-keys <fingerprint>`.
+
+More info about our Responsible Disclosure program is available from https://trezor.io/security/
+",8,b OneKeyHQ/firmware 8d4d6b2278191b3ca42db0b06f593e815ce40686

@@ -1,0 +1,5 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+pypa/pip,SECURITY.md,816cc815ec849a52f302fe276afcb0d78466dbe1,2023-02-20 15:37:15+00:00,,"# Security and Vulnerability Reporting
+
+If you find any security issues, please report to [security@python.org](mailto:security@python.org)
+",140,b pypa/pip 816cc815ec849a52f302fe276afcb0d78466dbe1

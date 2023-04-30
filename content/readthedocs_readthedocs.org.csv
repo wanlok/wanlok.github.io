@@ -1,0 +1,5 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+readthedocs/readthedocs.org,SECURITY.md,fd1b00d6aced1c5b5771bf18f2240958eebaf264,2022-11-09 22:48:05+00:00,,"# Security Policy
+
+Please see https://docs.readthedocs.io/page/security.html.
+",78,b readthedocs/readthedocs.org fd1b00d6aced1c5b5771bf18f2240958eebaf264

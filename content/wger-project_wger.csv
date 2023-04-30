@@ -1,0 +1,12 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+wger-project/wger,SECURITY.md,f66fec79c363aede00da86dd941bcb186c72b3c9,2021-11-18 11:57:32+00:00,,"# Security Policy
+
+## Supported Versions
+
+While we do have versions and releases, wger is developed and deployed like a rolling release. Currently we don't have the resources to support older versions.
+
+
+## Reporting a Vulnerability
+
+If you found a vulnerability, please mention @rolandgeider in an issue or write an email to roland [at] geider.net. We will try to fix it as fast as we can.
+",391,b wger-project/wger f66fec79c363aede00da86dd941bcb186c72b3c9

@@ -1,0 +1,50 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+MidnightBSD/src,SECURITY.md,56f7bb3207fd60e65e02e1fb21d9e7e1fbbb8eb6,2020-07-31 23:00:20+00:00,,"# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.3     | :white_check_mark: |
+| 1.2.x   | :white_check_mark: |
+| 1.1.x   | :x:                |
+| < 1.1   | :x:                |
+
+## Reporting a Vulnerability
+
+Report security vulnerabilities to security@midnightbsd.org 
+",455,b MidnightBSD/src 56f7bb3207fd60e65e02e1fb21d9e7e1fbbb8eb6
+MidnightBSD/src,SECURITY.md,1e5650063cc698624bf4a8d3e0262d201ccbf7d0,2023-02-23 18:59:54+00:00,"# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.3     | :white_check_mark: |
+| 1.2.x   | :white_check_mark: |
+| 1.1.x   | :x:                |
+| < 1.1   | :x:                |
+
+## Reporting a Vulnerability
+
+Report security vulnerabilities to security@midnightbsd.org 
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 3.0     | :white_check_mark: |
+| 2.2     | :white_check_mark: |
+| < 2.1   | :x:                |
+
+## Reporting a Vulnerability
+
+Report security vulnerabilities to security@midnightbsd.org 
+",162,b MidnightBSD/src 1e5650063cc698624bf4a8d3e0262d201ccbf7d0

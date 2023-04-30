@@ -1,0 +1,7 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+spring-projects/.github,SECURITY.md,d3e611fabfbe3fa207b0c9d88deff96108e5cc55,2023-02-21 18:47:40+00:00,,"# Security Policy
+## Reporting a Vulnerability
+
+If you think you have found a security vulnerability, please **DO NOT** disclose it publicly until we’ve had a chance to fix it.
+Please don’t report security vulnerabilities using GitHub issues, instead head over to https://spring.io/security-policy and learn how to disclose them responsibly.
+",342,b spring-projects/.github d3e611fabfbe3fa207b0c9d88deff96108e5cc55

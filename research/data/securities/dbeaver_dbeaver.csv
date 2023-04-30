@@ -1,0 +1,18 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+dbeaver/dbeaver,SECURITY.md,9a1f0ebd32d65a2c97b22222a6acff53f01d0418,2021-09-30 15:28:28+00:00,,"# Security Policy
+
+## Reporting a Vulnerability
+
+Please report security issues to tech-support@dbeaver.com
+",107,b dbeaver/dbeaver 9a1f0ebd32d65a2c97b22222a6acff53f01d0418
+dbeaver/dbeaver,SECURITY.md,5a2450beeb18095595264f6778b75ca2fbca63ca,2021-10-01 14:40:08+00:00,"# Security Policy
+
+## Reporting a Vulnerability
+
+Please report security issues to tech-support@dbeaver.com
+","## Security Policy
+
+### Reporting a Vulnerability
+
+Please report security issues to tech-support@dbeaver.com
+",2,b dbeaver/dbeaver 5a2450beeb18095595264f6778b75ca2fbca63ca

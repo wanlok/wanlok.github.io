@@ -1,4 +1,4 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
 snipe/snipe-it,SECURITY.md,1886841ec5cb71cb12bbd205eae7fd4ec9aea41b,2021-04-21 05:15:41+00:00,,"# Security Policy
 
 We take security issues very seriously, and will always attempt to address any 
@@ -26,4 +26,4 @@ This obviously varies based on the severity of the  security issue and the diffi
 but those have historically been the timelines we worm around.
 
 For a full breakdown of our security policies, please see https://snipeitapp.com/security.
-",1083
+",1083,b snipe/snipe-it 1886841ec5cb71cb12bbd205eae7fd4ec9aea41b

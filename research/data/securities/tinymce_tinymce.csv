@@ -1,0 +1,593 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+tinymce/tinymce,SECURITY.md,c337c9300c6fe716b27441187893972e44cc03f5,2020-05-15 05:35:48+00:00,,"# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+| ------- | ------------------------------ |
+| 5.3.x   | &#10004;                       |
+| 4.9.x   | &#10004; (critical fixes only) |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/enterprise/system-requirements/#supportedtinymceversions).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/advanced/security/#reportingtinymcesecurityissues).
+",775,b tinymce/tinymce c337c9300c6fe716b27441187893972e44cc03f5
+tinymce/tinymce,SECURITY.md,520b4b50ce25b1d78d3a7573eed4b20fe5786677,2020-08-22 06:36:50+00:00,"# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+| ------- | ------------------------------ |
+| 5.3.x   | &#10004;                       |
+| 4.9.x   | &#10004; (critical fixes only) |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/enterprise/system-requirements/#supportedtinymceversions).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/advanced/security/#reportingtinymcesecurityissues).
+","# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+| ------- | ------------------------------ |
+| 5.4.x   | &#10004;                       |
+| 4.9.x   | &#10004; (critical fixes only) |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/enterprise/system-requirements/#supportedtinymceversions).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/advanced/security/#reportingtinymcesecurityissues).
+",1,b tinymce/tinymce 520b4b50ce25b1d78d3a7573eed4b20fe5786677
+tinymce/tinymce,SECURITY.md,5c2ce87a7b086c0d6f6dec6d581d80cb6c9a6aa0,2020-09-29 07:48:40+00:00,"# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+| ------- | ------------------------------ |
+| 5.4.x   | &#10004;                       |
+| 4.9.x   | &#10004; (critical fixes only) |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/enterprise/system-requirements/#supportedtinymceversions).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/advanced/security/#reportingtinymcesecurityissues).
+","# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+| ------- | ------------------------------ |
+| 5.5.x   | &#10004;                       |
+| 4.9.x   | &#10004; (critical fixes only) |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/enterprise/system-requirements/#supportedtinymceversions).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/advanced/security/#reportingtinymcesecurityissues).
+",1,b tinymce/tinymce 5c2ce87a7b086c0d6f6dec6d581d80cb6c9a6aa0
+tinymce/tinymce,SECURITY.md,f7a6df9bf7f7a1b77b4d6b77e159bb341ef501b5,2020-12-08 07:01:22+00:00,"# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+| ------- | ------------------------------ |
+| 5.5.x   | &#10004;                       |
+| 4.9.x   | &#10004; (critical fixes only) |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/enterprise/system-requirements/#supportedtinymceversions).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/advanced/security/#reportingtinymcesecurityissues).
+","# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+| ------- | ------------------------------ |
+| 5.6.x   | &#10004;                       |
+| 4.9.x   | &#10004; (critical fixes only) |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/enterprise/system-requirements/#supportedtinymceversions).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/advanced/security/#reportingtinymcesecurityissues).
+",1,b tinymce/tinymce f7a6df9bf7f7a1b77b4d6b77e159bb341ef501b5
+tinymce/tinymce,SECURITY.md,c7ffd06d6e4e9ca4e9d665ed5b0fddb8465499da,2021-01-08 08:19:59+00:00,"# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+| ------- | ------------------------------ |
+| 5.6.x   | &#10004;                       |
+| 4.9.x   | &#10004; (critical fixes only) |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/enterprise/system-requirements/#supportedtinymceversions).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/advanced/security/#reportingtinymcesecurityissues).
+","# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+| ------- | ------------------------------ |
+| 5.6.x   | &#10004;                       |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/enterprise/system-requirements/#supportedtinymceversions).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/advanced/security/#reportingtinymcesecurityissues).
+",45,b tinymce/tinymce c7ffd06d6e4e9ca4e9d665ed5b0fddb8465499da
+tinymce/tinymce,SECURITY.md,6615a776de47ea44d2c5cb018840809df82b7f89,2021-03-18 02:10:51+00:00,"# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+| ------- | ------------------------------ |
+| 5.6.x   | &#10004;                       |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/enterprise/system-requirements/#supportedtinymceversions).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/advanced/security/#reportingtinymcesecurityissues).
+","# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+| ------- | ------------------------------ |
+| 5.7.x   | &#10004;                       |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/enterprise/system-requirements/#supportedtinymceversions).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/advanced/security/#reportingtinymcesecurityissues).
+",1,b tinymce/tinymce 6615a776de47ea44d2c5cb018840809df82b7f89
+tinymce/tinymce,SECURITY.md,29e7c73f8881ff1fb66035c02b6c1f8ea1650fa6,2021-05-06 00:50:28+00:00,"# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+| ------- | ------------------------------ |
+| 5.7.x   | &#10004;                       |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/enterprise/system-requirements/#supportedtinymceversions).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/advanced/security/#reportingtinymcesecurityissues).
+","# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+| ------- | ------------------------------ |
+| 5.8.x   | &#10004;                       |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/enterprise/system-requirements/#supportedtinymceversions).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/advanced/security/#reportingtinymcesecurityissues).
+",1,b tinymce/tinymce 29e7c73f8881ff1fb66035c02b6c1f8ea1650fa6
+tinymce/tinymce,SECURITY.md,e80e7a821fab4f6715a1d5a56d9c5a1fe06dc998,2021-08-26 03:25:22+00:00,"# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+| ------- | ------------------------------ |
+| 5.8.x   | &#10004;                       |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/enterprise/system-requirements/#supportedtinymceversions).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/advanced/security/#reportingtinymcesecurityissues).
+","# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+| ------- | ------------------------------ |
+| 5.9.x   | &#10004;                       |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/enterprise/system-requirements/#supportedtinymceversions).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/advanced/security/#reportingtinymcesecurityissues).
+",1,b tinymce/tinymce e80e7a821fab4f6715a1d5a56d9c5a1fe06dc998
+tinymce/tinymce,SECURITY.md,1526a9b577624f67d2b4468b09df6e37d7ec7a32,2021-10-11 01:32:09+00:00,"# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+| ------- | ------------------------------ |
+| 5.9.x   | &#10004;                       |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/enterprise/system-requirements/#supportedtinymceversions).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/advanced/security/#reportingtinymcesecurityissues).
+","# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+| ------- | ------------------------------ |
+| 5.10.x  | &#10004;                       |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/enterprise/system-requirements/#supportedtinymceversions).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/advanced/security/#reportingtinymcesecurityissues).
+",3,b tinymce/tinymce 1526a9b577624f67d2b4468b09df6e37d7ec7a32
+tinymce/tinymce,SECURITY.md,5c62b186b9157b130de879eeac46b81454147177,2022-03-01 08:21:59+00:00,"# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+| ------- | ------------------------------ |
+| 5.10.x  | &#10004;                       |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/enterprise/system-requirements/#supportedtinymceversions).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/advanced/security/#reportingtinymcesecurityissues).
+","# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+| ------- | ------------------------------ |
+| 5.10.x  | &#10004;                       |
+| 6.0.x    | &#10004;                       |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/tinymce/6/support.html#supportedversionsandplatforms).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/tinymce/6/security.html#reportingtinymcesecurityissues).
+",99,b tinymce/tinymce 5c62b186b9157b130de879eeac46b81454147177
+tinymce/tinymce,SECURITY.md,e52ad71b24d7498298845e488f5e483ab3f1c08a,2022-03-02 23:55:27+00:00,"# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+| ------- | ------------------------------ |
+| 5.10.x  | &#10004;                       |
+| 6.0.x    | &#10004;                       |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/tinymce/6/support.html#supportedversionsandplatforms).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/tinymce/6/security.html#reportingtinymcesecurityissues).
+","# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+| ------- | ------------------------------ |
+| 5.10.x  | &#10004;                       |
+| 6.0.x   | &#10004;                       |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/tinymce/6/support.html#supportedversionsandplatforms).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/tinymce/6/security.html#reportingtinymcesecurityissues).
+",1,b tinymce/tinymce e52ad71b24d7498298845e488f5e483ab3f1c08a
+tinymce/tinymce,SECURITY.md,c592ae7ab1faea9dc26724ef6b3a352a99b4b4ce,2022-03-21 00:04:30+00:00,"# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+| ------- | ------------------------------ |
+| 5.10.x  | &#10004;                       |
+| 6.0.x   | &#10004;                       |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/tinymce/6/support.html#supportedversionsandplatforms).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/tinymce/6/security.html#reportingtinymcesecurityissues).
+","# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+| ------- | ------------------------------ |
+| 5.10.x  | &#10004;                       |
+| 6.0.x   | &#10004;                       |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/tinymce/6/support/#supportedversionsandplatforms).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/tinymce/6/security/#reportingtinymcesecurityissues).
+",10,b tinymce/tinymce c592ae7ab1faea9dc26724ef6b3a352a99b4b4ce
+tinymce/tinymce,SECURITY.md,14b14895b2a32dcf2ac93670642502d37874b2eb,2022-06-29 04:10:46+00:00,"# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+| ------- | ------------------------------ |
+| 5.10.x  | &#10004;                       |
+| 6.0.x   | &#10004;                       |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/tinymce/6/support/#supportedversionsandplatforms).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/tinymce/6/security/#reportingtinymcesecurityissues).
+","# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+|---------| ------------------------------ |
+| 5.10.x  | &#10004;                       |
+| 6.1.x   | &#10004;                       |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/tinymce/6/support/#supportedversionsandplatforms).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/tinymce/6/security/#reportingtinymcesecurityissues).
+",3,b tinymce/tinymce 14b14895b2a32dcf2ac93670642502d37874b2eb
+tinymce/tinymce,SECURITY.md,0b124a74f6e07a24039151a5b786f8b062da0855,2022-09-08 02:54:50+00:00,"# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+|---------| ------------------------------ |
+| 5.10.x  | &#10004;                       |
+| 6.1.x   | &#10004;                       |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/tinymce/6/support/#supportedversionsandplatforms).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/tinymce/6/security/#reportingtinymcesecurityissues).
+","# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+|---------| ------------------------------ |
+| 5.10.x  | &#10004;                       |
+| 6.2.x   | &#10004;                       |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/tinymce/6/support/#supportedversionsandplatforms).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/tinymce/6/security/#reportingtinymcesecurityissues).
+",1,b tinymce/tinymce 0b124a74f6e07a24039151a5b786f8b062da0855
+tinymce/tinymce,SECURITY.md,157dc882d893b403f804cb3062a2ee48b30f01ea,2022-11-23 01:32:18+00:00,"# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+|---------| ------------------------------ |
+| 5.10.x  | &#10004;                       |
+| 6.2.x   | &#10004;                       |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/tinymce/6/support/#supportedversionsandplatforms).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/tinymce/6/security/#reportingtinymcesecurityissues).
+","# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+|---------| ------------------------------ |
+| 5.10.x  | &#10004;                       |
+| 6.3.x   | &#10004;                       |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/tinymce/6/support/#supportedversionsandplatforms).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/tinymce/6/security/#reportingtinymcesecurityissues).
+",1,b tinymce/tinymce 157dc882d893b403f804cb3062a2ee48b30f01ea
+tinymce/tinymce,SECURITY.md,b3af517d6b6fd06fbb517a72899ee0f88f0e3f4a,2023-01-12 00:09:53+00:00,"# Security Policy
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+|---------| ------------------------------ |
+| 5.10.x  | &#10004;                       |
+| 6.3.x   | &#10004;                       |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/tinymce/6/support/#supportedversionsandplatforms).
+
+## Reporting a Vulnerability
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://www.tiny.cloud/docs/tinymce/6/security/#reportingtinymcesecurityissues).
+","# Security Policy
+
+## Reporting a Vulnerability
+
+At Tiny, we take security seriously and will investigate all potential security risk notifications with urgency.
+
+To report a potential security vulnerability, contact our Security team at <infosec@tiny.cloud>.
+
+In line with the United States National Infrastructure Advisory Council (NIAC) [Vulnerability Disclosure Framework](https://dhs.gov/xlibrary/assets/vdwgreport.pdf), Tiny requests community members reporting potential security vulnerabilities maintain the confidentiality of their report and discovery until Tiny has investigated the issue and taken action to fix it.
+
+Tiny will communicate with you regarding the status of your report and will, with your permission, publicly attribute the security issue’s discovery to you after the issue has been fixed and disclosed.
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://tiny.cloud/docs/tinymce/6/security/#reportingtinymcesecurityissues).
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+|---------| ------------------------------ |
+| 5.10.x  | &#10004;                       |
+| 6.3.x   | &#10004;                       |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/tinymce/6/support/#supportedversionsandplatforms).
+",1147,b tinymce/tinymce b3af517d6b6fd06fbb517a72899ee0f88f0e3f4a
+tinymce/tinymce,SECURITY.md,e3283b2c4dba6b591fe20c6226dfbd405e64f9b7,2023-03-15 04:52:55+00:00,"# Security Policy
+
+## Reporting a Vulnerability
+
+At Tiny, we take security seriously and will investigate all potential security risk notifications with urgency.
+
+To report a potential security vulnerability, contact our Security team at <infosec@tiny.cloud>.
+
+In line with the United States National Infrastructure Advisory Council (NIAC) [Vulnerability Disclosure Framework](https://dhs.gov/xlibrary/assets/vdwgreport.pdf), Tiny requests community members reporting potential security vulnerabilities maintain the confidentiality of their report and discovery until Tiny has investigated the issue and taken action to fix it.
+
+Tiny will communicate with you regarding the status of your report and will, with your permission, publicly attribute the security issue’s discovery to you after the issue has been fixed and disclosed.
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://tiny.cloud/docs/tinymce/6/security/#reportingtinymcesecurityissues).
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+|---------| ------------------------------ |
+| 5.10.x  | &#10004;                       |
+| 6.3.x   | &#10004;                       |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/tinymce/6/support/#supportedversionsandplatforms).
+","# Security Policy
+
+## Reporting a Vulnerability
+
+At Tiny, we take security seriously and will investigate all potential security risk notifications with urgency.
+
+To report a potential security vulnerability, contact our Security team at <infosec@tiny.cloud>.
+
+In line with the United States National Infrastructure Advisory Council (NIAC) [Vulnerability Disclosure Framework](https://dhs.gov/xlibrary/assets/vdwgreport.pdf), Tiny requests community members reporting potential security vulnerabilities maintain the confidentiality of their report and discovery until Tiny has investigated the issue and taken action to fix it.
+
+Tiny will communicate with you regarding the status of your report and will, with your permission, publicly attribute the security issue’s discovery to you after the issue has been fixed and disclosed.
+
+For details on how to report security issues to Tiny, refer to the [Reporting TinyMCE security issues documentation](https://tiny.cloud/docs/tinymce/6/security/#reportingtinymcesecurityissues).
+
+## Supported Versions
+
+Tiny Technologies, Inc. supports the following community versions of TinyMCE:
+
+| Version | Supported                      |
+|---------| ------------------------------ |
+| 5.10.x  | &#10004;                       |
+| 6.4.x   | &#10004;                       |
+| Other   | &#10006;                       |
+
+For supported enterprise versions of TinyMCE, refer to the enterprise [Supported TinyMCE versions documentation](https://www.tiny.cloud/docs/tinymce/6/support/#supportedversionsandplatforms).
+",1,b tinymce/tinymce e3283b2c4dba6b591fe20c6226dfbd405e64f9b7

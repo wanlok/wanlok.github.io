@@ -1,0 +1,8 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+composer/.github,SECURITY.md,0411149a3f6ddd26033a41f68f24eb5f1b60bed0,2020-03-10 13:55:51+00:00,,"# Reporting a vulnerability
+
+If you have found any issues that might have security implications,
+please send a report privately to security@packagist.org
+
+Do not report security reports publicly.
+",196,b composer/.github 0411149a3f6ddd26033a41f68f24eb5f1b60bed0

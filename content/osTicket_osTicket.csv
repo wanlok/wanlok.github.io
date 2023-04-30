@@ -1,0 +1,54 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+osTicket/osTicket,SECURITY.md,165cf18e38e6e0f51dd956e60f92cdaaaa793182,2020-07-10 19:50:58+00:00,,"# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 5.1.x   | :white_check_mark: |
+| 5.0.x   | :x:                |
+| 4.0.x   | :white_check_mark: |
+| < 4.0   | :x:                |
+
+## Reporting a Vulnerability
+
+Please send all POCs to security[at]osticket[dot]com.
+
+Use this section to tell people how to report a vulnerability.
+
+Tell them where to go, how often they can expect to get an update on a
+reported vulnerability, what to expect if the vulnerability is accepted or
+declined, etc.
+",674,b osTicket/osTicket 165cf18e38e6e0f51dd956e60f92cdaaaa793182
+osTicket/osTicket,SECURITY.md,0ecfcebfd2228f4cb125369d34431f4848f2e3e8,2020-07-10 19:52:46+00:00,"# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 5.1.x   | :white_check_mark: |
+| 5.0.x   | :x:                |
+| 4.0.x   | :white_check_mark: |
+| < 4.0   | :x:                |
+
+## Reporting a Vulnerability
+
+Please send all POCs to security[at]osticket[dot]com.
+
+Use this section to tell people how to report a vulnerability.
+
+Tell them where to go, how often they can expect to get an update on a
+reported vulnerability, what to expect if the vulnerability is accepted or
+declined, etc.
+","# Security Policy
+
+## Reporting a Vulnerability
+
+Please send all POCs to security[at]osticket[dot]com.
+",571,b osTicket/osTicket 0ecfcebfd2228f4cb125369d34431f4848f2e3e8

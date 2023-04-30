@@ -1,4 +1,4 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
 halo-dev/halo,SECURITY.md,400d7f72181815f32adfa59a26d814088f1c8e3a,2020-11-11 03:03:11+00:00,,"# Security Policy
 
 ## Supported Versions
@@ -36,7 +36,7 @@ Vulnerability has been observed in...
 - Vulnerability self-scoring [1-10]: 
 - Would you like to be attributed? (Whether you agree us to appreciate you by putting your name in the CHANGELOG of the next fix release) [n/y]: 
 ```
-",1527
+",1527,b halo-dev/halo 400d7f72181815f32adfa59a26d814088f1c8e3a
 halo-dev/halo,SECURITY.md,feab7c4b5f6ccc3fa39607d0a41d0c5a8eb42d24,2021-01-24 09:11:10+00:00,"# Security Policy
 
 ## Supported Versions
@@ -115,7 +115,7 @@ Vulnerability has been observed in...
 - Vulnerability self-scoring [1-10]: 
 - Would you like to be attributed? (Whether you agree us to appreciate you by putting your name in the CHANGELOG of the next fix release) [n/y]: 
 ```
-",7
+",7,b halo-dev/halo feab7c4b5f6ccc3fa39607d0a41d0c5a8eb42d24
 halo-dev/halo,SECURITY.md,5acabee7a9bff54f946a8f964a78da16c0b5cdbe,2021-09-29 12:43:15+00:00,"# Security Policy
 
 ## Supported Versions
@@ -198,4 +198,4 @@ Vulnerability has been observed in...
 - Vulnerability self-scoring [1-10]: 
 - Would you like to be attributed? (Whether you agree us to appreciate you by putting your name in the CHANGELOG of the next fix release) [n/y]: 
 ```
-",14
+",14,b halo-dev/halo 5acabee7a9bff54f946a8f964a78da16c0b5cdbe

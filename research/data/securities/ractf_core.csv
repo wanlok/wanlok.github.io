@@ -1,0 +1,11 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+ractf/core,SECURITY.md,dd62da12aa20e8324a4f5edbdda99e1e53491bd7,2020-10-04 00:28:44+00:00,,"# Security Policy
+
+## Supported Versions
+
+We currently only support versions running the latest commit until we reach version 1.0.
+
+## Reporting a Vulnerability
+
+To report a vulnerability, email us at [security@ractf.co.uk](mailto:security@ractf.co.uk), we will keep you up to date as closely as possible on if we accept your vulnerability and when we release a patch.
+",369,b ractf/core dd62da12aa20e8324a4f5edbdda99e1e53491bd7

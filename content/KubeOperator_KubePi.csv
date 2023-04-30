@@ -1,0 +1,19 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+KubeOperator/KubePi,SECURITY.md,2fb4f6961217204561abb34952e9f05d9ca02476,2023-01-03 13:05:17+00:00,,"# 安全说明
+
+如果您发现安全问题，请直接联系我们：
+
+- support@fit2cloud.com
+- 400-052-0755
+
+感谢您的支持！
+
+# Security Policy
+
+All security bugs should be reported to the contact as below:
+
+- support@fit2cloud.com
+- 400-052-0755
+
+Thanks for your support!
+",224,b KubeOperator/KubePi 2fb4f6961217204561abb34952e9f05d9ca02476

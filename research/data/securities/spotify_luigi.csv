@@ -1,0 +1,7 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+spotify/luigi,SECURITY.md,cf3be332fa7cffd689070f809a03f8294efe8f9b,2023-01-16 17:50:44+00:00,,"# Security Policy
+
+## Reporting a Vulnerability
+
+Please report sensitive security issues via Spotify's [bug-bounty program](https://hackerone.com/spotify) by following this [instruction](https://docs.hackerone.com/programs/security-page.html), rather than GitHub. 
+",265,b spotify/luigi cf3be332fa7cffd689070f809a03f8294efe8f9b

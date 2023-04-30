@@ -1,0 +1,24 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+jupyter-server/.github,SECURITY.md,c7465d62e8cb1b3b1d6a8680e12ec8e1af95bdbe,2021-08-08 10:54:20+00:00,," Security Policy
+
+## Reporting a Vulnerability
+
+If you find a security vulnerability in Jupyter, please report it to security@ipython.org.
+
+See more information in our [docs](https://jupyter-server.readthedocs.io/en/stable/operators/security.html).
+",249,b jupyter-server/.github c7465d62e8cb1b3b1d6a8680e12ec8e1af95bdbe
+jupyter-server/.github,SECURITY.md,20e489dbbcfc5a37e2e2a4cae39cd92d8cd14358,2022-08-01 14:39:03+00:00," Security Policy
+
+## Reporting a Vulnerability
+
+If you find a security vulnerability in Jupyter, please report it to security@ipython.org.
+
+See more information in our [docs](https://jupyter-server.readthedocs.io/en/stable/operators/security.html).
+"," Security Policy
+
+## Reporting a Vulnerability
+
+If you find a security vulnerability in Jupyter, please report it to security@ipython.org.
+
+See more information in our [docs](https://jupyter.org/security).
+",44,b jupyter-server/.github 20e489dbbcfc5a37e2e2a4cae39cd92d8cd14358

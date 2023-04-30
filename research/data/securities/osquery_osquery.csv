@@ -1,0 +1,319 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+osquery/osquery,SECURITY.md,11341ad91429460e558ff192a632cf43d82af84f,2017-10-04 17:07:43+00:00,,"# Security Issues
+
+This document aggregates security issues (weaknesses and vulnerabilities) affecting osquery. It tracks issues in the format:
+
+```
+#PRNumber Title - (Optional CVE) - Fixed in Version - Optional Reporter
+```
+
+There are several types of issues that do not include a CVE or reporter. If you find a security issue and believe a CVE should be assigned, please contact the project maintainers in the [osquery Slack](https://osquery-slack.herokuapp.com), we are happy to submit the request and provide attribution to you. The project maintainers will tag related issues and pull requests with the [`hardening`](https://github.com/facebook/osquery/issues?q=is%3Aissue+is%3Aopen+label%3Ahardening) label. There may be changes with this label that are not directly security issues.
+
+If you are editing this document please feel encouraged to change this format to provide more details. This is intended to be a helpful resource so please keep content valuable and concise.
+
+- #3133 Bad output size for TLS compression - 2.4.0 - Facebook Whitehat
+- #2447 Multiple fixes to macOS `crashes` - 2.0.0 - Facebook Whitehat and zzuf
+- #2330 Add size checks to `package_bom` - 2.0.0 - Facebook Whitehat
+- #1598 `readFile` TOCTOU error - 1.6.0 - NCC Group
+- #1596 Uncaught exception in config JSON parsing - 1.6.0 - NCC Group
+- #1585 Various comparisons of integers of different signs - 1.6.0 - NCC Group
+- #993 Add restricted permissions to RocksDB - 1.4.5 - Anonymous security review
+- #740 Add hardening compile flags and `-fPIE` - 1.4.1 - Anonymous security review
+- #300 Add restricted permissions to osqueryd logging - 1.0.4
+",1629,b osquery/osquery 11341ad91429460e558ff192a632cf43d82af84f
+osquery/osquery,SECURITY.md,41c540ea141288942efc740d4da4cffd823ed96e,2017-10-05 00:28:06+00:00,"# Security Issues
+
+This document aggregates security issues (weaknesses and vulnerabilities) affecting osquery. It tracks issues in the format:
+
+```
+#PRNumber Title - (Optional CVE) - Fixed in Version - Optional Reporter
+```
+
+There are several types of issues that do not include a CVE or reporter. If you find a security issue and believe a CVE should be assigned, please contact the project maintainers in the [osquery Slack](https://osquery-slack.herokuapp.com), we are happy to submit the request and provide attribution to you. The project maintainers will tag related issues and pull requests with the [`hardening`](https://github.com/facebook/osquery/issues?q=is%3Aissue+is%3Aopen+label%3Ahardening) label. There may be changes with this label that are not directly security issues.
+
+If you are editing this document please feel encouraged to change this format to provide more details. This is intended to be a helpful resource so please keep content valuable and concise.
+
+- #3133 Bad output size for TLS compression - 2.4.0 - Facebook Whitehat
+- #2447 Multiple fixes to macOS `crashes` - 2.0.0 - Facebook Whitehat and zzuf
+- #2330 Add size checks to `package_bom` - 2.0.0 - Facebook Whitehat
+- #1598 `readFile` TOCTOU error - 1.6.0 - NCC Group
+- #1596 Uncaught exception in config JSON parsing - 1.6.0 - NCC Group
+- #1585 Various comparisons of integers of different signs - 1.6.0 - NCC Group
+- #993 Add restricted permissions to RocksDB - 1.4.5 - Anonymous security review
+- #740 Add hardening compile flags and `-fPIE` - 1.4.1 - Anonymous security review
+- #300 Add restricted permissions to osqueryd logging - 1.0.4
+","# Security Issues
+
+This document aggregates security issues (weaknesses and vulnerabilities) affecting osquery. It tracks issues in the format:
+
+```
+#PRNumber Title - (Optional CVE) - Fixed in Version - Optional Reporter
+```
+
+There are several types of issues that do not include a CVE or reporter. If you find a security issue and believe a CVE should be assigned, please contact the project maintainers in the [osquery Slack](https://osquery-slack.herokuapp.com), we are happy to submit the request and provide attribution to you. The project maintainers will tag related issues and pull requests with the [`hardening`](https://github.com/facebook/osquery/issues?q=is%3Aissue+is%3Aopen+label%3Ahardening) label. There may be changes with this label that are not directly security issues.
+
+If you are editing this document please feel encouraged to change this format to provide more details. This is intended to be a helpful resource so please keep content valuable and concise.
+
+- #3786 Migrate from `boost::regex` to `re2` - unresolved - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3785 `ie_extensions` susceptible to SQL injection - CVE-2017-15026 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3783/#3782 `safari_extensions` should not use parent paths for privilege dropping - CVE-2017-15027 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3781 `known_hosts` should drop privileges - CVE-2017-15028 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3770/#3775 `libxml2` (v2.9.5) and `libarchive` (v3.3.2) updated - 2.9.0
+- #3767 `augeas` (v1.8.1) mitigates CVE-2017-7555 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3133 Bad output size for TLS compression - 2.4.0 - Facebook Whitehat
+- #2447 Multiple fixes to macOS `crashes` - 2.0.0 - Facebook Whitehat and zzuf
+- #2330 Add size checks to `package_bom` - 2.0.0 - Facebook Whitehat
+- #1598 `readFile` TOCTOU error - 1.6.0 - NCC Group
+- #1596 Uncaught exception in config JSON parsing - 1.6.0 - NCC Group
+- #1585 Various comparisons of integers of different signs - 1.6.0 - NCC Group
+- #993 Add restricted permissions to RocksDB - 1.4.5 - Anonymous security review
+- #740 Add hardening compile flags and `-fPIE` - 1.4.1 - Anonymous security review
+- #300 Add restricted permissions to osqueryd logging - 1.0.4
+",764,b osquery/osquery 41c540ea141288942efc740d4da4cffd823ed96e
+osquery/osquery,SECURITY.md,7dbc6d357798574433a0a791d2143a1d8063e1ec,2020-02-13 20:26:33+00:00,"# Security Issues
+
+This document aggregates security issues (weaknesses and vulnerabilities) affecting osquery. It tracks issues in the format:
+
+```
+#PRNumber Title - (Optional CVE) - Fixed in Version - Optional Reporter
+```
+
+There are several types of issues that do not include a CVE or reporter. If you find a security issue and believe a CVE should be assigned, please contact the project maintainers in the [osquery Slack](https://osquery-slack.herokuapp.com), we are happy to submit the request and provide attribution to you. The project maintainers will tag related issues and pull requests with the [`hardening`](https://github.com/facebook/osquery/issues?q=is%3Aissue+is%3Aopen+label%3Ahardening) label. There may be changes with this label that are not directly security issues.
+
+If you are editing this document please feel encouraged to change this format to provide more details. This is intended to be a helpful resource so please keep content valuable and concise.
+
+- #3786 Migrate from `boost::regex` to `re2` - unresolved - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3785 `ie_extensions` susceptible to SQL injection - CVE-2017-15026 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3783/#3782 `safari_extensions` should not use parent paths for privilege dropping - CVE-2017-15027 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3781 `known_hosts` should drop privileges - CVE-2017-15028 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3770/#3775 `libxml2` (v2.9.5) and `libarchive` (v3.3.2) updated - 2.9.0
+- #3767 `augeas` (v1.8.1) mitigates CVE-2017-7555 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3133 Bad output size for TLS compression - 2.4.0 - Facebook Whitehat
+- #2447 Multiple fixes to macOS `crashes` - 2.0.0 - Facebook Whitehat and zzuf
+- #2330 Add size checks to `package_bom` - 2.0.0 - Facebook Whitehat
+- #1598 `readFile` TOCTOU error - 1.6.0 - NCC Group
+- #1596 Uncaught exception in config JSON parsing - 1.6.0 - NCC Group
+- #1585 Various comparisons of integers of different signs - 1.6.0 - NCC Group
+- #993 Add restricted permissions to RocksDB - 1.4.5 - Anonymous security review
+- #740 Add hardening compile flags and `-fPIE` - 1.4.1 - Anonymous security review
+- #300 Add restricted permissions to osqueryd logging - 1.0.4
+","# Security Issues
+
+This document aggregates security issues (weaknesses and vulnerabilities) affecting osquery. It tracks issues in the format:
+
+```
+#PRNumber Title - (Optional CVE) - Fixed in Version - Optional Reporter
+```
+
+There are several types of issues that do not include a CVE or reporter. If you find a security issue and believe a CVE should be assigned, please contact the project maintainers in the [osquery Slack](https://osquery-slack.herokuapp.com), we are happy to submit the request and provide attribution to you. The project maintainers will tag related issues and pull requests with the [`hardening`](https://github.com/facebook/osquery/issues?q=is%3Aissue+is%3Aopen+label%3Ahardening) label. There may be changes with this label that are not directly security issues.
+
+If you are editing this document please feel encouraged to change this format to provide more details. This is intended to be a helpful resource so please keep content valuable and concise.
+
+- #6197 osquery does not validate TLS SNI hostname - CVE-2020-1887 - 4.2.0 - Timothy Britton of Apple
+- #3786 Migrate from `boost::regex` to `re2` - unresolved - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3785 `ie_extensions` susceptible to SQL injection - CVE-2017-15026 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3783/#3782 `safari_extensions` should not use parent paths for privilege dropping - CVE-2017-15027 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3781 `known_hosts` should drop privileges - CVE-2017-15028 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3770/#3775 `libxml2` (v2.9.5) and `libarchive` (v3.3.2) updated - 2.9.0
+- #3767 `augeas` (v1.8.1) mitigates CVE-2017-7555 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3133 Bad output size for TLS compression - 2.4.0 - Facebook Whitehat
+- #2447 Multiple fixes to macOS `crashes` - 2.0.0 - Facebook Whitehat and zzuf
+- #2330 Add size checks to `package_bom` - 2.0.0 - Facebook Whitehat
+- #1598 `readFile` TOCTOU error - 1.6.0 - NCC Group
+- #1596 Uncaught exception in config JSON parsing - 1.6.0 - NCC Group
+- #1585 Various comparisons of integers of different signs - 1.6.0 - NCC Group
+- #993 Add restricted permissions to RocksDB - 1.4.5 - Anonymous security review
+- #740 Add hardening compile flags and `-fPIE` - 1.4.1 - Anonymous security review
+- #300 Add restricted permissions to osqueryd logging - 1.0.4
+",102,b osquery/osquery 7dbc6d357798574433a0a791d2143a1d8063e1ec
+osquery/osquery,SECURITY.md,34c8ac302a7544b7f35f76c047ff00ae53e50f57,2020-05-09 02:16:34+00:00,"# Security Issues
+
+This document aggregates security issues (weaknesses and vulnerabilities) affecting osquery. It tracks issues in the format:
+
+```
+#PRNumber Title - (Optional CVE) - Fixed in Version - Optional Reporter
+```
+
+There are several types of issues that do not include a CVE or reporter. If you find a security issue and believe a CVE should be assigned, please contact the project maintainers in the [osquery Slack](https://osquery-slack.herokuapp.com), we are happy to submit the request and provide attribution to you. The project maintainers will tag related issues and pull requests with the [`hardening`](https://github.com/facebook/osquery/issues?q=is%3Aissue+is%3Aopen+label%3Ahardening) label. There may be changes with this label that are not directly security issues.
+
+If you are editing this document please feel encouraged to change this format to provide more details. This is intended to be a helpful resource so please keep content valuable and concise.
+
+- #6197 osquery does not validate TLS SNI hostname - CVE-2020-1887 - 4.2.0 - Timothy Britton of Apple
+- #3786 Migrate from `boost::regex` to `re2` - unresolved - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3785 `ie_extensions` susceptible to SQL injection - CVE-2017-15026 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3783/#3782 `safari_extensions` should not use parent paths for privilege dropping - CVE-2017-15027 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3781 `known_hosts` should drop privileges - CVE-2017-15028 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3770/#3775 `libxml2` (v2.9.5) and `libarchive` (v3.3.2) updated - 2.9.0
+- #3767 `augeas` (v1.8.1) mitigates CVE-2017-7555 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3133 Bad output size for TLS compression - 2.4.0 - Facebook Whitehat
+- #2447 Multiple fixes to macOS `crashes` - 2.0.0 - Facebook Whitehat and zzuf
+- #2330 Add size checks to `package_bom` - 2.0.0 - Facebook Whitehat
+- #1598 `readFile` TOCTOU error - 1.6.0 - NCC Group
+- #1596 Uncaught exception in config JSON parsing - 1.6.0 - NCC Group
+- #1585 Various comparisons of integers of different signs - 1.6.0 - NCC Group
+- #993 Add restricted permissions to RocksDB - 1.4.5 - Anonymous security review
+- #740 Add hardening compile flags and `-fPIE` - 1.4.1 - Anonymous security review
+- #300 Add restricted permissions to osqueryd logging - 1.0.4
+","# Security Issues
+
+This document aggregates security issues (weaknesses and vulnerabilities) affecting osquery. It tracks issues in the format:
+
+```
+#PRNumber Title - (Optional CVE) - Fixed in Version - Optional Reporter
+```
+
+There are several types of issues that do not include a CVE or reporter.
+If you find a security issue and believe a CVE should be assigned, please contact a [member of the TSC](https://github.com/osquery/osquery/blob/master/CONTRIBUTING.md#technical-steering-committee) in the [osquery Slack](https://osquery-slack.herokuapp.com), we are happy to submit the request and provide attribution to you.
+Specifically, we will use the GitHub Security Advisory features for CVE requests.
+The project maintainers will tag related issues and pull requests with the [`hardening`](https://github.com/osquery/osquery/issues?q=is%3Aissue+is%3Aopen+label%3Ahardening) label. There may be changes with this label that are not directly security issues.
+
+If you are editing this document please feel encouraged to change this format to provide more details. This is intended to be a helpful resource so please keep content valuable and concise.
+
+- #6197 osquery does not validate TLS SNI hostname - CVE-2020-1887 - 4.2.0 - Timothy Britton of Apple
+- #3786 Migrate from `boost::regex` to `re2` - unresolved - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3785 `ie_extensions` susceptible to SQL injection - CVE-2017-15026 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3783/#3782 `safari_extensions` should not use parent paths for privilege dropping - CVE-2017-15027 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3781 `known_hosts` should drop privileges - CVE-2017-15028 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3770/#3775 `libxml2` (v2.9.5) and `libarchive` (v3.3.2) updated - 2.9.0
+- #3767 `augeas` (v1.8.1) mitigates CVE-2017-7555 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3133 Bad output size for TLS compression - 2.4.0 - Facebook Whitehat
+- #2447 Multiple fixes to macOS `crashes` - 2.0.0 - Facebook Whitehat and zzuf
+- #2330 Add size checks to `package_bom` - 2.0.0 - Facebook Whitehat
+- #1598 `readFile` TOCTOU error - 1.6.0 - NCC Group
+- #1596 Uncaught exception in config JSON parsing - 1.6.0 - NCC Group
+- #1585 Various comparisons of integers of different signs - 1.6.0 - NCC Group
+- #993 Add restricted permissions to RocksDB - 1.4.5 - Anonymous security review
+- #740 Add hardening compile flags and `-fPIE` - 1.4.1 - Anonymous security review
+- #300 Add restricted permissions to osqueryd logging - 1.0.4
+",190,b osquery/osquery 34c8ac302a7544b7f35f76c047ff00ae53e50f57
+osquery/osquery,SECURITY.md,066e01c16b08d01c19980f57b4ed75c6267ef26c,2020-08-29 05:57:16+00:00,"# Security Issues
+
+This document aggregates security issues (weaknesses and vulnerabilities) affecting osquery. It tracks issues in the format:
+
+```
+#PRNumber Title - (Optional CVE) - Fixed in Version - Optional Reporter
+```
+
+There are several types of issues that do not include a CVE or reporter.
+If you find a security issue and believe a CVE should be assigned, please contact a [member of the TSC](https://github.com/osquery/osquery/blob/master/CONTRIBUTING.md#technical-steering-committee) in the [osquery Slack](https://osquery-slack.herokuapp.com), we are happy to submit the request and provide attribution to you.
+Specifically, we will use the GitHub Security Advisory features for CVE requests.
+The project maintainers will tag related issues and pull requests with the [`hardening`](https://github.com/osquery/osquery/issues?q=is%3Aissue+is%3Aopen+label%3Ahardening) label. There may be changes with this label that are not directly security issues.
+
+If you are editing this document please feel encouraged to change this format to provide more details. This is intended to be a helpful resource so please keep content valuable and concise.
+
+- #6197 osquery does not validate TLS SNI hostname - CVE-2020-1887 - 4.2.0 - Timothy Britton of Apple
+- #3786 Migrate from `boost::regex` to `re2` - unresolved - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3785 `ie_extensions` susceptible to SQL injection - CVE-2017-15026 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3783/#3782 `safari_extensions` should not use parent paths for privilege dropping - CVE-2017-15027 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3781 `known_hosts` should drop privileges - CVE-2017-15028 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3770/#3775 `libxml2` (v2.9.5) and `libarchive` (v3.3.2) updated - 2.9.0
+- #3767 `augeas` (v1.8.1) mitigates CVE-2017-7555 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3133 Bad output size for TLS compression - 2.4.0 - Facebook Whitehat
+- #2447 Multiple fixes to macOS `crashes` - 2.0.0 - Facebook Whitehat and zzuf
+- #2330 Add size checks to `package_bom` - 2.0.0 - Facebook Whitehat
+- #1598 `readFile` TOCTOU error - 1.6.0 - NCC Group
+- #1596 Uncaught exception in config JSON parsing - 1.6.0 - NCC Group
+- #1585 Various comparisons of integers of different signs - 1.6.0 - NCC Group
+- #993 Add restricted permissions to RocksDB - 1.4.5 - Anonymous security review
+- #740 Add hardening compile flags and `-fPIE` - 1.4.1 - Anonymous security review
+- #300 Add restricted permissions to osqueryd logging - 1.0.4
+","# Security Issues
+
+This document aggregates security issues (weaknesses and vulnerabilities) affecting osquery. It tracks issues in the format:
+
+```
+#PRNumber Title - (Optional CVE) - Fixed in Version - Optional Reporter
+```
+
+There are several types of issues that do not include a CVE or reporter.
+If you find a security issue and believe a CVE should be assigned, please contact a [member of the TSC](https://github.com/osquery/osquery/blob/master/CONTRIBUTING.md#technical-steering-committee) in the osquery [Slack](https://osquery.slack.com), we are happy to submit the request and provide attribution to you.
+Specifically, we will use the GitHub Security Advisory features for CVE requests.
+The project maintainers will tag related issues and pull requests with the [`hardening`](https://github.com/osquery/osquery/issues?q=is%3Aissue+is%3Aopen+label%3Ahardening) label. There may be changes with this label that are not directly security issues.
+
+If you are editing this document please feel encouraged to change this format to provide more details. This is intended to be a helpful resource so please keep content valuable and concise.
+
+- #6197 osquery does not validate TLS SNI hostname - CVE-2020-1887 - 4.2.0 - Timothy Britton of Apple
+- #3786 Migrate from `boost::regex` to `re2` - unresolved - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3785 `ie_extensions` susceptible to SQL injection - CVE-2017-15026 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3783/#3782 `safari_extensions` should not use parent paths for privilege dropping - CVE-2017-15027 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3781 `known_hosts` should drop privileges - CVE-2017-15028 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3770/#3775 `libxml2` (v2.9.5) and `libarchive` (v3.3.2) updated - 2.9.0
+- #3767 `augeas` (v1.8.1) mitigates CVE-2017-7555 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3133 Bad output size for TLS compression - 2.4.0 - Facebook Whitehat
+- #2447 Multiple fixes to macOS `crashes` - 2.0.0 - Facebook Whitehat and zzuf
+- #2330 Add size checks to `package_bom` - 2.0.0 - Facebook Whitehat
+- #1598 `readFile` TOCTOU error - 1.6.0 - NCC Group
+- #1596 Uncaught exception in config JSON parsing - 1.6.0 - NCC Group
+- #1585 Various comparisons of integers of different signs - 1.6.0 - NCC Group
+- #993 Add restricted permissions to RocksDB - 1.4.5 - Anonymous security review
+- #740 Add hardening compile flags and `-fPIE` - 1.4.1 - Anonymous security review
+- #300 Add restricted permissions to osqueryd logging - 1.0.4
+",13,b osquery/osquery 066e01c16b08d01c19980f57b4ed75c6267ef26c
+osquery/osquery,SECURITY.md,a768e4a508c97c3555557614f52ca64ea589a1f4,2021-07-13 03:32:09+00:00,"# Security Issues
+
+This document aggregates security issues (weaknesses and vulnerabilities) affecting osquery. It tracks issues in the format:
+
+```
+#PRNumber Title - (Optional CVE) - Fixed in Version - Optional Reporter
+```
+
+There are several types of issues that do not include a CVE or reporter.
+If you find a security issue and believe a CVE should be assigned, please contact a [member of the TSC](https://github.com/osquery/osquery/blob/master/CONTRIBUTING.md#technical-steering-committee) in the osquery [Slack](https://osquery.slack.com), we are happy to submit the request and provide attribution to you.
+Specifically, we will use the GitHub Security Advisory features for CVE requests.
+The project maintainers will tag related issues and pull requests with the [`hardening`](https://github.com/osquery/osquery/issues?q=is%3Aissue+is%3Aopen+label%3Ahardening) label. There may be changes with this label that are not directly security issues.
+
+If you are editing this document please feel encouraged to change this format to provide more details. This is intended to be a helpful resource so please keep content valuable and concise.
+
+- #6197 osquery does not validate TLS SNI hostname - CVE-2020-1887 - 4.2.0 - Timothy Britton of Apple
+- #3786 Migrate from `boost::regex` to `re2` - unresolved - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3785 `ie_extensions` susceptible to SQL injection - CVE-2017-15026 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3783/#3782 `safari_extensions` should not use parent paths for privilege dropping - CVE-2017-15027 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3781 `known_hosts` should drop privileges - CVE-2017-15028 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3770/#3775 `libxml2` (v2.9.5) and `libarchive` (v3.3.2) updated - 2.9.0
+- #3767 `augeas` (v1.8.1) mitigates CVE-2017-7555 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3133 Bad output size for TLS compression - 2.4.0 - Facebook Whitehat
+- #2447 Multiple fixes to macOS `crashes` - 2.0.0 - Facebook Whitehat and zzuf
+- #2330 Add size checks to `package_bom` - 2.0.0 - Facebook Whitehat
+- #1598 `readFile` TOCTOU error - 1.6.0 - NCC Group
+- #1596 Uncaught exception in config JSON parsing - 1.6.0 - NCC Group
+- #1585 Various comparisons of integers of different signs - 1.6.0 - NCC Group
+- #993 Add restricted permissions to RocksDB - 1.4.5 - Anonymous security review
+- #740 Add hardening compile flags and `-fPIE` - 1.4.1 - Anonymous security review
+- #300 Add restricted permissions to osqueryd logging - 1.0.4
+","# Security Vulnerability Disclosure
+
+This document contains a reference history of osquery's remediated security vulnerabilities. If you find a
+vulnerability, please see CONTRIBUTING.md#how_to_report_vulnerabilities for how to submit a vulnerability report.
+
+## Security Issues
+
+This document aggregates security issues (weaknesses and vulnerabilities) affecting osquery. It tracks issues in the format:
+
+```text
+#PRNumber Title - (Optional CVE) - Fixed in Version - Optional Reporter
+```
+
+There are several types of issues that do not include a CVE or reporter.
+If you find a security issue and believe a CVE should be assigned, please contact a [member of the TSC](https://github.com/osquery/osquery/blob/master/CONTRIBUTING.md#technical-steering-committee) in the osquery [Slack](https://osquery.slack.com), we are happy to submit the request and provide attribution to you.
+Specifically, we will use the GitHub Security Advisory features for CVE requests.
+The project maintainers will tag related issues and pull requests with the [`hardening`](https://github.com/osquery/osquery/issues?q=is%3Aissue+is%3Aopen+label%3Ahardening) label. There may be changes with this label that are not directly security issues.
+
+If you are editing this document please feel encouraged to change this format to provide more details. This is intended to be a helpful resource so please keep content valuable and concise.
+
+- #6197 osquery does not validate TLS SNI hostname - CVE-2020-1887 - 4.2.0 - Timothy Britton of Apple
+- #3786 Migrate from `boost::regex` to `re2` - unresolved - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3785 `ie_extensions` susceptible to SQL injection - CVE-2017-15026 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3783/#3782 `safari_extensions` should not use parent paths for privilege dropping - CVE-2017-15027 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3781 `known_hosts` should drop privileges - CVE-2017-15028 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3770/#3775 `libxml2` (v2.9.5) and `libarchive` (v3.3.2) updated - 2.9.0
+- #3767 `augeas` (v1.8.1) mitigates CVE-2017-7555 - 2.9.0 - Ruslan Habalov and Felix Wilhelm of the Google Security Team
+- #3133 Bad output size for TLS compression - 2.4.0 - Facebook Whitehat
+- #2447 Multiple fixes to macOS `crashes` - 2.0.0 - Facebook Whitehat and zzuf
+- #2330 Add size checks to `package_bom` - 2.0.0 - Facebook Whitehat
+- #1598 `readFile` TOCTOU error - 1.6.0 - NCC Group
+- #1596 Uncaught exception in config JSON parsing - 1.6.0 - NCC Group
+- #1585 Various comparisons of integers of different signs - 1.6.0 - NCC Group
+- #993 Add restricted permissions to RocksDB - 1.4.5 - Anonymous security review
+- #740 Add hardening compile flags and `-fPIE` - 1.4.1 - Anonymous security review
+- #300 Add restricted permissions to osqueryd logging - 1.0.4
+",264,b osquery/osquery a768e4a508c97c3555557614f52ca64ea589a1f4

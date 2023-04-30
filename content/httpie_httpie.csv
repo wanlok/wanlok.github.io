@@ -1,0 +1,70 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+httpie/httpie,SECURITY.md,59d9e928f8a6de4bd78e9e11adbabf9de9207d45,2022-03-07 20:29:48+00:00,,"# Security policy
+
+## Reporting a vulnerability
+
+When you identify a vulnerability in HTTPie, please report it privately using one of the following channels:
+
+- Email to [`security@httpie.io`](mailto:security@httpie.io)
+- Report on [huntr.dev](https://huntr.dev/)
+
+In addition to the description of the vulnerability, include the following information:
+
+- A short reproducer to verify it (it can be a small HTTP server, shell script, docker image, etc.)
+- Your deemed severity level of the vulnerability (`LOW`/`MEDIUM`/`HIGH`/`CRITICAL`)
+- [CWE](https://cwe.mitre.org/) ID, if available.
+",589,b httpie/httpie 59d9e928f8a6de4bd78e9e11adbabf9de9207d45
+httpie/httpie,SECURITY.md,0a873172c95404b43387c1a4302eecc1cdb8379e,2022-03-07 20:29:48+00:00,"# Security policy
+
+## Reporting a vulnerability
+
+When you identify a vulnerability in HTTPie, please report it privately using one of the following channels:
+
+- Email to [`security@httpie.io`](mailto:security@httpie.io)
+- Report on [huntr.dev](https://huntr.dev/)
+
+In addition to the description of the vulnerability, include the following information:
+
+- A short reproducer to verify it (it can be a small HTTP server, shell script, docker image, etc.)
+- Your deemed severity level of the vulnerability (`LOW`/`MEDIUM`/`HIGH`/`CRITICAL`)
+- [CWE](https://cwe.mitre.org/) ID, if available.
+","# Security policy
+
+## Reporting a vulnerability
+
+When you identify a vulnerability in HTTPie, please report it privately using one of the following channels:
+
+- Email to [`security@httpie.io`](mailto:security@httpie.io)
+- Report on [huntr.dev](https://huntr.dev/)
+
+In addition to the description of the vulnerability, please include also:
+
+- A short reproducer to verify it (it can be a small HTTP server, shell script, docker image, etc.)
+- Your deemed severity level of the vulnerability (`LOW`/`MEDIUM`/`HIGH`/`CRITICAL`)
+- [CWE](https://cwe.mitre.org/) ID, if available.
+",25,b httpie/httpie 0a873172c95404b43387c1a4302eecc1cdb8379e
+httpie/httpie,SECURITY.md,395914fb4d439ce5220a44af231d3e16bf3fe18d,2022-03-07 20:29:48+00:00,"# Security policy
+
+## Reporting a vulnerability
+
+When you identify a vulnerability in HTTPie, please report it privately using one of the following channels:
+
+- Email to [`security@httpie.io`](mailto:security@httpie.io)
+- Report on [huntr.dev](https://huntr.dev/)
+
+In addition to the description of the vulnerability, please include also:
+
+- A short reproducer to verify it (it can be a small HTTP server, shell script, docker image, etc.)
+- Your deemed severity level of the vulnerability (`LOW`/`MEDIUM`/`HIGH`/`CRITICAL`)
+- [CWE](https://cwe.mitre.org/) ID, if available.
+","# Security Policy
+
+## Reporting a Vulnerability
+
+To report a vulnerability, please send an email to `security@httpie.io` describing the:
+
+- The description of the vulnerability itself
+- A short reproducer to verify it (you can submit a small HTTP server, a shell script, a docker image etc.)
+- The severity level classification (`LOW`/`MEDIUM`/`HIGH`/`CRITICAL`)
+- If associated with any, the [CWE](https://cwe.mitre.org/) ID.
+",260,b httpie/httpie 395914fb4d439ce5220a44af231d3e16bf3fe18d

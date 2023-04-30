@@ -1,0 +1,11 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+GoogleForCreators/web-stories-wp,SECURITY.md,e50cb4b49fd0b6e05a0cd91d5009af36c2eb4194,2020-07-22 13:10:24+00:00,,"# Security Policy
+
+## Supported Versions
+
+We support the latest stable version of the plugin with security updates.
+
+## Reporting a Vulnerability
+
+To report a vulnerability in this repository, please contact the Google Security Team at [g.co/vulnz](https://g.co/vulnz).
+",270,b GoogleForCreators/web-stories-wp e50cb4b49fd0b6e05a0cd91d5009af36c2eb4194

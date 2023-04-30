@@ -1,0 +1,59 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+spotipy-dev/spotipy,.github/SECURITY.md,0b9062726c079958afd5c641ed7175c5c83a7b66,2023-01-07 08:26:17+00:00,,"# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 5.1.x   | :white_check_mark: |
+| 5.0.x   | :x:                |
+| 4.0.x   | :white_check_mark: |
+| < 4.0   | :x:                |
+
+## Reporting a Vulnerability
+
+Use this section to tell people how to report a vulnerability.
+
+Tell them where to go, how often they can expect to get an update on a
+reported vulnerability, what to expect if the vulnerability is accepted or
+declined, etc.
+",619,b spotipy-dev/spotipy 0b9062726c079958afd5c641ed7175c5c83a7b66
+spotipy-dev/spotipy,.github/SECURITY.md,f669966a7221a25051e84d8e9eb5933ac4772aa4,2023-01-07 08:27:58+00:00,"# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 5.1.x   | :white_check_mark: |
+| 5.0.x   | :x:                |
+| 4.0.x   | :white_check_mark: |
+| < 4.0   | :x:                |
+
+## Reporting a Vulnerability
+
+Use this section to tell people how to report a vulnerability.
+
+Tell them where to go, how often they can expect to get an update on a
+reported vulnerability, what to expect if the vulnerability is accepted or
+declined, etc.
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 2.x     | :white_check_mark: |
+| 1.x     | :x:                |
+
+## Reporting a Vulnerability
+
+Report via https://github.com/spotipy-dev/spotipy/security/advisories.
+
+Guidance: https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability.
+",385,b spotipy-dev/spotipy f669966a7221a25051e84d8e9eb5933ac4772aa4

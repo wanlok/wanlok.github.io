@@ -1,0 +1,5 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+scipy/.github,SECURITY.md,4265f29f85f4e7cf9d8cfe3e14ba6b5733404c81,2019-07-26 22:17:09+00:00,,"To report a security vulnerability to SciPy, please go to
+https://tidelift.com/security and see the instructions there.
+
+",121,b scipy/.github 4265f29f85f4e7cf9d8cfe3e14ba6b5733404c81

@@ -1,0 +1,13 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+CircuitVerse/CircuitVerse,SECURITY.md,4f218e2beb5984d4b06bd70202d8a70cb0cd0a3b,2021-08-24 01:22:37+00:00,,"# Security Policy
+
+
+## Reporting a Vulnerability
+
+If you found a security vulnerability on this platform please send an email to 
+
+1. satviksr AT gmail DOT com. (@satu0king)
+2. aboobackervyd AT gmail DOT com (@tachyons)
+
+We also accept vulnerability reports through https://huntr.dev platform
+",293,b CircuitVerse/CircuitVerse 4f218e2beb5984d4b06bd70202d8a70cb0cd0a3b

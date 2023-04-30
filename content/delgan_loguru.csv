@@ -1,0 +1,43 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+delgan/loguru,SECURITY.md,1a38114eb1967be2f0a7b75418e67c93602224a4,2022-02-20 18:17:22+00:00,,"# Security Policy
+
+## Supported Versions
+
+As an open source product, only  the latest major version will be patched for security vulnerabilities. Previous versions of Loguru will likely not be retroactively patched.
+
+## Reporting a Vulnerability
+
+To report a security issue, please email delgan.py@gmail.com with a description of the issue, the steps you took to create the issue, affected versions, and if known, mitigations for the issue.
+
+You can also use [huntr.dev](https://huntr.dev) for security issues that concern Loguru. If you believe you have found a vulnerability, you can diclose it via [this form](https://huntr.dev/bounties/disclose/?target=https://github.com/delgan/loguru).
+
+Once the vulnerability has been confirmed, it will be fixed as soon as possible if feasible. Alternatively, mitigating solutions will be detailed in the documentation: [Security considerations when using Loguru](https://loguru.readthedocs.io/en/stable/resources/recipes.html#security-considerations-when-using-loguru).
+",1012,b delgan/loguru 1a38114eb1967be2f0a7b75418e67c93602224a4
+delgan/loguru,SECURITY.md,6592c6497bc8b9d373b99dc396e143b9858f62c0,2022-06-19 08:11:12+00:00,"# Security Policy
+
+## Supported Versions
+
+As an open source product, only  the latest major version will be patched for security vulnerabilities. Previous versions of Loguru will likely not be retroactively patched.
+
+## Reporting a Vulnerability
+
+To report a security issue, please email delgan.py@gmail.com with a description of the issue, the steps you took to create the issue, affected versions, and if known, mitigations for the issue.
+
+You can also use [huntr.dev](https://huntr.dev) for security issues that concern Loguru. If you believe you have found a vulnerability, you can diclose it via [this form](https://huntr.dev/bounties/disclose/?target=https://github.com/delgan/loguru).
+
+Once the vulnerability has been confirmed, it will be fixed as soon as possible if feasible. Alternatively, mitigating solutions will be detailed in the documentation: [Security considerations when using Loguru](https://loguru.readthedocs.io/en/stable/resources/recipes.html#security-considerations-when-using-loguru).
+",,1012,b delgan/loguru 6592c6497bc8b9d373b99dc396e143b9858f62c0
+delgan/loguru,.github/SECURITY.md,6592c6497bc8b9d373b99dc396e143b9858f62c0,2022-06-19 08:11:12+00:00,,"# Security Policy
+
+## Supported Versions
+
+As an open source product, only  the latest major version will be patched for security vulnerabilities. Previous versions of Loguru will likely not be retroactively patched.
+
+## Reporting a Vulnerability
+
+To report a security issue, please email delgan.py@gmail.com with a description of the issue, the steps you took to create the issue, affected versions, and if known, mitigations for the issue.
+
+You can also use [huntr.dev](https://huntr.dev) for security issues that concern Loguru. If you believe you have found a vulnerability, you can diclose it via [this form](https://huntr.dev/bounties/disclose/?target=https://github.com/delgan/loguru).
+
+Once the vulnerability has been confirmed, it will be fixed as soon as possible if feasible. Alternatively, mitigating solutions will be detailed in the documentation: [Security considerations when using Loguru](https://loguru.readthedocs.io/en/stable/resources/recipes.html#security-considerations-when-using-loguru).
+",1012,b delgan/loguru 6592c6497bc8b9d373b99dc396e143b9858f62c0

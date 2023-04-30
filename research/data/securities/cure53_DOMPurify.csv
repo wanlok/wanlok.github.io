@@ -1,0 +1,68 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+cure53/DOMPurify,SECURITY.md,78401705222c4e60d3fe41bf9c3fdd55f791e370,2019-10-10 17:06:46+00:00,,"## Supported Versions
+
+Always the latest release.
+
+## Reporting a Vulnerability
+
+First of all, please immediately contact us via [email](mailto:mario@cure53.de) so we can work on a fix. [PGP key](https://keyserver.ubuntu.com/pks/lookup?op=vindex&search=0xC26C858090F70ADA)
+
+Also, you probably qualify for a bug bounty The fine folks over at [FastMail](https://www.fastmail.com/) use DOMPurify for their services and added our library to their bug bounty scope. So, if you find a way to bypass or weaken DOMPurify, please also have a look at their website and the [bug bounty info](https://www.fastmail.com/about/bugbounty.html).
+",629,b cure53/DOMPurify 78401705222c4e60d3fe41bf9c3fdd55f791e370
+cure53/DOMPurify,SECURITY.md,73b5d46b1260b206949329a03511ff5adbc99bf0,2019-10-15 22:03:39+00:00,"## Supported Versions
+
+Always the latest release.
+
+## Reporting a Vulnerability
+
+First of all, please immediately contact us via [email](mailto:mario@cure53.de) so we can work on a fix. [PGP key](https://keyserver.ubuntu.com/pks/lookup?op=vindex&search=0xC26C858090F70ADA)
+
+Also, you probably qualify for a bug bounty The fine folks over at [FastMail](https://www.fastmail.com/) use DOMPurify for their services and added our library to their bug bounty scope. So, if you find a way to bypass or weaken DOMPurify, please also have a look at their website and the [bug bounty info](https://www.fastmail.com/about/bugbounty.html).
+","## Supported Versions
+
+Always the latest release.
+
+## Reporting a Vulnerability
+
+First of all, please immediately contact us via [email](mailto:mario@cure53.de) so we can work on a fix. [PGP key](https://keyserver.ubuntu.com/pks/lookup?op=vindex&search=0xC26C858090F70ADA)
+
+Also, you probably qualify for a bug bounty! The fine folks over at [FastMail](https://www.fastmail.com/) use DOMPurify for their services and added our library to their bug bounty scope. So, if you find a way to bypass or weaken DOMPurify, please also have a look at their website and the [bug bounty info](https://www.fastmail.com/about/bugbounty.html).
+",1,b cure53/DOMPurify 73b5d46b1260b206949329a03511ff5adbc99bf0
+cure53/DOMPurify,SECURITY.md,e34ea757b5b7f28dbdbd001f4d402620e21276fb,2020-08-14 13:25:48+00:00,"## Supported Versions
+
+Always the latest release.
+
+## Reporting a Vulnerability
+
+First of all, please immediately contact us via [email](mailto:mario@cure53.de) so we can work on a fix. [PGP key](https://keyserver.ubuntu.com/pks/lookup?op=vindex&search=0xC26C858090F70ADA)
+
+Also, you probably qualify for a bug bounty! The fine folks over at [FastMail](https://www.fastmail.com/) use DOMPurify for their services and added our library to their bug bounty scope. So, if you find a way to bypass or weaken DOMPurify, please also have a look at their website and the [bug bounty info](https://www.fastmail.com/about/bugbounty.html).
+","## Supported Versions
+
+Always the latest release.
+
+## Reporting a Vulnerability
+
+First of all, please immediately contact us via [email](mailto:mario@cure53.de) so we can work on a fix. [PGP key](https://keyserver.ubuntu.com/pks/lookup?op=vindex&search=0xC26C858090F70ADA)
+
+Also, you probably qualify for a bug bounty! The fine folks over at [Fastmail](https://www.fastmail.com/) use DOMPurify for their services and added our library to their bug bounty scope. So, if you find a way to bypass or weaken DOMPurify, please also have a look at their website and the [bug bounty info](https://www.fastmail.com/about/bugbounty.html).
+",1,b cure53/DOMPurify e34ea757b5b7f28dbdbd001f4d402620e21276fb
+cure53/DOMPurify,SECURITY.md,2f1a97d06336816e69ca44e311c70ab0456efe6f,2022-04-24 16:00:24+00:00,"## Supported Versions
+
+Always the latest release.
+
+## Reporting a Vulnerability
+
+First of all, please immediately contact us via [email](mailto:mario@cure53.de) so we can work on a fix. [PGP key](https://keyserver.ubuntu.com/pks/lookup?op=vindex&search=0xC26C858090F70ADA)
+
+Also, you probably qualify for a bug bounty! The fine folks over at [Fastmail](https://www.fastmail.com/) use DOMPurify for their services and added our library to their bug bounty scope. So, if you find a way to bypass or weaken DOMPurify, please also have a look at their website and the [bug bounty info](https://www.fastmail.com/about/bugbounty.html).
+","## Supported Versions
+
+Always the latest release.
+
+## Reporting a Vulnerability
+
+First of all, please immediately contact us via [email](mailto:mario@cure53.de) so we can work on a fix. [PGP key](https://keyserver.ubuntu.com/pks/lookup?op=vindex&search=0xC26C858090F70ADA)
+
+Also, you probably qualify for a bug bounty! The fine folks over at [Fastmail](https://www.fastmail.com/) use DOMPurify for their services and added our library to their bug bounty scope. So, if you find a way to bypass or weaken DOMPurify, please also have a look at their website and the [bug bounty info](https://www.fastmail.com/about/bugbounty/).
+",5,b cure53/DOMPurify 2f1a97d06336816e69ca44e311c70ab0456efe6f

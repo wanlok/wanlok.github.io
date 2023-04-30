@@ -1,0 +1,7 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+bcgit/bc-csharp,SECURITY.md,bcaa4673d8d304e8fcb98957d0cc3e307c9b2839,2021-02-18 03:45:16+00:00,,"# Reporting a security issue
+
+If you would like to report something you believe to be a security issue, then please use feedback-crypto@bouncycastle.org.
+
+We can provide a PGP key if required.
+",193,b bcgit/bc-csharp bcaa4673d8d304e8fcb98957d0cc3e307c9b2839

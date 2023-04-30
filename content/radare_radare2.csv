@@ -1,4 +1,4 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
 radare/radare2,SECURITY.md,8f71ea1839a7ba8511346707d13ea6da11dfd40a,2021-07-16 11:08:40+00:00,,"Security Policies and Procedures
 ================================
 
@@ -48,7 +48,7 @@ Bounties
 --------
 
 No bounty programs are available right now.
-",1876
+",1876,b radare/radare2 8f71ea1839a7ba8511346707d13ea6da11dfd40a
 radare/radare2,SECURITY.md,2470a6c284a1e8aba01a3d89ab565a05b29add8a,2022-01-01 12:11:46+00:00,"Security Policies and Procedures
 ================================
 
@@ -145,4 +145,4 @@ accounts and report it in the public channel, DMs to the author are also fine.
 ## Bounties
 
 There is currently no bug bounty program for r2.
-",438
+",438,b radare/radare2 2470a6c284a1e8aba01a3d89ab565a05b29add8a

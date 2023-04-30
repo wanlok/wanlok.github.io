@@ -1,4 +1,4 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
 nilsteampassnet/TeamPass,SECURITY.md,433d8dfa14d675eb2886eece6b9eecd8815d5619,2023-02-05 17:39:02+00:00,,"# Security Policy
 
 ## Supported Versions
@@ -12,4 +12,4 @@ This project is currently being supported with security updates.
 ## Reporting a Vulnerability
 
 For any vulnerability or potential security issue, please provide complete description by email to nils@teampass.net.
-",356
+",356,b nilsteampassnet/TeamPass 433d8dfa14d675eb2886eece6b9eecd8815d5619

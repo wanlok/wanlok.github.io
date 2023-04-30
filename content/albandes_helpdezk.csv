@@ -1,0 +1,147 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+albandes/helpdezk,.github/SECURITY.md,b6383f406b8372d12f09cf8195ea8f3ddd1a3f73,2020-12-29 15:02:33+00:00,,"# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 5.1.x   | :white_check_mark: |
+| 5.0.x   | :x:                |
+| 4.0.x   | :white_check_mark: |
+| < 4.0   | :x:                |
+
+## Reporting a Vulnerability
+
+Use this section to tell people how to report a vulnerability.
+
+Tell them where to go, how often they can expect to get an update on a
+reported vulnerability, what to expect if the vulnerability is accepted or
+declined, etc.
+",619,b albandes/helpdezk b6383f406b8372d12f09cf8195ea8f3ddd1a3f73
+albandes/helpdezk,.github/SECURITY.md,acf96b1c6a686fc5bf157eb9c136121a6ca630e5,2020-12-29 15:07:27+00:00,"# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 5.1.x   | :white_check_mark: |
+| 5.0.x   | :x:                |
+| 4.0.x   | :white_check_mark: |
+| < 4.0   | :x:                |
+
+## Reporting a Vulnerability
+
+Use this section to tell people how to report a vulnerability.
+
+Tell them where to go, how often they can expect to get an update on a
+reported vulnerability, what to expect if the vulnerability is accepted or
+declined, etc.
+","# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.1.8   | :x:                |
+| 1.1.7   |  :x:|
+| < 1.1.7   | :white_check_mark:                |
+
+## Reporting a Vulnerability
+
+Use this section to tell people how to report a vulnerability.
+
+Tell them where to go, how often they can expect to get an update on a
+reported vulnerability, what to expect if the vulnerability is accepted or
+declined, etc.
+",62,b albandes/helpdezk acf96b1c6a686fc5bf157eb9c136121a6ca630e5
+albandes/helpdezk,.github/SECURITY.md,aa8e32534af5a9e4e33cf1a26487d766858bcf52,2020-12-29 15:08:41+00:00,"# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.1.8   | :x:                |
+| 1.1.7   |  :x:|
+| < 1.1.7   | :white_check_mark:                |
+
+## Reporting a Vulnerability
+
+Use this section to tell people how to report a vulnerability.
+
+Tell them where to go, how often they can expect to get an update on a
+reported vulnerability, what to expect if the vulnerability is accepted or
+declined, etc.
+","# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.1.8   | :white_check_mark: |
+| 1.1.7   |  :white_check_mark:|
+| < 1.1.7 | :x:                |
+
+## Reporting a Vulnerability
+
+Use this section to tell people how to report a vulnerability.
+
+Tell them where to go, how often they can expect to get an update on a
+reported vulnerability, what to expect if the vulnerability is accepted or
+declined, etc.
+",51,b albandes/helpdezk aa8e32534af5a9e4e33cf1a26487d766858bcf52
+albandes/helpdezk,.github/SECURITY.md,161fd2a0c69e7091393856a95d4448212e9fdfd4,2022-11-08 13:03:58+00:00,"# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.1.8   | :white_check_mark: |
+| 1.1.7   |  :white_check_mark:|
+| < 1.1.7 | :x:                |
+
+## Reporting a Vulnerability
+
+Use this section to tell people how to report a vulnerability.
+
+Tell them where to go, how often they can expect to get an update on a
+reported vulnerability, what to expect if the vulnerability is accepted or
+declined, etc.
+","# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.1.8   | :white_check_mark: |
+| 1.1.7   |  :white_check_mark:|
+| < 1.1.7 | :x:                |
+
+## Reporting a Vulnerability
+
+Use this section to tell people how to report a vulnerability.
+
+Tell them where to go, how often they can expect to get an update on a
+reported vulnerability, what to expect if the vulnerability is accepted or
+declined, etc.
+",20,b albandes/helpdezk 161fd2a0c69e7091393856a95d4448212e9fdfd4

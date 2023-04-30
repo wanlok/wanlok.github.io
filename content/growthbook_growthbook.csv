@@ -1,0 +1,243 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+growthbook/growthbook,SECURITY.md,c0b40b327a903ef745e6a5070b678ffa9ef0e9ba,2022-08-30 01:12:40+00:00,,"# GrowthBook Open Source Security Policies and Procedures
+
+This document outlines security procedures and general policies for the
+GrowthBook Open Source projects as found on https://github.com/growthbook.
+
+  * [Reporting a Vulnerability](#reporting-a-vulnerability)
+  * [Patching and Releasing](#patching-and-releasing)
+  * [Disclosure Policy](#disclosure-policy)
+
+## Reporting a Vulnerability
+
+The GrowthBook team take all reports of security vulnerabilities
+seriously. Report security vulnerabilities by emailing the GrowthBook security team at:
+    
+    security@growthbook.io
+
+We appreciate your efforts and responsible disclosure and will
+make every effort to acknowledge your contributions (if desired). 
+
+**IMPORTANT: Do not file public issues on GitHub for security vulnerabilities**
+
+Security is of the highest importance and all security vulnerabilities or suspected security vulnerabilities should be reported to GrowthBook privately, to minimize attacks against current users of GrowthBook before they are fixed. Vulnerabilities will be investigated and patched as soon as possible.
+
+  
+## Patching and Releasing
+The GrowthBook team will respond to vulnerability reports as follows:
+ 
+1.  The security team will investigate the vulnerability and determine its effects, criticality and scope.
+2.  If the issue is found to be valid, the code will be patched and released as quickly as possible. 
+3.  We will attempt to identify and notify the effected users directly as soon as possible, as well as following steps mentioned in our [Disclosure Policy](#disclosure-policy). A public disclosure date may be negotiated by the GrowthBook Security Team, and the bug submitter if required.
+
+## Disclosure Process
+The security team publishes a public [security advisory](https://github.com/growthbook/growthbook/security/advisories) via GitHub. Depending on the scope of the issue, additional details may be communicated via Slack, Email, Twitter, blog and/or other channels to assist in educating GrowthBook users in rolling out a patched version. 
+
+",2055,b growthbook/growthbook c0b40b327a903ef745e6a5070b678ffa9ef0e9ba
+growthbook/growthbook,SECURITY.md,17194ba560468c8277926fb3be8d0188a5975888,2022-08-30 01:14:04+00:00,"# GrowthBook Open Source Security Policies and Procedures
+
+This document outlines security procedures and general policies for the
+GrowthBook Open Source projects as found on https://github.com/growthbook.
+
+  * [Reporting a Vulnerability](#reporting-a-vulnerability)
+  * [Patching and Releasing](#patching-and-releasing)
+  * [Disclosure Policy](#disclosure-policy)
+
+## Reporting a Vulnerability
+
+The GrowthBook team take all reports of security vulnerabilities
+seriously. Report security vulnerabilities by emailing the GrowthBook security team at:
+    
+    security@growthbook.io
+
+We appreciate your efforts and responsible disclosure and will
+make every effort to acknowledge your contributions (if desired). 
+
+**IMPORTANT: Do not file public issues on GitHub for security vulnerabilities**
+
+Security is of the highest importance and all security vulnerabilities or suspected security vulnerabilities should be reported to GrowthBook privately, to minimize attacks against current users of GrowthBook before they are fixed. Vulnerabilities will be investigated and patched as soon as possible.
+
+  
+## Patching and Releasing
+The GrowthBook team will respond to vulnerability reports as follows:
+ 
+1.  The security team will investigate the vulnerability and determine its effects, criticality and scope.
+2.  If the issue is found to be valid, the code will be patched and released as quickly as possible. 
+3.  We will attempt to identify and notify the effected users directly as soon as possible, as well as following steps mentioned in our [Disclosure Policy](#disclosure-policy). A public disclosure date may be negotiated by the GrowthBook Security Team, and the bug submitter if required.
+
+## Disclosure Process
+The security team publishes a public [security advisory](https://github.com/growthbook/growthbook/security/advisories) via GitHub. Depending on the scope of the issue, additional details may be communicated via Slack, Email, Twitter, blog and/or other channels to assist in educating GrowthBook users in rolling out a patched version. 
+
+","# GrowthBook Open Source Security Policies and Procedures
+
+This document outlines security procedures and general policies for the
+GrowthBook Open Source projects as found on https://github.com/growthbook.
+
+  * [Reporting a Vulnerability](#reporting-a-vulnerability)
+  * [Patching and Releasing](#patching-and-releasing)
+  * [Disclosure Process](#disclosure-process)
+
+## Reporting a Vulnerability
+
+The GrowthBook team take all reports of security vulnerabilities
+seriously. Report security vulnerabilities by emailing the GrowthBook security team at:
+    
+    security@growthbook.io
+
+We appreciate your efforts and responsible disclosure and will
+make every effort to acknowledge your contributions (if desired). 
+
+**IMPORTANT: Do not file public issues on GitHub for security vulnerabilities**
+
+Security is of the highest importance and all security vulnerabilities or suspected security vulnerabilities should be reported to GrowthBook privately, to minimize attacks against current users of GrowthBook before they are fixed. Vulnerabilities will be investigated and patched as soon as possible.
+
+  
+## Patching and Releasing
+The GrowthBook team will respond to vulnerability reports as follows:
+ 
+1.  The security team will investigate the vulnerability and determine its effects, criticality and scope.
+2.  If the issue is found to be valid, the code will be patched and released as quickly as possible. 
+3.  We will attempt to identify and notify the effected users directly as soon as possible, as well as following steps mentioned in our [Disclosure Policy](#disclosure-policy). A public disclosure date may be negotiated by the GrowthBook Security Team, and the bug submitter if required.
+
+## Disclosure Process
+The security team publishes a public [security advisory](https://github.com/growthbook/growthbook/security/advisories) via GitHub. Depending on the scope of the issue, additional details may be communicated via Slack, Email, Twitter, blog and/or other channels to assist in educating GrowthBook users in rolling out a patched version. 
+
+",10,b growthbook/growthbook 17194ba560468c8277926fb3be8d0188a5975888
+growthbook/growthbook,SECURITY.md,e8353621670c8d2b10f89e97419e6fba662afa35,2022-08-30 01:14:40+00:00,"# GrowthBook Open Source Security Policies and Procedures
+
+This document outlines security procedures and general policies for the
+GrowthBook Open Source projects as found on https://github.com/growthbook.
+
+  * [Reporting a Vulnerability](#reporting-a-vulnerability)
+  * [Patching and Releasing](#patching-and-releasing)
+  * [Disclosure Process](#disclosure-process)
+
+## Reporting a Vulnerability
+
+The GrowthBook team take all reports of security vulnerabilities
+seriously. Report security vulnerabilities by emailing the GrowthBook security team at:
+    
+    security@growthbook.io
+
+We appreciate your efforts and responsible disclosure and will
+make every effort to acknowledge your contributions (if desired). 
+
+**IMPORTANT: Do not file public issues on GitHub for security vulnerabilities**
+
+Security is of the highest importance and all security vulnerabilities or suspected security vulnerabilities should be reported to GrowthBook privately, to minimize attacks against current users of GrowthBook before they are fixed. Vulnerabilities will be investigated and patched as soon as possible.
+
+  
+## Patching and Releasing
+The GrowthBook team will respond to vulnerability reports as follows:
+ 
+1.  The security team will investigate the vulnerability and determine its effects, criticality and scope.
+2.  If the issue is found to be valid, the code will be patched and released as quickly as possible. 
+3.  We will attempt to identify and notify the effected users directly as soon as possible, as well as following steps mentioned in our [Disclosure Policy](#disclosure-policy). A public disclosure date may be negotiated by the GrowthBook Security Team, and the bug submitter if required.
+
+## Disclosure Process
+The security team publishes a public [security advisory](https://github.com/growthbook/growthbook/security/advisories) via GitHub. Depending on the scope of the issue, additional details may be communicated via Slack, Email, Twitter, blog and/or other channels to assist in educating GrowthBook users in rolling out a patched version. 
+
+","# GrowthBook Open Source Security Policies and Procedures
+
+This document outlines security procedures and general policies for the
+GrowthBook Open Source projects as found on https://github.com/growthbook.
+
+  * [Reporting a Vulnerability](#reporting-a-vulnerability)
+  * [Patching and Releasing](#patching-and-releasing)
+  * [Disclosure Process](#disclosure-process)
+
+## Reporting a Vulnerability
+
+The GrowthBook team take all reports of security vulnerabilities
+seriously. Report security vulnerabilities by emailing the GrowthBook security team at:
+    
+    security@growthbook.io
+
+We appreciate your efforts and responsible disclosure and will
+make every effort to acknowledge your contributions (if desired). 
+
+**IMPORTANT: Do not file public issues on GitHub for security vulnerabilities**
+
+Security is of the highest importance and all security vulnerabilities or suspected security vulnerabilities should be reported to GrowthBook privately, to minimize attacks against current users of GrowthBook before they are fixed. Vulnerabilities will be investigated and patched as soon as possible.
+
+  
+## Patching and Releasing
+The GrowthBook team will respond to vulnerability reports as follows:
+ 
+1.  The security team will investigate the vulnerability and determine its effects, criticality and scope.
+2.  If the issue is found to be valid, the code will be patched and released as quickly as possible. 
+3.  We will attempt to identify and notify the effected users directly as soon as possible, as well as following steps mentioned in our [Disclosure Process](#disclosure-process). A public disclosure date may be negotiated by the GrowthBook Security Team, and the bug submitter if required.
+
+## Disclosure Process
+The security team publishes a public [security advisory](https://github.com/growthbook/growthbook/security/advisories) via GitHub. Depending on the scope of the issue, additional details may be communicated via Slack, Email, Twitter, blog and/or other channels to assist in educating GrowthBook users in rolling out a patched version. 
+
+",10,b growthbook/growthbook e8353621670c8d2b10f89e97419e6fba662afa35
+growthbook/growthbook,SECURITY.md,83dfb639ae399dbf5559fde0dbcab81c2bc6f094,2022-09-02 03:17:04+00:00,"# GrowthBook Open Source Security Policies and Procedures
+
+This document outlines security procedures and general policies for the
+GrowthBook Open Source projects as found on https://github.com/growthbook.
+
+  * [Reporting a Vulnerability](#reporting-a-vulnerability)
+  * [Patching and Releasing](#patching-and-releasing)
+  * [Disclosure Process](#disclosure-process)
+
+## Reporting a Vulnerability
+
+The GrowthBook team take all reports of security vulnerabilities
+seriously. Report security vulnerabilities by emailing the GrowthBook security team at:
+    
+    security@growthbook.io
+
+We appreciate your efforts and responsible disclosure and will
+make every effort to acknowledge your contributions (if desired). 
+
+**IMPORTANT: Do not file public issues on GitHub for security vulnerabilities**
+
+Security is of the highest importance and all security vulnerabilities or suspected security vulnerabilities should be reported to GrowthBook privately, to minimize attacks against current users of GrowthBook before they are fixed. Vulnerabilities will be investigated and patched as soon as possible.
+
+  
+## Patching and Releasing
+The GrowthBook team will respond to vulnerability reports as follows:
+ 
+1.  The security team will investigate the vulnerability and determine its effects, criticality and scope.
+2.  If the issue is found to be valid, the code will be patched and released as quickly as possible. 
+3.  We will attempt to identify and notify the effected users directly as soon as possible, as well as following steps mentioned in our [Disclosure Process](#disclosure-process). A public disclosure date may be negotiated by the GrowthBook Security Team, and the bug submitter if required.
+
+## Disclosure Process
+The security team publishes a public [security advisory](https://github.com/growthbook/growthbook/security/advisories) via GitHub. Depending on the scope of the issue, additional details may be communicated via Slack, Email, Twitter, blog and/or other channels to assist in educating GrowthBook users in rolling out a patched version. 
+
+","# GrowthBook Open Source Security Policies and Procedures
+
+This document outlines security procedures and general policies for the
+GrowthBook Open Source projects as found on https://github.com/growthbook.
+
+- [Reporting a Vulnerability](#reporting-a-vulnerability)
+- [Patching and Releasing](#patching-and-releasing)
+- [Disclosure Process](#disclosure-process)
+
+## Reporting a Vulnerability
+
+The GrowthBook team take all reports of security vulnerabilities
+seriously. Report security vulnerabilities by emailing the GrowthBook security team at:
+
+    security@growthbook.io
+
+We appreciate your efforts and responsible disclosure and will
+make every effort to acknowledge your contributions (if desired).
+
+**IMPORTANT: Do not file public issues on GitHub for security vulnerabilities**
+
+Security is of the highest importance and all security vulnerabilities or suspected security vulnerabilities should be reported to GrowthBook privately, to minimize attacks against current users of GrowthBook before they are fixed. Vulnerabilities will be investigated and patched as soon as possible.
+
+## Patching and Releasing
+
+The GrowthBook team will respond to vulnerability reports as follows:
+
+1.  The security team will investigate the vulnerability and determine its effects, criticality and scope.
+2.  If the issue is found to be valid, the code will be patched and released as quickly as possible.
+3.  We will attempt to identify and notify the effected users directly as soon as possible, as well as following steps mentioned in our [Disclosure Process](#disclosure-process). A public disclosure date may be negotiated by the GrowthBook Security Team, and the bug submitter if required.
+
+## Disclosure Process
+
+The security team publishes a public [security advisory](https://github.com/growthbook/growthbook/security/advisories) via GitHub. Depending on the scope of the issue, additional details may be communicated via Slack, Email, Twitter, blog and/or other channels to assist in educating GrowthBook users in rolling out a patched version.
+",23,b growthbook/growthbook 83dfb639ae399dbf5559fde0dbcab81c2bc6f094

@@ -1,0 +1,51 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+npm/hosted-git-info,SECURITY.md,c42e1f216542ead9d0d328704c5db02204f15ce8,2022-03-14 22:09:59+00:00,,"<!-- This file is automatically added by @npmcli/template-oss. Do not edit. -->
+
+Please send vulnerability reports through [hackerone](https://hackerone.com/github).
+",166,b npm/hosted-git-info c42e1f216542ead9d0d328704c5db02204f15ce8
+npm/hosted-git-info,SECURITY.md,cf8115d6fa056fbfb0d63d4d13bde6116b2a02e0,2022-11-12 21:38:58+00:00,"<!-- This file is automatically added by @npmcli/template-oss. Do not edit. -->
+
+Please send vulnerability reports through [hackerone](https://hackerone.com/github).
+","<!-- This file is automatically added by @npmcli/template-oss. Do not edit. -->
+
+GitHub takes the security of our software products and services seriously, including the open source code repositories managed through our GitHub organizations, such as [GitHub](https://github.com/GitHub).
+
+If you believe you have found a security vulnerability in this GitHub-owned open source repository, you can report it to us in one of two ways. 
+
+If the vulnerability you have found is *not* [in scope for the GitHub Bug Bounty Program](https://bounty.github.com/#scope) or if you do not wish to be considered for a bounty reward, please report the issue to us directly using [private vulnerability reporting](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability).
+
+If the vulnerability you have found is [in scope for the GitHub Bug Bounty Program](https://bounty.github.com/#scope) and you would like for your finding to be considered for a bounty reward, please submit the vulnerability to us through [HackerOne](https://hackerone.com/github) in order to be eligible to receive a bounty award.
+
+**Please do not report security vulnerabilities through public GitHub issues, discussions, or pull requests.**
+
+Thanks for helping make GitHub safe for everyone.
+
+",1170,b npm/hosted-git-info cf8115d6fa056fbfb0d63d4d13bde6116b2a02e0
+npm/hosted-git-info,SECURITY.md,d242175486a9a2475d0764078bdd6e7356dfdf98,2023-03-08 00:49:27+00:00,"<!-- This file is automatically added by @npmcli/template-oss. Do not edit. -->
+
+GitHub takes the security of our software products and services seriously, including the open source code repositories managed through our GitHub organizations, such as [GitHub](https://github.com/GitHub).
+
+If you believe you have found a security vulnerability in this GitHub-owned open source repository, you can report it to us in one of two ways. 
+
+If the vulnerability you have found is *not* [in scope for the GitHub Bug Bounty Program](https://bounty.github.com/#scope) or if you do not wish to be considered for a bounty reward, please report the issue to us directly using [private vulnerability reporting](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability).
+
+If the vulnerability you have found is [in scope for the GitHub Bug Bounty Program](https://bounty.github.com/#scope) and you would like for your finding to be considered for a bounty reward, please submit the vulnerability to us through [HackerOne](https://hackerone.com/github) in order to be eligible to receive a bounty award.
+
+**Please do not report security vulnerabilities through public GitHub issues, discussions, or pull requests.**
+
+Thanks for helping make GitHub safe for everyone.
+
+","<!-- This file is automatically added by @npmcli/template-oss. Do not edit. -->
+
+GitHub takes the security of our software products and services seriously, including the open source code repositories managed through our GitHub organizations, such as [GitHub](https://github.com/GitHub).
+
+If you believe you have found a security vulnerability in this GitHub-owned open source repository, you can report it to us in one of two ways. 
+
+If the vulnerability you have found is *not* [in scope for the GitHub Bug Bounty Program](https://bounty.github.com/#scope) or if you do not wish to be considered for a bounty reward, please report the issue to us directly through [opensource-security@github.com](mailto:opensource-security@github.com).
+
+If the vulnerability you have found is [in scope for the GitHub Bug Bounty Program](https://bounty.github.com/#scope) and you would like for your finding to be considered for a bounty reward, please submit the vulnerability to us through [HackerOne](https://hackerone.com/github) in order to be eligible to receive a bounty award.
+
+**Please do not report security vulnerabilities through public GitHub issues, discussions, or pull requests.**
+
+Thanks for helping make GitHub safe for everyone.
+",141,b npm/hosted-git-info d242175486a9a2475d0764078bdd6e7356dfdf98

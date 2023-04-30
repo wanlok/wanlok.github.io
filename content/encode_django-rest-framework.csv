@@ -1,0 +1,30 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+encode/django-rest-framework,SECURITY.md,063f0de949650ee98a4c795d6bcdf994dadbfe4a,2019-05-29 08:57:07+00:00,,"# Security Policy
+
+## Reporting a Vulnerability
+
+If you believe you've found something in Django REST framework which has security implications, please **do not raise the issue in a public forum**.
+
+Send a description of the issue via email to [rest-framework-security@googlegroups.com][security-mail].  The project maintainers will then work with you to resolve any issues where required, prior to any public disclosure.
+
+[security-mail]: mailto:rest-framework-security@googlegroups.com
+",488,b encode/django-rest-framework 063f0de949650ee98a4c795d6bcdf994dadbfe4a
+encode/django-rest-framework,SECURITY.md,070c32f4a62ef0544f58de404c87d86db36fd825,2022-03-16 12:12:25+00:00,"# Security Policy
+
+## Reporting a Vulnerability
+
+If you believe you've found something in Django REST framework which has security implications, please **do not raise the issue in a public forum**.
+
+Send a description of the issue via email to [rest-framework-security@googlegroups.com][security-mail].  The project maintainers will then work with you to resolve any issues where required, prior to any public disclosure.
+
+[security-mail]: mailto:rest-framework-security@googlegroups.com
+","# Security Policy
+
+## Reporting a Vulnerability
+
+Security issues are handled under the supervision of the [Django security team](https://www.djangoproject.com/foundation/teams/#security-team).
+
+ **Please report security issues by emailing security@djangoproject.com**.
+
+ The project maintainers will then work with you to resolve any issues where required, prior to any public disclosure.
+",261,b encode/django-rest-framework 070c32f4a62ef0544f58de404c87d86db36fd825

@@ -1,0 +1,7 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+adriankumpf/teslamate,SECURITY.md,475b39e9644243e2c662c205024017ed52a8fbcc,2021-09-30 17:19:29+00:00,,"# Security Policy
+
+## Reporting a Vulnerability
+
+For reporting a security vulnerability, please contact `security AT teslamate DOT org`.
+",137,b adriankumpf/teslamate 475b39e9644243e2c662c205024017ed52a8fbcc

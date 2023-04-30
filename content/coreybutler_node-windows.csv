@@ -1,0 +1,13 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+coreybutler/.github,SECURITY.md,cc82139272ceab7c52462dca9802f6bc20ffc321,2021-07-31 16:57:19+00:00,,"# Reporting Security Vulnerabilities
+
+If you've identified a security vulnerability, please [submit a report here](https://forms.gle/RgtxUSLZjazN7Q7v8).
+",153,b coreybutler/.github cc82139272ceab7c52462dca9802f6bc20ffc321
+coreybutler/.github,SECURITY.md,49406a917804dcf4955b2ffcb4efe115450eb18e,2021-07-31 17:02:54+00:00,"# Reporting Security Vulnerabilities
+
+If you've identified a security vulnerability, please [submit a report here](https://forms.gle/RgtxUSLZjazN7Q7v8).
+",,153,b coreybutler/.github 49406a917804dcf4955b2ffcb4efe115450eb18e
+coreybutler/.github,SECURITY.md,99cc3ac3256c99877622d211b3930ae7d39345d1,2021-07-31 17:04:33+00:00,,"# Reporting Security Vulnerabilities
+
+If you've identified a security vulnerability, please [submit a report here](https://forms.gle/RgtxUSLZjazN7Q7v8).
+",153,b coreybutler/.github 99cc3ac3256c99877622d211b3930ae7d39345d1

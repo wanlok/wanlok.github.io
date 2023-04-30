@@ -1,0 +1,54 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+YesWiki/yeswiki,SECURITY.md,3bdb016f0f4baee41d944eb5cb59b199b8b024d8,2021-10-05 04:56:00+00:00,,"# Security Policy
+
+## Supported Versions
+
+The 2 last major versions of YesWiki are
+currently being supported with security updates.
+
+| Version             | Supported          |
+| ------------------- | ------------------ |
+| doryphore 4.x       | :white_check_mark: |
+| cercopitheque 3.x   | :white_check_mark: |
+| bachibouzouk 2.x    | :x:                |
+| anacoluthe 1.x      | :x:                |
+
+## Reporting a Vulnerability
+
+You can contact us by email at <mailto:contact+security@yeswiki.net>
+",503,b YesWiki/yeswiki 3bdb016f0f4baee41d944eb5cb59b199b8b024d8
+YesWiki/yeswiki,SECURITY.md,4dfd0b7b84f94baa2dc49b039889186da4207436,2021-10-05 04:56:51+00:00,"# Security Policy
+
+## Supported Versions
+
+The 2 last major versions of YesWiki are
+currently being supported with security updates.
+
+| Version             | Supported          |
+| ------------------- | ------------------ |
+| doryphore 4.x       | :white_check_mark: |
+| cercopitheque 3.x   | :white_check_mark: |
+| bachibouzouk 2.x    | :x:                |
+| anacoluthe 1.x      | :x:                |
+
+## Reporting a Vulnerability
+
+You can contact us by email at <mailto:contact+security@yeswiki.net>
+","# Security Policy
+
+## Supported Versions
+
+The two last major versions of YesWiki are
+currently being supported with security updates.
+
+| Version             | Supported          |
+| ------------------- | ------------------ |
+| doryphore 4.x       | :white_check_mark: |
+| cercopitheque 3.x   | :white_check_mark: |
+| bachibouzouk 2.x    | :x:                |
+| anacoluthe 1.x      | :x:                |
+
+## Reporting a Vulnerability
+
+You can contact us by email at <mailto:contact+security@yeswiki.net>
+",3,b YesWiki/yeswiki 4dfd0b7b84f94baa2dc49b039889186da4207436

@@ -1,0 +1,9 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+redaxo/redaxo,SECURITY.md,dd117caa387614856094d084509a203a98dedf64,2020-01-03 17:07:25+00:00,,"# Security Policy
+
+## Reporting a Vulnerability
+
+If you discover a security issue with REDAXO or a related package, please contact us
+via `info {at} redaxo.org` instead of using a public channel. That way we can work on
+a fix together before everyone knows how to exploit a potential issue. Thank you!
+",302,b redaxo/redaxo dd117caa387614856094d084509a203a98dedf64

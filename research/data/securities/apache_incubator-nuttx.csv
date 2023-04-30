@@ -1,0 +1,93 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+apache/incubator-nuttx,.github/SECURITY.md,0edb162ba7e4e63b3bb242df8a72502048183caf,2020-12-17 06:31:58+00:00,,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 10.0.x  | :heavy_check_mark: |
+| 9.1.x   | :heavy_check_mark: |
+| < 9.1   | :x:                |
+
+## Reporting a Vulnerability
+
+If you think you have found a possible vulnerability please reach out to the _private_ project mailing list
+private@nuttx.apache.org or the Apache Security list security@apache.org.
+
+Please **DO NOT** create a GitHub issue or email the project dev list as they are public.
+This project follows the Apache Vulnerability Handling Policy docuemnted [here](https://www.apache.org/security/committers.html#vulnerability-handling)
+",663,b apache/incubator-nuttx 0edb162ba7e4e63b3bb242df8a72502048183caf
+apache/incubator-nuttx,.github/SECURITY.md,8313c2a3dc2e19fa598ace7486e8a69a76cba267,2020-12-17 09:11:35+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 10.0.x  | :heavy_check_mark: |
+| 9.1.x   | :heavy_check_mark: |
+| < 9.1   | :x:                |
+
+## Reporting a Vulnerability
+
+If you think you have found a possible vulnerability please reach out to the _private_ project mailing list
+private@nuttx.apache.org or the Apache Security list security@apache.org.
+
+Please **DO NOT** create a GitHub issue or email the project dev list as they are public.
+This project follows the Apache Vulnerability Handling Policy docuemnted [here](https://www.apache.org/security/committers.html#vulnerability-handling)
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 10.0.x  | :heavy_check_mark: |
+| 9.1.x   | :heavy_check_mark: |
+| < 9.1   | :x:                |
+
+## Reporting a Vulnerability
+
+If you think you have found a possible vulnerability please reach out to the _private_ project mailing list
+private@nuttx.apache.org or the Apache Security list security@apache.org.
+
+Please **DO NOT** create a GitHub issue or email the project dev list as they are public.
+This project follows the Apache Vulnerability Handling Policy documented [here](https://www.apache.org/security/committers.html#vulnerability-handling).
+",3,b apache/incubator-nuttx 8313c2a3dc2e19fa598ace7486e8a69a76cba267
+apache/incubator-nuttx,.github/SECURITY.md,19ea8e74ae24b9c7b477c90a463558ba03510125,2022-11-21 09:06:31+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 10.0.x  | :heavy_check_mark: |
+| 9.1.x   | :heavy_check_mark: |
+| < 9.1   | :x:                |
+
+## Reporting a Vulnerability
+
+If you think you have found a possible vulnerability please reach out to the _private_ project mailing list
+private@nuttx.apache.org or the Apache Security list security@apache.org.
+
+Please **DO NOT** create a GitHub issue or email the project dev list as they are public.
+This project follows the Apache Vulnerability Handling Policy documented [here](https://www.apache.org/security/committers.html#vulnerability-handling).
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 11.0.x  | :heavy_check_mark: |
+| 10.3.x  | :heavy_check_mark: |
+| 10.2.x  | :heavy_check_mark: |
+| 10.1.x  | :heavy_check_mark: |
+| 10.0.x  | :heavy_check_mark: |
+| 9.1.x   | :heavy_check_mark: |
+| < 9.1   | :x:                |
+
+## Reporting a Vulnerability
+
+If you think you have found a possible vulnerability please reach out to the _private_ project mailing list
+private@nuttx.apache.org or the Apache Security list security@apache.org.
+
+Please **DO NOT** create a GitHub issue or email the project dev list as they are public.
+This project follows the Apache Vulnerability Handling Policy documented [here](https://www.apache.org/security/committers.html#vulnerability-handling).
+",132,b apache/incubator-nuttx 19ea8e74ae24b9c7b477c90a463558ba03510125

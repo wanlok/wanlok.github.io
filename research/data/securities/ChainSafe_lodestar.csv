@@ -1,0 +1,59 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+ChainSafe/lodestar,SECURITY.md,a035e051564cf01da959901d606af156ec328db4,2021-09-03 11:39:04+00:00,,"# Security Policy
+
+## Supported Versions
+
+Please see [Releases](https://github.com/ChainSafe/lodestar/releases/). We recommend using the [most recently released version](https://github.com/ChainSafe/lodestar/releases/latest).
+
+## Reporting a Vulnerability
+
+Please send vulnerability reports to security@chainsafe.io.
+
+**Please do not file a public ticket** mentioning the vulnerability, as doing so could increase the likelihood of the vulnerability being used before a fix has been created, released and installed on the network.
+",531,b ChainSafe/lodestar a035e051564cf01da959901d606af156ec328db4
+ChainSafe/lodestar,SECURITY.md,b37a42580f085b00d25155e622bd035f01c82506,2021-09-14 07:16:09+00:00,"# Security Policy
+
+## Supported Versions
+
+Please see [Releases](https://github.com/ChainSafe/lodestar/releases/). We recommend using the [most recently released version](https://github.com/ChainSafe/lodestar/releases/latest).
+
+## Reporting a Vulnerability
+
+Please send vulnerability reports to security@chainsafe.io.
+
+**Please do not file a public ticket** mentioning the vulnerability, as doing so could increase the likelihood of the vulnerability being used before a fix has been created, released and installed on the network.
+","# Security Policy
+
+## Supported Versions
+
+- :hourglass_flowing_sand: Lodestar currently undergoes a quick release cycle with regular minor alpha releases published fortnightly.
+- :globe_with_meridians: We encourage using the [most recently released version](https://github.com/ChainSafe/lodestar/releases/latest) before reporting an issue.
+
+## Reporting a Vulnerability
+
+- :rotating_light: Please, send vulnerability reports to `security@chainsafe.io`.
+- :warning: **Please do not file a public ticket** mentioning the vulnerability, as doing so could increase the likelihood of the vulnerability being used before a fix has been created, released and installed on the network.
+",200,b ChainSafe/lodestar b37a42580f085b00d25155e622bd035f01c82506
+ChainSafe/lodestar,SECURITY.md,510f3108e40fe2ef5ec5e8a56f3e8b3e27f62830,2022-05-30 15:22:00+00:00,"# Security Policy
+
+## Supported Versions
+
+- :hourglass_flowing_sand: Lodestar currently undergoes a quick release cycle with regular minor alpha releases published fortnightly.
+- :globe_with_meridians: We encourage using the [most recently released version](https://github.com/ChainSafe/lodestar/releases/latest) before reporting an issue.
+
+## Reporting a Vulnerability
+
+- :rotating_light: Please, send vulnerability reports to `security@chainsafe.io`.
+- :warning: **Please do not file a public ticket** mentioning the vulnerability, as doing so could increase the likelihood of the vulnerability being used before a fix has been created, released and installed on the network.
+","# Security Policy
+
+## Supported Versions
+
+- :hourglass_flowing_sand: Lodestar currently undergoes a quick release cycle with regular minor releases published roughly fortnightly.
+- :globe_with_meridians: We encourage using the [most recently released version](https://github.com/ChainSafe/lodestar/releases/latest) before reporting an issue.
+
+## Reporting a Vulnerability
+
+- :rotating_light: Please, send vulnerability reports to `security@chainsafe.io`.
+- :warning: **Please do not file a public ticket** mentioning the vulnerability, as doing so could increase the likelihood of the vulnerability being used before a fix has been created, released and installed on the network.
+",14,b ChainSafe/lodestar 510f3108e40fe2ef5ec5e8a56f3e8b3e27f62830

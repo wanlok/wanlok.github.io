@@ -1,0 +1,14 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+filp/whoops,SECURITY.md,a9a22670bf516281a4a75c0fa5902ae2d75d9b03,2021-09-10 12:00:00+00:00,,"# Security Policy
+
+## Supported Versions
+
+Only the latest released version of Whoops is supported.
+To facilitate upgrades we almost never make backwards-incompatible changes.
+
+## Reporting a Vulnerability
+
+Please report vulnerabilities over email, by sending an email to `denis` at `sokolov` dot `cc`.
+
+
+",304,b filp/whoops a9a22670bf516281a4a75c0fa5902ae2d75d9b03

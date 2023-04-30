@@ -1,0 +1,4 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+barrelstrength/craft-sprout-forms,.github/SECURITY.md,0bead06e293c97164e5bd657a84df534cb60f831,2019-06-22 03:48:20+00:00,,"# Security Policy
+
+Please see the [Security](https://sprout.barrelstrengthdesign.com/docs/support/security.html) page in our documentation for details on our security policy and reporting security issues. ",205,b barrelstrength/craft-sprout-forms 0bead06e293c97164e5bd657a84df534cb60f831

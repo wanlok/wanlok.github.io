@@ -1,0 +1,17 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+neuecc/MessagePack-CSharp,SECURITY.md,19f736c0ba077bd9269ac3545e3872e7aa223742,2020-01-27 21:10:21+00:00,,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| <= 1.7  | :x:                |
+| 1.8.x   | :white_check_mark: |
+| 2.0.x   | :white_check_mark: |
+
+## Reporting a Vulnerability
+
+Please use email to contact the project's main contributors with any vulnerability you become aware of.
+
+    Yoshifumi Kawai <ils@neue.cc>; Andrew Arnott <andrewarnott@gmail.com>
+",417,b neuecc/MessagePack-CSharp 19f736c0ba077bd9269ac3545e3872e7aa223742

@@ -1,0 +1,62 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+FriendsOfFlarum/.github,SECURITY.md,13a675c80e76a6290d22d75de9610d769ee070f4,2021-03-30 15:05:24+00:00,,"# Security Policy
+
+Security is critical to online platforms, and this is echoed by FriendsOfFlarum.
+
+We strive to fix security vulnerabilities before they reach end users, but we are just human and sometimes mistakes can happen.
+
+This policy defines how we handle security vulnerabilites and disclosures.
+
+## Supported Versions
+
+We only provide fixes for the latest versions of our extensions. If you find an issue on an older version of an extension, please attempt to recreate it on the latest version before you notify us.
+
+## Reporting a Vulnerability
+
+If you find a security vulnerability in any of our packages, please notify us via email immediately.
+
+Contact us: [security@friendsofflarum.org](mailto:security@friendsoflarum.org?subject=Security%20vulnerability&body=Enter%20information%20about%20the%20security%20vulnerability%20here.).
+
+We will get back to you as time allows. Discussions may commence internally, so you may not hear back immediately. When reporting a vulnerability, please provide your GitHub username (if available), so that we can invite you to collaborate with us on a security advisory on GitHub.
+",1129,b FriendsOfFlarum/.github 13a675c80e76a6290d22d75de9610d769ee070f4
+FriendsOfFlarum/.github,SECURITY.md,31bb4d132c77352bccee231afb44195caf5034bc,2021-03-30 15:12:34+00:00,"# Security Policy
+
+Security is critical to online platforms, and this is echoed by FriendsOfFlarum.
+
+We strive to fix security vulnerabilities before they reach end users, but we are just human and sometimes mistakes can happen.
+
+This policy defines how we handle security vulnerabilites and disclosures.
+
+## Supported Versions
+
+We only provide fixes for the latest versions of our extensions. If you find an issue on an older version of an extension, please attempt to recreate it on the latest version before you notify us.
+
+## Reporting a Vulnerability
+
+If you find a security vulnerability in any of our packages, please notify us via email immediately.
+
+Contact us: [security@friendsofflarum.org](mailto:security@friendsoflarum.org?subject=Security%20vulnerability&body=Enter%20information%20about%20the%20security%20vulnerability%20here.).
+
+We will get back to you as time allows. Discussions may commence internally, so you may not hear back immediately. When reporting a vulnerability, please provide your GitHub username (if available), so that we can invite you to collaborate with us on a security advisory on GitHub.
+","# Security Policy
+
+Security is critical to online platforms, and this is echoed by FriendsOfFlarum.
+
+We strive to fix security vulnerabilities before they reach end users, but we are just human and sometimes mistakes can happen.
+
+This policy defines how we handle security vulnerabilites and disclosures.
+
+## Supported Versions
+
+We offer security patches for the latest versions of our extensions, and the latest version compatible with the previous core release.
+
+If you find an issue on an older version of an extension, please attempt to recreate it on the latest version before you notify us.
+
+## Reporting a Vulnerability
+
+If you find a security vulnerability in any of our packages, please notify us via email immediately.
+
+Contact us: [security@friendsofflarum.org](mailto:security@friendsoflarum.org?subject=Security%20vulnerability&body=Enter%20information%20about%20the%20security%20vulnerability%20here.).
+
+We will get back to you as time allows. Discussions may commence internally, so you may not hear back immediately. When reporting a vulnerability, please provide your GitHub username (if available), so that we can invite you to collaborate with us on a security advisory on GitHub.
+",84,b FriendsOfFlarum/.github 31bb4d132c77352bccee231afb44195caf5034bc

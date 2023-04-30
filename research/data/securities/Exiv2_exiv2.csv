@@ -5,7 +5,7 @@ Exiv2/exiv2,SECURITY.md,062177d09220c78be5ed11701c15ee5059670962,2021-03-09 18:2
 
 | Exiv2 Version  | Branch | _Dot_ or _Security_ Releases |
 |:--             |:--               |:-- |
-| v0.27          | 0.27-maintenance | v0.27.1v0.27.2v0.27.3 |
+| v0.27          | 0.27-maintenance | v0.27.1<br>v0.27.2<br>v0.27.3 |
 | v0.26          | Branch 0.26      | None |
 | v0.25          | Branch 0.25      | None |
 
@@ -38,14 +38,14 @@ Users can register on GitHub.com to receive release notices for RC and GM Releas
 |:--                |:--                              |:--        |:--    |
 | [CVE-2019-9144](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9144)     | Crash in BigTiffImage::printIFD | Remove src/bigtiffimage.cpp | [#1331](https://github.com/Exiv2/exiv2/pull/1331) |
 | to be continued   | | | |
-",2849,b Exiv2/exiv2 062177d09220c78be5ed11701c15ee5059670962
+",2857,b Exiv2/exiv2 062177d09220c78be5ed11701c15ee5059670962
 Exiv2/exiv2,SECURITY.md,f11675c7a7f0c86c83c219934ba63da3b1b44005,2021-04-17 16:01:38+00:00,"# Security Policy
 
 ## Supported Versions
 
 | Exiv2 Version  | Branch | _Dot_ or _Security_ Releases |
 |:--             |:--               |:-- |
-| v0.27          | 0.27-maintenance | v0.27.1v0.27.2v0.27.3 |
+| v0.27          | 0.27-maintenance | v0.27.1<br>v0.27.2<br>v0.27.3 |
 | v0.26          | Branch 0.26      | None |
 | v0.25          | Branch 0.25      | None |
 
@@ -84,7 +84,7 @@ Users can register on GitHub.com to receive release notices for RC and GM Releas
 
 | Exiv2 Version  | Branch | _Dot_ or _Security_ Releases |
 |:--             |:--               |:-- |
-| v0.27          | 0.27-maintenance | v0.27.1v0.27.2v0.27.3 |
+| v0.27          | 0.27-maintenance | v0.27.1<br>v0.27.2<br>v0.27.3 |
 | v0.26          | Branch 0.26      | None |
 | v0.25          | Branch 0.25      | None |
 
@@ -130,7 +130,7 @@ Exiv2/exiv2,SECURITY.md,ad5bac98632ffb76a2e09804bdc6555cfcdd1985,2021-04-24 11:0
 
 | Exiv2 Version  | Branch | _Dot_ or _Security_ Releases |
 |:--             |:--               |:-- |
-| v0.27          | 0.27-maintenance | v0.27.1v0.27.2v0.27.3 |
+| v0.27          | 0.27-maintenance | v0.27.1<br>v0.27.2<br>v0.27.3 |
 | v0.26          | Branch 0.26      | None |
 | v0.25          | Branch 0.25      | None |
 
@@ -175,7 +175,7 @@ Users can register on GitHub.com to receive release notices for RC and GM Releas
 
 | Exiv2 Version  | Branch | _Dot_ or _Security_ Releases |
 |:--             |:--               |:-- |
-| v0.27          | 0.27-maintenance | v0.27.1v0.27.2v0.27.3 |
+| v0.27          | 0.27-maintenance | v0.27.1<br>v0.27.2<br>v0.27.3 |
 | v0.26          | Branch 0.26      | None |
 | v0.25          | Branch 0.25      | None |
 
@@ -223,7 +223,7 @@ Exiv2/exiv2,SECURITY.md,e1cbe3ed588338f9960d7b417f01570d88a700f9,2021-09-04 10:5
 
 | Exiv2 Version  | Branch | _Dot_ or _Security_ Releases |
 |:--             |:--               |:-- |
-| v0.27          | 0.27-maintenance | v0.27.1v0.27.2v0.27.3 |
+| v0.27          | 0.27-maintenance | v0.27.1<br>v0.27.2<br>v0.27.3 |
 | v0.26          | Branch 0.26      | None |
 | v0.25          | Branch 0.25      | None |
 

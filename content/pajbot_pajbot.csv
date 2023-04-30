@@ -1,0 +1,306 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+pajbot/pajbot,SECURITY.md,7525e583e9027b42414f7bd2c5ac3a7e1db20fa3,2021-09-12 12:48:07+00:00,,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.54    | :white_check_mark: |
+| < 1.54  | :x:                |
+
+## Reporting a Vulnerability
+
+For sensitive vulnerabilities, you can reach out to me personally at pajbot@pajlada.com. I check this email daily.
+
+For non-sensitive vulnerabilities, feel free to open a GitHub issue. Response time here may be delayed as I only check this in the weekends.
+",462,b pajbot/pajbot 7525e583e9027b42414f7bd2c5ac3a7e1db20fa3
+pajbot/pajbot,SECURITY.md,7a892ec44e24a4e0446830b2ef914522ab37937c,2021-09-19 09:53:32+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.54    | :white_check_mark: |
+| < 1.54  | :x:                |
+
+## Reporting a Vulnerability
+
+For sensitive vulnerabilities, you can reach out to me personally at pajbot@pajlada.com. I check this email daily.
+
+For non-sensitive vulnerabilities, feel free to open a GitHub issue. Response time here may be delayed as I only check this in the weekends.
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.55    | :white_check_mark: |
+| < 1.55  | :x:                |
+
+## Reporting a Vulnerability
+
+For sensitive vulnerabilities, you can reach out to me personally at pajbot@pajlada.com. I check this email daily.
+
+For non-sensitive vulnerabilities, feel free to open a GitHub issue. Response time here may be delayed as I only check this in the weekends.
+",2,b pajbot/pajbot 7a892ec44e24a4e0446830b2ef914522ab37937c
+pajbot/pajbot,SECURITY.md,b448a1ed92217c34987044ef0382e35b213c3dfd,2021-10-10 12:14:39+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.55    | :white_check_mark: |
+| < 1.55  | :x:                |
+
+## Reporting a Vulnerability
+
+For sensitive vulnerabilities, you can reach out to me personally at pajbot@pajlada.com. I check this email daily.
+
+For non-sensitive vulnerabilities, feel free to open a GitHub issue. Response time here may be delayed as I only check this in the weekends.
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.56    | :white_check_mark: |
+| < 1.56  | :x:                |
+
+## Reporting a Vulnerability
+
+For sensitive vulnerabilities, you can reach out to me personally at pajbot@pajlada.com. I check this email daily.
+
+For non-sensitive vulnerabilities, feel free to open a GitHub issue. Response time here may be delayed as I only check this in the weekends.
+",2,b pajbot/pajbot b448a1ed92217c34987044ef0382e35b213c3dfd
+pajbot/pajbot,SECURITY.md,88053fbd28429d9028727ec529576874f5a3ae23,2021-10-16 11:52:43+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.56    | :white_check_mark: |
+| < 1.56  | :x:                |
+
+## Reporting a Vulnerability
+
+For sensitive vulnerabilities, you can reach out to me personally at pajbot@pajlada.com. I check this email daily.
+
+For non-sensitive vulnerabilities, feel free to open a GitHub issue. Response time here may be delayed as I only check this in the weekends.
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.57    | :white_check_mark: |
+| < 1.57  | :x:                |
+
+## Reporting a Vulnerability
+
+For sensitive vulnerabilities, you can reach out to me personally at pajbot@pajlada.com. I check this email daily.
+
+For non-sensitive vulnerabilities, feel free to open a GitHub issue. Response time here may be delayed as I only check this in the weekends.
+",2,b pajbot/pajbot 88053fbd28429d9028727ec529576874f5a3ae23
+pajbot/pajbot,SECURITY.md,fc0cc6a5159385483fd7e2a60f9a003ca4b96502,2021-10-23 10:21:04+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.57    | :white_check_mark: |
+| < 1.57  | :x:                |
+
+## Reporting a Vulnerability
+
+For sensitive vulnerabilities, you can reach out to me personally at pajbot@pajlada.com. I check this email daily.
+
+For non-sensitive vulnerabilities, feel free to open a GitHub issue. Response time here may be delayed as I only check this in the weekends.
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.58    | :white_check_mark: |
+| < 1.58  | :x:                |
+
+## Reporting a Vulnerability
+
+For sensitive vulnerabilities, you can reach out to me personally at pajbot@pajlada.com. I check this email daily.
+
+For non-sensitive vulnerabilities, feel free to open a GitHub issue. Response time here may be delayed as I only check this in the weekends.
+",2,b pajbot/pajbot fc0cc6a5159385483fd7e2a60f9a003ca4b96502
+pajbot/pajbot,SECURITY.md,5d23e6988c86fbf08aaf694d5a530015bfc6d427,2022-01-01 14:23:20+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.58    | :white_check_mark: |
+| < 1.58  | :x:                |
+
+## Reporting a Vulnerability
+
+For sensitive vulnerabilities, you can reach out to me personally at pajbot@pajlada.com. I check this email daily.
+
+For non-sensitive vulnerabilities, feel free to open a GitHub issue. Response time here may be delayed as I only check this in the weekends.
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.59    | :white_check_mark: |
+| < 1.59  | :x:                |
+
+## Reporting a Vulnerability
+
+For sensitive vulnerabilities, you can reach out to me personally at pajbot@pajlada.com. I check this email daily.
+
+For non-sensitive vulnerabilities, feel free to open a GitHub issue. Response time here may be delayed as I only check this in the weekends.
+",2,b pajbot/pajbot 5d23e6988c86fbf08aaf694d5a530015bfc6d427
+pajbot/pajbot,SECURITY.md,aaff9ff53cbf996536e0e5d89352fa880f1412e4,2022-04-02 20:39:41+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.59    | :white_check_mark: |
+| < 1.59  | :x:                |
+
+## Reporting a Vulnerability
+
+For sensitive vulnerabilities, you can reach out to me personally at pajbot@pajlada.com. I check this email daily.
+
+For non-sensitive vulnerabilities, feel free to open a GitHub issue. Response time here may be delayed as I only check this in the weekends.
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.60    | :white_check_mark: |
+| < 1.60  | :x:                |
+
+## Reporting a Vulnerability
+
+For sensitive vulnerabilities, you can reach out to me personally at pajbot@pajlada.com. I check this email daily.
+
+For non-sensitive vulnerabilities, feel free to open a GitHub issue. Response time here may be delayed as I only check this in the weekends.
+",4,b pajbot/pajbot aaff9ff53cbf996536e0e5d89352fa880f1412e4
+pajbot/pajbot,SECURITY.md,7de352b56fed924a65d8379550c097147801b2d3,2022-05-22 11:25:20+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.60    | :white_check_mark: |
+| < 1.60  | :x:                |
+
+## Reporting a Vulnerability
+
+For sensitive vulnerabilities, you can reach out to me personally at pajbot@pajlada.com. I check this email daily.
+
+For non-sensitive vulnerabilities, feel free to open a GitHub issue. Response time here may be delayed as I only check this in the weekends.
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.61    | :white_check_mark: |
+| < 1.61  | :x:                |
+
+## Reporting a Vulnerability
+
+For sensitive vulnerabilities, you can reach out to me personally at pajbot@pajlada.com. I check this email daily.
+
+For non-sensitive vulnerabilities, feel free to open a GitHub issue. Response time here may be delayed as I only check this in the weekends.
+",2,b pajbot/pajbot 7de352b56fed924a65d8379550c097147801b2d3
+pajbot/pajbot,SECURITY.md,0d4fa21075c4a4e1e42da9f105b5c471f93e1c7b,2022-08-28 11:07:28+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.61    | :white_check_mark: |
+| < 1.61  | :x:                |
+
+## Reporting a Vulnerability
+
+For sensitive vulnerabilities, you can reach out to me personally at pajbot@pajlada.com. I check this email daily.
+
+For non-sensitive vulnerabilities, feel free to open a GitHub issue. Response time here may be delayed as I only check this in the weekends.
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.62    | :white_check_mark: |
+| < 1.62  | :x:                |
+
+## Reporting a Vulnerability
+
+For sensitive vulnerabilities, you can reach out to me personally at pajbot@pajlada.com. I check this email daily.
+
+For non-sensitive vulnerabilities, feel free to open a GitHub issue. Response time here may be delayed as I only check this in the weekends.
+",2,b pajbot/pajbot 0d4fa21075c4a4e1e42da9f105b5c471f93e1c7b
+pajbot/pajbot,SECURITY.md,c68321e6676cae9c88a84c09bb96de205b5d5671,2023-02-19 11:34:56+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.62    | :white_check_mark: |
+| < 1.62  | :x:                |
+
+## Reporting a Vulnerability
+
+For sensitive vulnerabilities, you can reach out to me personally at pajbot@pajlada.com. I check this email daily.
+
+For non-sensitive vulnerabilities, feel free to open a GitHub issue. Response time here may be delayed as I only check this in the weekends.
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.63    | :white_check_mark: |
+| < 1.63  | :x:                |
+
+## Reporting a Vulnerability
+
+For sensitive vulnerabilities, you can reach out to me personally at pajbot@pajlada.com. I check this email daily.
+
+For non-sensitive vulnerabilities, feel free to open a GitHub issue. Response time here may be delayed as I only check this in the weekends.
+",2,b pajbot/pajbot c68321e6676cae9c88a84c09bb96de205b5d5671
+pajbot/pajbot,SECURITY.md,e53c1ab99e100aeef3a418652a229a6334719128,2023-03-04 10:38:42+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.63    | :white_check_mark: |
+| < 1.63  | :x:                |
+
+## Reporting a Vulnerability
+
+For sensitive vulnerabilities, you can reach out to me personally at pajbot@pajlada.com. I check this email daily.
+
+For non-sensitive vulnerabilities, feel free to open a GitHub issue. Response time here may be delayed as I only check this in the weekends.
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.64    | :white_check_mark: |
+| < 1.64  | :x:                |
+
+## Reporting a Vulnerability
+
+For sensitive vulnerabilities, you can reach out to me personally at pajbot@pajlada.com. I check this email daily.
+
+For non-sensitive vulnerabilities, feel free to open a GitHub issue. Response time here may be delayed as I only check this in the weekends.
+",2,b pajbot/pajbot e53c1ab99e100aeef3a418652a229a6334719128

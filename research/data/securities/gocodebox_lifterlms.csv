@@ -1,0 +1,141 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+gocodebox/lifterlms,.github/SECURITY.md,e228e7209872135f96325e3b34335905e03d916e,2019-06-24 23:39:03+00:00,,"Security Policy
+---------------
+
+## Supported Versions
+
+LifterLMS 3.x is the only supported branch of LifterLMS. If you're using an unsupported version of LifterLMS we strongly recommend you upgrade to the latest version as soon as possible.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 3.x     | :white_check_mark: |
+| 2.x     | :x:                |
+| 1.x     | :x:                |
+
+
+## Reporting a Vulnerability
+
+The LifterLMS team takes security issues and vulnerabilities very seriously. We appreciate your efforts to responsibly disclose your findings, and will make every effort to acknowledge your contributions.
+
+Please contact team@lifterlms.com to report a security vulnerability.
+",716,b gocodebox/lifterlms e228e7209872135f96325e3b34335905e03d916e
+gocodebox/lifterlms,.github/SECURITY.md,4415bc3a06a07596c7aaa046d1e83996955a262c,2019-11-01 18:15:04+00:00,"Security Policy
+---------------
+
+## Supported Versions
+
+LifterLMS 3.x is the only supported branch of LifterLMS. If you're using an unsupported version of LifterLMS we strongly recommend you upgrade to the latest version as soon as possible.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 3.x     | :white_check_mark: |
+| 2.x     | :x:                |
+| 1.x     | :x:                |
+
+
+## Reporting a Vulnerability
+
+The LifterLMS team takes security issues and vulnerabilities very seriously. We appreciate your efforts to responsibly disclose your findings, and will make every effort to acknowledge your contributions.
+
+Please contact team@lifterlms.com to report a security vulnerability.
+","Security Policy
+---------------
+
+## Supported Versions
+
+LifterLMS 3.x is the only supported branch of LifterLMS. If you're using an unsupported version of LifterLMS we strongly recommend you upgrade to the latest version as soon as possible.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 3.x     | :white_check_mark: |
+| 2.x     | :x:                |
+| 1.x     | :x:                |
+
+
+## Reporting a Vulnerability
+
+The LifterLMS team takes security issues and vulnerabilities very seriously. We appreciate your efforts to responsibly disclose your findings, and will make every effort to acknowledge your contributions.
+
+To report a vulnerability, please see our guidelines at https://lifterlms.com/security/
+",67,b gocodebox/lifterlms 4415bc3a06a07596c7aaa046d1e83996955a262c
+gocodebox/lifterlms,.github/SECURITY.md,13f968133fd8c2beb58153503f9ac7e917a2434c,2020-07-01 18:30:07+00:00,"Security Policy
+---------------
+
+## Supported Versions
+
+LifterLMS 3.x is the only supported branch of LifterLMS. If you're using an unsupported version of LifterLMS we strongly recommend you upgrade to the latest version as soon as possible.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 3.x     | :white_check_mark: |
+| 2.x     | :x:                |
+| 1.x     | :x:                |
+
+
+## Reporting a Vulnerability
+
+The LifterLMS team takes security issues and vulnerabilities very seriously. We appreciate your efforts to responsibly disclose your findings, and will make every effort to acknowledge your contributions.
+
+To report a vulnerability, please see our guidelines at https://lifterlms.com/security/
+","Security Policy
+---------------
+
+## Supported Versions
+
+LifterLMS 3.x is the only supported branch of LifterLMS. If you're using an unsupported version of LifterLMS we strongly recommend you upgrade to the latest version as soon as possible.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 4.x     | :white_check_mark: |
+| 3.x     | :x: |
+| 2.x     | :x:                |
+| 1.x     | :x:                |
+
+
+## Reporting a Vulnerability
+
+The LifterLMS team takes security issues and vulnerabilities very seriously. We appreciate your efforts to responsibly disclose your findings, and will make every effort to acknowledge your contributions.
+
+To report a vulnerability, please see our guidelines at https://lifterlms.com/security/
+",19,b gocodebox/lifterlms 13f968133fd8c2beb58153503f9ac7e917a2434c
+gocodebox/lifterlms,.github/SECURITY.md,134a6bdf9b0edd52908b4bad0b78f960907e0d88,2020-07-01 18:32:30+00:00,"Security Policy
+---------------
+
+## Supported Versions
+
+LifterLMS 3.x is the only supported branch of LifterLMS. If you're using an unsupported version of LifterLMS we strongly recommend you upgrade to the latest version as soon as possible.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 4.x     | :white_check_mark: |
+| 3.x     | :x: |
+| 2.x     | :x:                |
+| 1.x     | :x:                |
+
+
+## Reporting a Vulnerability
+
+The LifterLMS team takes security issues and vulnerabilities very seriously. We appreciate your efforts to responsibly disclose your findings, and will make every effort to acknowledge your contributions.
+
+To report a vulnerability, please see our guidelines at https://lifterlms.com/security/
+","Security Policy
+---------------
+
+## Supported Versions
+
+LifterLMS 3.x is the only supported branch of LifterLMS. If you're using an unsupported version of LifterLMS we strongly recommend you upgrade to the latest version as soon as possible.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 4.x     | :white_check_mark: |
+| 3.x     | :x:                |
+| 2.x     | :x:                |
+| 1.x     | :x:                |
+
+
+## Reporting a Vulnerability
+
+The LifterLMS team takes security issues and vulnerabilities very seriously. We appreciate your efforts to responsibly disclose your findings, and will make every effort to acknowledge your contributions.
+
+To report a vulnerability, please see our guidelines at https://lifterlms.com/security/
+",15,b gocodebox/lifterlms 134a6bdf9b0edd52908b4bad0b78f960907e0d88

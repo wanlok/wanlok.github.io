@@ -1,0 +1,390 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+PrivateBin/PrivateBin,SECURITY.md,a270cd818a136e107a7da945a72abf921101bc11,2019-05-23 15:06:33+00:00,,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.2.1   | :white_check_mark: |
+| < 1.2.1 | :x:                |
+
+## Reporting a Vulnerability
+
+We run a mailing list under security@privatebin.org. You should be able to get
+a response within a week (usually during the next weekend). The respondee will
+reply from their personal address and can offer you their GPG public key to
+support end-to-end encrypted communication on sensitive topics or attachments.
+
+You can also contact us via the regular issue tracker if the risk of early
+publication is low or you would request input from other PrivateBin users.
+",669,b PrivateBin/PrivateBin a270cd818a136e107a7da945a72abf921101bc11
+PrivateBin/PrivateBin,SECURITY.md,b65303dd71a0d6fcc86935d503b2bbe83fa9e927,2019-07-27 05:42:54+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.2.1   | :white_check_mark: |
+| < 1.2.1 | :x:                |
+
+## Reporting a Vulnerability
+
+We run a mailing list under security@privatebin.org. You should be able to get
+a response within a week (usually during the next weekend). The respondee will
+reply from their personal address and can offer you their GPG public key to
+support end-to-end encrypted communication on sensitive topics or attachments.
+
+You can also contact us via the regular issue tracker if the risk of early
+publication is low or you would request input from other PrivateBin users.
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.3     | :white_check_mark: |
+| < 1.3   | :x:                |
+
+## Reporting a Vulnerability
+
+You can send us email at security@privatebin.org. You should be able to get
+a response within a week (usually during the next weekend). The respondee will
+reply from their personal address and can offer you their GPG public key to
+support end-to-end encrypted communication on sensitive topics or attachments.
+
+You can also contact us via the regular issue tracker if the risk of early
+publication is low or you would request input from other PrivateBin users.
+",29,b PrivateBin/PrivateBin b65303dd71a0d6fcc86935d503b2bbe83fa9e927
+PrivateBin/PrivateBin,SECURITY.md,847c9e73551fae4b961dd728d2ca6a813256b60d,2019-07-27 05:47:03+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.3     | :white_check_mark: |
+| < 1.3   | :x:                |
+
+## Reporting a Vulnerability
+
+You can send us email at security@privatebin.org. You should be able to get
+a response within a week (usually during the next weekend). The respondee will
+reply from their personal address and can offer you their GPG public key to
+support end-to-end encrypted communication on sensitive topics or attachments.
+
+You can also contact us via the regular issue tracker if the risk of early
+publication is low or you would request input from other PrivateBin users.
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.3     | :heavy_check_mark: |
+| < 1.3   | :x:                |
+
+## Reporting a Vulnerability
+
+You can send us email at security@privatebin.org. You should be able to get
+a response within a week (usually during the next weekend). The respondee will
+reply from their personal address and can offer you their GPG public key to
+support end-to-end encrypted communication on sensitive topics or attachments.
+
+You can also contact us via the regular issue tracker if the risk of early
+publication is low or you would request input from other PrivateBin users.
+",5,b PrivateBin/PrivateBin 847c9e73551fae4b961dd728d2ca6a813256b60d
+PrivateBin/PrivateBin,SECURITY.md,2d4edfe4011f542c17dfb05da08a164be1c9cf3a,2019-09-22 17:42:04+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.3     | :heavy_check_mark: |
+| < 1.3   | :x:                |
+
+## Reporting a Vulnerability
+
+You can send us email at security@privatebin.org. You should be able to get
+a response within a week (usually during the next weekend). The respondee will
+reply from their personal address and can offer you their GPG public key to
+support end-to-end encrypted communication on sensitive topics or attachments.
+
+You can also contact us via the regular issue tracker if the risk of early
+publication is low or you would request input from other PrivateBin users.
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.3.1   | :heavy_check_mark: |
+| < 1.3.1 | :x:                |
+
+## Reporting a Vulnerability
+
+You can send us email at security@privatebin.org. You should be able to get
+a response within a week (usually during the next weekend). The respondee will
+reply from their personal address and can offer you their GPG public key to
+support end-to-end encrypted communication on sensitive topics or attachments.
+
+You can also contact us via the regular issue tracker if the risk of early
+publication is low or you would request input from other PrivateBin users.
+",4,b PrivateBin/PrivateBin 2d4edfe4011f542c17dfb05da08a164be1c9cf3a
+PrivateBin/PrivateBin,SECURITY.md,ed590ee5571d95ddb220a1904f4054724cc36bb1,2020-01-08 18:31:06+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.3.1   | :heavy_check_mark: |
+| < 1.3.1 | :x:                |
+
+## Reporting a Vulnerability
+
+You can send us email at security@privatebin.org. You should be able to get
+a response within a week (usually during the next weekend). The respondee will
+reply from their personal address and can offer you their GPG public key to
+support end-to-end encrypted communication on sensitive topics or attachments.
+
+You can also contact us via the regular issue tracker if the risk of early
+publication is low or you would request input from other PrivateBin users.
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.3.2   | :heavy_check_mark: |
+| < 1.3.2 | :x:                |
+
+## Reporting a Vulnerability
+
+You can send us email at security@privatebin.org. You should be able to get
+a response within a week (usually during the next weekend). The respondee will
+reply from their personal address and can offer you their GPG public key to
+support end-to-end encrypted communication on sensitive topics or attachments.
+
+You can also contact us via the regular issue tracker if the risk of early
+publication is low or you would request input from other PrivateBin users.
+",2,b PrivateBin/PrivateBin ed590ee5571d95ddb220a1904f4054724cc36bb1
+PrivateBin/PrivateBin,SECURITY.md,adece1d784120640e29d408dea3e15c1bfeb8469,2020-02-16 10:15:51+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.3.2   | :heavy_check_mark: |
+| < 1.3.2 | :x:                |
+
+## Reporting a Vulnerability
+
+You can send us email at security@privatebin.org. You should be able to get
+a response within a week (usually during the next weekend). The respondee will
+reply from their personal address and can offer you their GPG public key to
+support end-to-end encrypted communication on sensitive topics or attachments.
+
+You can also contact us via the regular issue tracker if the risk of early
+publication is low or you would request input from other PrivateBin users.
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.3.3   | :heavy_check_mark: |
+| < 1.3.3 | :x:                |
+
+## Reporting a Vulnerability
+
+You can send us email at security@privatebin.org. You should be able to get
+a response within a week (usually during the next weekend). The respondee will
+reply from their personal address and can offer you their GPG public key to
+support end-to-end encrypted communication on sensitive topics or attachments.
+
+You can also contact us via the regular issue tracker if the risk of early
+publication is low or you would request input from other PrivateBin users.
+",2,b PrivateBin/PrivateBin adece1d784120640e29d408dea3e15c1bfeb8469
+PrivateBin/PrivateBin,SECURITY.md,9914c37683496d161d9f8c8355bc89c358b1b243,2020-03-22 05:44:04+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.3.3   | :heavy_check_mark: |
+| < 1.3.3 | :x:                |
+
+## Reporting a Vulnerability
+
+You can send us email at security@privatebin.org. You should be able to get
+a response within a week (usually during the next weekend). The respondee will
+reply from their personal address and can offer you their GPG public key to
+support end-to-end encrypted communication on sensitive topics or attachments.
+
+You can also contact us via the regular issue tracker if the risk of early
+publication is low or you would request input from other PrivateBin users.
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.3.4   | :heavy_check_mark: |
+| < 1.3.4 | :x:                |
+
+## Reporting a Vulnerability
+
+You can send us email at security@privatebin.org. You should be able to get
+a response within a week (usually during the next weekend). The respondee will
+reply from their personal address and can offer you their GPG public key to
+support end-to-end encrypted communication on sensitive topics or attachments.
+
+You can also contact us via the regular issue tracker if the risk of early
+publication is low or you would request input from other PrivateBin users.
+",2,b PrivateBin/PrivateBin 9914c37683496d161d9f8c8355bc89c358b1b243
+PrivateBin/PrivateBin,SECURITY.md,458ebcb3213a65063c2b4e0194439d45cf0d1b7a,2021-04-05 15:05:14+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.3.4   | :heavy_check_mark: |
+| < 1.3.4 | :x:                |
+
+## Reporting a Vulnerability
+
+You can send us email at security@privatebin.org. You should be able to get
+a response within a week (usually during the next weekend). The respondee will
+reply from their personal address and can offer you their GPG public key to
+support end-to-end encrypted communication on sensitive topics or attachments.
+
+You can also contact us via the regular issue tracker if the risk of early
+publication is low or you would request input from other PrivateBin users.
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.3.5   | :heavy_check_mark: |
+| < 1.3.5 | :x:                |
+
+## Reporting a Vulnerability
+
+You can send us email at security@privatebin.org. You should be able to get
+a response within a week (usually during the next weekend). The respondee will
+reply from their personal address and can offer you their GPG public key to
+support end-to-end encrypted communication on sensitive topics or attachments.
+
+You can also contact us via the regular issue tracker if the risk of early
+publication is low or you would request input from other PrivateBin users.
+",2,b PrivateBin/PrivateBin 458ebcb3213a65063c2b4e0194439d45cf0d1b7a
+PrivateBin/PrivateBin,SECURITY.md,456ced37c26d01b5176c87b65e500b9e1210e080,2022-04-05 05:30:51+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.3.5   | :heavy_check_mark: |
+| < 1.3.5 | :x:                |
+
+## Reporting a Vulnerability
+
+You can send us email at security@privatebin.org. You should be able to get
+a response within a week (usually during the next weekend). The respondee will
+reply from their personal address and can offer you their GPG public key to
+support end-to-end encrypted communication on sensitive topics or attachments.
+
+You can also contact us via the regular issue tracker if the risk of early
+publication is low or you would request input from other PrivateBin users.
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.4.0   | :heavy_check_mark: |
+| < 1.4.0 | :x:                |
+
+## Reporting a Vulnerability
+
+You can send us email at security@privatebin.org. You should be able to get
+a response within a week (usually during the next weekend). The respondee will
+reply from their personal address and can offer you their GPG public key to
+support end-to-end encrypted communication on sensitive topics or attachments.
+
+You can also contact us via the regular issue tracker if the risk of early
+publication is low or you would request input from other PrivateBin users.
+",4,b PrivateBin/PrivateBin 456ced37c26d01b5176c87b65e500b9e1210e080
+PrivateBin/PrivateBin,SECURITY.md,b5602dd1ae0df9d84409bb5c604d9bdb50de72ac,2022-12-11 04:02:15+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.4.0   | :heavy_check_mark: |
+| < 1.4.0 | :x:                |
+
+## Reporting a Vulnerability
+
+You can send us email at security@privatebin.org. You should be able to get
+a response within a week (usually during the next weekend). The respondee will
+reply from their personal address and can offer you their GPG public key to
+support end-to-end encrypted communication on sensitive topics or attachments.
+
+You can also contact us via the regular issue tracker if the risk of early
+publication is low or you would request input from other PrivateBin users.
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.5.0   | :heavy_check_mark: |
+| < 1.5.0 | :x:                |
+
+## Reporting a Vulnerability
+
+You can send us email at security@privatebin.org. You should be able to get
+a response within a week (usually during the next weekend). The respondee will
+reply from their personal address and can offer you their GPG public key to
+support end-to-end encrypted communication on sensitive topics or attachments.
+
+You can also contact us via the regular issue tracker if the risk of early
+publication is low or you would request input from other PrivateBin users.
+",2,b PrivateBin/PrivateBin b5602dd1ae0df9d84409bb5c604d9bdb50de72ac
+PrivateBin/PrivateBin,SECURITY.md,e84a8694e4f4ca6ff7dd745aa985e27388d3dad0,2022-12-24 04:52:07+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.5.0   | :heavy_check_mark: |
+| < 1.5.0 | :x:                |
+
+## Reporting a Vulnerability
+
+You can send us email at security@privatebin.org. You should be able to get
+a response within a week (usually during the next weekend). The respondee will
+reply from their personal address and can offer you their GPG public key to
+support end-to-end encrypted communication on sensitive topics or attachments.
+
+You can also contact us via the regular issue tracker if the risk of early
+publication is low or you would request input from other PrivateBin users.
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.5.1   | :heavy_check_mark: |
+| < 1.5.1 | :x:                |
+
+## Reporting a Vulnerability
+
+You can send us email at security@privatebin.org. You should be able to get
+a response within a week (usually during the next weekend). The respondee will
+reply from their personal address and can offer you their GPG public key to
+support end-to-end encrypted communication on sensitive topics or attachments.
+
+You can also contact us via the regular issue tracker if the risk of early
+publication is low or you would request input from other PrivateBin users.
+",2,b PrivateBin/PrivateBin e84a8694e4f4ca6ff7dd745aa985e27388d3dad0

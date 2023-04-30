@@ -1,0 +1,599 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+mapserver/mapserver,SECURITY.md,dab99913d214c5440815f4c9955c49e3e7a0f684,2021-07-30 15:50:33+00:00,,"# MapServer Security Policy
+
+## Reporting a Vulnerability in MapServer
+
+Security/vulnerability reports should not be submitted through GitHub tickets or the public mailing lists, but instead please send your report 
+to the email address: **mapserver-security nospam @ osgeo.org** (remove the blanks and ‘nospam’).  
+
+Please follow the general guidelines for bug 
+submissions, when describing the vulnerability (see https://mapserver.org/development/bugs.html).
+
+## Supported Versions
+
+The MapServer PSC (Project Steering Committee) will release patches for security vulnerabilities for the following versions:
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 7.6.x   | :white_check_mark: |
+| 7.4.x   | :white_check_mark: |
+| 7.2.x   | :white_check_mark: |
+| 7.0.x   | :white_check_mark: |
+| < 7.0   | :x:                |
+",842,b mapserver/mapserver dab99913d214c5440815f4c9955c49e3e7a0f684
+mapserver/mapserver,SECURITY.md,4e7591b603c17d4e02fcce9552c4ed10b8c096ac,2021-08-27 20:36:09+00:00,"# MapServer Security Policy
+
+## Reporting a Vulnerability in MapServer
+
+Security/vulnerability reports should not be submitted through GitHub tickets or the public mailing lists, but instead please send your report 
+to the email address: **mapserver-security nospam @ osgeo.org** (remove the blanks and ‘nospam’).  
+
+Please follow the general guidelines for bug 
+submissions, when describing the vulnerability (see https://mapserver.org/development/bugs.html).
+
+## Supported Versions
+
+The MapServer PSC (Project Steering Committee) will release patches for security vulnerabilities for the following versions:
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 7.6.x   | :white_check_mark: |
+| 7.4.x   | :white_check_mark: |
+| 7.2.x   | :white_check_mark: |
+| 7.0.x   | :white_check_mark: |
+| < 7.0   | :x:                |
+","# MapServer Security Policy
+
+## Reporting a Vulnerability in MapServer
+
+Security/vulnerability reports should not be submitted through GitHub tickets or the public mailing lists, but instead please send your report 
+to the email address: **mapserver-security nospam @ osgeo.org** (remove the blanks and ‘nospam’).  
+
+Please follow the general guidelines for bug 
+submissions, when describing the vulnerability (see https://mapserver.org/development/bugs.html).
+
+## Supported Versions
+
+The MapServer PSC (Project Steering Committee) will release patches for security vulnerabilities 
+for the last release branch of the two most recent major releases.  For example, 
+once 8.0 is released, then only 8.0.x and 7.6.x will be patched.
+
+Currently, the following versions are supported:
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 7.6.x   | :white_check_mark: |
+| 7.4.x   | :white_check_mark: |
+| 7.2.x   | :x:                |
+| 7.0.x   | :x:                |
+| < 7.0   | :x:                |
+",204,b mapserver/mapserver 4e7591b603c17d4e02fcce9552c4ed10b8c096ac
+mapserver/mapserver,SECURITY.md,0cfc244c4fcf9b49e8439faad4e0fff4e5b74522,2021-08-27 20:57:07+00:00,"# MapServer Security Policy
+
+## Reporting a Vulnerability in MapServer
+
+Security/vulnerability reports should not be submitted through GitHub tickets or the public mailing lists, but instead please send your report 
+to the email address: **mapserver-security nospam @ osgeo.org** (remove the blanks and ‘nospam’).  
+
+Please follow the general guidelines for bug 
+submissions, when describing the vulnerability (see https://mapserver.org/development/bugs.html).
+
+## Supported Versions
+
+The MapServer PSC (Project Steering Committee) will release patches for security vulnerabilities 
+for the last release branch of the two most recent major releases.  For example, 
+once 8.0 is released, then only 8.0.x and 7.6.x will be patched.
+
+Currently, the following versions are supported:
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 7.6.x   | :white_check_mark: |
+| 7.4.x   | :white_check_mark: |
+| 7.2.x   | :x:                |
+| 7.0.x   | :x:                |
+| < 7.0   | :x:                |
+","# MapServer Security Policy
+
+## Reporting a Vulnerability in MapServer
+
+Security/vulnerability reports should not be submitted through GitHub tickets or the public mailing lists, but instead please send your report 
+to the email address: **mapserver-security nospam @ osgeo.org** (remove the blanks and ‘nospam’).  
+
+Please follow the general guidelines for bug 
+submissions, when describing the vulnerability (see https://mapserver.org/development/bugs.html).
+
+## Supported Versions
+
+The MapServer PSC (Project Steering Committee) will release patches for security vulnerabilities 
+for the last release branch of the two most recent release series (such as 8.x, 7.x. 6.x, etc.)  For example, 
+once 8.0 is released, then only 8.0.x and 7.6.x will be supported/patched.
+
+Currently, the following versions are supported:
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 7.6.x   | :white_check_mark: |
+| 7.4.x   | :x:                |
+| 7.2.x   | :x:                |
+| 7.0.x   | :x:                |
+| 6.4.x   | :white_check_mark: |
+| < 6.4   | :x:                |
+",99,b mapserver/mapserver 0cfc244c4fcf9b49e8439faad4e0fff4e5b74522
+mapserver/mapserver,SECURITY.md,c32a31e4e42ec286b21cdd2d801c3fc8fff6e672,2021-10-26 14:24:33+00:00,"# MapServer Security Policy
+
+## Reporting a Vulnerability in MapServer
+
+Security/vulnerability reports should not be submitted through GitHub tickets or the public mailing lists, but instead please send your report 
+to the email address: **mapserver-security nospam @ osgeo.org** (remove the blanks and ‘nospam’).  
+
+Please follow the general guidelines for bug 
+submissions, when describing the vulnerability (see https://mapserver.org/development/bugs.html).
+
+## Supported Versions
+
+The MapServer PSC (Project Steering Committee) will release patches for security vulnerabilities 
+for the last release branch of the two most recent release series (such as 8.x, 7.x. 6.x, etc.)  For example, 
+once 8.0 is released, then only 8.0.x and 7.6.x will be supported/patched.
+
+Currently, the following versions are supported:
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 7.6.x   | :white_check_mark: |
+| 7.4.x   | :x:                |
+| 7.2.x   | :x:                |
+| 7.0.x   | :x:                |
+| 6.4.x   | :white_check_mark: |
+| < 6.4   | :x:                |
+","# MapServer Security Policy
+
+## Reporting a Vulnerability in MapServer
+
+Security/vulnerability reports should not be submitted through GitHub tickets or the public mailing lists, but instead please send your report 
+to the email address: **mapserver-security nospam @ osgeo.org** (remove the blanks and ‘nospam’).  
+
+Please follow the general guidelines for bug 
+submissions, when describing the vulnerability (see https://mapserver.org/development/bugs.html).
+
+## Supported Versions
+
+The MapServer PSC (Project Steering Committee) will release patches for security vulnerabilities 
+for the last release branch of the two most recent release series (such as 8.x, 7.x. 6.x, etc...). 
+Patches will only be provided for a period of three years from the release date of the current series.
+For example, once 8.0 is released, then only 8.0.x and 7.6.x will be supported/patched and 7.6.x will
+only be supported for three years from the date of the 8.0 series release.
+
+Currently, the following versions are supported:
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 7.6.x   | :white_check_mark: |
+| 7.4.x   | :x:                |
+| 7.2.x   | :x:                |
+| 7.0.x   | :x:                |
+| 6.4.x   | :x:                |
+| < 6.4   | :x:                |
+
+Note: _MapServer 7.0.0 was released on 2015-07-24._
+",266,b mapserver/mapserver c32a31e4e42ec286b21cdd2d801c3fc8fff6e672
+mapserver/mapserver,SECURITY.md,2c8b4de234d4eac984d1f7d79c9760f390fde9a1,2021-10-26 16:21:07+00:00,"# MapServer Security Policy
+
+## Reporting a Vulnerability in MapServer
+
+Security/vulnerability reports should not be submitted through GitHub tickets or the public mailing lists, but instead please send your report 
+to the email address: **mapserver-security nospam @ osgeo.org** (remove the blanks and ‘nospam’).  
+
+Please follow the general guidelines for bug 
+submissions, when describing the vulnerability (see https://mapserver.org/development/bugs.html).
+
+## Supported Versions
+
+The MapServer PSC (Project Steering Committee) will release patches for security vulnerabilities 
+for the last release branch of the two most recent release series (such as 8.x, 7.x. 6.x, etc...). 
+Patches will only be provided for a period of three years from the release date of the current series.
+For example, once 8.0 is released, then only 8.0.x and 7.6.x will be supported/patched and 7.6.x will
+only be supported for three years from the date of the 8.0 series release.
+
+Currently, the following versions are supported:
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 7.6.x   | :white_check_mark: |
+| 7.4.x   | :x:                |
+| 7.2.x   | :x:                |
+| 7.0.x   | :x:                |
+| 6.4.x   | :x:                |
+| < 6.4   | :x:                |
+
+Note: _MapServer 7.0.0 was released on 2015-07-24._
+","# MapServer Security Policy
+
+## Reporting a Vulnerability in MapServer
+
+Security/vulnerability reports should not be submitted through GitHub tickets or the public mailing lists, but instead please send your report 
+to the email address: **mapserver-security nospam @ osgeo.org** (remove the blanks and ‘nospam’).  
+
+Please follow the general guidelines for bug 
+submissions, when describing the vulnerability (see https://mapserver.org/development/bugs.html).
+
+## Supported Versions
+
+The MapServer PSC (Project Steering Committee) will release patches for security vulnerabilities 
+for the last release branch of the **two most recent release series** (such as 8.x, 7.x. 6.x, etc...). 
+Patches will only be provided **for a period of three years** from the release date of the current series.
+For example, once 8.0 is released, then only 8.0.x and 7.6.x will be supported/patched and 7.6.x will
+only be supported for three years from the date of the 8.0 series release.
+
+Currently, the following versions are supported:
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 7.6.x   | :white_check_mark: |
+| 7.4.x   | :x:                |
+| 7.2.x   | :x:                |
+| 7.0.x   | :x:                |
+| 6.4.x   | :x:                |
+| < 6.4   | :x:                |
+
+Note: _MapServer 7.0.0 was released on 2015-07-24._
+
+## Version Numbering: Explained
+
+x
+: Major release series number.
+: Major releases indicate substantial changes to the software and 
+  backwards compatibility is not guaranteed across series. Current 
+  release series is 7.
+
+y
+: Minor release series number.
+: Minor releases indicate smaller, functional additions or improvements 
+  to the software and should be generally backwards compatible within a 
+  major release series. Users should be able to confidently upgrade 
+  from one minor release to another within the same release series, so 
+  from 7.4.x to 7.6.x.
+
+z
+: Point release series number.
+: Point releases indicate maintenance releases - usually a combination of 
+  bug and security fixes and perhaps small feature additions. Backwards 
+  compatibility should be preserved and users should be able to confidently 
+  upgrade between point releases within the same release series, 
+  so from 7.6.4 to 7.6.5.
+",928,b mapserver/mapserver 2c8b4de234d4eac984d1f7d79c9760f390fde9a1
+mapserver/mapserver,SECURITY.md,f655b4d007ef2e73240cb07561ffbbef6ed1449c,2021-10-26 16:45:01+00:00,"# MapServer Security Policy
+
+## Reporting a Vulnerability in MapServer
+
+Security/vulnerability reports should not be submitted through GitHub tickets or the public mailing lists, but instead please send your report 
+to the email address: **mapserver-security nospam @ osgeo.org** (remove the blanks and ‘nospam’).  
+
+Please follow the general guidelines for bug 
+submissions, when describing the vulnerability (see https://mapserver.org/development/bugs.html).
+
+## Supported Versions
+
+The MapServer PSC (Project Steering Committee) will release patches for security vulnerabilities 
+for the last release branch of the **two most recent release series** (such as 8.x, 7.x. 6.x, etc...). 
+Patches will only be provided **for a period of three years** from the release date of the current series.
+For example, once 8.0 is released, then only 8.0.x and 7.6.x will be supported/patched and 7.6.x will
+only be supported for three years from the date of the 8.0 series release.
+
+Currently, the following versions are supported:
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 7.6.x   | :white_check_mark: |
+| 7.4.x   | :x:                |
+| 7.2.x   | :x:                |
+| 7.0.x   | :x:                |
+| 6.4.x   | :x:                |
+| < 6.4   | :x:                |
+
+Note: _MapServer 7.0.0 was released on 2015-07-24._
+
+## Version Numbering: Explained
+
+x
+: Major release series number.
+: Major releases indicate substantial changes to the software and 
+  backwards compatibility is not guaranteed across series. Current 
+  release series is 7.
+
+y
+: Minor release series number.
+: Minor releases indicate smaller, functional additions or improvements 
+  to the software and should be generally backwards compatible within a 
+  major release series. Users should be able to confidently upgrade 
+  from one minor release to another within the same release series, so 
+  from 7.4.x to 7.6.x.
+
+z
+: Point release series number.
+: Point releases indicate maintenance releases - usually a combination of 
+  bug and security fixes and perhaps small feature additions. Backwards 
+  compatibility should be preserved and users should be able to confidently 
+  upgrade between point releases within the same release series, 
+  so from 7.6.4 to 7.6.5.
+","# MapServer Security Policy
+
+## Reporting a Vulnerability in MapServer
+
+Security/vulnerability reports should not be submitted through GitHub tickets or the public mailing lists, but instead please send your report 
+to the email address: **mapserver-security nospam @ osgeo.org** (remove the blanks and ‘nospam’).  
+
+Please follow the general guidelines for bug 
+submissions, when describing the vulnerability (see https://mapserver.org/development/bugs.html).
+
+## Supported Versions
+
+The MapServer PSC (Project Steering Committee) will release patches for security vulnerabilities 
+for the last release branch of the **two most recent release series** (such as 8.x, 7.x. 6.x, etc...). 
+Patches will only be provided **for a period of three years** from the release date of the current series.
+For example, once 8.0 is released, then only 8.0.x and 7.6.x will be supported/patched and 7.6.x will
+only be supported for three years from the date of the 8.0 series release.
+
+Currently, the following versions are supported:
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 7.6.x   | :white_check_mark: |
+| 7.4.x   | :x:                |
+| 7.2.x   | :x:                |
+| 7.0.x   | :x:                |
+| 6.4.x   | :x:                |
+| < 6.4   | :x:                |
+
+Note: _MapServer 7.0.0 was released on 2015-07-24._
+
+## Version Numbering: Explained
+
+**x**
+- Major release series number.
+- Major releases indicate substantial changes to the software and 
+  backwards compatibility is not guaranteed across series. Current 
+  release series is 7.
+
+**y**
+- Minor release series number.
+- Minor releases indicate smaller, functional additions or improvements 
+  to the software and should be generally backwards compatible within a 
+  major release series. Users should be able to confidently upgrade 
+  from one minor release to another within the same release series, so 
+  from 7.4.x to 7.6.x.
+
+**z**
+- Point release series number.
+- Point releases indicate maintenance releases - usually a combination of 
+  bug and security fixes and perhaps small feature additions. Backwards 
+  compatibility should be preserved and users should be able to confidently 
+  upgrade between point releases within the same release series, 
+  so from 7.6.4 to 7.6.5.
+",18,b mapserver/mapserver f655b4d007ef2e73240cb07561ffbbef6ed1449c
+mapserver/mapserver,SECURITY.md,4059825dc6fd81197a35496b7288553a51f46af5,2021-10-26 16:49:57+00:00,"# MapServer Security Policy
+
+## Reporting a Vulnerability in MapServer
+
+Security/vulnerability reports should not be submitted through GitHub tickets or the public mailing lists, but instead please send your report 
+to the email address: **mapserver-security nospam @ osgeo.org** (remove the blanks and ‘nospam’).  
+
+Please follow the general guidelines for bug 
+submissions, when describing the vulnerability (see https://mapserver.org/development/bugs.html).
+
+## Supported Versions
+
+The MapServer PSC (Project Steering Committee) will release patches for security vulnerabilities 
+for the last release branch of the **two most recent release series** (such as 8.x, 7.x. 6.x, etc...). 
+Patches will only be provided **for a period of three years** from the release date of the current series.
+For example, once 8.0 is released, then only 8.0.x and 7.6.x will be supported/patched and 7.6.x will
+only be supported for three years from the date of the 8.0 series release.
+
+Currently, the following versions are supported:
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 7.6.x   | :white_check_mark: |
+| 7.4.x   | :x:                |
+| 7.2.x   | :x:                |
+| 7.0.x   | :x:                |
+| 6.4.x   | :x:                |
+| < 6.4   | :x:                |
+
+Note: _MapServer 7.0.0 was released on 2015-07-24._
+
+## Version Numbering: Explained
+
+**x**
+- Major release series number.
+- Major releases indicate substantial changes to the software and 
+  backwards compatibility is not guaranteed across series. Current 
+  release series is 7.
+
+**y**
+- Minor release series number.
+- Minor releases indicate smaller, functional additions or improvements 
+  to the software and should be generally backwards compatible within a 
+  major release series. Users should be able to confidently upgrade 
+  from one minor release to another within the same release series, so 
+  from 7.4.x to 7.6.x.
+
+**z**
+- Point release series number.
+- Point releases indicate maintenance releases - usually a combination of 
+  bug and security fixes and perhaps small feature additions. Backwards 
+  compatibility should be preserved and users should be able to confidently 
+  upgrade between point releases within the same release series, 
+  so from 7.6.4 to 7.6.5.
+","# MapServer Security Policy
+
+## Reporting a Vulnerability in MapServer
+
+Security/vulnerability reports should not be submitted through GitHub tickets or the public mailing lists, but instead please send your report 
+to the email address: **mapserver-security nospam @ osgeo.org** (remove the blanks and ‘nospam’).  
+
+Please follow the general guidelines for bug 
+submissions, when describing the vulnerability (see https://mapserver.org/development/bugs.html).
+
+## Supported Versions
+
+The MapServer PSC (Project Steering Committee) will release patches for security vulnerabilities 
+for the last release branch of the **two most recent release series** (such as 8.x, 7.x. 6.x, etc...). 
+Patches will only be provided **for a period of three years** from the release date of the current series.
+For example, once 8.0 is released, then only 8.0.x and 7.6.x will be supported/patched and 7.6.x will
+only be supported for three years from the date of the 8.0 series release.
+
+Currently, the following versions are supported:
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 7.6.x   | :white_check_mark: |
+| 7.4.x   | :x:                |
+| 7.2.x   | :x:                |
+| 7.0.x   | :x:                |
+| 6.4.x   | :x:                |
+| < 6.4   | :x:                |
+
+Note: _MapServer 7.0.0 was released on 2015-07-24._
+
+## Version Numbering: Explained
+
+version x.y.z means:
+
+**x**
+- Major release series number.
+- Major releases indicate substantial changes to the software and 
+  backwards compatibility is not guaranteed across series. Current 
+  release series is 7.
+
+**y**
+- Minor release series number.
+- Minor releases indicate smaller, functional additions or improvements 
+  to the software and should be generally backwards compatible within a 
+  major release series. Users should be able to confidently upgrade 
+  from one minor release to another within the same release series, so 
+  from 7.4.x to 7.6.x.
+
+**z**
+- Point release series number.
+- Point releases indicate maintenance releases - usually a combination of 
+  bug and security fixes and perhaps small feature additions. Backwards 
+  compatibility should be preserved and users should be able to confidently 
+  upgrade between point releases within the same release series, 
+  so from 7.6.4 to 7.6.5.
+",22,b mapserver/mapserver 4059825dc6fd81197a35496b7288553a51f46af5
+mapserver/mapserver,SECURITY.md,f686abf8e4c48879e4055c5e1a86617f70889b20,2022-09-15 12:42:08+00:00,"# MapServer Security Policy
+
+## Reporting a Vulnerability in MapServer
+
+Security/vulnerability reports should not be submitted through GitHub tickets or the public mailing lists, but instead please send your report 
+to the email address: **mapserver-security nospam @ osgeo.org** (remove the blanks and ‘nospam’).  
+
+Please follow the general guidelines for bug 
+submissions, when describing the vulnerability (see https://mapserver.org/development/bugs.html).
+
+## Supported Versions
+
+The MapServer PSC (Project Steering Committee) will release patches for security vulnerabilities 
+for the last release branch of the **two most recent release series** (such as 8.x, 7.x. 6.x, etc...). 
+Patches will only be provided **for a period of three years** from the release date of the current series.
+For example, once 8.0 is released, then only 8.0.x and 7.6.x will be supported/patched and 7.6.x will
+only be supported for three years from the date of the 8.0 series release.
+
+Currently, the following versions are supported:
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 7.6.x   | :white_check_mark: |
+| 7.4.x   | :x:                |
+| 7.2.x   | :x:                |
+| 7.0.x   | :x:                |
+| 6.4.x   | :x:                |
+| < 6.4   | :x:                |
+
+Note: _MapServer 7.0.0 was released on 2015-07-24._
+
+## Version Numbering: Explained
+
+version x.y.z means:
+
+**x**
+- Major release series number.
+- Major releases indicate substantial changes to the software and 
+  backwards compatibility is not guaranteed across series. Current 
+  release series is 7.
+
+**y**
+- Minor release series number.
+- Minor releases indicate smaller, functional additions or improvements 
+  to the software and should be generally backwards compatible within a 
+  major release series. Users should be able to confidently upgrade 
+  from one minor release to another within the same release series, so 
+  from 7.4.x to 7.6.x.
+
+**z**
+- Point release series number.
+- Point releases indicate maintenance releases - usually a combination of 
+  bug and security fixes and perhaps small feature additions. Backwards 
+  compatibility should be preserved and users should be able to confidently 
+  upgrade between point releases within the same release series, 
+  so from 7.6.4 to 7.6.5.
+","# MapServer Security Policy
+
+## Reporting a Vulnerability in MapServer
+
+Security/vulnerability reports should not be submitted through GitHub tickets or the public mailing lists, but instead please send your report 
+to the email address: **mapserver-security nospam @ osgeo.org** (remove the blanks and ‘nospam’).  
+
+Please follow the general guidelines for bug 
+submissions, when describing the vulnerability (see https://mapserver.org/development/bugs.html).
+
+## Supported Versions
+
+The MapServer PSC (Project Steering Committee) will release patches for security vulnerabilities 
+for the last release branch of the **two most recent release series** (such as 8.x, 7.x. 6.x, etc...). 
+Patches will only be provided **for a period of three years** from the release date of the current series.
+For example, as 8.0 has been released, now only 8.0.x and 7.6.x will be supported/patched and 7.6.x will
+only be supported for three years from the date of the 8.0 series release.
+
+Currently, the following versions are supported:
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 8.0.x   | :white_check_mark: |
+| 7.6.x   | :white_check_mark: |
+| 7.4.x   | :x:                |
+| 7.2.x   | :x:                |
+| 7.0.x   | :x:                |
+| 6.4.x   | :x:                |
+| < 6.4   | :x:                |
+
+Note: _MapServer 8.0.0 was released on 2022-09-12._
+Note: _MapServer 7.0.0 was released on 2015-07-24._
+
+## Version Numbering: Explained
+
+version x.y.z means:
+
+**x**
+- Major release series number.
+- Major releases indicate substantial changes to the software and 
+  backwards compatibility is not guaranteed across series. Current 
+  release series is 8.
+
+**y**
+- Minor release series number.
+- Minor releases indicate smaller, functional additions or improvements 
+  to the software and should be generally backwards compatible within a 
+  major release series. Users should be able to confidently upgrade 
+  from one minor release to another within the same release series, so 
+  from 7.4.x to 7.6.x.
+
+**z**
+- Point release series number.
+- Point releases indicate maintenance releases - usually a combination of 
+  bug and security fixes and perhaps small feature additions. Backwards 
+  compatibility should be preserved and users should be able to confidently 
+  upgrade between point releases within the same release series, 
+  so from 7.6.4 to 7.6.5.
+",101,b mapserver/mapserver f686abf8e4c48879e4055c5e1a86617f70889b20

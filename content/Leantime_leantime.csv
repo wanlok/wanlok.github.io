@@ -1,0 +1,7 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+Leantime/leantime,SECURITY.md,f19bea1e48d04ecb4e437016df45193d0dc5ee21,2021-07-11 07:30:11+00:00,,"# Security Policy
+
+## Reporting a Vulnerability
+
+Please e-mail all security issue findings to security@leantime.io
+",115,b Leantime/leantime f19bea1e48d04ecb4e437016df45193d0dc5ee21

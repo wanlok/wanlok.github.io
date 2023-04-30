@@ -928,7 +928,10 @@ These vulnerabilities are present in the given versions:
 
 See the [release notes](CHANGES.md) for more information.
 
-","# Security Policy
+","<!-- SPDX-License-Identifier: BSD-3-Clause -->
+<!-- Copyright (c) Contributors to the OpenEXR Project -->
+
+# Security Policy
 
 ## Reporting a Vulnerability
 
@@ -984,4 +987,4 @@ These vulnerabilities are present in the given versions:
 
 See the [release notes](CHANGES.md) for more information.
 
-",0,b AcademySoftwareFoundation/openexr b36688cb66c7c5c77cde5971a481e236f91049a2
+",107,b AcademySoftwareFoundation/openexr b36688cb66c7c5c77cde5971a481e236f91049a2

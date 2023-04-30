@@ -1,0 +1,24 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+SecureAuthCorp/impacket,SECURITY.md,1a5ed9dc2160c154c851e85066dfb72882f5a473,2021-06-11 14:25:16+00:00,,"Security Policy
+===============
+
+Although this initiative is not meant to be used in productive environments,
+if you consider that you have identified an issue that might affect the
+security of its users, or you understand that the tool is being abused,
+you can contact us at oss-security@secureauth.com.
+",305,b SecureAuthCorp/impacket 1a5ed9dc2160c154c851e85066dfb72882f5a473
+SecureAuthCorp/impacket,SECURITY.md,157fb0a299451541c8e8f7c9f234abaf6246d5d4,2022-12-14 19:44:37+00:00,"Security Policy
+===============
+
+Although this initiative is not meant to be used in productive environments,
+if you consider that you have identified an issue that might affect the
+security of its users, or you understand that the tool is being abused,
+you can contact us at oss-security@secureauth.com.
+","Security Policy
+===============
+
+Although this initiative is not meant to be used in productive environments,
+if you consider that you have identified an issue that might affect the
+security of its users, or you understand that the tool is being abused,
+you can contact us at https://www.coresecurity.com/about/contact.
+",30,b SecureAuthCorp/impacket 157fb0a299451541c8e8f7c9f234abaf6246d5d4

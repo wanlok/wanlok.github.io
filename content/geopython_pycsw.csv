@@ -1,0 +1,104 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+geopython/pycsw,SECURITY.md,16982dd638fc03da473a4ca5fb9673b4fff40340,2021-08-03 20:19:46+00:00,,"# pycsw Security Policy
+
+## Supported Versions
+
+Security/vulnerability reports **should not** be submitted through GitHub issues or public discussions, but instead please send your report 
+to **tomkralidis nospam @ gmail.com** and **tzotsos nospam @ gmail.com** - (remove the blanks and 'nospam').  
+
+Please follow the [contributor guidelines](https://github.com/geopython/pycsw/blob/master/CONTRIBUTING.rst#bugs) when submitting a vulnerability report.
+
+## Supported Versions
+
+The pycsw Project Steering Committee (PSC) will release patches for security vulnerabilities for the following versions:
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 2.6.x   | :white_check_mark: |
+| 2.4.x   | :white_check_mark: |
+| 2.2.x   | :white_check_mark: |
+| 2.0.x   | :white_check_mark: |
+| < 2.0   | :x:                |
+",831,b geopython/pycsw 16982dd638fc03da473a4ca5fb9673b4fff40340
+geopython/pycsw,SECURITY.md,61231fccfea13ddafa8fdc6be8c30d7cebe1bdf0,2021-08-13 19:49:51+00:00,"# pycsw Security Policy
+
+## Supported Versions
+
+Security/vulnerability reports **should not** be submitted through GitHub issues or public discussions, but instead please send your report 
+to **tomkralidis nospam @ gmail.com** and **tzotsos nospam @ gmail.com** - (remove the blanks and 'nospam').  
+
+Please follow the [contributor guidelines](https://github.com/geopython/pycsw/blob/master/CONTRIBUTING.rst#bugs) when submitting a vulnerability report.
+
+## Supported Versions
+
+The pycsw Project Steering Committee (PSC) will release patches for security vulnerabilities for the following versions:
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 2.6.x   | :white_check_mark: |
+| 2.4.x   | :white_check_mark: |
+| 2.2.x   | :white_check_mark: |
+| 2.0.x   | :white_check_mark: |
+| < 2.0   | :x:                |
+","# pycsw Security Policy
+
+## Supported Versions
+
+Security/vulnerability reports **should not** be submitted through GitHub issues or public discussions, but instead please send your report 
+to **geopython-security nospam @ lists.osgeo.org** - (remove the blanks and 'nospam').  
+
+Please follow the [contributor guidelines](https://github.com/geopython/pycsw/blob/master/CONTRIBUTING.rst#bugs) when submitting a vulnerability report.
+
+## Supported Versions
+
+The pycsw Project Steering Committee (PSC) will release patches for security vulnerabilities for the following versions:
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 2.6.x   | :white_check_mark: |
+| 2.4.x   | :white_check_mark: |
+| 2.2.x   | :white_check_mark: |
+| 2.0.x   | :white_check_mark: |
+| < 2.0   | :x:                |
+",52,b geopython/pycsw 61231fccfea13ddafa8fdc6be8c30d7cebe1bdf0
+geopython/pycsw,SECURITY.md,823acf11583ca26c45eb03f56f09c8dfa0f7135f,2021-09-21 10:33:59+00:00,"# pycsw Security Policy
+
+## Supported Versions
+
+Security/vulnerability reports **should not** be submitted through GitHub issues or public discussions, but instead please send your report 
+to **geopython-security nospam @ lists.osgeo.org** - (remove the blanks and 'nospam').  
+
+Please follow the [contributor guidelines](https://github.com/geopython/pycsw/blob/master/CONTRIBUTING.rst#bugs) when submitting a vulnerability report.
+
+## Supported Versions
+
+The pycsw Project Steering Committee (PSC) will release patches for security vulnerabilities for the following versions:
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 2.6.x   | :white_check_mark: |
+| 2.4.x   | :white_check_mark: |
+| 2.2.x   | :white_check_mark: |
+| 2.0.x   | :white_check_mark: |
+| < 2.0   | :x:                |
+","# pycsw Security Policy
+
+## Reporting
+
+Security/vulnerability reports **should not** be submitted through GitHub issues or public discussions, but instead please send your report 
+to **geopython-security nospam @ lists.osgeo.org** - (remove the blanks and 'nospam').  
+
+Please follow the [contributor guidelines](https://github.com/geopython/pycsw/blob/master/CONTRIBUTING.rst#bugs) when submitting a vulnerability report.
+
+## Supported Versions
+
+The pycsw Project Steering Committee (PSC) will release patches for security vulnerabilities for the following versions:
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 2.6.x   | :white_check_mark: |
+| 2.4.x   | :white_check_mark: |
+| 2.2.x   | :white_check_mark: |
+| 2.0.x   | :white_check_mark: |
+| < 2.0   | :x:                |
+",12,b geopython/pycsw 823acf11583ca26c45eb03f56f09c8dfa0f7135f

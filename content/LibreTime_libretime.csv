@@ -1,0 +1,16 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+LibreTime/libretime,SECURITY.md,d6d1b83513fc5818fdb9b443d60315fb0c4e0f11,2023-02-26 18:35:03+00:00,,"# Security Policy
+
+## Reporting a Vulnerability
+
+**Please do not use GitHub issues for security-sensitive communication.**
+
+The LibreTime maintainers ask that known and suspected vulnerabilities to be privately and responsibly disclosed by:
+
+- sending all the required detail to [security@libretime.org](security@libretime.org),
+- or by filling a [security advisory on Github](https://github.com/libretime/libretime/security/advisories/new).
+
+A LibreTime maintainer will acknowledged the report within 3 working days.
+
+We aim to provide a security patch within 30 days, after this period the report will be disclosed to the public. The security patch will be distributed for the [maintained versions of LibreTime](https://libretime.org/docs/developer-manual/development/releases/#distributions-releases-support).
+",813,b LibreTime/libretime d6d1b83513fc5818fdb9b443d60315fb0c4e0f11

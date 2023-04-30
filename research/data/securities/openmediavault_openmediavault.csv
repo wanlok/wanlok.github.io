@@ -1,0 +1,33 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+openmediavault/openmediavault,SECURITY.md,d095e5d9764d8d5141b94ccc0c6118e269785f58,2021-09-13 07:28:42+00:00,,"# Reporting a security issues
+
+If you believe you have found a security issue in the openmediavault software, please contact us immediately.
+
+When reporting a potential security problem, please bear this in mind:
+
+*   Make sure to provide as many details as possible about the vulnerability.
+*   Please do not disclose publicly any security issues until we fix them and publish security releases.
+
+Contact the security team at security@openmediavault.org.
+",456,b openmediavault/openmediavault d095e5d9764d8d5141b94ccc0c6118e269785f58
+openmediavault/openmediavault,SECURITY.md,c766d1693c813c4a5d7b558e0abd8f09eb1e90be,2021-09-13 07:29:26+00:00,"# Reporting a security issues
+
+If you believe you have found a security issue in the openmediavault software, please contact us immediately.
+
+When reporting a potential security problem, please bear this in mind:
+
+*   Make sure to provide as many details as possible about the vulnerability.
+*   Please do not disclose publicly any security issues until we fix them and publish security releases.
+
+Contact the security team at security@openmediavault.org.
+","# Reporting a security issue
+
+If you believe you have found a security issue in the openmediavault software, please contact us immediately.
+
+When reporting a potential security problem, please bear this in mind:
+
+*   Make sure to provide as many details as possible about the vulnerability.
+*   Please do not disclose publicly any security issues until we fix them and publish security releases.
+
+Contact the security team at security@openmediavault.org.
+",1,b openmediavault/openmediavault c766d1693c813c4a5d7b558e0abd8f09eb1e90be

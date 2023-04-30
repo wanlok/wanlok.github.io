@@ -1,0 +1,240 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+mde/ejs,SECURITY.md,59db52035a3bb1ab3df60032b51be9003da383f8,2022-04-10 21:55:44+00:00,,"# Security Policy
+This document outlines security procedures and general policies for the EJS template engine project
+
+## Supported Versions
+
+The current supported version.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 3.x.x   | :white_check_mark: |
+
+## Reporting a Vulnerability
+The EJS team and community take all security bugs in EJS seriously. 
+We appreciate your efforts and responsible disclosure and will make every effort to acknowledge your contributions.
+
+Report security bugs by emailing the lead maintainer in the Readme.md file.
+To ensure the timely response to your report, please ensure that the entirety of the report is contained within the email body and not solely behind a web link or an attachment.
+
+The EJS team will then evaluate your report and will reply with the next steps in handling your report and may ask for additional information or guidance.
+
+",900,b mde/ejs 59db52035a3bb1ab3df60032b51be9003da383f8
+mde/ejs,SECURITY.md,839ad20fd21a32c09463f9ab17f4e3e9ac470ee0,2022-04-13 02:48:04+00:00,"# Security Policy
+This document outlines security procedures and general policies for the EJS template engine project
+
+## Supported Versions
+
+The current supported version.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 3.x.x   | :white_check_mark: |
+
+## Reporting a Vulnerability
+The EJS team and community take all security bugs in EJS seriously. 
+We appreciate your efforts and responsible disclosure and will make every effort to acknowledge your contributions.
+
+Report security bugs by emailing the lead maintainer in the Readme.md file.
+To ensure the timely response to your report, please ensure that the entirety of the report is contained within the email body and not solely behind a web link or an attachment.
+
+The EJS team will then evaluate your report and will reply with the next steps in handling your report and may ask for additional information or guidance.
+
+","# Security Policy
+This document outlines security procedures and general policies for the EJS template engine project
+
+## Supported Versions
+
+The current supported version.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 3.x.x   | :white_check_mark: |
+
+## Reporting a Vulnerability
+The EJS team and community take all security bugs in EJS seriously. 
+We appreciate your efforts and responsible disclosure and will make every effort to acknowledge your contributions.
+
+Report security bugs by emailing the lead maintainer in the Readme.md file.
+To ensure the timely response to your report, please ensure that the entirety of the report is contained within the email body and not solely behind a web link or an attachment.
+
+The EJS team will then evaluate your report and will reply with the next steps in handling your report and may ask for additional information or guidance.
+
+## out of scope vulnerabilities
+If you give end-users unfettered access to the EJS render method, you are using EJS in an inherently un-secure way. Please do not report security issues that stem from doing that. EJS is effectively a JavaScript runtime. Its entire job is to execute JavaScript. If you run the EJS render method without checking the inputs yourself, you are responsible for the results.
+",402,b mde/ejs 839ad20fd21a32c09463f9ab17f4e3e9ac470ee0
+mde/ejs,SECURITY.md,689ca02f029c464e43d3f7bbed7e57c3ee9ac96c,2023-03-27 17:36:20+00:00,"# Security Policy
+This document outlines security procedures and general policies for the EJS template engine project
+
+## Supported Versions
+
+The current supported version.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 3.x.x   | :white_check_mark: |
+
+## Reporting a Vulnerability
+The EJS team and community take all security bugs in EJS seriously. 
+We appreciate your efforts and responsible disclosure and will make every effort to acknowledge your contributions.
+
+Report security bugs by emailing the lead maintainer in the Readme.md file.
+To ensure the timely response to your report, please ensure that the entirety of the report is contained within the email body and not solely behind a web link or an attachment.
+
+The EJS team will then evaluate your report and will reply with the next steps in handling your report and may ask for additional information or guidance.
+
+## out of scope vulnerabilities
+If you give end-users unfettered access to the EJS render method, you are using EJS in an inherently un-secure way. Please do not report security issues that stem from doing that. EJS is effectively a JavaScript runtime. Its entire job is to execute JavaScript. If you run the EJS render method without checking the inputs yourself, you are responsible for the results.
+","# Security Policy
+This document outlines security procedures and general policies for the EJS template engine project
+
+## Supported Versions
+
+The current supported version.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 3.x.x   | :white_check_mark: |
+
+## Reporting a Vulnerability
+The EJS team and community take all security bugs in EJS seriously. 
+We appreciate your efforts and responsible disclosure and will make every effort to acknowledge your contributions.
+
+Report security bugs by emailing the lead maintainer in the Readme.md file.
+To ensure the timely response to your report, please ensure that the entirety of the report is contained within the email body and not solely behind a web link or an attachment.
+
+The EJS team will then evaluate your report and will reply with the next steps in handling your report and may ask for additional information or guidance.
+
+## Out-of-Scope Vulnerabilities
+If you give end-users unfettered access to the EJS render method, you are using EJS in an inherently un-secure way. Please do not report security issues that stem from doing that. EJS is effectively a JavaScript runtime. Its entire job is to execute JavaScript. If you run the EJS render method without checking the inputs yourself, you are responsible for the results.
+",5,b mde/ejs 689ca02f029c464e43d3f7bbed7e57c3ee9ac96c
+mde/ejs,SECURITY.md,828cea1687e3db459ab09d2f405d2444c7580b90,2023-03-27 18:04:07+00:00,"# Security Policy
+This document outlines security procedures and general policies for the EJS template engine project
+
+## Supported Versions
+
+The current supported version.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 3.x.x   | :white_check_mark: |
+
+## Reporting a Vulnerability
+The EJS team and community take all security bugs in EJS seriously. 
+We appreciate your efforts and responsible disclosure and will make every effort to acknowledge your contributions.
+
+Report security bugs by emailing the lead maintainer in the Readme.md file.
+To ensure the timely response to your report, please ensure that the entirety of the report is contained within the email body and not solely behind a web link or an attachment.
+
+The EJS team will then evaluate your report and will reply with the next steps in handling your report and may ask for additional information or guidance.
+
+## Out-of-Scope Vulnerabilities
+If you give end-users unfettered access to the EJS render method, you are using EJS in an inherently un-secure way. Please do not report security issues that stem from doing that. EJS is effectively a JavaScript runtime. Its entire job is to execute JavaScript. If you run the EJS render method without checking the inputs yourself, you are responsible for the results.
+","# Security Policy
+This document outlines security procedures and general policies for the EJS template engine project
+
+## Supported Versions
+
+The current supported version.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 3.x.x   | :white_check_mark: |
+
+## Reporting a Vulnerability
+The EJS team and community take all security bugs in EJS seriously. 
+We appreciate your efforts and responsible disclosure and will make every effort to acknowledge your contributions.
+
+Report security bugs by emailing the lead maintainer in the Readme.md file.
+To ensure the timely response to your report, please ensure that the entirety of the report is contained within the email body and not solely behind a web link or an attachment.
+
+The EJS team will then evaluate your report and will reply with the next steps in handling your report and may ask for additional information or guidance.
+
+## Out-of-Scope Vulnerabilities
+If you give end-users unfettered access to the EJS render method, you are using EJS in an inherently un-secure way. Please do not report security issues that stem from doing that.
+
+EJS is effectively a JavaScript runtime. Its entire job is to execute JavaScript. If you run the EJS render method without checking the inputs yourself, you are responsible for the results.
+
+In short, DO NOT send reports including this snippet of code:
+
+```javascript
+app.get('/', (req, res) => {
+    res.render('index', req.query);
+});
+```
+",153,b mde/ejs 828cea1687e3db459ab09d2f405d2444c7580b90
+mde/ejs,SECURITY.md,f47d7aedd51a983e4f73045f962b1209096b5800,2023-03-27 18:04:48+00:00,"# Security Policy
+This document outlines security procedures and general policies for the EJS template engine project
+
+## Supported Versions
+
+The current supported version.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 3.x.x   | :white_check_mark: |
+
+## Reporting a Vulnerability
+The EJS team and community take all security bugs in EJS seriously. 
+We appreciate your efforts and responsible disclosure and will make every effort to acknowledge your contributions.
+
+Report security bugs by emailing the lead maintainer in the Readme.md file.
+To ensure the timely response to your report, please ensure that the entirety of the report is contained within the email body and not solely behind a web link or an attachment.
+
+The EJS team will then evaluate your report and will reply with the next steps in handling your report and may ask for additional information or guidance.
+
+## Out-of-Scope Vulnerabilities
+If you give end-users unfettered access to the EJS render method, you are using EJS in an inherently un-secure way. Please do not report security issues that stem from doing that.
+
+EJS is effectively a JavaScript runtime. Its entire job is to execute JavaScript. If you run the EJS render method without checking the inputs yourself, you are responsible for the results.
+
+In short, DO NOT send reports including this snippet of code:
+
+```javascript
+app.get('/', (req, res) => {
+    res.render('index', req.query);
+});
+```
+","# Security Policy
+This document outlines security procedures and general policies for the EJS template engine project
+
+## Supported Versions
+
+The current supported version.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 3.x.x   | :white_check_mark: |
+
+## Reporting a Vulnerability
+The EJS team and community take all security bugs in EJS seriously. 
+We appreciate your efforts and responsible disclosure and will make every effort to acknowledge your contributions.
+
+Report security bugs by emailing the lead maintainer in the Readme.md file.
+To ensure the timely response to your report, please ensure that the entirety of the report is contained within the email body and not solely behind a web link or an attachment.
+
+The EJS team will then evaluate your report and will reply with the next steps in handling your report and may ask for additional information or guidance.
+
+## Out-of-Scope Vulnerabilities
+If you give end-users unfettered access to the EJS render method, you are using EJS in an inherently un-secure way. Please do not report security issues that stem from doing that.
+
+EJS is effectively a JavaScript runtime. Its entire job is to execute JavaScript. If you run the EJS render method without checking the inputs yourself, you are responsible for the results.
+
+In short, DO NOT send reports including this snippet of code:
+
+```javascript
+const express = require('express');
+const app = express();
+const PORT = 3000;
+app.set('views', __dirname);
+app.set('view engine', 'ejs');
+
+app.get('/', (req, res) => {
+    res.render('index', req.query);
+});
+
+app.listen(PORT, ()=> {
+    console.log(`Server is running on ${PORT}`);
+});
+```
+",217,b mde/ejs f47d7aedd51a983e4f73045f962b1209096b5800

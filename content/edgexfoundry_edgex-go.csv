@@ -1,0 +1,2626 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+edgexfoundry/edgex-go,SECURITY.md,f4204656cd259c9ac09dc185824708a797839447,2019-10-23 20:44:10+00:00,,"# Security Components in EdgeX Foundry Services
+
+Starting with the Fuji release, EdgeX includes enhanced security features that are enabled by default. 
+There are 3 major components that are responsible for security features: 
+
+* [Security-secrets-setup](cmd/security-secrets-setup/README.md)
+* [Security-secretstore-setup](cmd/security-secretstore-setup/README.md)
+* [Security-proxy-setup](cmd/security-proxy-setup/README.md)
+
+Security-secrets-setup is responsible for creating necessary certificates. 
+Security-secretstore-setup is responsible for initializing the secret store to hold various credentials 
+for EdgeX. Security-proxy-setup is responsible for initializating the EdgeX proxy environment, which 
+includes setting up related permissions and authentication methods. The proxy will protect all the REST 
+API resources. 
+
+# Get Started
+
+To get started, fetch the latest docker-compose.yml and start the EdgeX containers:
+
+```sh
+$ wget https://raw.githubusercontent.com/edgexfoundry/developer-scripts/master/releases/fuji/compose-files/docker-compose-fuji-1.1.0.yml
+$ docker-compose up -d
+```
+
+Once EdgeX is up and running, the following steps are required to access EdgeX resources:
+
+1. The user needs to create an access token and associate every REST request with the security token
+while sending the request. Use ""admin"" as group name below, as it is the privileged group in the default configuration of the proxy.
+`<account>` below should be substituted for the desired account name (e.g., ""mary"", ""iot_user"", etc).
+
+    ```sh
+    $ docker-compose run security-proxy-setup --useradd=<account> --group=<groupname>
+    ```
+    which will create an access token. One example of an access token is: 
+    `eyJpc3MiOiI5M3V3cmZBc0xzS2Qwd1JnckVFdlRzQloxSmtYOTRRciIsImFjY291bnQiOiJhZG1pbmlzdHJhdG9yIn0`.  
+    Yours will differ from this one.
+2. The exported external ports (such as 48080, 48081 etc.) will be inaccessible for security reasons. 
+Instead, all the REST requests need to go through the proxy, and the proxy will redirect the request to individual 
+microservice on behalf of the user.
+
+    E.g, if we need to send a request to the ping endpoint of coredata, without security this would look like:
+
+    ```
+    $ curl http://{coredata-microservice-ip}:48080/api/v1/ping
+    ```
+
+    With security services enabled, the request would look like this:
+
+    ```
+    $ curl -k https://{proxy-service-ip}:8443/coredata/api/v1/ping -H ""Authorization: Bearer <access-token>""
+    ```
+   Note the request is made over https to the proxy-service's IP address on port 8443.  The access token is also 
+   included in the Authorization header.
+
+# Community
+
+- Chat: [https://edgexfoundry.slack.com](https://join.slack.com/t/edgexfoundry/shared_invite/enQtNDgyODM5ODUyODY0LWVhY2VmOTcyOWY2NjZhOWJjOGI1YzQ2NzYzZmIxYzAzN2IzYzY0NTVmMWZhZjNkMjVmODNiZGZmYTkzZDE3MTA)
+- Mailing lists: https://lists.edgexfoundry.org/mailman/listinfo
+
+# License
+
+[Apache-2.0](LICENSE)
+",2963,b edgexfoundry/edgex-go f4204656cd259c9ac09dc185824708a797839447
+edgexfoundry/edgex-go,SECURITY.md,d939fa2a280896df5d7ca92c81329f4401ab2857,2020-01-17 20:24:15+00:00,"# Security Components in EdgeX Foundry Services
+
+Starting with the Fuji release, EdgeX includes enhanced security features that are enabled by default. 
+There are 3 major components that are responsible for security features: 
+
+* [Security-secrets-setup](cmd/security-secrets-setup/README.md)
+* [Security-secretstore-setup](cmd/security-secretstore-setup/README.md)
+* [Security-proxy-setup](cmd/security-proxy-setup/README.md)
+
+Security-secrets-setup is responsible for creating necessary certificates. 
+Security-secretstore-setup is responsible for initializing the secret store to hold various credentials 
+for EdgeX. Security-proxy-setup is responsible for initializating the EdgeX proxy environment, which 
+includes setting up related permissions and authentication methods. The proxy will protect all the REST 
+API resources. 
+
+# Get Started
+
+To get started, fetch the latest docker-compose.yml and start the EdgeX containers:
+
+```sh
+$ wget https://raw.githubusercontent.com/edgexfoundry/developer-scripts/master/releases/fuji/compose-files/docker-compose-fuji-1.1.0.yml
+$ docker-compose up -d
+```
+
+Once EdgeX is up and running, the following steps are required to access EdgeX resources:
+
+1. The user needs to create an access token and associate every REST request with the security token
+while sending the request. Use ""admin"" as group name below, as it is the privileged group in the default configuration of the proxy.
+`<account>` below should be substituted for the desired account name (e.g., ""mary"", ""iot_user"", etc).
+
+    ```sh
+    $ docker-compose run security-proxy-setup --useradd=<account> --group=<groupname>
+    ```
+    which will create an access token. One example of an access token is: 
+    `eyJpc3MiOiI5M3V3cmZBc0xzS2Qwd1JnckVFdlRzQloxSmtYOTRRciIsImFjY291bnQiOiJhZG1pbmlzdHJhdG9yIn0`.  
+    Yours will differ from this one.
+2. The exported external ports (such as 48080, 48081 etc.) will be inaccessible for security reasons. 
+Instead, all the REST requests need to go through the proxy, and the proxy will redirect the request to individual 
+microservice on behalf of the user.
+
+    E.g, if we need to send a request to the ping endpoint of coredata, without security this would look like:
+
+    ```
+    $ curl http://{coredata-microservice-ip}:48080/api/v1/ping
+    ```
+
+    With security services enabled, the request would look like this:
+
+    ```
+    $ curl -k https://{proxy-service-ip}:8443/coredata/api/v1/ping -H ""Authorization: Bearer <access-token>""
+    ```
+   Note the request is made over https to the proxy-service's IP address on port 8443.  The access token is also 
+   included in the Authorization header.
+
+# Community
+
+- Chat: [https://edgexfoundry.slack.com](https://join.slack.com/t/edgexfoundry/shared_invite/enQtNDgyODM5ODUyODY0LWVhY2VmOTcyOWY2NjZhOWJjOGI1YzQ2NzYzZmIxYzAzN2IzYzY0NTVmMWZhZjNkMjVmODNiZGZmYTkzZDE3MTA)
+- Mailing lists: https://lists.edgexfoundry.org/mailman/listinfo
+
+# License
+
+[Apache-2.0](LICENSE)
+","# Security Components in EdgeX Foundry Services
+
+Starting with the Fuji release, EdgeX includes enhanced security features that are enabled by default. 
+There are 3 major components that are responsible for security features: 
+
+* [Security-secrets-setup](cmd/security-secrets-setup/README.md)
+* [Security-secretstore-setup](cmd/security-secretstore-setup/README.md)
+* [Security-proxy-setup](cmd/security-proxy-setup/README.md)
+
+Security-secrets-setup is responsible for creating necessary certificates. 
+Security-secretstore-setup is responsible for initializing the secret store to hold various credentials 
+for EdgeX. Security-proxy-setup is responsible for initializating the EdgeX proxy environment, which 
+includes setting up related permissions and authentication methods. The proxy will protect all the REST 
+API resources. 
+
+# Get Started
+
+To get started, fetch the latest docker-compose.yml and start the EdgeX containers:
+
+```sh
+$ wget https://github.com/edgexfoundry/developer-scripts/blob/master/releases/nightly-build/compose-files/docker-compose-nexus.yml
+$ docker-compose up -d
+```
+
+Once EdgeX is up and running, the following steps are required to access EdgeX resources:
+
+1. The user needs to create an access token and associate every REST request with the security token
+while sending the request. Use ""admin"" as group name below, as it is the privileged group in the default configuration of the proxy.
+`<account>` below should be substituted for the desired account name (e.g., ""mary"", ""iot_user"", etc).
+
+    ```sh
+    $ docker-compose run -f docker-compose-nexus.yml --rm --entrypoint /edgex/security-proxy-setup edgexproxy --init=false --useradd=<account> --group=<groupname>
+    ```
+    which will create an access token. One example of an access token is: 
+    `eyJpc3MiOiI5M3V3cmZBc0xzS2Qwd1JnckVFdlRzQloxSmtYOTRRciIsImFjY291bnQiOiJhZG1pbmlzdHJhdG9yIn0`.  
+    Yours will differ from this one.
+2. The exported external ports (such as 48080, 48081 etc.) will be inaccessible for security reasons. 
+Instead, all the REST requests need to go through the proxy, and the proxy will redirect the request to individual 
+microservice on behalf of the user.
+
+    E.g, if we need to send a request to the ping endpoint of coredata, without security this would look like:
+
+    ```
+    $ curl http://{coredata-microservice-ip}:48080/api/v1/ping
+    ```
+
+    With security services enabled, the request would look like this:
+
+    ```
+    $ curl -k https://{proxy-service-ip}:8443/coredata/api/v1/ping -H ""Authorization: Bearer <access-token>""
+    ```
+   Note the request is made over https to the proxy-service's IP address on port 8443.  The access token is also 
+   included in the Authorization header.
+
+# Community
+
+- Chat: [https://edgexfoundry.slack.com](https://join.slack.com/t/edgexfoundry/shared_invite/enQtNDgyODM5ODUyODY0LWVhY2VmOTcyOWY2NjZhOWJjOGI1YzQ2NzYzZmIxYzAzN2IzYzY0NTVmMWZhZjNkMjVmODNiZGZmYTkzZDE3MTA)
+- Mailing lists: https://lists.edgexfoundry.org/mailman/listinfo
+
+# License
+
+[Apache-2.0](LICENSE)
+",119,b edgexfoundry/edgex-go d939fa2a280896df5d7ca92c81329f4401ab2857
+edgexfoundry/edgex-go,SECURITY.md,8ffa7a847b67cd18f840b4333c018314a8727466,2020-01-30 19:02:36+00:00,"# Security Components in EdgeX Foundry Services
+
+Starting with the Fuji release, EdgeX includes enhanced security features that are enabled by default. 
+There are 3 major components that are responsible for security features: 
+
+* [Security-secrets-setup](cmd/security-secrets-setup/README.md)
+* [Security-secretstore-setup](cmd/security-secretstore-setup/README.md)
+* [Security-proxy-setup](cmd/security-proxy-setup/README.md)
+
+Security-secrets-setup is responsible for creating necessary certificates. 
+Security-secretstore-setup is responsible for initializing the secret store to hold various credentials 
+for EdgeX. Security-proxy-setup is responsible for initializating the EdgeX proxy environment, which 
+includes setting up related permissions and authentication methods. The proxy will protect all the REST 
+API resources. 
+
+# Get Started
+
+To get started, fetch the latest docker-compose.yml and start the EdgeX containers:
+
+```sh
+$ wget https://github.com/edgexfoundry/developer-scripts/blob/master/releases/nightly-build/compose-files/docker-compose-nexus.yml
+$ docker-compose up -d
+```
+
+Once EdgeX is up and running, the following steps are required to access EdgeX resources:
+
+1. The user needs to create an access token and associate every REST request with the security token
+while sending the request. Use ""admin"" as group name below, as it is the privileged group in the default configuration of the proxy.
+`<account>` below should be substituted for the desired account name (e.g., ""mary"", ""iot_user"", etc).
+
+    ```sh
+    $ docker-compose run -f docker-compose-nexus.yml --rm --entrypoint /edgex/security-proxy-setup edgexproxy --init=false --useradd=<account> --group=<groupname>
+    ```
+    which will create an access token. One example of an access token is: 
+    `eyJpc3MiOiI5M3V3cmZBc0xzS2Qwd1JnckVFdlRzQloxSmtYOTRRciIsImFjY291bnQiOiJhZG1pbmlzdHJhdG9yIn0`.  
+    Yours will differ from this one.
+2. The exported external ports (such as 48080, 48081 etc.) will be inaccessible for security reasons. 
+Instead, all the REST requests need to go through the proxy, and the proxy will redirect the request to individual 
+microservice on behalf of the user.
+
+    E.g, if we need to send a request to the ping endpoint of coredata, without security this would look like:
+
+    ```
+    $ curl http://{coredata-microservice-ip}:48080/api/v1/ping
+    ```
+
+    With security services enabled, the request would look like this:
+
+    ```
+    $ curl -k https://{proxy-service-ip}:8443/coredata/api/v1/ping -H ""Authorization: Bearer <access-token>""
+    ```
+   Note the request is made over https to the proxy-service's IP address on port 8443.  The access token is also 
+   included in the Authorization header.
+
+# Community
+
+- Chat: [https://edgexfoundry.slack.com](https://join.slack.com/t/edgexfoundry/shared_invite/enQtNDgyODM5ODUyODY0LWVhY2VmOTcyOWY2NjZhOWJjOGI1YzQ2NzYzZmIxYzAzN2IzYzY0NTVmMWZhZjNkMjVmODNiZGZmYTkzZDE3MTA)
+- Mailing lists: https://lists.edgexfoundry.org/mailman/listinfo
+
+# License
+
+[Apache-2.0](LICENSE)
+","# Security Components in EdgeX Foundry Services
+
+Starting with the Fuji release, EdgeX includes enhanced security features that are enabled by default.
+There are 3 major components that are responsible for security features:
+
+* [Security-secrets-setup](cmd/security-secrets-setup/README.md)
+* [Security-secretstore-setup](cmd/security-secretstore-setup/README.md)
+* [Security-proxy-setup](cmd/security-proxy-setup/README.md)
+
+Security-secrets-setup is responsible for creating necessary certificates.
+Security-secretstore-setup is responsible for initializing the secret store to hold various credentials
+for EdgeX. Security-proxy-setup is responsible for initializating the EdgeX proxy environment, which
+includes setting up related permissions and authentication methods. The proxy will protect all the REST
+API resources.
+
+## Get Started
+
+To get started, fetch the latest docker-compose.yml and start the EdgeX containers:
+
+```sh
+$ wget https://raw.githubusercontent.com/edgexfoundry/developer-scripts/master/releases/nightly-build/compose-files/docker-compose-nexus.yml
+$ docker-compose up -d
+```
+
+Once EdgeX is up and running, the following steps are required to access EdgeX resources:
+
+1. The user needs to create an access token and associate every REST request with the security token
+while sending the request. Use ""admin"" as group name below, as it is the privileged group in the default configuration of the proxy.
+`<account>` below should be substituted for the desired account name (e.g., ""mary"", ""iot_user"", etc).
+
+    ```sh
+    $ docker-compose run -f docker-compose-nexus.yml --rm --entrypoint /edgex/security-proxy-setup edgexproxy --init=false --useradd=<account> --group=<groupname>
+    ```
+
+    which will create an access token. One example of an access token is:
+    `eyJpc3MiOiI5M3V3cmZBc0xzS2Qwd1JnckVFdlRzQloxSmtYOTRRciIsImFjY291bnQiOiJhZG1pbmlzdHJhdG9yIn0`.  
+    Yours will differ from this one.
+
+2. The exported external ports (such as 48080, 48081 etc.) will be inaccessible for security reasons.
+Instead, all the REST requests need to go through the proxy, and the proxy will redirect the request to individual microservice on behalf of the user.
+
+    E.g, if we need to send a request to the ping endpoint of coredata, without security this would look like:
+
+    ```sh
+    curl http://{coredata-microservice-ip}:48080/api/v1/ping
+    ```
+
+    With security services enabled, the request would look like this:
+
+    ```sh
+    curl -k https://{proxy-service-ip}:8443/coredata/api/v1/ping -H ""Authorization: Bearer <access-token>""
+    ```
+
+   Note the request is made over https to the proxy-service's IP address on port 8443.  The access token is also
+   included in the Authorization header.
+
+## Community
+
+* Chat: [https://edgexfoundry.slack.com](https://join.slack.com/t/edgexfoundry/shared_invite/enQtNDgyODM5ODUyODY0LWVhY2VmOTcyOWY2NjZhOWJjOGI1YzQ2NzYzZmIxYzAzN2IzYzY0NTVmMWZhZjNkMjVmODNiZGZmYTkzZDE3MTA)
+* Mailing lists: [https://lists.edgexfoundry.org/mailman/listinfo](https://lists.edgexfoundry.org/mailman/listinfo)
+
+## License
+
+[Apache-2.0](LICENSE)
+",98,b edgexfoundry/edgex-go 8ffa7a847b67cd18f840b4333c018314a8727466
+edgexfoundry/edgex-go,SECURITY.md,d6a7479150d523be34feae3430043e4b6d081c4f,2020-04-23 00:07:22+00:00,"# Security Components in EdgeX Foundry Services
+
+Starting with the Fuji release, EdgeX includes enhanced security features that are enabled by default.
+There are 3 major components that are responsible for security features:
+
+* [Security-secrets-setup](cmd/security-secrets-setup/README.md)
+* [Security-secretstore-setup](cmd/security-secretstore-setup/README.md)
+* [Security-proxy-setup](cmd/security-proxy-setup/README.md)
+
+Security-secrets-setup is responsible for creating necessary certificates.
+Security-secretstore-setup is responsible for initializing the secret store to hold various credentials
+for EdgeX. Security-proxy-setup is responsible for initializating the EdgeX proxy environment, which
+includes setting up related permissions and authentication methods. The proxy will protect all the REST
+API resources.
+
+## Get Started
+
+To get started, fetch the latest docker-compose.yml and start the EdgeX containers:
+
+```sh
+$ wget https://raw.githubusercontent.com/edgexfoundry/developer-scripts/master/releases/nightly-build/compose-files/docker-compose-nexus.yml
+$ docker-compose up -d
+```
+
+Once EdgeX is up and running, the following steps are required to access EdgeX resources:
+
+1. The user needs to create an access token and associate every REST request with the security token
+while sending the request. Use ""admin"" as group name below, as it is the privileged group in the default configuration of the proxy.
+`<account>` below should be substituted for the desired account name (e.g., ""mary"", ""iot_user"", etc).
+
+    ```sh
+    $ docker-compose run -f docker-compose-nexus.yml --rm --entrypoint /edgex/security-proxy-setup edgexproxy --init=false --useradd=<account> --group=<groupname>
+    ```
+
+    which will create an access token. One example of an access token is:
+    `eyJpc3MiOiI5M3V3cmZBc0xzS2Qwd1JnckVFdlRzQloxSmtYOTRRciIsImFjY291bnQiOiJhZG1pbmlzdHJhdG9yIn0`.  
+    Yours will differ from this one.
+
+2. The exported external ports (such as 48080, 48081 etc.) will be inaccessible for security reasons.
+Instead, all the REST requests need to go through the proxy, and the proxy will redirect the request to individual microservice on behalf of the user.
+
+    E.g, if we need to send a request to the ping endpoint of coredata, without security this would look like:
+
+    ```sh
+    curl http://{coredata-microservice-ip}:48080/api/v1/ping
+    ```
+
+    With security services enabled, the request would look like this:
+
+    ```sh
+    curl -k https://{proxy-service-ip}:8443/coredata/api/v1/ping -H ""Authorization: Bearer <access-token>""
+    ```
+
+   Note the request is made over https to the proxy-service's IP address on port 8443.  The access token is also
+   included in the Authorization header.
+
+## Community
+
+* Chat: [https://edgexfoundry.slack.com](https://join.slack.com/t/edgexfoundry/shared_invite/enQtNDgyODM5ODUyODY0LWVhY2VmOTcyOWY2NjZhOWJjOGI1YzQ2NzYzZmIxYzAzN2IzYzY0NTVmMWZhZjNkMjVmODNiZGZmYTkzZDE3MTA)
+* Mailing lists: [https://lists.edgexfoundry.org/mailman/listinfo](https://lists.edgexfoundry.org/mailman/listinfo)
+
+## License
+
+[Apache-2.0](LICENSE)
+","# Security Components in EdgeX Foundry Services
+
+Starting with the Fuji release, EdgeX includes enhanced security features that are enabled by default.
+There are 3 major components that are responsible for security features:
+
+| Component  | Description  |
+|---|---|
+| [Security-secrets-setup](cmd/security-secrets-setup/README.md)  | Security-secrets-setup is responsible for creating necessary certificates.  | 
+|  [Security-secretstore-setup](cmd/security-secretstore-setup/README.md) | Security-secretstore-setup is responsible for initializing the secret store to hold various credentials for EdgeX.  |
+| [Security-proxy-setup](cmd/security-proxy-setup/README.md)  | Security-proxy-setup is responsible for initializating the EdgeX proxy environment, which includes setting up related permissions and authentication methods. The proxy will protect all the REST API resources.  |
+
+When starting a secure EdgeX deployment, the sequence is [see docker-compose-nexus-redis.yml for reference](https://github.com/edgexfoundry/developer-scripts/blob/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml))
+
+1. Start the `edgex-secrets-setup` container from the `docker-edgex-secrets-setup-go` image to create the PKI.
+1. Start [Vault by HashiCorp](https://www.vaultproject.io/)
+1. Start the `edgex-vault-worker` container from the `docker-edgex-security-secretstore-setup-go` image to create the shared secrets needed by the microservices.
+1. Finally, the start the `edgex-proxy` container from the `docker-edgex-security-proxy-setup-go` image once [Kong](https://konghq.com/) is up.
+
+## Get Started
+
+To get started, fetch the latest [docker-compose-nexus-redis.yml](https://github.com/edgexfoundry/developer-scripts/blob/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml)) and start the EdgeX containers:
+
+```sh
+wget https://raw.githubusercontent.com/edgexfoundry/developer-scripts/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml
+docker-compose up -d
+```
+
+Once EdgeX is up and running, the following steps are required to access EdgeX resources:
+
+1. The user needs to create an access token and associate every REST request with the security token
+   while sending the request. Use _admin_ as group name, as it is the privileged group in the
+   default configuration of the proxy. Use anything for _user_ as the desired account name
+   (e.g., ""mary"", ""iot_user"", etc).
+
+    ```sh
+    docker-compose -f docker-compose-nexus-redis.yml run --rm --entrypoint /edgex/security-proxy-setup edgex-proxy --init=false --useradd=IAmGroot --group=admin
+    ```
+
+    which will create an access token. One example of an access token is:
+    `eyJpc3MiOiI5M3V3cmZBc0xzS2Qwd1JnckVFdlRzQloxSmtYOTRRciIsImFjY291bnQiOiJhZG1pbmlzdHJhdG9yIn0`.  
+    Yours will differ from this one.
+
+2. The exported external ports (such as 48080, 48081 etc.) will be inaccessible for security reasons.
+Instead, all the REST requests need to go through the proxy, and the proxy will redirect the request to individual microservice on behalf of the user.
+
+    E.g, if we need to send a request to the ping endpoint of coredata, without security this would look like:
+
+    ```sh
+    curl http://{coredata-microservice-ip}:48080/api/v1/ping
+    ```
+
+    With security services enabled, the request would look like this:
+
+    ```sh
+    curl -k https://{kong-ip}:8443/coredata/api/v1/ping -H ""Authorization: Bearer <access-token>""
+    ```
+
+   Note the request is made over https to the proxy-service's IP address on port 8443.  The access token is also
+   included in the Authorization header.
+
+## Starting a Non-Docker Microservice With Security Enabled
+
+As an example, let's say you want to start core-metadata outside a container so you can debug it. You will need a non-expired token to authenticate and authorize the service and you will need to tell core-metadata about its environment. Be aware that
+
+* Tokens expire after 60 minutes if not renewed. If you are starting/stopping a microservice and the service token has expired, stop and start security-secretstore-setup (aka vault-worker).
+* `/tmp/edgex/secrets/...` where the tokens live is only root readable. You can run the microservice as root or use the following to open up the tree. Note you will need to repeat the chmod each time you restart `security-secrets-setup`
+
+    ```sh
+    pushd /tmp/edgex
+    sudo find . -type d -exec chmod a+rx {} /dev/null \;
+    sudo find . -type f -exec chmod a+r {} /dev/null \;
+    popd
+    ```
+
+Fortunately, between go-mod-boostrap and [microservice self seeding](https://github.com/edgexfoundry/edgex-docs/blob/master/docs_src/design/adr/0005-Service-Self-Config.md) this is quite straight forward:
+
+```sh
+sudo bash
+
+cd cmd/core-metadata
+SecretStore_ServerName=edgex-vault SecretStore_RootCaCertPath=/tmp/edgex/secrets/ca/ca.pem SecretStore_TokenFile=/tmp/edgex/secrets/edgex-core-metadata/secrets-token.json Logging_EnableRemote=""false"" ./core-metadata
+```
+
+| Environment Override  | Description  |
+|---|---|
+| SecretStore_ServerName=edgex-vault | Name of secret store to compare against X.509 DN |
+| SecretStore_RootCaCertPath=/tmp/edgex/secrets/ca/ca.pem | Root CA for validating TLS certificate chain |
+| SecretStore_TokenFile=/tmp/edgex/secrets/edgex-core-metadata/secrets-token.json | Authorization token |
+| Logging_EnableRemote=""false"" | There can only one (logger) |
+
+The defaults are loaded from `res/configuration.toml` and then the environment variables override the defaults.
+
+* Both Kong and the microservice need to agree on the host were the microservice lives. To that end, if you are mixing container based infrastructure (e.g. Kong) and native microservices you will need to do the following
+  * Tell the Kong container about the host (assume its 10.138.0.2 in this example). Add the following to the Kong entry in the compose file
+  
+  ```yaml
+  extra_hosts:
+      - ""edgex-core-metadata:10.138.0.2""
+      - ""edgex-core-data:10.138.0.2""
+      - ""edgex-core-command:10.138.0.2""
+  ```
+
+  and add the following to the environment section
+
+  ```yaml
+  - 'Clients_CoreData_Host: edgex-core-data'
+  - 'Clients_Logging_Host: edgex-support-logging'
+  - 'Clients_Notifications_Host: edgex-support-notifications'
+  - 'Clients_Metadata_Host: edgex-core-metadata'
+  - 'Clients_Command_Host: edgex-core-command'
+  - 'Clients_Scheduler_Host: edgex-support-scheduler'
+  ```
+
+  * Tell the OS about the host by adding the following to `/etc/hosts`
+
+  ```sh
+  10.138.0.2    edgex-core-data
+  10.138.0.2    edgex-core-metadata
+  10.138.0.2    edgex-core-command
+  ```
+
+  and tell the microservice about the host (only core-metadata shown here)
+
+  ```sh
+  export Clients_Metadata_Host=edgex-core-metadata
+  ```
+
+## Community
+
+* Chat: [https://edgexfoundry.slack.com](https://join.slack.com/t/edgexfoundry/shared_invite/enQtNDgyODM5ODUyODY0LWVhY2VmOTcyOWY2NjZhOWJjOGI1YzQ2NzYzZmIxYzAzN2IzYzY0NTVmMWZhZjNkMjVmODNiZGZmYTkzZDE3MTA)
+* Mailing lists: [https://lists.edgexfoundry.org/mailman/listinfo](https://lists.edgexfoundry.org/mailman/listinfo)
+
+## License
+
+[Apache-2.0](LICENSE)
+",4333,b edgexfoundry/edgex-go d6a7479150d523be34feae3430043e4b6d081c4f
+edgexfoundry/edgex-go,SECURITY.md,aa472f58a5207d25d1630cfabae13fa3f1ce44ee,2020-08-17 14:12:49+00:00,"# Security Components in EdgeX Foundry Services
+
+Starting with the Fuji release, EdgeX includes enhanced security features that are enabled by default.
+There are 3 major components that are responsible for security features:
+
+| Component  | Description  |
+|---|---|
+| [Security-secrets-setup](cmd/security-secrets-setup/README.md)  | Security-secrets-setup is responsible for creating necessary certificates.  | 
+|  [Security-secretstore-setup](cmd/security-secretstore-setup/README.md) | Security-secretstore-setup is responsible for initializing the secret store to hold various credentials for EdgeX.  |
+| [Security-proxy-setup](cmd/security-proxy-setup/README.md)  | Security-proxy-setup is responsible for initializating the EdgeX proxy environment, which includes setting up related permissions and authentication methods. The proxy will protect all the REST API resources.  |
+
+When starting a secure EdgeX deployment, the sequence is [see docker-compose-nexus-redis.yml for reference](https://github.com/edgexfoundry/developer-scripts/blob/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml))
+
+1. Start the `edgex-secrets-setup` container from the `docker-edgex-secrets-setup-go` image to create the PKI.
+1. Start [Vault by HashiCorp](https://www.vaultproject.io/)
+1. Start the `edgex-vault-worker` container from the `docker-edgex-security-secretstore-setup-go` image to create the shared secrets needed by the microservices.
+1. Finally, the start the `edgex-proxy` container from the `docker-edgex-security-proxy-setup-go` image once [Kong](https://konghq.com/) is up.
+
+## Get Started
+
+To get started, fetch the latest [docker-compose-nexus-redis.yml](https://github.com/edgexfoundry/developer-scripts/blob/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml)) and start the EdgeX containers:
+
+```sh
+wget https://raw.githubusercontent.com/edgexfoundry/developer-scripts/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml
+docker-compose up -d
+```
+
+Once EdgeX is up and running, the following steps are required to access EdgeX resources:
+
+1. The user needs to create an access token and associate every REST request with the security token
+   while sending the request. Use _admin_ as group name, as it is the privileged group in the
+   default configuration of the proxy. Use anything for _user_ as the desired account name
+   (e.g., ""mary"", ""iot_user"", etc).
+
+    ```sh
+    docker-compose -f docker-compose-nexus-redis.yml run --rm --entrypoint /edgex/security-proxy-setup edgex-proxy --init=false --useradd=IAmGroot --group=admin
+    ```
+
+    which will create an access token. One example of an access token is:
+    `eyJpc3MiOiI5M3V3cmZBc0xzS2Qwd1JnckVFdlRzQloxSmtYOTRRciIsImFjY291bnQiOiJhZG1pbmlzdHJhdG9yIn0`.  
+    Yours will differ from this one.
+
+2. The exported external ports (such as 48080, 48081 etc.) will be inaccessible for security reasons.
+Instead, all the REST requests need to go through the proxy, and the proxy will redirect the request to individual microservice on behalf of the user.
+
+    E.g, if we need to send a request to the ping endpoint of coredata, without security this would look like:
+
+    ```sh
+    curl http://{coredata-microservice-ip}:48080/api/v1/ping
+    ```
+
+    With security services enabled, the request would look like this:
+
+    ```sh
+    curl -k https://{kong-ip}:8443/coredata/api/v1/ping -H ""Authorization: Bearer <access-token>""
+    ```
+
+   Note the request is made over https to the proxy-service's IP address on port 8443.  The access token is also
+   included in the Authorization header.
+
+## Starting a Non-Docker Microservice With Security Enabled
+
+As an example, let's say you want to start core-metadata outside a container so you can debug it. You will need a non-expired token to authenticate and authorize the service and you will need to tell core-metadata about its environment. Be aware that
+
+* Tokens expire after 60 minutes if not renewed. If you are starting/stopping a microservice and the service token has expired, stop and start security-secretstore-setup (aka vault-worker).
+* `/tmp/edgex/secrets/...` where the tokens live is only root readable. You can run the microservice as root or use the following to open up the tree. Note you will need to repeat the chmod each time you restart `security-secrets-setup`
+
+    ```sh
+    pushd /tmp/edgex
+    sudo find . -type d -exec chmod a+rx {} /dev/null \;
+    sudo find . -type f -exec chmod a+r {} /dev/null \;
+    popd
+    ```
+
+Fortunately, between go-mod-boostrap and [microservice self seeding](https://github.com/edgexfoundry/edgex-docs/blob/master/docs_src/design/adr/0005-Service-Self-Config.md) this is quite straight forward:
+
+```sh
+sudo bash
+
+cd cmd/core-metadata
+SecretStore_ServerName=edgex-vault SecretStore_RootCaCertPath=/tmp/edgex/secrets/ca/ca.pem SecretStore_TokenFile=/tmp/edgex/secrets/edgex-core-metadata/secrets-token.json Logging_EnableRemote=""false"" ./core-metadata
+```
+
+| Environment Override  | Description  |
+|---|---|
+| SecretStore_ServerName=edgex-vault | Name of secret store to compare against X.509 DN |
+| SecretStore_RootCaCertPath=/tmp/edgex/secrets/ca/ca.pem | Root CA for validating TLS certificate chain |
+| SecretStore_TokenFile=/tmp/edgex/secrets/edgex-core-metadata/secrets-token.json | Authorization token |
+| Logging_EnableRemote=""false"" | There can only one (logger) |
+
+The defaults are loaded from `res/configuration.toml` and then the environment variables override the defaults.
+
+* Both Kong and the microservice need to agree on the host were the microservice lives. To that end, if you are mixing container based infrastructure (e.g. Kong) and native microservices you will need to do the following
+  * Tell the Kong container about the host (assume its 10.138.0.2 in this example). Add the following to the Kong entry in the compose file
+  
+  ```yaml
+  extra_hosts:
+      - ""edgex-core-metadata:10.138.0.2""
+      - ""edgex-core-data:10.138.0.2""
+      - ""edgex-core-command:10.138.0.2""
+  ```
+
+  and add the following to the environment section
+
+  ```yaml
+  - 'Clients_CoreData_Host: edgex-core-data'
+  - 'Clients_Logging_Host: edgex-support-logging'
+  - 'Clients_Notifications_Host: edgex-support-notifications'
+  - 'Clients_Metadata_Host: edgex-core-metadata'
+  - 'Clients_Command_Host: edgex-core-command'
+  - 'Clients_Scheduler_Host: edgex-support-scheduler'
+  ```
+
+  * Tell the OS about the host by adding the following to `/etc/hosts`
+
+  ```sh
+  10.138.0.2    edgex-core-data
+  10.138.0.2    edgex-core-metadata
+  10.138.0.2    edgex-core-command
+  ```
+
+  and tell the microservice about the host (only core-metadata shown here)
+
+  ```sh
+  export Clients_Metadata_Host=edgex-core-metadata
+  ```
+
+## Community
+
+* Chat: [https://edgexfoundry.slack.com](https://join.slack.com/t/edgexfoundry/shared_invite/enQtNDgyODM5ODUyODY0LWVhY2VmOTcyOWY2NjZhOWJjOGI1YzQ2NzYzZmIxYzAzN2IzYzY0NTVmMWZhZjNkMjVmODNiZGZmYTkzZDE3MTA)
+* Mailing lists: [https://lists.edgexfoundry.org/mailman/listinfo](https://lists.edgexfoundry.org/mailman/listinfo)
+
+## License
+
+[Apache-2.0](LICENSE)
+","# EdgeX Security
+
+For the most up to date information related to the EdgeX security disclosure, vulnerabilities, and hardening guide refer to the [EdgeX Security Wiki Page](https://wiki.edgexfoundry.org/display/FA/Security)
+
+## License
+
+[Apache-2.0](LICENSE)
+",6860,b edgexfoundry/edgex-go aa472f58a5207d25d1630cfabae13fa3f1ce44ee
+edgexfoundry/edgex-go,SECURITY.md,0855fff343fbac9200be972646aac1464c8bdae7,2020-12-07 15:56:11+00:00,"# EdgeX Security
+
+For the most up to date information related to the EdgeX security disclosure, vulnerabilities, and hardening guide refer to the [EdgeX Security Wiki Page](https://wiki.edgexfoundry.org/display/FA/Security)
+
+## License
+
+[Apache-2.0](LICENSE)
+","# EdgeX Security
+
+For the most up to date information related to the EdgeX security disclosure, vulnerabilities, and hardening guide refer to the [EdgeX Security Wiki Page](https://wiki.edgexfoundry.org/display/FA/Security)
+
+Starting with the Fuji release, EdgeX includes enhanced security features that are enabled by default.
+There are 3 major components that are responsible for security features:
+
+| Component  | Description  |
+|---|---|
+| [Security-secrets-setup](cmd/security-secrets-setup/README.md)  | Security-secrets-setup is responsible for creating necessary certificates.  | 
+|  [Security-secretstore-setup](cmd/security-secretstore-setup/README.md) | Security-secretstore-setup is responsible for initializing the secret store to hold various credentials for EdgeX.  |
+| [Security-proxy-setup](cmd/security-proxy-setup/README.md)  | Security-proxy-setup is responsible for initializating the EdgeX proxy environment, which includes setting up related permissions and authentication methods. The proxy will protect all the REST API resources.  |
+
+When starting a secure EdgeX deployment, the sequence is [see docker-compose-nexus-redis.yml for reference](https://github.com/edgexfoundry/developer-scripts/blob/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml))
+
+1. Start the `edgex-secrets-setup` container from the `docker-edgex-secrets-setup-go` image to create the PKI.
+1. Start [Vault by HashiCorp](https://www.vaultproject.io/)
+1. Start the `edgex-vault-worker` container from the `docker-edgex-security-secretstore-setup-go` image to create the shared secrets needed by the microservices.
+1. Finally, the start the `edgex-proxy` container from the `docker-edgex-security-proxy-setup-go` image once [Kong](https://konghq.com/) is up.
+
+## Get Started
+
+To get started, fetch the latest [docker-compose-nexus-redis.yml](https://github.com/edgexfoundry/developer-scripts/blob/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml)) and start the EdgeX containers:
+
+```sh
+wget https://raw.githubusercontent.com/edgexfoundry/developer-scripts/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml
+docker-compose up -d
+```
+
+Once EdgeX is up and running, the following steps are required to access EdgeX resources:
+
+1. The user needs to create an access token and associate every REST request with the security token
+   while sending the request. Use _admin_ as group name, as it is the privileged group in the
+   default configuration of the proxy. Use anything for _user_ as the desired account name
+   (e.g., ""mary"", ""iot_user"", etc).
+
+    ```sh
+    docker-compose -f docker-compose-nexus-redis.yml run --rm --entrypoint /edgex/security-proxy-setup edgex-proxy --init=false --useradd=IAmGroot --group=admin
+    ```
+
+    which will create an access token. One example of an access token is:
+    `eyJpc3MiOiI5M3V3cmZBc0xzS2Qwd1JnckVFdlRzQloxSmtYOTRRciIsImFjY291bnQiOiJhZG1pbmlzdHJhdG9yIn0`.  
+    Yours will differ from this one.
+
+2. The exported external ports (such as 48080, 48081 etc.) will be inaccessible for security reasons.
+Instead, all the REST requests need to go through the proxy, and the proxy will redirect the request to individual microservice on behalf of the user.
+
+    E.g, if we need to send a request to the ping endpoint of coredata, without security this would look like:
+
+    ```sh
+    curl http://{coredata-microservice-ip}:48080/api/v1/ping
+    ```
+
+    With security services enabled, the request would look like this:
+
+    ```sh
+    curl -k https://{kong-ip}:8443/coredata/api/v1/ping -H ""Authorization: Bearer <access-token>""
+    ```
+
+   Note the request is made over https to the proxy-service's IP address on port 8443.  The access token is also
+   included in the Authorization header.
+
+## Starting a Non-Docker Microservice With Security Enabled
+
+As an example, let's say you want to start core-metadata outside a container so you can debug it. You will need a non-expired token to authenticate and authorize the service and you will need to tell core-metadata about its environment. Be aware that
+
+* Tokens expire after 60 minutes if not renewed. If you are starting/stopping a microservice and the service token has expired, stop and start security-secretstore-setup (aka vault-worker).
+* `/tmp/edgex/secrets/...` where the tokens live is only root readable. You can run the microservice as root or use the following to open up the tree. Note you will need to repeat the chmod each time you restart `security-secrets-setup`
+
+    ```sh
+    pushd /tmp/edgex
+    sudo find . -type d -exec chmod a+rx {} /dev/null \;
+    sudo find . -type f -exec chmod a+r {} /dev/null \;
+    popd
+    ```
+
+Fortunately, between go-mod-boostrap and [microservice self seeding](https://github.com/edgexfoundry/edgex-docs/blob/master/docs_src/design/adr/0005-Service-Self-Config.md) this is quite straight forward:
+
+```sh
+sudo bash
+
+cd cmd/core-metadata
+SecretStore_ServerName=edgex-vault SecretStore_RootCaCertPath=/tmp/edgex/secrets/ca/ca.pem SecretStore_TokenFile=/tmp/edgex/secrets/edgex-core-metadata/secrets-token.json Logging_EnableRemote=""false"" ./core-metadata
+```
+
+| Environment Override  | Description  |
+|---|---|
+| SecretStore_ServerName=edgex-vault | Name of secret store to compare against X.509 DN |
+| SecretStore_RootCaCertPath=/tmp/edgex/secrets/ca/ca.pem | Root CA for validating TLS certificate chain |
+| SecretStore_TokenFile=/tmp/edgex/secrets/edgex-core-metadata/secrets-token.json | Authorization token |
+| Logging_EnableRemote=""false"" | There can only one (logger) |
+
+The defaults are loaded from `res/configuration.toml` and then the environment variables override the defaults.
+
+* Both Kong and the microservice need to agree on the host were the microservice lives. To that end, if you are mixing container based infrastructure (e.g. Kong) and native microservices you will need to do the following
+  * Tell the Kong container about the host (assume its 10.138.0.2 in this example). Add the following to the Kong entry in the compose file
+  
+  ```yaml
+  extra_hosts:
+      - ""edgex-core-metadata:10.138.0.2""
+      - ""edgex-core-data:10.138.0.2""
+      - ""edgex-core-command:10.138.0.2""
+  ```
+
+  and add the following to the environment section
+
+  ```yaml
+  - 'Clients_CoreData_Host: edgex-core-data'
+  - 'Clients_Logging_Host: edgex-support-logging'
+  - 'Clients_Notifications_Host: edgex-support-notifications'
+  - 'Clients_Metadata_Host: edgex-core-metadata'
+  - 'Clients_Command_Host: edgex-core-command'
+  - 'Clients_Scheduler_Host: edgex-support-scheduler'
+  ```
+
+  * Tell the OS about the host by adding the following to `/etc/hosts`
+
+  ```sh
+  10.138.0.2    edgex-core-data
+  10.138.0.2    edgex-core-metadata
+  10.138.0.2    edgex-core-command
+  ```
+
+  and tell the microservice about the host (only core-metadata shown here)
+
+  ```sh
+  export Clients_Metadata_Host=edgex-core-metadata
+  ```
+
+## Community
+
+* Chat: [https://edgexfoundry.slack.com](https://join.slack.com/t/edgexfoundry/shared_invite/enQtNDgyODM5ODUyODY0LWVhY2VmOTcyOWY2NjZhOWJjOGI1YzQ2NzYzZmIxYzAzN2IzYzY0NTVmMWZhZjNkMjVmODNiZGZmYTkzZDE3MTA)
+* Mailing lists: [https://lists.edgexfoundry.org/mailman/listinfo](https://lists.edgexfoundry.org/mailman/listinfo)
+
+## License
+
+[Apache-2.0](LICENSE)",7029,b edgexfoundry/edgex-go 0855fff343fbac9200be972646aac1464c8bdae7
+edgexfoundry/edgex-go,SECURITY.md,4ced080b53a8511502d10792e71c1cbc2dc01eb3,2020-12-17 15:36:00+00:00,"# EdgeX Security
+
+For the most up to date information related to the EdgeX security disclosure, vulnerabilities, and hardening guide refer to the [EdgeX Security Wiki Page](https://wiki.edgexfoundry.org/display/FA/Security)
+
+Starting with the Fuji release, EdgeX includes enhanced security features that are enabled by default.
+There are 3 major components that are responsible for security features:
+
+| Component  | Description  |
+|---|---|
+| [Security-secrets-setup](cmd/security-secrets-setup/README.md)  | Security-secrets-setup is responsible for creating necessary certificates.  | 
+|  [Security-secretstore-setup](cmd/security-secretstore-setup/README.md) | Security-secretstore-setup is responsible for initializing the secret store to hold various credentials for EdgeX.  |
+| [Security-proxy-setup](cmd/security-proxy-setup/README.md)  | Security-proxy-setup is responsible for initializating the EdgeX proxy environment, which includes setting up related permissions and authentication methods. The proxy will protect all the REST API resources.  |
+
+When starting a secure EdgeX deployment, the sequence is [see docker-compose-nexus-redis.yml for reference](https://github.com/edgexfoundry/developer-scripts/blob/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml))
+
+1. Start the `edgex-secrets-setup` container from the `docker-edgex-secrets-setup-go` image to create the PKI.
+1. Start [Vault by HashiCorp](https://www.vaultproject.io/)
+1. Start the `edgex-vault-worker` container from the `docker-edgex-security-secretstore-setup-go` image to create the shared secrets needed by the microservices.
+1. Finally, the start the `edgex-proxy` container from the `docker-edgex-security-proxy-setup-go` image once [Kong](https://konghq.com/) is up.
+
+## Get Started
+
+To get started, fetch the latest [docker-compose-nexus-redis.yml](https://github.com/edgexfoundry/developer-scripts/blob/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml)) and start the EdgeX containers:
+
+```sh
+wget https://raw.githubusercontent.com/edgexfoundry/developer-scripts/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml
+docker-compose up -d
+```
+
+Once EdgeX is up and running, the following steps are required to access EdgeX resources:
+
+1. The user needs to create an access token and associate every REST request with the security token
+   while sending the request. Use _admin_ as group name, as it is the privileged group in the
+   default configuration of the proxy. Use anything for _user_ as the desired account name
+   (e.g., ""mary"", ""iot_user"", etc).
+
+    ```sh
+    docker-compose -f docker-compose-nexus-redis.yml run --rm --entrypoint /edgex/security-proxy-setup edgex-proxy --init=false --useradd=IAmGroot --group=admin
+    ```
+
+    which will create an access token. One example of an access token is:
+    `eyJpc3MiOiI5M3V3cmZBc0xzS2Qwd1JnckVFdlRzQloxSmtYOTRRciIsImFjY291bnQiOiJhZG1pbmlzdHJhdG9yIn0`.  
+    Yours will differ from this one.
+
+2. The exported external ports (such as 48080, 48081 etc.) will be inaccessible for security reasons.
+Instead, all the REST requests need to go through the proxy, and the proxy will redirect the request to individual microservice on behalf of the user.
+
+    E.g, if we need to send a request to the ping endpoint of coredata, without security this would look like:
+
+    ```sh
+    curl http://{coredata-microservice-ip}:48080/api/v1/ping
+    ```
+
+    With security services enabled, the request would look like this:
+
+    ```sh
+    curl -k https://{kong-ip}:8443/coredata/api/v1/ping -H ""Authorization: Bearer <access-token>""
+    ```
+
+   Note the request is made over https to the proxy-service's IP address on port 8443.  The access token is also
+   included in the Authorization header.
+
+## Starting a Non-Docker Microservice With Security Enabled
+
+As an example, let's say you want to start core-metadata outside a container so you can debug it. You will need a non-expired token to authenticate and authorize the service and you will need to tell core-metadata about its environment. Be aware that
+
+* Tokens expire after 60 minutes if not renewed. If you are starting/stopping a microservice and the service token has expired, stop and start security-secretstore-setup (aka vault-worker).
+* `/tmp/edgex/secrets/...` where the tokens live is only root readable. You can run the microservice as root or use the following to open up the tree. Note you will need to repeat the chmod each time you restart `security-secrets-setup`
+
+    ```sh
+    pushd /tmp/edgex
+    sudo find . -type d -exec chmod a+rx {} /dev/null \;
+    sudo find . -type f -exec chmod a+r {} /dev/null \;
+    popd
+    ```
+
+Fortunately, between go-mod-boostrap and [microservice self seeding](https://github.com/edgexfoundry/edgex-docs/blob/master/docs_src/design/adr/0005-Service-Self-Config.md) this is quite straight forward:
+
+```sh
+sudo bash
+
+cd cmd/core-metadata
+SecretStore_ServerName=edgex-vault SecretStore_RootCaCertPath=/tmp/edgex/secrets/ca/ca.pem SecretStore_TokenFile=/tmp/edgex/secrets/edgex-core-metadata/secrets-token.json Logging_EnableRemote=""false"" ./core-metadata
+```
+
+| Environment Override  | Description  |
+|---|---|
+| SecretStore_ServerName=edgex-vault | Name of secret store to compare against X.509 DN |
+| SecretStore_RootCaCertPath=/tmp/edgex/secrets/ca/ca.pem | Root CA for validating TLS certificate chain |
+| SecretStore_TokenFile=/tmp/edgex/secrets/edgex-core-metadata/secrets-token.json | Authorization token |
+| Logging_EnableRemote=""false"" | There can only one (logger) |
+
+The defaults are loaded from `res/configuration.toml` and then the environment variables override the defaults.
+
+* Both Kong and the microservice need to agree on the host were the microservice lives. To that end, if you are mixing container based infrastructure (e.g. Kong) and native microservices you will need to do the following
+  * Tell the Kong container about the host (assume its 10.138.0.2 in this example). Add the following to the Kong entry in the compose file
+  
+  ```yaml
+  extra_hosts:
+      - ""edgex-core-metadata:10.138.0.2""
+      - ""edgex-core-data:10.138.0.2""
+      - ""edgex-core-command:10.138.0.2""
+  ```
+
+  and add the following to the environment section
+
+  ```yaml
+  - 'Clients_CoreData_Host: edgex-core-data'
+  - 'Clients_Logging_Host: edgex-support-logging'
+  - 'Clients_Notifications_Host: edgex-support-notifications'
+  - 'Clients_Metadata_Host: edgex-core-metadata'
+  - 'Clients_Command_Host: edgex-core-command'
+  - 'Clients_Scheduler_Host: edgex-support-scheduler'
+  ```
+
+  * Tell the OS about the host by adding the following to `/etc/hosts`
+
+  ```sh
+  10.138.0.2    edgex-core-data
+  10.138.0.2    edgex-core-metadata
+  10.138.0.2    edgex-core-command
+  ```
+
+  and tell the microservice about the host (only core-metadata shown here)
+
+  ```sh
+  export Clients_Metadata_Host=edgex-core-metadata
+  ```
+
+## Community
+
+* Chat: [https://edgexfoundry.slack.com](https://join.slack.com/t/edgexfoundry/shared_invite/enQtNDgyODM5ODUyODY0LWVhY2VmOTcyOWY2NjZhOWJjOGI1YzQ2NzYzZmIxYzAzN2IzYzY0NTVmMWZhZjNkMjVmODNiZGZmYTkzZDE3MTA)
+* Mailing lists: [https://lists.edgexfoundry.org/mailman/listinfo](https://lists.edgexfoundry.org/mailman/listinfo)
+
+## License
+
+[Apache-2.0](LICENSE)","# EdgeX Security
+
+For the most up to date information related to the EdgeX security disclosure, vulnerabilities, and hardening guide refer to the [EdgeX Security Wiki Page](https://wiki.edgexfoundry.org/display/FA/Security)
+
+Starting with the Fuji release, EdgeX includes enhanced security features that are enabled by default.
+There are 2 major components that are responsible for security features:
+
+| Component  | Description  |
+|---|---|
+|  [Security-secretstore-setup](cmd/security-secretstore-setup/README.md) | Security-secretstore-setup is responsible for initializing the secret store to hold various credentials for EdgeX.  |
+| [Security-proxy-setup](cmd/security-proxy-setup/README.md)  | Security-proxy-setup is responsible for initializating the EdgeX proxy environment, which includes setting up related permissions and authentication methods. The proxy will protect all the REST API resources.  |
+
+When starting a secure EdgeX deployment, the sequence is [see docker-compose-nexus-redis.yml for reference](https://github.com/edgexfoundry/developer-scripts/blob/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml))
+
+1. Start [Vault by HashiCorp](https://www.vaultproject.io/)
+1. Start the `edgex-vault-worker` container from the `docker-edgex-security-secretstore-setup-go` image to create the shared secrets needed by the microservices.
+1. Finally, the start the `edgex-proxy` container from the `docker-edgex-security-proxy-setup-go` image once [Kong](https://konghq.com/) is up.
+
+## Get Started
+
+To get started, fetch the latest [docker-compose-nexus-redis.yml](https://github.com/edgexfoundry/developer-scripts/blob/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml)) and start the EdgeX containers:
+
+```sh
+wget https://raw.githubusercontent.com/edgexfoundry/developer-scripts/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml
+docker-compose up -d
+```
+
+Once EdgeX is up and running, the following steps are required to access EdgeX resources:
+
+1. The user needs to create an access token and associate every REST request with the security token
+   while sending the request. Use _admin_ as group name, as it is the privileged group in the
+   default configuration of the proxy. Use anything for _user_ as the desired account name
+   (e.g., ""mary"", ""iot_user"", etc).
+
+    ```sh
+    docker-compose -f docker-compose-nexus-redis.yml run --rm --entrypoint /edgex/security-proxy-setup edgex-proxy --init=false --useradd=IAmGroot --group=admin
+    ```
+
+    which will create an access token. One example of an access token is:
+    `eyJpc3MiOiI5M3V3cmZBc0xzS2Qwd1JnckVFdlRzQloxSmtYOTRRciIsImFjY291bnQiOiJhZG1pbmlzdHJhdG9yIn0`.  
+    Yours will differ from this one.
+
+2. The exported external ports (such as 48080, 48081 etc.) will be inaccessible for security reasons.
+Instead, all the REST requests need to go through the proxy, and the proxy will redirect the request to individual microservice on behalf of the user.
+
+    E.g, if we need to send a request to the ping endpoint of coredata, without security this would look like:
+
+    ```sh
+    curl http://{coredata-microservice-ip}:48080/api/v1/ping
+    ```
+
+    With security services enabled, the request would look like this:
+
+    ```sh
+    curl -k https://{kong-ip}:8443/coredata/api/v1/ping -H ""Authorization: Bearer <access-token>""
+    ```
+
+   Note the request is made over https to the proxy-service's IP address on port 8443.  The access token is also
+   included in the Authorization header.
+
+## Starting a Non-Docker Microservice With Security Enabled
+
+As an example, let's say you want to start core-metadata outside a container so you can debug it. You will need a non-expired token to authenticate and authorize the service and you will need to tell core-metadata about its environment. Be aware that
+
+* Tokens expire after 60 minutes if not renewed. If you are starting/stopping a microservice and the service token has expired, stop and start security-secretstore-setup (aka vault-worker).
+* `/tmp/edgex/secrets/...` where the tokens live is only root readable. You can run the microservice as root or use the following to open up the tree. Note you will need to repeat the chmod each time you restart `security-secretstore-setup`
+
+    ```sh
+    pushd /tmp/edgex
+    sudo find . -type d -exec chmod a+rx {} /dev/null \;
+    sudo find . -type f -exec chmod a+r {} /dev/null \;
+    popd
+    ```
+
+Fortunately, between go-mod-boostrap and [microservice self seeding](https://github.com/edgexfoundry/edgex-docs/blob/master/docs_src/design/adr/0005-Service-Self-Config.md) this is quite straight forward:
+
+```sh
+sudo bash
+
+cd cmd/core-metadata
+SecretStore_TokenFile=/tmp/edgex/secrets/edgex-core-metadata/secrets-token.json Logging_EnableRemote=""false"" ./core-metadata
+```
+
+| Environment Override  | Description  |
+|---|---|
+| SecretStore_TokenFile=/tmp/edgex/secrets/edgex-core-metadata/secrets-token.json | Authorization token |
+| Logging_EnableRemote=""false"" | There can only one (logger) |
+
+The defaults are loaded from `res/configuration.toml` and then the environment variables override the defaults.
+
+* Both Kong and the microservice need to agree on the host were the microservice lives. To that end, if you are mixing container based infrastructure (e.g. Kong) and native microservices you will need to do the following
+  * Tell the Kong container about the host (assume its 10.138.0.2 in this example). Add the following to the Kong entry in the compose file
+  
+  ```yaml
+  extra_hosts:
+      - ""edgex-core-metadata:10.138.0.2""
+      - ""edgex-core-data:10.138.0.2""
+      - ""edgex-core-command:10.138.0.2""
+  ```
+
+  and add the following to the environment section
+
+  ```yaml
+  - 'Clients_CoreData_Host: edgex-core-data'
+  - 'Clients_Logging_Host: edgex-support-logging'
+  - 'Clients_Notifications_Host: edgex-support-notifications'
+  - 'Clients_Metadata_Host: edgex-core-metadata'
+  - 'Clients_Command_Host: edgex-core-command'
+  - 'Clients_Scheduler_Host: edgex-support-scheduler'
+  ```
+
+  * Tell the OS about the host by adding the following to `/etc/hosts`
+
+  ```sh
+  10.138.0.2    edgex-core-data
+  10.138.0.2    edgex-core-metadata
+  10.138.0.2    edgex-core-command
+  ```
+
+  and tell the microservice about the host (only core-metadata shown here)
+
+  ```sh
+  export Clients_Metadata_Host=edgex-core-metadata
+  ```
+
+## Community
+
+* Chat: [https://edgexfoundry.slack.com](https://join.slack.com/t/edgexfoundry/shared_invite/enQtNDgyODM5ODUyODY0LWVhY2VmOTcyOWY2NjZhOWJjOGI1YzQ2NzYzZmIxYzAzN2IzYzY0NTVmMWZhZjNkMjVmODNiZGZmYTkzZDE3MTA)
+* Mailing lists: [https://lists.edgexfoundry.org/mailman/listinfo](https://lists.edgexfoundry.org/mailman/listinfo)
+
+## License
+
+[Apache-2.0](LICENSE)",551,b edgexfoundry/edgex-go 4ced080b53a8511502d10792e71c1cbc2dc01eb3
+edgexfoundry/edgex-go,SECURITY.md,5dc76a6c8e7f254c7fba720d41f2fe5f0204dd5b,2021-01-22 00:46:04+00:00,"# EdgeX Security
+
+For the most up to date information related to the EdgeX security disclosure, vulnerabilities, and hardening guide refer to the [EdgeX Security Wiki Page](https://wiki.edgexfoundry.org/display/FA/Security)
+
+Starting with the Fuji release, EdgeX includes enhanced security features that are enabled by default.
+There are 2 major components that are responsible for security features:
+
+| Component  | Description  |
+|---|---|
+|  [Security-secretstore-setup](cmd/security-secretstore-setup/README.md) | Security-secretstore-setup is responsible for initializing the secret store to hold various credentials for EdgeX.  |
+| [Security-proxy-setup](cmd/security-proxy-setup/README.md)  | Security-proxy-setup is responsible for initializating the EdgeX proxy environment, which includes setting up related permissions and authentication methods. The proxy will protect all the REST API resources.  |
+
+When starting a secure EdgeX deployment, the sequence is [see docker-compose-nexus-redis.yml for reference](https://github.com/edgexfoundry/developer-scripts/blob/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml))
+
+1. Start [Vault by HashiCorp](https://www.vaultproject.io/)
+1. Start the `edgex-vault-worker` container from the `docker-edgex-security-secretstore-setup-go` image to create the shared secrets needed by the microservices.
+1. Finally, the start the `edgex-proxy` container from the `docker-edgex-security-proxy-setup-go` image once [Kong](https://konghq.com/) is up.
+
+## Get Started
+
+To get started, fetch the latest [docker-compose-nexus-redis.yml](https://github.com/edgexfoundry/developer-scripts/blob/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml)) and start the EdgeX containers:
+
+```sh
+wget https://raw.githubusercontent.com/edgexfoundry/developer-scripts/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml
+docker-compose up -d
+```
+
+Once EdgeX is up and running, the following steps are required to access EdgeX resources:
+
+1. The user needs to create an access token and associate every REST request with the security token
+   while sending the request. Use _admin_ as group name, as it is the privileged group in the
+   default configuration of the proxy. Use anything for _user_ as the desired account name
+   (e.g., ""mary"", ""iot_user"", etc).
+
+    ```sh
+    docker-compose -f docker-compose-nexus-redis.yml run --rm --entrypoint /edgex/security-proxy-setup edgex-proxy --init=false --useradd=IAmGroot --group=admin
+    ```
+
+    which will create an access token. One example of an access token is:
+    `eyJpc3MiOiI5M3V3cmZBc0xzS2Qwd1JnckVFdlRzQloxSmtYOTRRciIsImFjY291bnQiOiJhZG1pbmlzdHJhdG9yIn0`.  
+    Yours will differ from this one.
+
+2. The exported external ports (such as 48080, 48081 etc.) will be inaccessible for security reasons.
+Instead, all the REST requests need to go through the proxy, and the proxy will redirect the request to individual microservice on behalf of the user.
+
+    E.g, if we need to send a request to the ping endpoint of coredata, without security this would look like:
+
+    ```sh
+    curl http://{coredata-microservice-ip}:48080/api/v1/ping
+    ```
+
+    With security services enabled, the request would look like this:
+
+    ```sh
+    curl -k https://{kong-ip}:8443/coredata/api/v1/ping -H ""Authorization: Bearer <access-token>""
+    ```
+
+   Note the request is made over https to the proxy-service's IP address on port 8443.  The access token is also
+   included in the Authorization header.
+
+## Starting a Non-Docker Microservice With Security Enabled
+
+As an example, let's say you want to start core-metadata outside a container so you can debug it. You will need a non-expired token to authenticate and authorize the service and you will need to tell core-metadata about its environment. Be aware that
+
+* Tokens expire after 60 minutes if not renewed. If you are starting/stopping a microservice and the service token has expired, stop and start security-secretstore-setup (aka vault-worker).
+* `/tmp/edgex/secrets/...` where the tokens live is only root readable. You can run the microservice as root or use the following to open up the tree. Note you will need to repeat the chmod each time you restart `security-secretstore-setup`
+
+    ```sh
+    pushd /tmp/edgex
+    sudo find . -type d -exec chmod a+rx {} /dev/null \;
+    sudo find . -type f -exec chmod a+r {} /dev/null \;
+    popd
+    ```
+
+Fortunately, between go-mod-boostrap and [microservice self seeding](https://github.com/edgexfoundry/edgex-docs/blob/master/docs_src/design/adr/0005-Service-Self-Config.md) this is quite straight forward:
+
+```sh
+sudo bash
+
+cd cmd/core-metadata
+SecretStore_TokenFile=/tmp/edgex/secrets/edgex-core-metadata/secrets-token.json Logging_EnableRemote=""false"" ./core-metadata
+```
+
+| Environment Override  | Description  |
+|---|---|
+| SecretStore_TokenFile=/tmp/edgex/secrets/edgex-core-metadata/secrets-token.json | Authorization token |
+| Logging_EnableRemote=""false"" | There can only one (logger) |
+
+The defaults are loaded from `res/configuration.toml` and then the environment variables override the defaults.
+
+* Both Kong and the microservice need to agree on the host were the microservice lives. To that end, if you are mixing container based infrastructure (e.g. Kong) and native microservices you will need to do the following
+  * Tell the Kong container about the host (assume its 10.138.0.2 in this example). Add the following to the Kong entry in the compose file
+  
+  ```yaml
+  extra_hosts:
+      - ""edgex-core-metadata:10.138.0.2""
+      - ""edgex-core-data:10.138.0.2""
+      - ""edgex-core-command:10.138.0.2""
+  ```
+
+  and add the following to the environment section
+
+  ```yaml
+  - 'Clients_CoreData_Host: edgex-core-data'
+  - 'Clients_Logging_Host: edgex-support-logging'
+  - 'Clients_Notifications_Host: edgex-support-notifications'
+  - 'Clients_Metadata_Host: edgex-core-metadata'
+  - 'Clients_Command_Host: edgex-core-command'
+  - 'Clients_Scheduler_Host: edgex-support-scheduler'
+  ```
+
+  * Tell the OS about the host by adding the following to `/etc/hosts`
+
+  ```sh
+  10.138.0.2    edgex-core-data
+  10.138.0.2    edgex-core-metadata
+  10.138.0.2    edgex-core-command
+  ```
+
+  and tell the microservice about the host (only core-metadata shown here)
+
+  ```sh
+  export Clients_Metadata_Host=edgex-core-metadata
+  ```
+
+## Community
+
+* Chat: [https://edgexfoundry.slack.com](https://join.slack.com/t/edgexfoundry/shared_invite/enQtNDgyODM5ODUyODY0LWVhY2VmOTcyOWY2NjZhOWJjOGI1YzQ2NzYzZmIxYzAzN2IzYzY0NTVmMWZhZjNkMjVmODNiZGZmYTkzZDE3MTA)
+* Mailing lists: [https://lists.edgexfoundry.org/mailman/listinfo](https://lists.edgexfoundry.org/mailman/listinfo)
+
+## License
+
+[Apache-2.0](LICENSE)","# EdgeX Security
+
+For the most up to date information related to the EdgeX security disclosure, vulnerabilities, and hardening guide refer to the [EdgeX Security Wiki Page](https://wiki.edgexfoundry.org/display/FA/Security)
+
+Starting with the Fuji release, EdgeX includes enhanced security features that are enabled by default.
+There are 2 major components that are responsible for security features:
+
+| Component  | Description  |
+|---|---|
+|  [Security-secretstore-setup](cmd/security-secretstore-setup/README.md) | Security-secretstore-setup is responsible for initializing the secret store to hold various credentials for EdgeX.  |
+| [Security-proxy-setup](cmd/security-proxy-setup/README.md)  | Security-proxy-setup is responsible for initializating the EdgeX proxy environment, which includes setting up related permissions and authentication methods. The proxy will protect all the REST API resources.  |
+
+When starting a secure EdgeX deployment, the sequence is [see docker-compose-nexus-redis.yml for reference](https://github.com/edgexfoundry/developer-scripts/blob/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml))
+
+1. Start [Vault by HashiCorp](https://www.vaultproject.io/)
+1. Start the `edgex-secretstore-setup` container from the `docker-edgex-security-secretstore-setup-go` image to create the shared secrets needed by the microservices.
+1. Finally, the start the `edgex-proxy-setup` container from the `docker-edgex-security-proxy-setup-go` image once [Kong](https://konghq.com/) is up.
+
+## Get Started
+
+To get started, fetch the latest [docker-compose-nexus-redis.yml](https://github.com/edgexfoundry/developer-scripts/blob/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml)) and start the EdgeX containers:
+
+```sh
+wget https://raw.githubusercontent.com/edgexfoundry/developer-scripts/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml
+docker-compose up -d
+```
+
+Once EdgeX is up and running, the following steps are required to access EdgeX resources:
+
+1. The user needs to create an access token and associate every REST request with the security token
+   while sending the request. Use _admin_ as group name, as it is the privileged group in the
+   default configuration of the proxy. Use anything for _user_ as the desired account name
+   (e.g., ""mary"", ""iot_user"", etc).
+
+    ```sh
+    docker-compose -f docker-compose-nexus-redis.yml run --rm --entrypoint /edgex/security-proxy-setup edgex-proxy --init=false --useradd=IAmGroot --group=admin
+    ```
+
+    which will create an access token. One example of an access token is:
+    `eyJpc3MiOiI5M3V3cmZBc0xzS2Qwd1JnckVFdlRzQloxSmtYOTRRciIsImFjY291bnQiOiJhZG1pbmlzdHJhdG9yIn0`.  
+    Yours will differ from this one.
+
+2. The exported external ports (such as 48080, 48081 etc.) will be inaccessible for security reasons.
+Instead, all the REST requests need to go through the proxy, and the proxy will redirect the request to individual microservice on behalf of the user.
+
+    E.g, if we need to send a request to the ping endpoint of coredata, without security this would look like:
+
+    ```sh
+    curl http://{coredata-microservice-ip}:48080/api/v1/ping
+    ```
+
+    With security services enabled, the request would look like this:
+
+    ```sh
+    curl -k https://{kong-ip}:8443/coredata/api/v1/ping -H ""Authorization: Bearer <access-token>""
+    ```
+
+   Note the request is made over https to the proxy-service's IP address on port 8443.  The access token is also
+   included in the Authorization header.
+
+## Starting a Non-Docker Microservice With Security Enabled
+
+As an example, let's say you want to start core-metadata outside a container so you can debug it. You will need a non-expired token to authenticate and authorize the service and you will need to tell core-metadata about its environment. Be aware that
+
+* Tokens expire after 60 minutes if not renewed. If you are starting/stopping a microservice and the service token has expired, stop and start security-secretstore-setup (aka vault-worker).
+* `/tmp/edgex/secrets/...` where the tokens live is only root readable. You can run the microservice as root or use the following to open up the tree. Note you will need to repeat the chmod each time you restart `security-secretstore-setup`
+
+    ```sh
+    pushd /tmp/edgex
+    sudo find . -type d -exec chmod a+rx {} /dev/null \;
+    sudo find . -type f -exec chmod a+r {} /dev/null \;
+    popd
+    ```
+
+Fortunately, between go-mod-boostrap and [microservice self seeding](https://github.com/edgexfoundry/edgex-docs/blob/master/docs_src/design/adr/0005-Service-Self-Config.md) this is quite straight forward:
+
+```sh
+sudo bash
+
+cd cmd/core-metadata
+SecretStore_TokenFile=/tmp/edgex/secrets/edgex-core-metadata/secrets-token.json Logging_EnableRemote=""false"" ./core-metadata
+```
+
+| Environment Override  | Description  |
+|---|---|
+| SecretStore_TokenFile=/tmp/edgex/secrets/edgex-core-metadata/secrets-token.json | Authorization token |
+| Logging_EnableRemote=""false"" | There can only one (logger) |
+
+The defaults are loaded from `res/configuration.toml` and then the environment variables override the defaults.
+
+* Both Kong and the microservice need to agree on the host were the microservice lives. To that end, if you are mixing container based infrastructure (e.g. Kong) and native microservices you will need to do the following
+  * Tell the Kong container about the host (assume its 10.138.0.2 in this example). Add the following to the Kong entry in the compose file
+  
+  ```yaml
+  extra_hosts:
+      - ""edgex-core-metadata:10.138.0.2""
+      - ""edgex-core-data:10.138.0.2""
+      - ""edgex-core-command:10.138.0.2""
+  ```
+
+  and add the following to the environment section
+
+  ```yaml
+  - 'Clients_CoreData_Host: edgex-core-data'
+  - 'Clients_Logging_Host: edgex-support-logging'
+  - 'Clients_Notifications_Host: edgex-support-notifications'
+  - 'Clients_Metadata_Host: edgex-core-metadata'
+  - 'Clients_Command_Host: edgex-core-command'
+  - 'Clients_Scheduler_Host: edgex-support-scheduler'
+  ```
+
+  * Tell the OS about the host by adding the following to `/etc/hosts`
+
+  ```sh
+  10.138.0.2    edgex-core-data
+  10.138.0.2    edgex-core-metadata
+  10.138.0.2    edgex-core-command
+  ```
+
+  and tell the microservice about the host (only core-metadata shown here)
+
+  ```sh
+  export Clients_Metadata_Host=edgex-core-metadata
+  ```
+
+## Community
+
+* Chat: [https://edgexfoundry.slack.com](https://join.slack.com/t/edgexfoundry/shared_invite/enQtNDgyODM5ODUyODY0LWVhY2VmOTcyOWY2NjZhOWJjOGI1YzQ2NzYzZmIxYzAzN2IzYzY0NTVmMWZhZjNkMjVmODNiZGZmYTkzZDE3MTA)
+* Mailing lists: [https://lists.edgexfoundry.org/mailman/listinfo](https://lists.edgexfoundry.org/mailman/listinfo)
+
+## License
+
+[Apache-2.0](LICENSE)",19,b edgexfoundry/edgex-go 5dc76a6c8e7f254c7fba720d41f2fe5f0204dd5b
+edgexfoundry/edgex-go,SECURITY.md,1b47f7a0eb899d5103b36e0ee6a4d175f8ae6f71,2021-05-20 17:53:20+00:00,"# EdgeX Security
+
+For the most up to date information related to the EdgeX security disclosure, vulnerabilities, and hardening guide refer to the [EdgeX Security Wiki Page](https://wiki.edgexfoundry.org/display/FA/Security)
+
+Starting with the Fuji release, EdgeX includes enhanced security features that are enabled by default.
+There are 2 major components that are responsible for security features:
+
+| Component  | Description  |
+|---|---|
+|  [Security-secretstore-setup](cmd/security-secretstore-setup/README.md) | Security-secretstore-setup is responsible for initializing the secret store to hold various credentials for EdgeX.  |
+| [Security-proxy-setup](cmd/security-proxy-setup/README.md)  | Security-proxy-setup is responsible for initializating the EdgeX proxy environment, which includes setting up related permissions and authentication methods. The proxy will protect all the REST API resources.  |
+
+When starting a secure EdgeX deployment, the sequence is [see docker-compose-nexus-redis.yml for reference](https://github.com/edgexfoundry/developer-scripts/blob/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml))
+
+1. Start [Vault by HashiCorp](https://www.vaultproject.io/)
+1. Start the `edgex-secretstore-setup` container from the `docker-edgex-security-secretstore-setup-go` image to create the shared secrets needed by the microservices.
+1. Finally, the start the `edgex-proxy-setup` container from the `docker-edgex-security-proxy-setup-go` image once [Kong](https://konghq.com/) is up.
+
+## Get Started
+
+To get started, fetch the latest [docker-compose-nexus-redis.yml](https://github.com/edgexfoundry/developer-scripts/blob/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml)) and start the EdgeX containers:
+
+```sh
+wget https://raw.githubusercontent.com/edgexfoundry/developer-scripts/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml
+docker-compose up -d
+```
+
+Once EdgeX is up and running, the following steps are required to access EdgeX resources:
+
+1. The user needs to create an access token and associate every REST request with the security token
+   while sending the request. Use _admin_ as group name, as it is the privileged group in the
+   default configuration of the proxy. Use anything for _user_ as the desired account name
+   (e.g., ""mary"", ""iot_user"", etc).
+
+    ```sh
+    docker-compose -f docker-compose-nexus-redis.yml run --rm --entrypoint /edgex/security-proxy-setup edgex-proxy --init=false --useradd=IAmGroot --group=admin
+    ```
+
+    which will create an access token. One example of an access token is:
+    `eyJpc3MiOiI5M3V3cmZBc0xzS2Qwd1JnckVFdlRzQloxSmtYOTRRciIsImFjY291bnQiOiJhZG1pbmlzdHJhdG9yIn0`.  
+    Yours will differ from this one.
+
+2. The exported external ports (such as 48080, 48081 etc.) will be inaccessible for security reasons.
+Instead, all the REST requests need to go through the proxy, and the proxy will redirect the request to individual microservice on behalf of the user.
+
+    E.g, if we need to send a request to the ping endpoint of coredata, without security this would look like:
+
+    ```sh
+    curl http://{coredata-microservice-ip}:48080/api/v1/ping
+    ```
+
+    With security services enabled, the request would look like this:
+
+    ```sh
+    curl -k https://{kong-ip}:8443/coredata/api/v1/ping -H ""Authorization: Bearer <access-token>""
+    ```
+
+   Note the request is made over https to the proxy-service's IP address on port 8443.  The access token is also
+   included in the Authorization header.
+
+## Starting a Non-Docker Microservice With Security Enabled
+
+As an example, let's say you want to start core-metadata outside a container so you can debug it. You will need a non-expired token to authenticate and authorize the service and you will need to tell core-metadata about its environment. Be aware that
+
+* Tokens expire after 60 minutes if not renewed. If you are starting/stopping a microservice and the service token has expired, stop and start security-secretstore-setup (aka vault-worker).
+* `/tmp/edgex/secrets/...` where the tokens live is only root readable. You can run the microservice as root or use the following to open up the tree. Note you will need to repeat the chmod each time you restart `security-secretstore-setup`
+
+    ```sh
+    pushd /tmp/edgex
+    sudo find . -type d -exec chmod a+rx {} /dev/null \;
+    sudo find . -type f -exec chmod a+r {} /dev/null \;
+    popd
+    ```
+
+Fortunately, between go-mod-boostrap and [microservice self seeding](https://github.com/edgexfoundry/edgex-docs/blob/master/docs_src/design/adr/0005-Service-Self-Config.md) this is quite straight forward:
+
+```sh
+sudo bash
+
+cd cmd/core-metadata
+SecretStore_TokenFile=/tmp/edgex/secrets/edgex-core-metadata/secrets-token.json Logging_EnableRemote=""false"" ./core-metadata
+```
+
+| Environment Override  | Description  |
+|---|---|
+| SecretStore_TokenFile=/tmp/edgex/secrets/edgex-core-metadata/secrets-token.json | Authorization token |
+| Logging_EnableRemote=""false"" | There can only one (logger) |
+
+The defaults are loaded from `res/configuration.toml` and then the environment variables override the defaults.
+
+* Both Kong and the microservice need to agree on the host were the microservice lives. To that end, if you are mixing container based infrastructure (e.g. Kong) and native microservices you will need to do the following
+  * Tell the Kong container about the host (assume its 10.138.0.2 in this example). Add the following to the Kong entry in the compose file
+  
+  ```yaml
+  extra_hosts:
+      - ""edgex-core-metadata:10.138.0.2""
+      - ""edgex-core-data:10.138.0.2""
+      - ""edgex-core-command:10.138.0.2""
+  ```
+
+  and add the following to the environment section
+
+  ```yaml
+  - 'Clients_CoreData_Host: edgex-core-data'
+  - 'Clients_Logging_Host: edgex-support-logging'
+  - 'Clients_Notifications_Host: edgex-support-notifications'
+  - 'Clients_Metadata_Host: edgex-core-metadata'
+  - 'Clients_Command_Host: edgex-core-command'
+  - 'Clients_Scheduler_Host: edgex-support-scheduler'
+  ```
+
+  * Tell the OS about the host by adding the following to `/etc/hosts`
+
+  ```sh
+  10.138.0.2    edgex-core-data
+  10.138.0.2    edgex-core-metadata
+  10.138.0.2    edgex-core-command
+  ```
+
+  and tell the microservice about the host (only core-metadata shown here)
+
+  ```sh
+  export Clients_Metadata_Host=edgex-core-metadata
+  ```
+
+## Community
+
+* Chat: [https://edgexfoundry.slack.com](https://join.slack.com/t/edgexfoundry/shared_invite/enQtNDgyODM5ODUyODY0LWVhY2VmOTcyOWY2NjZhOWJjOGI1YzQ2NzYzZmIxYzAzN2IzYzY0NTVmMWZhZjNkMjVmODNiZGZmYTkzZDE3MTA)
+* Mailing lists: [https://lists.edgexfoundry.org/mailman/listinfo](https://lists.edgexfoundry.org/mailman/listinfo)
+
+## License
+
+[Apache-2.0](LICENSE)","# EdgeX Security
+
+For the most up to date information related to the EdgeX security disclosure, vulnerabilities, and hardening guide refer to the [EdgeX Security Wiki Page](https://wiki.edgexfoundry.org/display/FA/Security)
+
+Starting with the Fuji release, EdgeX includes enhanced security features that are enabled by default.
+There are 2 major components that are responsible for security features:
+
+| Component  | Description  |
+|---|---|
+|  [Security-secretstore-setup](cmd/security-secretstore-setup/README.md) | Security-secretstore-setup is responsible for initializing the secret store to hold various credentials for EdgeX.  |
+| [Security-proxy-setup](cmd/security-proxy-setup/README.md)  | Security-proxy-setup is responsible for initializating the EdgeX proxy environment, which includes setting up related permissions and authentication methods. The proxy will protect all the REST API resources.  |
+
+When starting a secure EdgeX deployment, the sequence is [see docker-compose-nexus-redis.yml for reference](https://github.com/edgexfoundry/developer-scripts/blob/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml))
+
+1. Start [Vault by HashiCorp](https://www.vaultproject.io/)
+1. Start the `edgex-secretstore-setup` container from the `docker-edgex-security-secretstore-setup-go` image to create the shared secrets needed by the microservices.
+1. Finally, the start the `edgex-proxy-setup` container from the `docker-edgex-security-proxy-setup-go` image once [Kong](https://konghq.com/) is up.
+
+## Get Started
+
+To get started, fetch the latest [docker-compose-nexus-redis.yml](https://github.com/edgexfoundry/developer-scripts/blob/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml)) and start the EdgeX containers:
+
+```sh
+wget https://raw.githubusercontent.com/edgexfoundry/developer-scripts/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml
+docker-compose up -d
+```
+
+Once EdgeX is up and running, the following steps are required to access EdgeX resources:
+
+1. The user needs to create an access token and associate every REST request with the security token
+   while sending the request. Use _admin_ as group name, as it is the privileged group in the
+   default configuration of the proxy. Use anything for _user_ as the desired account name
+   (e.g., ""mary"", ""iot_user"", etc).
+
+    ```sh
+    docker-compose -f docker-compose-nexus-redis.yml run --rm --entrypoint /edgex/security-proxy-setup edgex-proxy --init=false --useradd=IAmGroot --group=admin
+    ```
+
+    which will create an access token. One example of an access token is:
+    `eyJpc3MiOiI5M3V3cmZBc0xzS2Qwd1JnckVFdlRzQloxSmtYOTRRciIsImFjY291bnQiOiJhZG1pbmlzdHJhdG9yIn0`.  
+    Yours will differ from this one.
+
+2. The exported external ports (such as 59880, 59881 etc.) will be inaccessible for security reasons.
+Instead, all the REST requests need to go through the proxy, and the proxy will redirect the request to individual microservice on behalf of the user.
+
+    E.g, if we need to send a request to the ping endpoint of coredata, without security this would look like:
+
+    ```sh
+    curl http://{coredata-microservice-ip}:59880/api/v1/ping
+    ```
+
+    With security services enabled, the request would look like this:
+
+    ```sh
+    curl -k https://{kong-ip}:8443/coredata/api/v1/ping -H ""Authorization: Bearer <access-token>""
+    ```
+
+   Note the request is made over https to the proxy-service's IP address on port 8443.  The access token is also
+   included in the Authorization header.
+
+## Starting a Non-Docker Microservice With Security Enabled
+
+As an example, let's say you want to start core-metadata outside a container so you can debug it. You will need a non-expired token to authenticate and authorize the service and you will need to tell core-metadata about its environment. Be aware that
+
+* Tokens expire after 60 minutes if not renewed. If you are starting/stopping a microservice and the service token has expired, stop and start security-secretstore-setup (aka vault-worker).
+* `/tmp/edgex/secrets/...` where the tokens live is only root readable. You can run the microservice as root or use the following to open up the tree. Note you will need to repeat the chmod each time you restart `security-secretstore-setup`
+
+    ```sh
+    pushd /tmp/edgex
+    sudo find . -type d -exec chmod a+rx {} /dev/null \;
+    sudo find . -type f -exec chmod a+r {} /dev/null \;
+    popd
+    ```
+
+Fortunately, between go-mod-boostrap and [microservice self seeding](https://github.com/edgexfoundry/edgex-docs/blob/master/docs_src/design/adr/0005-Service-Self-Config.md) this is quite straight forward:
+
+```sh
+sudo bash
+
+cd cmd/core-metadata
+SecretStore_TokenFile=/tmp/edgex/secrets/edgex-core-metadata/secrets-token.json Logging_EnableRemote=""false"" ./core-metadata
+```
+
+| Environment Override  | Description  |
+|---|---|
+| SecretStore_TokenFile=/tmp/edgex/secrets/edgex-core-metadata/secrets-token.json | Authorization token |
+| Logging_EnableRemote=""false"" | There can only one (logger) |
+
+The defaults are loaded from `res/configuration.toml` and then the environment variables override the defaults.
+
+* Both Kong and the microservice need to agree on the host were the microservice lives. To that end, if you are mixing container based infrastructure (e.g. Kong) and native microservices you will need to do the following
+  * Tell the Kong container about the host (assume its 10.138.0.2 in this example). Add the following to the Kong entry in the compose file
+  
+  ```yaml
+  extra_hosts:
+      - ""edgex-core-metadata:10.138.0.2""
+      - ""edgex-core-data:10.138.0.2""
+      - ""edgex-core-command:10.138.0.2""
+  ```
+
+  and add the following to the environment section
+
+  ```yaml
+  - 'Clients_CoreData_Host: edgex-core-data'
+  - 'Clients_Logging_Host: edgex-support-logging'
+  - 'Clients_Notifications_Host: edgex-support-notifications'
+  - 'Clients_Metadata_Host: edgex-core-metadata'
+  - 'Clients_Command_Host: edgex-core-command'
+  - 'Clients_Scheduler_Host: edgex-support-scheduler'
+  ```
+
+  * Tell the OS about the host by adding the following to `/etc/hosts`
+
+  ```sh
+  10.138.0.2    edgex-core-data
+  10.138.0.2    edgex-core-metadata
+  10.138.0.2    edgex-core-command
+  ```
+
+  and tell the microservice about the host (only core-metadata shown here)
+
+  ```sh
+  export Clients_Metadata_Host=edgex-core-metadata
+  ```
+
+## Community
+
+* Chat: [https://edgexfoundry.slack.com](https://join.slack.com/t/edgexfoundry/shared_invite/enQtNDgyODM5ODUyODY0LWVhY2VmOTcyOWY2NjZhOWJjOGI1YzQ2NzYzZmIxYzAzN2IzYzY0NTVmMWZhZjNkMjVmODNiZGZmYTkzZDE3MTA)
+* Mailing lists: [https://lists.edgexfoundry.org/mailman/listinfo](https://lists.edgexfoundry.org/mailman/listinfo)
+
+## License
+
+[Apache-2.0](LICENSE)",9,b edgexfoundry/edgex-go 1b47f7a0eb899d5103b36e0ee6a4d175f8ae6f71
+edgexfoundry/edgex-go,SECURITY.md,1949c3356e6c8cf6d2dc2486513a90a0b6bc0e8d,2021-06-08 23:22:50+00:00,"# EdgeX Security
+
+For the most up to date information related to the EdgeX security disclosure, vulnerabilities, and hardening guide refer to the [EdgeX Security Wiki Page](https://wiki.edgexfoundry.org/display/FA/Security)
+
+Starting with the Fuji release, EdgeX includes enhanced security features that are enabled by default.
+There are 2 major components that are responsible for security features:
+
+| Component  | Description  |
+|---|---|
+|  [Security-secretstore-setup](cmd/security-secretstore-setup/README.md) | Security-secretstore-setup is responsible for initializing the secret store to hold various credentials for EdgeX.  |
+| [Security-proxy-setup](cmd/security-proxy-setup/README.md)  | Security-proxy-setup is responsible for initializating the EdgeX proxy environment, which includes setting up related permissions and authentication methods. The proxy will protect all the REST API resources.  |
+
+When starting a secure EdgeX deployment, the sequence is [see docker-compose-nexus-redis.yml for reference](https://github.com/edgexfoundry/developer-scripts/blob/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml))
+
+1. Start [Vault by HashiCorp](https://www.vaultproject.io/)
+1. Start the `edgex-secretstore-setup` container from the `docker-edgex-security-secretstore-setup-go` image to create the shared secrets needed by the microservices.
+1. Finally, the start the `edgex-proxy-setup` container from the `docker-edgex-security-proxy-setup-go` image once [Kong](https://konghq.com/) is up.
+
+## Get Started
+
+To get started, fetch the latest [docker-compose-nexus-redis.yml](https://github.com/edgexfoundry/developer-scripts/blob/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml)) and start the EdgeX containers:
+
+```sh
+wget https://raw.githubusercontent.com/edgexfoundry/developer-scripts/master/releases/nightly-build/compose-files/docker-compose-nexus-redis.yml
+docker-compose up -d
+```
+
+Once EdgeX is up and running, the following steps are required to access EdgeX resources:
+
+1. The user needs to create an access token and associate every REST request with the security token
+   while sending the request. Use _admin_ as group name, as it is the privileged group in the
+   default configuration of the proxy. Use anything for _user_ as the desired account name
+   (e.g., ""mary"", ""iot_user"", etc).
+
+    ```sh
+    docker-compose -f docker-compose-nexus-redis.yml run --rm --entrypoint /edgex/security-proxy-setup edgex-proxy --init=false --useradd=IAmGroot --group=admin
+    ```
+
+    which will create an access token. One example of an access token is:
+    `eyJpc3MiOiI5M3V3cmZBc0xzS2Qwd1JnckVFdlRzQloxSmtYOTRRciIsImFjY291bnQiOiJhZG1pbmlzdHJhdG9yIn0`.  
+    Yours will differ from this one.
+
+2. The exported external ports (such as 59880, 59881 etc.) will be inaccessible for security reasons.
+Instead, all the REST requests need to go through the proxy, and the proxy will redirect the request to individual microservice on behalf of the user.
+
+    E.g, if we need to send a request to the ping endpoint of coredata, without security this would look like:
+
+    ```sh
+    curl http://{coredata-microservice-ip}:59880/api/v1/ping
+    ```
+
+    With security services enabled, the request would look like this:
+
+    ```sh
+    curl -k https://{kong-ip}:8443/coredata/api/v1/ping -H ""Authorization: Bearer <access-token>""
+    ```
+
+   Note the request is made over https to the proxy-service's IP address on port 8443.  The access token is also
+   included in the Authorization header.
+
+## Starting a Non-Docker Microservice With Security Enabled
+
+As an example, let's say you want to start core-metadata outside a container so you can debug it. You will need a non-expired token to authenticate and authorize the service and you will need to tell core-metadata about its environment. Be aware that
+
+* Tokens expire after 60 minutes if not renewed. If you are starting/stopping a microservice and the service token has expired, stop and start security-secretstore-setup (aka vault-worker).
+* `/tmp/edgex/secrets/...` where the tokens live is only root readable. You can run the microservice as root or use the following to open up the tree. Note you will need to repeat the chmod each time you restart `security-secretstore-setup`
+
+    ```sh
+    pushd /tmp/edgex
+    sudo find . -type d -exec chmod a+rx {} /dev/null \;
+    sudo find . -type f -exec chmod a+r {} /dev/null \;
+    popd
+    ```
+
+Fortunately, between go-mod-boostrap and [microservice self seeding](https://github.com/edgexfoundry/edgex-docs/blob/master/docs_src/design/adr/0005-Service-Self-Config.md) this is quite straight forward:
+
+```sh
+sudo bash
+
+cd cmd/core-metadata
+SecretStore_TokenFile=/tmp/edgex/secrets/edgex-core-metadata/secrets-token.json Logging_EnableRemote=""false"" ./core-metadata
+```
+
+| Environment Override  | Description  |
+|---|---|
+| SecretStore_TokenFile=/tmp/edgex/secrets/edgex-core-metadata/secrets-token.json | Authorization token |
+| Logging_EnableRemote=""false"" | There can only one (logger) |
+
+The defaults are loaded from `res/configuration.toml` and then the environment variables override the defaults.
+
+* Both Kong and the microservice need to agree on the host were the microservice lives. To that end, if you are mixing container based infrastructure (e.g. Kong) and native microservices you will need to do the following
+  * Tell the Kong container about the host (assume its 10.138.0.2 in this example). Add the following to the Kong entry in the compose file
+  
+  ```yaml
+  extra_hosts:
+      - ""edgex-core-metadata:10.138.0.2""
+      - ""edgex-core-data:10.138.0.2""
+      - ""edgex-core-command:10.138.0.2""
+  ```
+
+  and add the following to the environment section
+
+  ```yaml
+  - 'Clients_CoreData_Host: edgex-core-data'
+  - 'Clients_Logging_Host: edgex-support-logging'
+  - 'Clients_Notifications_Host: edgex-support-notifications'
+  - 'Clients_Metadata_Host: edgex-core-metadata'
+  - 'Clients_Command_Host: edgex-core-command'
+  - 'Clients_Scheduler_Host: edgex-support-scheduler'
+  ```
+
+  * Tell the OS about the host by adding the following to `/etc/hosts`
+
+  ```sh
+  10.138.0.2    edgex-core-data
+  10.138.0.2    edgex-core-metadata
+  10.138.0.2    edgex-core-command
+  ```
+
+  and tell the microservice about the host (only core-metadata shown here)
+
+  ```sh
+  export Clients_Metadata_Host=edgex-core-metadata
+  ```
+
+## Community
+
+* Chat: [https://edgexfoundry.slack.com](https://join.slack.com/t/edgexfoundry/shared_invite/enQtNDgyODM5ODUyODY0LWVhY2VmOTcyOWY2NjZhOWJjOGI1YzQ2NzYzZmIxYzAzN2IzYzY0NTVmMWZhZjNkMjVmODNiZGZmYTkzZDE3MTA)
+* Mailing lists: [https://lists.edgexfoundry.org/mailman/listinfo](https://lists.edgexfoundry.org/mailman/listinfo)
+
+## License
+
+[Apache-2.0](LICENSE)","# EdgeX Security
+
+For the most up to date information related to the EdgeX security disclosure, vulnerabilities, and hardening guide refer to the [EdgeX Security Wiki Page](https://wiki.edgexfoundry.org/display/FA/Security)
+
+Starting with the Fuji release, EdgeX includes enhanced security features that are enabled by default.
+There are 2 major components that are responsible for security features:
+
+| Component  | Description  |
+|---|---|
+|  [Security-secretstore-setup](cmd/security-secretstore-setup/README.md) | Security-secretstore-setup is responsible for initializing the secret store to hold various credentials for EdgeX.  |
+| [Security-proxy-setup](cmd/security-proxy-setup/README.md)  | Security-proxy-setup is responsible for initializating the EdgeX proxy environment, which includes setting up related permissions and authentication methods. The proxy will protect all the REST API resources.  |
+
+When starting a secure EdgeX deployment, the sequence is defined by the
+[EdgeX secure bootstrapping Architecture Decision Record](https://docs.edgexfoundry.org/2.0/design/adr/security/0009-Secure-Bootstrapping/).  In general the sequence is:
+
+1. Start a bootstrapping component that sequences the framework startup.
+1. Start the EdgeX secret store component.
+1. Start the `secretstore-setup` container to initialize the secret store and create shared secrets (such as database passwords) needed by the microservices.
+1. Start the other stateful components of EdgeX.
+1. Start the non-stateful EdgeX services.
+1. Start the `proxy-setup` container to configure the [Kong](https://konghq.com/) API gateway.
+
+The startup sequence is automatically coordinated to boot in the proper order to ensure correct functioning of EdgeX.
+
+## Get Started
+
+This documentation assumes that EdgeX has been started from the
+`docker-compose` scripts in the
+[edgex-compose respository](https://github.com/edgexfoundry/edgex-compose).
+
+Once EdgeX is up and running, the following steps are required to access EdgeX resources:
+
+1. The user needs to create an access token and associate every REST request with the security token
+   while sending the request.  Run the following command from the `edgex-compose` root folder:
+
+    ```console
+    $ make get-token
+    ```
+
+    The above command will create an access token. One example of an access token is:
+    `eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjMwODMwNzgsImlhdCI6MTYyMzA3OTQ3OCwiaXNzIjoiOGJlYjRiNzUtZDA0Mi00YmE0LWFlOTctOTFjMDcxYTJmZGM0IiwibmJmIjoxNjIzMDc5NDc4fQ.KqAgCg63zjtFSvMtChLoLyIrmh8xQdb0t4sroIbLhOtgBnacaTlOdoT33VQY0QGkCEFdE1VT8WjjwrbIwitpDQ`.  
+    Yours will differ from this one.
+
+    Note that the `get-token` Makefile target by default generates a public/private keypair
+    in a temporary folder that is **deleted** after the token is created.
+    *For production usage, one would want to keep this keypair around
+    and use it to generate future access tokens.*
+
+2. Individual microservice ports (such as 59880, 59881 etc.) will be inaccessible for security reasons.
+Instead, all the REST requests need to go through the proxy, and the proxy will redirect the request to individual microservice on behalf of the user.
+
+    E.g, if we need to send a request to the ping endpoint of coredata, without security this would look like:
+
+    ```sh
+    curl http://{coredata-microservice-ip}:59880/api/v1/ping
+    ```
+
+    With security services enabled, the request would look like this:
+
+    ```sh
+    token=(paste output of `make get-token` here)
+    curl -k https://{kong-ip}:8443/core-data/api/v2/ping -H ""Authorization: Bearer $token""
+    ```
+
+   Note the request is made over https to the proxy-service's IP address on port 8443.  The access token is also
+   included in the `Authorization` header.
+
+## Starting a Non-Docker Microservice With Security Enabled
+
+As an example, let's say you want to start core-metadata outside a container so you can debug it. 
+All EdgeX microservices need a non-expired authentication token to the EdgeX secret store in order to run.
+Be aware that
+
+* Tokens expire after 60 minutes if not renewed. If you are starting/stopping a microservice and the service token has expired, fully shut down and restart the environment (`make down` and `make run`) to get fresh tokens for all.
+* `/tmp/edgex/secrets/...` where the tokens live is only root readable. You can run the microservice as root or use the following to open up the tree. Note you will need to repeat the chmod each time you restart `secretstore-setup` service.
+
+    ```sh
+    pushd /tmp/edgex
+    sudo find . -type d -exec chmod a+rx {} /dev/null \;
+    sudo find . -type f -exec chmod a+r {} /dev/null \;
+    popd
+    ```
+
+Fortunately, between go-mod-boostrap and [microservice self seeding](https://github.com/edgexfoundry/edgex-docs/blob/master/docs_src/design/adr/0005-Service-Self-Config.md) this is quite straight forward:
+
+```sh
+sudo bash
+
+cd cmd/core-metadata
+EDGEX_SECURITY_SECRET_STORE=true ./core-metadata
+```
+
+| Environment Override  | Description  |
+|---|---|
+| EDGEX_SECURITY_SECRET_STORE=true | Enable security flag (optional, security enabled by default) |
+
+Security is enabled by default, but some developers run EdgeX =
+with `EDGEX_SECURITY_SECRET_STORE=false` set in their environments.
+The above command ensures that security is enabled for this particular run of the EdgeX microservice.
+
+The defaults are loaded from `res/configuration.toml` and then the environment variables override the defaults.
+
+* Both Kong and the microservice need to agree on the host were the microservice lives. To that end, if you are mixing container based infrastructure (e.g. Kong) and native microservices you will need to do the following
+  * Tell the Kong container about the host (assume its 10.138.0.2 in this example). Add the following to the Kong entry in the compose file
+  
+  ```yaml
+  extra_hosts:
+      - ""edgex-core-metadata:10.138.0.2""
+      - ""edgex-core-data:10.138.0.2""
+      - ""edgex-core-command:10.138.0.2""
+  ```
+
+  and add the following to the environment section
+
+  ```yaml
+  - 'Clients_CoreData_Host: edgex-core-data'
+  - 'Clients_Logging_Host: edgex-support-logging'
+  - 'Clients_Notifications_Host: edgex-support-notifications'
+  - 'Clients_Metadata_Host: edgex-core-metadata'
+  - 'Clients_Command_Host: edgex-core-command'
+  - 'Clients_Scheduler_Host: edgex-support-scheduler'
+  ```
+
+  * Tell the OS about the host by adding the following to `/etc/hosts`
+
+  ```sh
+  10.138.0.2    edgex-core-data
+  10.138.0.2    edgex-core-metadata
+  10.138.0.2    edgex-core-command
+  ```
+
+  and tell the microservice about the host (only core-metadata shown here)
+
+  ```sh
+  export Clients_Metadata_Host=edgex-core-metadata
+  ```
+
+## Community
+
+* Chat: [https://edgexfoundry.slack.com](https://join.slack.com/t/edgexfoundry/shared_invite/enQtNDgyODM5ODUyODY0LWVhY2VmOTcyOWY2NjZhOWJjOGI1YzQ2NzYzZmIxYzAzN2IzYzY0NTVmMWZhZjNkMjVmODNiZGZmYTkzZDE3MTA)
+* Mailing lists: [https://lists.edgexfoundry.org/mailman/listinfo](https://lists.edgexfoundry.org/mailman/listinfo)
+
+## License
+
+[Apache-2.0](LICENSE)",2008,b edgexfoundry/edgex-go 1949c3356e6c8cf6d2dc2486513a90a0b6bc0e8d
+edgexfoundry/edgex-go,SECURITY.md,398431feff524dc71f99412bba68b8b552d1addb,2021-06-30 16:00:43+00:00,"# EdgeX Security
+
+For the most up to date information related to the EdgeX security disclosure, vulnerabilities, and hardening guide refer to the [EdgeX Security Wiki Page](https://wiki.edgexfoundry.org/display/FA/Security)
+
+Starting with the Fuji release, EdgeX includes enhanced security features that are enabled by default.
+There are 2 major components that are responsible for security features:
+
+| Component  | Description  |
+|---|---|
+|  [Security-secretstore-setup](cmd/security-secretstore-setup/README.md) | Security-secretstore-setup is responsible for initializing the secret store to hold various credentials for EdgeX.  |
+| [Security-proxy-setup](cmd/security-proxy-setup/README.md)  | Security-proxy-setup is responsible for initializating the EdgeX proxy environment, which includes setting up related permissions and authentication methods. The proxy will protect all the REST API resources.  |
+
+When starting a secure EdgeX deployment, the sequence is defined by the
+[EdgeX secure bootstrapping Architecture Decision Record](https://docs.edgexfoundry.org/2.0/design/adr/security/0009-Secure-Bootstrapping/).  In general the sequence is:
+
+1. Start a bootstrapping component that sequences the framework startup.
+1. Start the EdgeX secret store component.
+1. Start the `secretstore-setup` container to initialize the secret store and create shared secrets (such as database passwords) needed by the microservices.
+1. Start the other stateful components of EdgeX.
+1. Start the non-stateful EdgeX services.
+1. Start the `proxy-setup` container to configure the [Kong](https://konghq.com/) API gateway.
+
+The startup sequence is automatically coordinated to boot in the proper order to ensure correct functioning of EdgeX.
+
+## Get Started
+
+This documentation assumes that EdgeX has been started from the
+`docker-compose` scripts in the
+[edgex-compose respository](https://github.com/edgexfoundry/edgex-compose).
+
+Once EdgeX is up and running, the following steps are required to access EdgeX resources:
+
+1. The user needs to create an access token and associate every REST request with the security token
+   while sending the request.  Run the following command from the `edgex-compose` root folder:
+
+    ```console
+    $ make get-token
+    ```
+
+    The above command will create an access token. One example of an access token is:
+    `eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjMwODMwNzgsImlhdCI6MTYyMzA3OTQ3OCwiaXNzIjoiOGJlYjRiNzUtZDA0Mi00YmE0LWFlOTctOTFjMDcxYTJmZGM0IiwibmJmIjoxNjIzMDc5NDc4fQ.KqAgCg63zjtFSvMtChLoLyIrmh8xQdb0t4sroIbLhOtgBnacaTlOdoT33VQY0QGkCEFdE1VT8WjjwrbIwitpDQ`.  
+    Yours will differ from this one.
+
+    Note that the `get-token` Makefile target by default generates a public/private keypair
+    in a temporary folder that is **deleted** after the token is created.
+    *For production usage, one would want to keep this keypair around
+    and use it to generate future access tokens.*
+
+2. Individual microservice ports (such as 59880, 59881 etc.) will be inaccessible for security reasons.
+Instead, all the REST requests need to go through the proxy, and the proxy will redirect the request to individual microservice on behalf of the user.
+
+    E.g, if we need to send a request to the ping endpoint of coredata, without security this would look like:
+
+    ```sh
+    curl http://{coredata-microservice-ip}:59880/api/v1/ping
+    ```
+
+    With security services enabled, the request would look like this:
+
+    ```sh
+    token=(paste output of `make get-token` here)
+    curl -k https://{kong-ip}:8443/core-data/api/v2/ping -H ""Authorization: Bearer $token""
+    ```
+
+   Note the request is made over https to the proxy-service's IP address on port 8443.  The access token is also
+   included in the `Authorization` header.
+
+## Starting a Non-Docker Microservice With Security Enabled
+
+As an example, let's say you want to start core-metadata outside a container so you can debug it. 
+All EdgeX microservices need a non-expired authentication token to the EdgeX secret store in order to run.
+Be aware that
+
+* Tokens expire after 60 minutes if not renewed. If you are starting/stopping a microservice and the service token has expired, fully shut down and restart the environment (`make down` and `make run`) to get fresh tokens for all.
+* `/tmp/edgex/secrets/...` where the tokens live is only root readable. You can run the microservice as root or use the following to open up the tree. Note you will need to repeat the chmod each time you restart `secretstore-setup` service.
+
+    ```sh
+    pushd /tmp/edgex
+    sudo find . -type d -exec chmod a+rx {} /dev/null \;
+    sudo find . -type f -exec chmod a+r {} /dev/null \;
+    popd
+    ```
+
+Fortunately, between go-mod-boostrap and [microservice self seeding](https://github.com/edgexfoundry/edgex-docs/blob/master/docs_src/design/adr/0005-Service-Self-Config.md) this is quite straight forward:
+
+```sh
+sudo bash
+
+cd cmd/core-metadata
+EDGEX_SECURITY_SECRET_STORE=true ./core-metadata
+```
+
+| Environment Override  | Description  |
+|---|---|
+| EDGEX_SECURITY_SECRET_STORE=true | Enable security flag (optional, security enabled by default) |
+
+Security is enabled by default, but some developers run EdgeX =
+with `EDGEX_SECURITY_SECRET_STORE=false` set in their environments.
+The above command ensures that security is enabled for this particular run of the EdgeX microservice.
+
+The defaults are loaded from `res/configuration.toml` and then the environment variables override the defaults.
+
+* Both Kong and the microservice need to agree on the host were the microservice lives. To that end, if you are mixing container based infrastructure (e.g. Kong) and native microservices you will need to do the following
+  * Tell the Kong container about the host (assume its 10.138.0.2 in this example). Add the following to the Kong entry in the compose file
+  
+  ```yaml
+  extra_hosts:
+      - ""edgex-core-metadata:10.138.0.2""
+      - ""edgex-core-data:10.138.0.2""
+      - ""edgex-core-command:10.138.0.2""
+  ```
+
+  and add the following to the environment section
+
+  ```yaml
+  - 'Clients_CoreData_Host: edgex-core-data'
+  - 'Clients_Logging_Host: edgex-support-logging'
+  - 'Clients_Notifications_Host: edgex-support-notifications'
+  - 'Clients_Metadata_Host: edgex-core-metadata'
+  - 'Clients_Command_Host: edgex-core-command'
+  - 'Clients_Scheduler_Host: edgex-support-scheduler'
+  ```
+
+  * Tell the OS about the host by adding the following to `/etc/hosts`
+
+  ```sh
+  10.138.0.2    edgex-core-data
+  10.138.0.2    edgex-core-metadata
+  10.138.0.2    edgex-core-command
+  ```
+
+  and tell the microservice about the host (only core-metadata shown here)
+
+  ```sh
+  export Clients_Metadata_Host=edgex-core-metadata
+  ```
+
+## Community
+
+* Chat: [https://edgexfoundry.slack.com](https://join.slack.com/t/edgexfoundry/shared_invite/enQtNDgyODM5ODUyODY0LWVhY2VmOTcyOWY2NjZhOWJjOGI1YzQ2NzYzZmIxYzAzN2IzYzY0NTVmMWZhZjNkMjVmODNiZGZmYTkzZDE3MTA)
+* Mailing lists: [https://lists.edgexfoundry.org/mailman/listinfo](https://lists.edgexfoundry.org/mailman/listinfo)
+
+## License
+
+[Apache-2.0](LICENSE)","# EdgeX Security
+
+For the most up to date information related to the EdgeX security disclosure, vulnerabilities, and hardening guide refer to the [EdgeX Security Wiki Page](https://wiki.edgexfoundry.org/display/FA/Security)
+
+Starting with the Fuji release, EdgeX includes enhanced security features that are enabled by default.
+There are 2 major components that are responsible for security features:
+
+| Component  | Description  |
+|---|---|
+|  [Security-secretstore-setup](cmd/security-secretstore-setup/README.md) | Security-secretstore-setup is responsible for initializing the secret store to hold various credentials for EdgeX.  |
+| [Security-proxy-setup](cmd/security-proxy-setup/README.md)  | Security-proxy-setup is responsible for initializating the EdgeX proxy environment, which includes setting up related permissions and authentication methods. The proxy will protect all the REST API resources.  |
+
+When starting a secure EdgeX deployment, the sequence is defined by the
+[EdgeX secure bootstrapping Architecture Decision Record](https://docs.edgexfoundry.org/2.0/design/adr/security/0009-Secure-Bootstrapping/).  In general the sequence is:
+
+1. Start a bootstrapping component that sequences the framework startup.
+1. Start the EdgeX secret store component.
+1. Start the `secretstore-setup` container to initialize the secret store and create shared secrets (such as database passwords) needed by the microservices.
+1. Start the other stateful components of EdgeX.
+1. Start the non-stateful EdgeX services.
+1. Start the `proxy-setup` container to configure the [Kong](https://konghq.com/) API gateway.
+
+The startup sequence is automatically coordinated to boot in the proper order to ensure correct functioning of EdgeX.
+
+## Get Started
+
+This documentation assumes that EdgeX has been started from the
+`docker-compose` scripts in the
+[edgex-compose respository](https://github.com/edgexfoundry/edgex-compose).
+
+Once EdgeX is up and running, the following steps are required to access EdgeX resources:
+
+1. The user needs to create an access token and associate every REST request with the security token
+   while sending the request.  Run the following command from the `edgex-compose` root folder:
+
+    ```console
+    $ make get-token
+    ```
+
+    The above command will create an access token. One example of an access token is:
+    `eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjMwODMwNzgsImlhdCI6MTYyMzA3OTQ3OCwiaXNzIjoiOGJlYjRiNzUtZDA0Mi00YmE0LWFlOTctOTFjMDcxYTJmZGM0IiwibmJmIjoxNjIzMDc5NDc4fQ.KqAgCg63zjtFSvMtChLoLyIrmh8xQdb0t4sroIbLhOtgBnacaTlOdoT33VQY0QGkCEFdE1VT8WjjwrbIwitpDQ`.  
+    Yours will differ from this one.
+
+    Note that the `get-token` Makefile target by default generates a public/private keypair
+    in a temporary folder that is **deleted** after the token is created.
+    *For production usage, one would want to keep this keypair around
+    and use it to generate future access tokens.*
+
+2. Individual microservice ports (such as 59880, 59881 etc.) will be inaccessible for security reasons.
+Instead, all the REST requests need to go through the proxy, and the proxy will redirect the request to individual microservice on behalf of the user.
+
+    E.g, if we need to send a request to the ping endpoint of coredata, without security this would look like:
+
+    ```sh
+    curl http://{coredata-microservice-ip}:59880/api/v1/ping
+    ```
+
+    With security services enabled, the request would look like this:
+
+    ```sh
+    token=(paste output of `make get-token` here)
+    curl -k https://{kong-ip}:8443/core-data/api/v2/ping -H ""Authorization: Bearer $token""
+    ```
+
+   Note the request is made over https to the proxy-service's IP address on port 8443.  The access token is also
+   included in the `Authorization` header.
+
+## Starting a Non-Docker Microservice With Security Enabled
+
+As an example, let's say you want to start core-metadata outside a container so you can debug it. 
+All EdgeX microservices need a non-expired authentication token to the EdgeX secret store in order to run.
+Be aware that
+
+* Tokens expire after 60 minutes if not renewed. If you are starting/stopping a microservice and the service token has expired, fully shut down and restart the environment (`make down` and `make run`) to get fresh tokens for all.
+* `/tmp/edgex/secrets/...` where the tokens live is only root readable. You can run the microservice as root or use the following to open up the tree. Note you will need to repeat the chmod each time you restart `secretstore-setup` service.
+
+    ```sh
+    pushd /tmp/edgex
+    sudo find . -type d -exec chmod a+rx {} /dev/null \;
+    sudo find . -type f -exec chmod a+r {} /dev/null \;
+    popd
+    ```
+
+Fortunately, between go-mod-boostrap and [microservice self seeding](https://github.com/edgexfoundry/edgex-docs/blob/master/docs_src/design/adr/0005-Service-Self-Config.md) this is quite straight forward:
+
+```sh
+sudo bash
+
+cd cmd/core-metadata
+EDGEX_SECURITY_SECRET_STORE=true ./core-metadata
+```
+
+| Environment Override  | Description  |
+|---|---|
+| EDGEX_SECURITY_SECRET_STORE=true | Enable security flag (optional, security enabled by default) |
+
+Security is enabled by default, but some developers run EdgeX =
+with `EDGEX_SECURITY_SECRET_STORE=false` set in their environments.
+The above command ensures that security is enabled for this particular run of the EdgeX microservice.
+
+The defaults are loaded from `res/configuration.toml` and then the environment variables override the defaults.
+
+* Both Kong and the microservice need to agree on the host were the microservice lives. To that end, if you are mixing container based infrastructure (e.g. Kong) and native microservices you will need to do the following
+  * Tell the Kong container about the host (assume its 10.138.0.2 in this example). Add the following to the Kong entry in the compose file
+  
+  ```yaml
+  extra_hosts:
+      - ""edgex-core-metadata:10.138.0.2""
+      - ""edgex-core-data:10.138.0.2""
+      - ""edgex-core-command:10.138.0.2""
+  ```
+
+  and add the following to the environment section
+
+  ```yaml
+  - 'Clients_CoreData_Host: edgex-core-data'
+  - 'Clients_Logging_Host: edgex-support-logging'
+  - 'Clients_Notifications_Host: edgex-support-notifications'
+  - 'Clients_Metadata_Host: edgex-core-metadata'
+  - 'Clients_Command_Host: edgex-core-command'
+  - 'Clients_Scheduler_Host: edgex-support-scheduler'
+  ```
+
+  * Tell the OS about the host by adding the following to `/etc/hosts`
+
+  ```sh
+  10.138.0.2    edgex-core-data
+  10.138.0.2    edgex-core-metadata
+  10.138.0.2    edgex-core-command
+  ```
+
+  and tell the microservice about the host (only core-metadata shown here)
+
+  ```sh
+  export Clients_Metadata_Host=edgex-core-metadata
+  ```
+
+## Community
+
+* Chat: <https://slack.edgexfoundry.org/>
+* Mailing lists: [https://lists.edgexfoundry.org/mailman/listinfo](https://lists.edgexfoundry.org/mailman/listinfo)
+
+## License
+
+[Apache-2.0](LICENSE)
+",166,b edgexfoundry/edgex-go 398431feff524dc71f99412bba68b8b552d1addb
+edgexfoundry/edgex-go,SECURITY.md,55703cfb8fff16b41bcf5b5700b650125831580d,2022-04-07 18:34:56+00:00,"# EdgeX Security
+
+For the most up to date information related to the EdgeX security disclosure, vulnerabilities, and hardening guide refer to the [EdgeX Security Wiki Page](https://wiki.edgexfoundry.org/display/FA/Security)
+
+Starting with the Fuji release, EdgeX includes enhanced security features that are enabled by default.
+There are 2 major components that are responsible for security features:
+
+| Component  | Description  |
+|---|---|
+|  [Security-secretstore-setup](cmd/security-secretstore-setup/README.md) | Security-secretstore-setup is responsible for initializing the secret store to hold various credentials for EdgeX.  |
+| [Security-proxy-setup](cmd/security-proxy-setup/README.md)  | Security-proxy-setup is responsible for initializating the EdgeX proxy environment, which includes setting up related permissions and authentication methods. The proxy will protect all the REST API resources.  |
+
+When starting a secure EdgeX deployment, the sequence is defined by the
+[EdgeX secure bootstrapping Architecture Decision Record](https://docs.edgexfoundry.org/2.0/design/adr/security/0009-Secure-Bootstrapping/).  In general the sequence is:
+
+1. Start a bootstrapping component that sequences the framework startup.
+1. Start the EdgeX secret store component.
+1. Start the `secretstore-setup` container to initialize the secret store and create shared secrets (such as database passwords) needed by the microservices.
+1. Start the other stateful components of EdgeX.
+1. Start the non-stateful EdgeX services.
+1. Start the `proxy-setup` container to configure the [Kong](https://konghq.com/) API gateway.
+
+The startup sequence is automatically coordinated to boot in the proper order to ensure correct functioning of EdgeX.
+
+## Get Started
+
+This documentation assumes that EdgeX has been started from the
+`docker-compose` scripts in the
+[edgex-compose respository](https://github.com/edgexfoundry/edgex-compose).
+
+Once EdgeX is up and running, the following steps are required to access EdgeX resources:
+
+1. The user needs to create an access token and associate every REST request with the security token
+   while sending the request.  Run the following command from the `edgex-compose` root folder:
+
+    ```console
+    $ make get-token
+    ```
+
+    The above command will create an access token. One example of an access token is:
+    `eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjMwODMwNzgsImlhdCI6MTYyMzA3OTQ3OCwiaXNzIjoiOGJlYjRiNzUtZDA0Mi00YmE0LWFlOTctOTFjMDcxYTJmZGM0IiwibmJmIjoxNjIzMDc5NDc4fQ.KqAgCg63zjtFSvMtChLoLyIrmh8xQdb0t4sroIbLhOtgBnacaTlOdoT33VQY0QGkCEFdE1VT8WjjwrbIwitpDQ`.  
+    Yours will differ from this one.
+
+    Note that the `get-token` Makefile target by default generates a public/private keypair
+    in a temporary folder that is **deleted** after the token is created.
+    *For production usage, one would want to keep this keypair around
+    and use it to generate future access tokens.*
+
+2. Individual microservice ports (such as 59880, 59881 etc.) will be inaccessible for security reasons.
+Instead, all the REST requests need to go through the proxy, and the proxy will redirect the request to individual microservice on behalf of the user.
+
+    E.g, if we need to send a request to the ping endpoint of coredata, without security this would look like:
+
+    ```sh
+    curl http://{coredata-microservice-ip}:59880/api/v1/ping
+    ```
+
+    With security services enabled, the request would look like this:
+
+    ```sh
+    token=(paste output of `make get-token` here)
+    curl -k https://{kong-ip}:8443/core-data/api/v2/ping -H ""Authorization: Bearer $token""
+    ```
+
+   Note the request is made over https to the proxy-service's IP address on port 8443.  The access token is also
+   included in the `Authorization` header.
+
+## Starting a Non-Docker Microservice With Security Enabled
+
+As an example, let's say you want to start core-metadata outside a container so you can debug it. 
+All EdgeX microservices need a non-expired authentication token to the EdgeX secret store in order to run.
+Be aware that
+
+* Tokens expire after 60 minutes if not renewed. If you are starting/stopping a microservice and the service token has expired, fully shut down and restart the environment (`make down` and `make run`) to get fresh tokens for all.
+* `/tmp/edgex/secrets/...` where the tokens live is only root readable. You can run the microservice as root or use the following to open up the tree. Note you will need to repeat the chmod each time you restart `secretstore-setup` service.
+
+    ```sh
+    pushd /tmp/edgex
+    sudo find . -type d -exec chmod a+rx {} /dev/null \;
+    sudo find . -type f -exec chmod a+r {} /dev/null \;
+    popd
+    ```
+
+Fortunately, between go-mod-boostrap and [microservice self seeding](https://github.com/edgexfoundry/edgex-docs/blob/master/docs_src/design/adr/0005-Service-Self-Config.md) this is quite straight forward:
+
+```sh
+sudo bash
+
+cd cmd/core-metadata
+EDGEX_SECURITY_SECRET_STORE=true ./core-metadata
+```
+
+| Environment Override  | Description  |
+|---|---|
+| EDGEX_SECURITY_SECRET_STORE=true | Enable security flag (optional, security enabled by default) |
+
+Security is enabled by default, but some developers run EdgeX =
+with `EDGEX_SECURITY_SECRET_STORE=false` set in their environments.
+The above command ensures that security is enabled for this particular run of the EdgeX microservice.
+
+The defaults are loaded from `res/configuration.toml` and then the environment variables override the defaults.
+
+* Both Kong and the microservice need to agree on the host were the microservice lives. To that end, if you are mixing container based infrastructure (e.g. Kong) and native microservices you will need to do the following
+  * Tell the Kong container about the host (assume its 10.138.0.2 in this example). Add the following to the Kong entry in the compose file
+  
+  ```yaml
+  extra_hosts:
+      - ""edgex-core-metadata:10.138.0.2""
+      - ""edgex-core-data:10.138.0.2""
+      - ""edgex-core-command:10.138.0.2""
+  ```
+
+  and add the following to the environment section
+
+  ```yaml
+  - 'Clients_CoreData_Host: edgex-core-data'
+  - 'Clients_Logging_Host: edgex-support-logging'
+  - 'Clients_Notifications_Host: edgex-support-notifications'
+  - 'Clients_Metadata_Host: edgex-core-metadata'
+  - 'Clients_Command_Host: edgex-core-command'
+  - 'Clients_Scheduler_Host: edgex-support-scheduler'
+  ```
+
+  * Tell the OS about the host by adding the following to `/etc/hosts`
+
+  ```sh
+  10.138.0.2    edgex-core-data
+  10.138.0.2    edgex-core-metadata
+  10.138.0.2    edgex-core-command
+  ```
+
+  and tell the microservice about the host (only core-metadata shown here)
+
+  ```sh
+  export Clients_Metadata_Host=edgex-core-metadata
+  ```
+
+## Community
+
+* Chat: <https://slack.edgexfoundry.org/>
+* Mailing lists: [https://lists.edgexfoundry.org/mailman/listinfo](https://lists.edgexfoundry.org/mailman/listinfo)
+
+## License
+
+[Apache-2.0](LICENSE)
+","# EdgeX Security
+
+For the most up to date information related to the EdgeX security disclosure, vulnerabilities, and hardening guide refer to the [EdgeX Security Wiki Page](https://wiki.edgexfoundry.org/display/FA/Security)
+
+Starting with the Fuji release, EdgeX includes enhanced security features that are enabled by default.
+There are 2 major components that are responsible for security features:
+
+| Component  | Description  |
+|---|---|
+|  [Security-secretstore-setup](cmd/security-secretstore-setup/README.md) | Security-secretstore-setup is responsible for initializing the secret store to hold various credentials for EdgeX.  |
+| [Security-proxy-setup](cmd/security-proxy-setup/README.md)  | Security-proxy-setup is responsible for initializating the EdgeX proxy environment, which includes setting up related permissions and authentication methods. The proxy will protect all the REST API resources.  |
+
+When starting a secure EdgeX deployment, the sequence is defined by the
+[EdgeX secure bootstrapping Architecture Decision Record](https://docs.edgexfoundry.org/2.0/design/adr/security/0009-Secure-Bootstrapping/).  In general the sequence is:
+
+1. Start a bootstrapping component that sequences the framework startup.
+1. Start the EdgeX secret store component.
+1. Start the `secretstore-setup` container to initialize the secret store and create shared secrets (such as database passwords) needed by the microservices.
+1. Start the other stateful components of EdgeX.
+1. Start the non-stateful EdgeX services.
+1. Start the `proxy-setup` container to configure the [Kong](https://konghq.com/) API gateway.
+
+The startup sequence is automatically coordinated to boot in the proper order to ensure correct functioning of EdgeX.
+
+## Get Started
+
+This documentation assumes that EdgeX has been started from the
+`docker-compose` scripts in the
+[edgex-compose respository](https://github.com/edgexfoundry/edgex-compose).
+
+Once EdgeX is up and running, the following steps are required to access EdgeX resources:
+
+1. The user needs to create an access token and associate every REST request with the security token
+   while sending the request.  Run the following command from the `edgex-compose` root folder:
+
+    ```console
+    $ make get-token
+    ```
+
+    The above command will create an access token. One example of an access token is:
+    `eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjMwODMwNzgsImlhdCI6MTYyMzA3OTQ3OCwiaXNzIjoiOGJlYjRiNzUtZDA0Mi00YmE0LWFlOTctOTFjMDcxYTJmZGM0IiwibmJmIjoxNjIzMDc5NDc4fQ.KqAgCg63zjtFSvMtChLoLyIrmh8xQdb0t4sroIbLhOtgBnacaTlOdoT33VQY0QGkCEFdE1VT8WjjwrbIwitpDQ`.  
+    Yours will differ from this one.
+
+    Note that the `get-token` Makefile target by default generates a public/private keypair
+    in a temporary folder that is **deleted** after the token is created.
+    *For production usage, one would want to keep this keypair around
+    and use it to generate future access tokens.*
+
+2. Individual microservice ports (such as 59880, 59881 etc.) will be inaccessible for security reasons.
+Instead, all the REST requests need to go through the proxy, and the proxy will redirect the request to individual microservice on behalf of the user.
+
+    E.g, if we need to send a request to the ping endpoint of coredata, without security this would look like:
+
+    ```sh
+    curl http://{coredata-microservice-ip}:59880/api/v1/ping
+    ```
+
+    With security services enabled, the request would look like this:
+
+    ```sh
+    token=(paste output of `make get-token` here)
+    curl -k https://{kong-ip}:8443/core-data/api/v2/ping -H ""Authorization: Bearer $token""
+    ```
+
+   Note the request is made over https to the proxy-service's IP address on port 8443.  The access token is also
+   included in the `Authorization` header.
+
+## Starting a Non-Docker Microservice With Security Enabled
+
+As an example, let's say you want to start core-metadata outside a container so you can debug it. 
+All EdgeX microservices need a non-expired authentication token to the EdgeX secret store in order to run.
+Be aware that
+
+* Tokens expire after 60 minutes if not renewed. If you are starting/stopping a microservice and the service token has expired, fully shut down and restart the environment (`make down` and `make run`) to get fresh tokens for all.
+* `/tmp/edgex/secrets/...` where the tokens live is only root readable. You can run the microservice as root or use the following to open up the tree. Note you will need to repeat the chmod each time you restart `secretstore-setup` service.
+
+    ```sh
+    pushd /tmp/edgex
+    sudo find . -type d -exec chmod a+rx {} /dev/null \;
+    sudo find . -type f -exec chmod a+r {} /dev/null \;
+    popd
+    ```
+
+Fortunately, between go-mod-boostrap and [microservice self seeding](https://github.com/edgexfoundry/edgex-docs/blob/master/docs_src/design/adr/0005-Service-Self-Config.md) this is quite straight forward:
+
+```sh
+sudo bash
+
+cd cmd/core-metadata
+EDGEX_SECURITY_SECRET_STORE=true ./core-metadata
+```
+
+| Environment Override  | Description  |
+|---|---|
+| EDGEX_SECURITY_SECRET_STORE=true | Enable security flag (optional, security enabled by default) |
+
+Security is enabled by default, but some developers run EdgeX =
+with `EDGEX_SECURITY_SECRET_STORE=false` set in their environments.
+The above command ensures that security is enabled for this particular run of the EdgeX microservice.
+
+The defaults are loaded from `res/configuration.toml` and then the environment variables override the defaults.
+
+* Both Kong and the microservice need to agree on the host were the microservice lives. To that end, if you are mixing container based infrastructure (e.g. Kong) and native microservices you will need to do the following
+  * Tell the Kong container about the host (assume its 10.138.0.2 in this example). Add the following to the Kong entry in the compose file
+  
+  ```yaml
+  extra_hosts:
+      - ""edgex-core-metadata:10.138.0.2""
+      - ""edgex-core-data:10.138.0.2""
+      - ""edgex-core-command:10.138.0.2""
+  ```
+
+  and add the following to the environment section
+
+  ```yaml
+  - 'Clients_CoreData_Host: edgex-core-data'
+  - 'Clients_Logging_Host: edgex-support-logging'
+  - 'Clients_Notifications_Host: edgex-support-notifications'
+  - 'Clients_Metadata_Host: edgex-core-metadata'
+  - 'Clients_Command_Host: edgex-core-command'
+  - 'Clients_Scheduler_Host: edgex-support-scheduler'
+  ```
+
+  * Tell the OS about the host by adding the following to `/etc/hosts`
+
+  ```sh
+  10.138.0.2    edgex-core-data
+  10.138.0.2    edgex-core-metadata
+  10.138.0.2    edgex-core-command
+  ```
+
+  and tell the microservice about the host (only core-metadata shown here)
+
+  ```sh
+  export Clients_Metadata_Host=edgex-core-metadata
+  ```
+
+## Community
+
+* Chat: <https://edgexfoundry.slack.com/>
+* Mailing lists: [https://lists.edgexfoundry.org/mailman/listinfo](https://lists.edgexfoundry.org/mailman/listinfo)
+
+## License
+
+[Apache-2.0](LICENSE)
+",15,b edgexfoundry/edgex-go 55703cfb8fff16b41bcf5b5700b650125831580d
+edgexfoundry/edgex-go,SECURITY.md,b576a02ca2f5f3e2ac8b865ecd25ab8a497027dc,2023-03-10 17:56:30+00:00,"# EdgeX Security
+
+For the most up to date information related to the EdgeX security disclosure, vulnerabilities, and hardening guide refer to the [EdgeX Security Wiki Page](https://wiki.edgexfoundry.org/display/FA/Security)
+
+Starting with the Fuji release, EdgeX includes enhanced security features that are enabled by default.
+There are 2 major components that are responsible for security features:
+
+| Component  | Description  |
+|---|---|
+|  [Security-secretstore-setup](cmd/security-secretstore-setup/README.md) | Security-secretstore-setup is responsible for initializing the secret store to hold various credentials for EdgeX.  |
+| [Security-proxy-setup](cmd/security-proxy-setup/README.md)  | Security-proxy-setup is responsible for initializating the EdgeX proxy environment, which includes setting up related permissions and authentication methods. The proxy will protect all the REST API resources.  |
+
+When starting a secure EdgeX deployment, the sequence is defined by the
+[EdgeX secure bootstrapping Architecture Decision Record](https://docs.edgexfoundry.org/2.0/design/adr/security/0009-Secure-Bootstrapping/).  In general the sequence is:
+
+1. Start a bootstrapping component that sequences the framework startup.
+1. Start the EdgeX secret store component.
+1. Start the `secretstore-setup` container to initialize the secret store and create shared secrets (such as database passwords) needed by the microservices.
+1. Start the other stateful components of EdgeX.
+1. Start the non-stateful EdgeX services.
+1. Start the `proxy-setup` container to configure the [Kong](https://konghq.com/) API gateway.
+
+The startup sequence is automatically coordinated to boot in the proper order to ensure correct functioning of EdgeX.
+
+## Get Started
+
+This documentation assumes that EdgeX has been started from the
+`docker-compose` scripts in the
+[edgex-compose respository](https://github.com/edgexfoundry/edgex-compose).
+
+Once EdgeX is up and running, the following steps are required to access EdgeX resources:
+
+1. The user needs to create an access token and associate every REST request with the security token
+   while sending the request.  Run the following command from the `edgex-compose` root folder:
+
+    ```console
+    $ make get-token
+    ```
+
+    The above command will create an access token. One example of an access token is:
+    `eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjMwODMwNzgsImlhdCI6MTYyMzA3OTQ3OCwiaXNzIjoiOGJlYjRiNzUtZDA0Mi00YmE0LWFlOTctOTFjMDcxYTJmZGM0IiwibmJmIjoxNjIzMDc5NDc4fQ.KqAgCg63zjtFSvMtChLoLyIrmh8xQdb0t4sroIbLhOtgBnacaTlOdoT33VQY0QGkCEFdE1VT8WjjwrbIwitpDQ`.  
+    Yours will differ from this one.
+
+    Note that the `get-token` Makefile target by default generates a public/private keypair
+    in a temporary folder that is **deleted** after the token is created.
+    *For production usage, one would want to keep this keypair around
+    and use it to generate future access tokens.*
+
+2. Individual microservice ports (such as 59880, 59881 etc.) will be inaccessible for security reasons.
+Instead, all the REST requests need to go through the proxy, and the proxy will redirect the request to individual microservice on behalf of the user.
+
+    E.g, if we need to send a request to the ping endpoint of coredata, without security this would look like:
+
+    ```sh
+    curl http://{coredata-microservice-ip}:59880/api/v1/ping
+    ```
+
+    With security services enabled, the request would look like this:
+
+    ```sh
+    token=(paste output of `make get-token` here)
+    curl -k https://{kong-ip}:8443/core-data/api/v2/ping -H ""Authorization: Bearer $token""
+    ```
+
+   Note the request is made over https to the proxy-service's IP address on port 8443.  The access token is also
+   included in the `Authorization` header.
+
+## Starting a Non-Docker Microservice With Security Enabled
+
+As an example, let's say you want to start core-metadata outside a container so you can debug it. 
+All EdgeX microservices need a non-expired authentication token to the EdgeX secret store in order to run.
+Be aware that
+
+* Tokens expire after 60 minutes if not renewed. If you are starting/stopping a microservice and the service token has expired, fully shut down and restart the environment (`make down` and `make run`) to get fresh tokens for all.
+* `/tmp/edgex/secrets/...` where the tokens live is only root readable. You can run the microservice as root or use the following to open up the tree. Note you will need to repeat the chmod each time you restart `secretstore-setup` service.
+
+    ```sh
+    pushd /tmp/edgex
+    sudo find . -type d -exec chmod a+rx {} /dev/null \;
+    sudo find . -type f -exec chmod a+r {} /dev/null \;
+    popd
+    ```
+
+Fortunately, between go-mod-boostrap and [microservice self seeding](https://github.com/edgexfoundry/edgex-docs/blob/master/docs_src/design/adr/0005-Service-Self-Config.md) this is quite straight forward:
+
+```sh
+sudo bash
+
+cd cmd/core-metadata
+EDGEX_SECURITY_SECRET_STORE=true ./core-metadata
+```
+
+| Environment Override  | Description  |
+|---|---|
+| EDGEX_SECURITY_SECRET_STORE=true | Enable security flag (optional, security enabled by default) |
+
+Security is enabled by default, but some developers run EdgeX =
+with `EDGEX_SECURITY_SECRET_STORE=false` set in their environments.
+The above command ensures that security is enabled for this particular run of the EdgeX microservice.
+
+The defaults are loaded from `res/configuration.toml` and then the environment variables override the defaults.
+
+* Both Kong and the microservice need to agree on the host were the microservice lives. To that end, if you are mixing container based infrastructure (e.g. Kong) and native microservices you will need to do the following
+  * Tell the Kong container about the host (assume its 10.138.0.2 in this example). Add the following to the Kong entry in the compose file
+  
+  ```yaml
+  extra_hosts:
+      - ""edgex-core-metadata:10.138.0.2""
+      - ""edgex-core-data:10.138.0.2""
+      - ""edgex-core-command:10.138.0.2""
+  ```
+
+  and add the following to the environment section
+
+  ```yaml
+  - 'Clients_CoreData_Host: edgex-core-data'
+  - 'Clients_Logging_Host: edgex-support-logging'
+  - 'Clients_Notifications_Host: edgex-support-notifications'
+  - 'Clients_Metadata_Host: edgex-core-metadata'
+  - 'Clients_Command_Host: edgex-core-command'
+  - 'Clients_Scheduler_Host: edgex-support-scheduler'
+  ```
+
+  * Tell the OS about the host by adding the following to `/etc/hosts`
+
+  ```sh
+  10.138.0.2    edgex-core-data
+  10.138.0.2    edgex-core-metadata
+  10.138.0.2    edgex-core-command
+  ```
+
+  and tell the microservice about the host (only core-metadata shown here)
+
+  ```sh
+  export Clients_Metadata_Host=edgex-core-metadata
+  ```
+
+## Community
+
+* Chat: <https://edgexfoundry.slack.com/>
+* Mailing lists: [https://lists.edgexfoundry.org/mailman/listinfo](https://lists.edgexfoundry.org/mailman/listinfo)
+
+## License
+
+[Apache-2.0](LICENSE)
+","# EdgeX Security Policy
+
+## Supported Versions
+
+Not every EdgeX release receives security support.
+Please consult the EdgeX Foundry Wiki for information on the
+[EdgeX Long Term Support Policy](https://wiki.edgexfoundry.org/pages/viewpage.action?pageId=69173332).
+
+
+## Reporting Vulnerabilities
+
+Instructions to report a vulnerability may be found on the
+[security page of the EdgeX Foundry Wiki](https://wiki.edgexfoundry.org/display/FA/Security).
+
+
+## Questions
+
+Questions on the EdgeX security policy can be raised in the
+[EdgeX Security Working Group](https://wiki.edgexfoundry.org/display/FA/Security+Working+Group?src=contextnavpagetreemode)
+or to the 
+[EdgeX Technical Steering Committee](https://wiki.edgexfoundry.org/pages/viewpage.action?pageId=329436&src=contextnavpagetreemode).",6298,b edgexfoundry/edgex-go b576a02ca2f5f3e2ac8b865ecd25ab8a497027dc

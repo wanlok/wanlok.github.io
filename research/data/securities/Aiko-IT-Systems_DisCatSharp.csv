@@ -1,0 +1,228 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+Aiko-IT-Systems/DisCatSharp,SECURITY.md,ef8214e2a5530b5fb08b60f34ca4260a8ca2e44b,2021-07-14 02:39:16+00:00,,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 5.5.x   | :white_check_mark: |
+| < 5.5   | :x:                |
+
+## Reporting a Vulnerability
+
+Write an mail to security-dspng@aitsys.dev or open an issue https://github.com/Aiko-IT-Systems/DSharpPlusNextGen/issues/new
+",329,b Aiko-IT-Systems/DisCatSharp ef8214e2a5530b5fb08b60f34ca4260a8ca2e44b
+Aiko-IT-Systems/DisCatSharp,SECURITY.md,8076f2589f34a4c548b57025c98c48f6a3d0a803,2021-07-20 23:01:40+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 5.5.x   | :white_check_mark: |
+| < 5.5   | :x:                |
+
+## Reporting a Vulnerability
+
+Write an mail to security-dspng@aitsys.dev or open an issue https://github.com/Aiko-IT-Systems/DSharpPlusNextGen/issues/new
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 5.5.x   | :white_check_mark: |
+| < 5.5   | :x:                |
+
+## Reporting a Vulnerability
+
+Write an mail to security-dcs@aitsys.dev or open an issue https://github.com/Aiko-IT-Systems/DisCatSharp/issues/new
+",20,b Aiko-IT-Systems/DisCatSharp 8076f2589f34a4c548b57025c98c48f6a3d0a803
+Aiko-IT-Systems/DisCatSharp,SECURITY.md,6d39b110e2e3704c1d429114ceb9dda8444cbf0b,2021-07-22 23:37:20+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 5.5.x   | :white_check_mark: |
+| < 5.5   | :x:                |
+
+## Reporting a Vulnerability
+
+Write an mail to security-dcs@aitsys.dev or open an issue https://github.com/Aiko-IT-Systems/DisCatSharp/issues/new
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| > 9.6   | :white_check_mark: |
+| 9.6.0   | :white_check_mark: |
+| < 9.5   | :x:                |
+
+## Reporting a Vulnerability
+
+Write an mail to security-dcs@aitsys.dev or open an issue https://github.com/Aiko-IT-Systems/DisCatSharp/issues/new
+",37,b Aiko-IT-Systems/DisCatSharp 6d39b110e2e3704c1d429114ceb9dda8444cbf0b
+Aiko-IT-Systems/DisCatSharp,SECURITY.md,a9b349db948a52fbc83599b40d1e8b4a656a0805,2021-08-30 09:35:00+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| > 9.6   | :white_check_mark: |
+| 9.6.0   | :white_check_mark: |
+| < 9.5   | :x:                |
+
+## Reporting a Vulnerability
+
+Write an mail to security-dcs@aitsys.dev or open an issue https://github.com/Aiko-IT-Systems/DisCatSharp/issues/new
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| > 9.8   | :white_check_mark: |
+|   9.7   | :white_check_mark: |
+| < 9.5   | :x:                |
+
+## Reporting a Vulnerability
+
+Write an mail to security-dcs@aitsys.dev or open an ticket at our guild.
+",59,b Aiko-IT-Systems/DisCatSharp a9b349db948a52fbc83599b40d1e8b4a656a0805
+Aiko-IT-Systems/DisCatSharp,SECURITY.md,846ec36faa73e785640f186b5b380185a5dc7b15,2021-08-30 10:19:43+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| > 9.8   | :white_check_mark: |
+|   9.7   | :white_check_mark: |
+| < 9.5   | :x:                |
+
+## Reporting a Vulnerability
+
+Write an mail to security-dcs@aitsys.dev or open an ticket at our guild.
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| > 9.8   | :white_check_mark: |
+|   9.7   | :white_check_mark: |
+| < 9.7   | :x:                |
+
+## Reporting a Vulnerability
+
+Write an mail to security-dcs@aitsys.dev or open an ticket at our guild.
+",1,b Aiko-IT-Systems/DisCatSharp 846ec36faa73e785640f186b5b380185a5dc7b15
+Aiko-IT-Systems/DisCatSharp,SECURITY.md,49cf15e00aa19a448617480d5a9502473fda6175,2021-09-17 10:35:42+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| > 9.8   | :white_check_mark: |
+|   9.7   | :white_check_mark: |
+| < 9.7   | :x:                |
+
+## Reporting a Vulnerability
+
+Write an mail to security-dcs@aitsys.dev or open an ticket at our guild.
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| > 9.8   | :white_check_mark: |
+|   9.7   | :white_check_mark: |
+| < 9.7   | :x:                |
+
+## Reporting a Vulnerability
+
+Write an mail to security-dcs@aitsys.dev or open an ticket at our [guild](https://discord.gg/discatsharp).
+",34,b Aiko-IT-Systems/DisCatSharp 49cf15e00aa19a448617480d5a9502473fda6175
+Aiko-IT-Systems/DisCatSharp,SECURITY.md,0be62491b5304e2aefa03518aaae3d1f8f130b70,2021-12-08 05:32:28+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| > 9.8   | :white_check_mark: |
+|   9.7   | :white_check_mark: |
+| < 9.7   | :x:                |
+
+## Reporting a Vulnerability
+
+Write an mail to security-dcs@aitsys.dev or open an ticket at our [guild](https://discord.gg/discatsharp).
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| > 9.8   | :white_check_mark: |
+|   9.7   | :white_check_mark: |
+| < 9.7   | :x:                |
+
+## Reporting a Vulnerability
+
+Write an mail to support@aitsys.dev or open an ticket at our [guild](https://discord.gg/discatsharp).
+",10,b Aiko-IT-Systems/DisCatSharp 0be62491b5304e2aefa03518aaae3d1f8f130b70
+Aiko-IT-Systems/DisCatSharp,SECURITY.md,575d6a679fc038f07a26785f15794f20f5d35fff,2022-01-12 18:30:43+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| > 9.8   | :white_check_mark: |
+|   9.7   | :white_check_mark: |
+| < 9.7   | :x:                |
+
+## Reporting a Vulnerability
+
+Write an mail to support@aitsys.dev or open an ticket at our [guild](https://discord.gg/discatsharp).
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| > 9.8   | :white_check_mark: |
+|   9.7   | :white_check_mark: |
+| < 9.7   | :x:                |
+
+## Reporting a Vulnerability
+
+Write an mail to support@aitsys.dev or open an ticket at our [guild](https://discord.gg/U4BGHpKSF7).
+",11,b Aiko-IT-Systems/DisCatSharp 575d6a679fc038f07a26785f15794f20f5d35fff
+Aiko-IT-Systems/DisCatSharp,SECURITY.md,972c779f1e87ec7d25b8b79ace72b9cbba8a556e,2022-05-24 03:34:57+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| > 9.8   | :white_check_mark: |
+|   9.7   | :white_check_mark: |
+| < 9.7   | :x:                |
+
+## Reporting a Vulnerability
+
+Write an mail to support@aitsys.dev or open an ticket at our [guild](https://discord.gg/U4BGHpKSF7).
+",,339,b Aiko-IT-Systems/DisCatSharp 972c779f1e87ec7d25b8b79ace72b9cbba8a556e
+Aiko-IT-Systems/DisCatSharp,.github/SECURITY.md,972c779f1e87ec7d25b8b79ace72b9cbba8a556e,2022-05-24 03:34:57+00:00,,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| > 9.8   | :white_check_mark: |
+|   9.7   | :white_check_mark: |
+| < 9.7   | :x:                |
+
+## Reporting a Vulnerability
+
+Write an mail to support@aitsys.dev or open an ticket at our guild.
+",306,b Aiko-IT-Systems/DisCatSharp 972c779f1e87ec7d25b8b79ace72b9cbba8a556e

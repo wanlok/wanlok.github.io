@@ -18,7 +18,7 @@ The Jenkins security team will then file an issue on your behalf, and will work 
 ## Learn More
 
 For further details about our scope, issue handling process, or disclosure process, see [Reporting Security Vulnerabilities on jenkins.io](https://jenkins.io/security/reporting/).
-",1339,b jenkinsci/jenkins e914f4d3a7ca189d3a900f59a6a168caf6cbccd5
+",1339,b jenkinsci/.github e914f4d3a7ca189d3a900f59a6a168caf6cbccd5
 jenkinsci/.github,SECURITY.md,82409a89ac6aff80d1d619c6167393ac3f07c61f,2021-03-20 17:13:38+00:00,"# Security Policy
 
 The Jenkins project takes security seriously.
@@ -57,4 +57,4 @@ The Jenkins security team will then file an issue on your behalf, and will work 
 ## Learn More
 
 For further details about our scope, issue handling process, or disclosure process, see [Reporting Security Vulnerabilities on jenkins.io](https://jenkins.io/security/reporting/).
-",5,b jenkinsci/jenkins 82409a89ac6aff80d1d619c6167393ac3f07c61f
+",5,b jenkinsci/.github 82409a89ac6aff80d1d619c6167393ac3f07c61f

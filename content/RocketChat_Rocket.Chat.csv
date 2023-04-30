@@ -1,0 +1,9 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+RocketChat/Rocket.Chat,SECURITY.md,b2d6757e8ac4dce38586ea1de57879040c2f9d53,2015-11-12 05:53:27+00:00,,"# Reporting Security Issues
+
+Please report any security issues you discovered to security[at]rocket[dot]chat
+
+We will assess the risk, plus make a fix available before we create a GitHub issue.
+
+Thank you for your contribution.
+",228,b RocketChat/Rocket.Chat b2d6757e8ac4dce38586ea1de57879040c2f9d53

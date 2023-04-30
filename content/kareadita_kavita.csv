@@ -1,0 +1,35 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+kareadita/kavita,SECURITY.md,6787ea6b66fc82f62e3b26dc65e1ababbe796a4d,2022-08-07 15:56:37+00:00,,"# Security Policy
+
+## Supported Versions
+
+Security is maintained on latest stable version only.
+
+## Reporting a Vulnerability
+
+Use this section to tell people how to report a vulnerability.
+
+Please reach out via majora2007@users.noreply.github.com or via our discord (majora2007)
+",280,b kareadita/kavita 6787ea6b66fc82f62e3b26dc65e1ababbe796a4d
+kareadita/kavita,SECURITY.md,88b5ebeb69c4d408f2e813510dbac938e578333b,2022-08-08 20:47:37+00:00,"# Security Policy
+
+## Supported Versions
+
+Security is maintained on latest stable version only.
+
+## Reporting a Vulnerability
+
+Use this section to tell people how to report a vulnerability.
+
+Please reach out via majora2007@users.noreply.github.com or via our discord (majora2007)
+","# Security Policy
+
+## Supported Versions
+
+Security is maintained on latest stable version only. 
+
+## Reporting a Vulnerability
+
+
+Please reach out to majora2007 via our Discord or you can (and should) report your vulnerability via [Huntr](https://huntr.dev/repos/kareadita/kavita).
+",129,b kareadita/kavita 88b5ebeb69c4d408f2e813510dbac938e578333b

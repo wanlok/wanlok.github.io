@@ -1,0 +1,7 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+yuda-lyu/w-zip,SECURITY.md,f66eccb815dffb96774b30b9347d44ed7eeb8df9,2021-10-12 02:40:11+00:00,,"# Security Policy
+
+## Reporting a Vulnerability
+
+Please report security issues to `firsemisphere@gmail.com`
+",108,b yuda-lyu/w-zip f66eccb815dffb96774b30b9347d44ed7eeb8df9

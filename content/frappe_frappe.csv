@@ -1,0 +1,22 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+frappe/frappe,SECURITY.md,a42283db994dda89be73b8ef16b3e97058898c29,2019-10-12 06:36:36+00:00,,"# Security Policy
+
+The Frappe team and community take security issues in the Frappe Framework seriously. To report a security issue, fill out the form at [https://erpnext.com/security/report](https://erpnext.com/security/report).
+
+You can help us make Frappe and consequently all Frappe dependent apps like [ERPNext](https://erpnext.com) more secure by following the [Reporting guidelines](https://erpnext.com/security).
+
+We appreciate your efforts to responsibly disclose your findings. We'll endeavor to respond quickly, and will keep you updated throughout the process.",572,b frappe/frappe a42283db994dda89be73b8ef16b3e97058898c29
+frappe/frappe,SECURITY.md,0d62cbb470bc3fefe26dc54d9dc6bfd893f4fa31,2023-01-10 11:19:44+00:00,"# Security Policy
+
+The Frappe team and community take security issues in the Frappe Framework seriously. To report a security issue, fill out the form at [https://erpnext.com/security/report](https://erpnext.com/security/report).
+
+You can help us make Frappe and consequently all Frappe dependent apps like [ERPNext](https://erpnext.com) more secure by following the [Reporting guidelines](https://erpnext.com/security).
+
+We appreciate your efforts to responsibly disclose your findings. We'll endeavor to respond quickly, and will keep you updated throughout the process.","# Security Policy
+
+The Frappe team and community take security issues in the Frappe Framework seriously. To report a security issue, please go through the information mentioned [here](https://frappe.io/security).
+
+You can help us make Frappe and consequently all Frappe dependent apps like [ERPNext](https://erpnext.com) more secure by following the [Reporting guidelines](https://erpnext.com/security).
+
+We appreciate your efforts to responsibly disclose your findings. We'll endeavor to respond quickly, and will keep you updated throughout the process.
+",61,b frappe/frappe 0d62cbb470bc3fefe26dc54d9dc6bfd893f4fa31

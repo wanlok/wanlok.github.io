@@ -1,0 +1,658 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+highlightjs/highlight.js,SECURITY.md,f998a50363487bfab777290af33a148286984c37,2020-10-31 12:29:58+00:00,,"# Security Policy
+
+## Supported Versions
+
+Due to both time and resource constrains the Highlight.js core team only fully supports the most current major/minor release of the library.  Problems with prior minor releases are often solved by upgrading to the most recent minor release.  Prior major release will only receive critical security updates (when feasible).
+
+| Version  |     | Status  |
+| :-----:  | :-: | :------ |
+| 10.3.x   | :white_check_mark: |  The 10.x series recieves regular updates, new features & bug fixes. |
+| <= 10.2.x  | :x: | *Please upgrade to a more recent release.* |
+| 9.18.x   | :closed_lock_with_key: | Security updates only.  See [VERSION_10_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_10_UPGRADE.md). |
+| <= 9.17.x | :x: | Obsolete. |
+| 8.x      | :x: | Obsolete. |
+| 7.x      | :x: | Obsolete. |
+| Older    | :x: | Obsolete. |
+
+### Version 9
+
+Support for IE11 is really the only reason anyone should still prefer version 9. It's recommended that everyone else upgrade.
+
+
+## Reporting a Vulnerability
+
+Minor vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+",1351,b highlightjs/highlight.js f998a50363487bfab777290af33a148286984c37
+highlightjs/highlight.js,SECURITY.md,4055826e7a66c960565c4f56fcc62616c6451fad,2020-11-18 18:58:34+00:00,"# Security Policy
+
+## Supported Versions
+
+Due to both time and resource constrains the Highlight.js core team only fully supports the most current major/minor release of the library.  Problems with prior minor releases are often solved by upgrading to the most recent minor release.  Prior major release will only receive critical security updates (when feasible).
+
+| Version  |     | Status  |
+| :-----:  | :-: | :------ |
+| 10.3.x   | :white_check_mark: |  The 10.x series recieves regular updates, new features & bug fixes. |
+| <= 10.2.x  | :x: | *Please upgrade to a more recent release.* |
+| 9.18.x   | :closed_lock_with_key: | Security updates only.  See [VERSION_10_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_10_UPGRADE.md). |
+| <= 9.17.x | :x: | Obsolete. |
+| 8.x      | :x: | Obsolete. |
+| 7.x      | :x: | Obsolete. |
+| Older    | :x: | Obsolete. |
+
+### Version 9
+
+Support for IE11 is really the only reason anyone should still prefer version 9. It's recommended that everyone else upgrade.
+
+
+## Reporting a Vulnerability
+
+Minor vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+","# Security Policy
+
+## Supported Versions
+
+Due to both time and resource constrains the Highlight.js core team only fully supports the most current major/minor release of the library.  Problems with prior minor releases are often resolved by upgrading to the most recent minor release.  Prior major release will only receive critical security updates (when feasible).
+
+| Version  | Supported    | Status  |
+| :-----:  | :-: | :------ |
+| 10.4.x   | :white_check_mark: |  The 10.x series recieves regular updates, new features & bug fixes. |
+| <= 10.3.x  | :x: | *Please upgrade to the latest 10.x release.* |
+| 9.18.x   | :closed_lock_with_key: | Security updates only.  See [VERSION_10_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_10_UPGRADE.md). |
+| <= 9.17.x | :x: | Obsolete. |
+| Older    | :x: | Obsolete. |
+
+### Version 9
+
+Support for IE11 is really the only reason anyone should still prefer version 9. It's recommended that everyone else upgrade.
+
+
+## Reporting a Vulnerability
+
+Minor vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+",88,b highlightjs/highlight.js 4055826e7a66c960565c4f56fcc62616c6451fad
+highlightjs/highlight.js,SECURITY.md,81025e2c4384766452f626d44000c7f0a69b50e3,2020-11-18 20:21:16+00:00,"# Security Policy
+
+## Supported Versions
+
+Due to both time and resource constrains the Highlight.js core team only fully supports the most current major/minor release of the library.  Problems with prior minor releases are often resolved by upgrading to the most recent minor release.  Prior major release will only receive critical security updates (when feasible).
+
+| Version  | Supported    | Status  |
+| :-----:  | :-: | :------ |
+| 10.4.x   | :white_check_mark: |  The 10.x series recieves regular updates, new features & bug fixes. |
+| <= 10.3.x  | :x: | *Please upgrade to the latest 10.x release.* |
+| 9.18.x   | :closed_lock_with_key: | Security updates only.  See [VERSION_10_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_10_UPGRADE.md). |
+| <= 9.17.x | :x: | Obsolete. |
+| Older    | :x: | Obsolete. |
+
+### Version 9
+
+Support for IE11 is really the only reason anyone should still prefer version 9. It's recommended that everyone else upgrade.
+
+
+## Reporting a Vulnerability
+
+Minor vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+","# Security Policy
+
+## Supported Versions
+
+Due to both time and resource constrains the Highlight.js core team only fully supports the current major/minor release of the library.  Problems with minor releases are often resolved by upgrading to the most recent release.
+
+| Version  | Supported  | Status  |
+| :-----:  | :-: | :------ |
+| 10.4.x   | :white_check_mark: &nbsp; :closed_lock_with_key: |  The 10.x series recieves regular updates, new features & bug fixes. |
+| <= 10.3.x  | :x: | *Please upgrade to a more recent 10.x release.* |
+| 9.18.4   | :x: |  [EOL](https://github.com/highlightjs/highlight.js/issues/2877). No longer supported. See [VERSION_10_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_10_UPGRADE.md). |
+| <= 9.18.3 | :x: | No longer supported.  Known vulnerabities. |
+| <= 8.x    | :x: | Obsolete. |
+
+
+## Reporting a Vulnerability
+
+Minor vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+",371,b highlightjs/highlight.js 81025e2c4384766452f626d44000c7f0a69b50e3
+highlightjs/highlight.js,SECURITY.md,b76946200e88593c7321369c6dac577ed9a191f1,2020-11-19 19:16:10+00:00,"# Security Policy
+
+## Supported Versions
+
+Due to both time and resource constrains the Highlight.js core team only fully supports the current major/minor release of the library.  Problems with minor releases are often resolved by upgrading to the most recent release.
+
+| Version  | Supported  | Status  |
+| :-----:  | :-: | :------ |
+| 10.4.x   | :white_check_mark: &nbsp; :closed_lock_with_key: |  The 10.x series recieves regular updates, new features & bug fixes. |
+| <= 10.3.x  | :x: | *Please upgrade to a more recent 10.x release.* |
+| 9.18.4   | :x: |  [EOL](https://github.com/highlightjs/highlight.js/issues/2877). No longer supported. See [VERSION_10_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_10_UPGRADE.md). |
+| <= 9.18.3 | :x: | No longer supported.  Known vulnerabities. |
+| <= 8.x    | :x: | Obsolete. |
+
+
+## Reporting a Vulnerability
+
+Minor vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+","# Security Policy
+
+## Supported Versions
+
+Due to both time and resource constrains the Highlight.js core team only fully supports the current major/minor release of the library.  Problems with minor releases are often resolved by upgrading to the most recent release.
+
+| Version  | Supported  | Status  |
+| :-----:  | :-: | :------ |
+| 10.4.x   | :white_check_mark: &nbsp; :closed_lock_with_key: |  The 10.x series recieves regular updates, new features & bug fixes. |
+| <= 10.3.x  | :x: | *Please upgrade to a more recent 10.x release.* |
+| 9.18.5   | :x: |  [EOL](https://github.com/highlightjs/highlight.js/issues/2877). No longer supported. See [VERSION_10_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_10_UPGRADE.md). |
+| <= 9.18.3 | :x: | No longer supported.  Known vulnerabities. |
+| <= 8.x    | :x: | Obsolete. |
+
+
+## Reporting a Vulnerability
+
+Minor vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+",1,b highlightjs/highlight.js b76946200e88593c7321369c6dac577ed9a191f1
+highlightjs/highlight.js,SECURITY.md,bcd9d2119c728c54d43cd280cfa0bdfb9f8722ed,2020-12-03 17:39:26+00:00,"# Security Policy
+
+## Supported Versions
+
+Due to both time and resource constrains the Highlight.js core team only fully supports the current major/minor release of the library.  Problems with minor releases are often resolved by upgrading to the most recent release.
+
+| Version  | Supported  | Status  |
+| :-----:  | :-: | :------ |
+| 10.4.x   | :white_check_mark: &nbsp; :closed_lock_with_key: |  The 10.x series recieves regular updates, new features & bug fixes. |
+| <= 10.3.x  | :x: | *Please upgrade to a more recent 10.x release.* |
+| 9.18.5   | :x: |  [EOL](https://github.com/highlightjs/highlight.js/issues/2877). No longer supported. See [VERSION_10_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_10_UPGRADE.md). |
+| <= 9.18.3 | :x: | No longer supported.  Known vulnerabities. |
+| <= 8.x    | :x: | Obsolete. |
+
+
+## Reporting a Vulnerability
+
+Minor vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+","# Security Policy
+
+## Supported Versions
+
+Due to both time and resource constrains the Highlight.js core team only fully supports the current major/minor release of the library.  Problems with minor releases are often resolved by upgrading to the most recent release.
+
+| Version  | Supported  | Status  |
+| :-----:  | :-: | :------ |
+| 10.4.1   | :white_check_mark: &nbsp; :closed_lock_with_key: |  The 10.x series recieves regular updates, new features & bug fixes. |
+| <= 10.4.0  | :x: | Known vulnerabities.  *Please upgrade to a more recent 10.x release.* |
+| 9.18.5   | :x: |  [EOL](https://github.com/highlightjs/highlight.js/issues/2877). No longer supported. See [VERSION_10_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_10_UPGRADE.md). |
+| <= 9.18.3 | :x: | No longer supported.  Known vulnerabities. |
+| <= 8.x    | :x: | Obsolete. |
+
+
+## Reporting a Vulnerability
+
+Minor vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+",25,b highlightjs/highlight.js bcd9d2119c728c54d43cd280cfa0bdfb9f8722ed
+highlightjs/highlight.js,SECURITY.md,f863bce29af47cc6f674e80bee83dde73cc57bf1,2020-12-23 17:53:06+00:00,"# Security Policy
+
+## Supported Versions
+
+Due to both time and resource constrains the Highlight.js core team only fully supports the current major/minor release of the library.  Problems with minor releases are often resolved by upgrading to the most recent release.
+
+| Version  | Supported  | Status  |
+| :-----:  | :-: | :------ |
+| 10.4.1   | :white_check_mark: &nbsp; :closed_lock_with_key: |  The 10.x series recieves regular updates, new features & bug fixes. |
+| <= 10.4.0  | :x: | Known vulnerabities.  *Please upgrade to a more recent 10.x release.* |
+| 9.18.5   | :x: |  [EOL](https://github.com/highlightjs/highlight.js/issues/2877). No longer supported. See [VERSION_10_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_10_UPGRADE.md). |
+| <= 9.18.3 | :x: | No longer supported.  Known vulnerabities. |
+| <= 8.x    | :x: | Obsolete. |
+
+
+## Reporting a Vulnerability
+
+Minor vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+","# Security Policy
+
+## Supported Versions
+
+Due to both time and resource constrains the Highlight.js core team only fully supports the current major/minor release of the library.  Problems with minor releases are often resolved by upgrading to the most recent release.
+
+| Version  | Supported  | Status  |
+| :-----:  | :-: | :------ |
+| 10.5.0   | :white_check_mark: &nbsp; :closed_lock_with_key: |  The 10.x series recieves regular updates, new features & bug fixes. |
+| <= 10.4.0  | :x: | Known vulnerabities.  *Please upgrade to a more recent 10.x release.* |
+| 9.18.5   | :x: |  [EOL](https://github.com/highlightjs/highlight.js/issues/2877). No longer supported. See [VERSION_10_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_10_UPGRADE.md). |
+| <= 9.18.3 | :x: | No longer supported.  Known vulnerabities. |
+| <= 8.x    | :x: | Obsolete. |
+
+
+## Reporting a Vulnerability
+
+Minor vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+",2,b highlightjs/highlight.js f863bce29af47cc6f674e80bee83dde73cc57bf1
+highlightjs/highlight.js,SECURITY.md,aa03ebd45162cc8ecb49cb934f38f25e321b3720,2021-02-08 13:16:26+00:00,"# Security Policy
+
+## Supported Versions
+
+Due to both time and resource constrains the Highlight.js core team only fully supports the current major/minor release of the library.  Problems with minor releases are often resolved by upgrading to the most recent release.
+
+| Version  | Supported  | Status  |
+| :-----:  | :-: | :------ |
+| 10.5.0   | :white_check_mark: &nbsp; :closed_lock_with_key: |  The 10.x series recieves regular updates, new features & bug fixes. |
+| <= 10.4.0  | :x: | Known vulnerabities.  *Please upgrade to a more recent 10.x release.* |
+| 9.18.5   | :x: |  [EOL](https://github.com/highlightjs/highlight.js/issues/2877). No longer supported. See [VERSION_10_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_10_UPGRADE.md). |
+| <= 9.18.3 | :x: | No longer supported.  Known vulnerabities. |
+| <= 8.x    | :x: | Obsolete. |
+
+
+## Reporting a Vulnerability
+
+Minor vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+","# Security Policy
+
+## Supported Versions
+
+Due to both time and resource constrains the Highlight.js core team only fully supports the current major/minor release of the library.  Problems with minor releases are often resolved by upgrading to the most recent release.
+
+| Version  | Supported  | Status  |
+| :-----:  | :-: | :------ |
+| 10.6.0   | :white_check_mark: &nbsp; :closed_lock_with_key: |  The 10.x series recieves regular updates, new features & bug fixes. |
+| <= 10.4.0  | :x: | Known vulnerabities.  *Please upgrade to a more recent 10.x release.* |
+| 9.18.5   | :x: |  [EOL](https://github.com/highlightjs/highlight.js/issues/2877). No longer supported. See [VERSION_10_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_10_UPGRADE.md). |
+| <= 9.18.3 | :x: | No longer supported.  Known vulnerabities. |
+| <= 8.x    | :x: | Obsolete. |
+
+
+## Reporting a Vulnerability
+
+Minor vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+",1,b highlightjs/highlight.js aa03ebd45162cc8ecb49cb934f38f25e321b3720
+highlightjs/highlight.js,SECURITY.md,23ae72c7993b4b3fe433b74410ab39a7413fc68d,2021-03-18 17:28:13+00:00,"# Security Policy
+
+## Supported Versions
+
+Due to both time and resource constrains the Highlight.js core team only fully supports the current major/minor release of the library.  Problems with minor releases are often resolved by upgrading to the most recent release.
+
+| Version  | Supported  | Status  |
+| :-----:  | :-: | :------ |
+| 10.6.0   | :white_check_mark: &nbsp; :closed_lock_with_key: |  The 10.x series recieves regular updates, new features & bug fixes. |
+| <= 10.4.0  | :x: | Known vulnerabities.  *Please upgrade to a more recent 10.x release.* |
+| 9.18.5   | :x: |  [EOL](https://github.com/highlightjs/highlight.js/issues/2877). No longer supported. See [VERSION_10_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_10_UPGRADE.md). |
+| <= 9.18.3 | :x: | No longer supported.  Known vulnerabities. |
+| <= 8.x    | :x: | Obsolete. |
+
+
+## Reporting a Vulnerability
+
+Minor vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+","# Security Policy
+
+## Supported Versions
+
+Due to both time and resource constrains the Highlight.js core team only fully supports the current major/minor release of the library.  Problems with minor releases are often resolved by upgrading to the most recent release.
+
+| Version  | Supported  | Status  |
+| :-----:  | :-: | :------ |
+| 10.6.0   | :white_check_mark: &nbsp; :closed_lock_with_key: |  The 10.x series recieves regular updates, new features & bug fixes. |
+| <= 10.4.0  | :x: | Known vulnerabities.  *Please upgrade to a more recent 10.x release.* |
+| 9.18.5   | :x: |  [EOL](https://github.com/highlightjs/highlight.js/issues/2877). No longer supported. See [VERSION_10_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/main/VERSION_10_UPGRADE.md). |
+| <= 9.18.3 | :x: | No longer supported.  Known vulnerabities. |
+| <= 8.x    | :x: | Obsolete. |
+
+
+## Reporting a Vulnerability
+
+Minor vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+",4,b highlightjs/highlight.js 23ae72c7993b4b3fe433b74410ab39a7413fc68d
+highlightjs/highlight.js,SECURITY.md,7ec45af1c08ae20340fb2992e5dca0e46c27c425,2021-03-20 13:08:17+00:00,"# Security Policy
+
+## Supported Versions
+
+Due to both time and resource constrains the Highlight.js core team only fully supports the current major/minor release of the library.  Problems with minor releases are often resolved by upgrading to the most recent release.
+
+| Version  | Supported  | Status  |
+| :-----:  | :-: | :------ |
+| 10.6.0   | :white_check_mark: &nbsp; :closed_lock_with_key: |  The 10.x series recieves regular updates, new features & bug fixes. |
+| <= 10.4.0  | :x: | Known vulnerabities.  *Please upgrade to a more recent 10.x release.* |
+| 9.18.5   | :x: |  [EOL](https://github.com/highlightjs/highlight.js/issues/2877). No longer supported. See [VERSION_10_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/main/VERSION_10_UPGRADE.md). |
+| <= 9.18.3 | :x: | No longer supported.  Known vulnerabities. |
+| <= 8.x    | :x: | Obsolete. |
+
+
+## Reporting a Vulnerability
+
+Minor vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+","# Security Policy
+
+## Supported Versions
+
+Due to both time and resource constrains the Highlight.js core team only fully supports the current major/minor release of the library.  Problems with minor releases are often resolved by upgrading to the most recent release.
+
+| Version  | Supported  | Status  |
+| :-----:  | :-: | :------ |
+| 10.7.0   | :white_check_mark: &nbsp; :closed_lock_with_key: |  The 10.x series recieves regular updates, new features & bug fixes. |
+| <= 10.4.0  | :x: | Known vulnerabities.  *Please upgrade to a more recent 10.x release.* |
+| 9.18.5   | :x: |  [EOL](https://github.com/highlightjs/highlight.js/issues/2877). No longer supported. See [VERSION_10_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/main/VERSION_10_UPGRADE.md). |
+| <= 9.18.3 | :x: | No longer supported.  Known vulnerabities. |
+| <= 8.x    | :x: | Obsolete. |
+
+
+## Reporting a Vulnerability
+
+Minor vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+",1,b highlightjs/highlight.js 7ec45af1c08ae20340fb2992e5dca0e46c27c425
+highlightjs/highlight.js,SECURITY.md,421b23b0ae15b55b4fd1a1b3187d5e6ba0c54cf8,2021-03-21 08:19:12+00:00,"# Security Policy
+
+## Supported Versions
+
+Due to both time and resource constrains the Highlight.js core team only fully supports the current major/minor release of the library.  Problems with minor releases are often resolved by upgrading to the most recent release.
+
+| Version  | Supported  | Status  |
+| :-----:  | :-: | :------ |
+| 10.7.0   | :white_check_mark: &nbsp; :closed_lock_with_key: |  The 10.x series recieves regular updates, new features & bug fixes. |
+| <= 10.4.0  | :x: | Known vulnerabities.  *Please upgrade to a more recent 10.x release.* |
+| 9.18.5   | :x: |  [EOL](https://github.com/highlightjs/highlight.js/issues/2877). No longer supported. See [VERSION_10_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/main/VERSION_10_UPGRADE.md). |
+| <= 9.18.3 | :x: | No longer supported.  Known vulnerabities. |
+| <= 8.x    | :x: | Obsolete. |
+
+
+## Reporting a Vulnerability
+
+Minor vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+","# Security Policy
+
+## Supported Versions
+
+Due to both time and resource constrains the Highlight.js core team only fully supports the current major/minor release of the library.  Problems with minor releases are often resolved by upgrading to the most recent release.
+
+| Version  | Supported  | Status  |
+| :-----:  | :-: | :------ |
+| 10.7.1   | :white_check_mark: &nbsp; :closed_lock_with_key: |  The 10.x series recieves regular updates, new features & bug fixes. |
+| <= 10.4.0  | :x: | Known vulnerabities.  *Please upgrade to a more recent 10.x release.* |
+| 9.18.5   | :x: |  [EOL](https://github.com/highlightjs/highlight.js/issues/2877). No longer supported. See [VERSION_10_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/main/VERSION_10_UPGRADE.md). |
+| <= 9.18.3 | :x: | No longer supported.  Known vulnerabities. |
+| <= 8.x    | :x: | Obsolete. |
+
+
+## Reporting a Vulnerability
+
+Minor vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+",1,b highlightjs/highlight.js 421b23b0ae15b55b4fd1a1b3187d5e6ba0c54cf8
+highlightjs/highlight.js,SECURITY.md,b38097c9d9e24b39fe24c8bcf89d0412e5a8bf95,2021-04-13 11:27:38+00:00,"# Security Policy
+
+## Supported Versions
+
+Due to both time and resource constrains the Highlight.js core team only fully supports the current major/minor release of the library.  Problems with minor releases are often resolved by upgrading to the most recent release.
+
+| Version  | Supported  | Status  |
+| :-----:  | :-: | :------ |
+| 10.7.1   | :white_check_mark: &nbsp; :closed_lock_with_key: |  The 10.x series recieves regular updates, new features & bug fixes. |
+| <= 10.4.0  | :x: | Known vulnerabities.  *Please upgrade to a more recent 10.x release.* |
+| 9.18.5   | :x: |  [EOL](https://github.com/highlightjs/highlight.js/issues/2877). No longer supported. See [VERSION_10_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/main/VERSION_10_UPGRADE.md). |
+| <= 9.18.3 | :x: | No longer supported.  Known vulnerabities. |
+| <= 8.x    | :x: | Obsolete. |
+
+
+## Reporting a Vulnerability
+
+Minor vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+","# Security Policy
+
+Due to both time and resource constrains the Highlight.js core team fully supports only the current major/minor release of the library.  Prior major releases may be supported for a short time after new major releases are issued.  Problems with minor releases are often resolved by upgrading to the most recent release.
+
+### Supported Versions
+
+| Version  | | Status  |
+| :-----:  | :-: | :------ |
+| 11.0   | :fire: :pray: |  The 11.x series is currently in alpha. <br>See [VERSION_11_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_11_UPGRADE.md). |
+| 10.7.1   | :white_check_mark: |  The 10.x series recieves regular updates, new features & security fixes. |
+| <= 10.4.0  | :x: | Known vulnerabities. |
+| 9.18.5   | :x: | [EOL](https://github.com/highlightjs/highlight.js/issues/2877). No longer supported. |
+| <= 9.18.3 | :x: | Known vulnerabities. |
+| <= 8.x    | :x: | Obsolete. Known vulnerabities. |
+
+
+### Reporting a Vulnerability
+
+Many vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+<!--
+| 11.0   | :white_check_mark: |  The 11.x series recieves regular updates, new features & security fixes. |
+| 10.7.1   | :white_check_mark: |  The 10.x series is in maintence mode.  EOL TBD.<br>See [VERSION_11_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_11_UPGRADE.md).|
+
+-->
+",855,b highlightjs/highlight.js b38097c9d9e24b39fe24c8bcf89d0412e5a8bf95
+highlightjs/highlight.js,SECURITY.md,3ff2bdb310e2058738446aeb9a166019871af9a5,2021-04-22 19:10:38+00:00,"# Security Policy
+
+Due to both time and resource constrains the Highlight.js core team fully supports only the current major/minor release of the library.  Prior major releases may be supported for a short time after new major releases are issued.  Problems with minor releases are often resolved by upgrading to the most recent release.
+
+### Supported Versions
+
+| Version  | | Status  |
+| :-----:  | :-: | :------ |
+| 11.0   | :fire: :pray: |  The 11.x series is currently in alpha. <br>See [VERSION_11_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_11_UPGRADE.md). |
+| 10.7.1   | :white_check_mark: |  The 10.x series recieves regular updates, new features & security fixes. |
+| <= 10.4.0  | :x: | Known vulnerabities. |
+| 9.18.5   | :x: | [EOL](https://github.com/highlightjs/highlight.js/issues/2877). No longer supported. |
+| <= 9.18.3 | :x: | Known vulnerabities. |
+| <= 8.x    | :x: | Obsolete. Known vulnerabities. |
+
+
+### Reporting a Vulnerability
+
+Many vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+<!--
+| 11.0   | :white_check_mark: |  The 11.x series recieves regular updates, new features & security fixes. |
+| 10.7.1   | :white_check_mark: |  The 10.x series is in maintence mode.  EOL TBD.<br>See [VERSION_11_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_11_UPGRADE.md).|
+
+-->
+","# Security Policy
+
+Due to both time and resource constrains the Highlight.js core team fully supports only the current major/minor release of the library.  Prior major releases may be supported for a short time after new major releases are issued.  Problems with minor releases are often resolved by upgrading to the most recent minor release.
+
+### Release Status
+
+| Version  | Support | Status  |
+| :-----:  | :-: | :------ |
+| 11.0   | :fire: :pray: |  The 11.x series is currently in alpha. <br>See [VERSION_11_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_11_UPGRADE.md). |
+| 10.7.1   | :white_check_mark: |  The 10.x series recieves regular updates, new features & security fixes. |
+| <= 10.4.0  | :x: | Known vulnerabities. |
+| <= 9.18.5   | :x: | Known vulnerabities. [EOL](https://github.com/highlightjs/highlight.js/issues/2877) |
+| 7.x, 8.x    | :x: | Obsolete. Known vulnerabities. |
+
+
+### Reporting a Vulnerability
+
+Many vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+<!--
+| 11.0   | :white_check_mark: |  The 11.x series recieves regular updates, new features & security fixes. |
+| 10.7.1   | :white_check_mark: |  The 10.x series is in maintence mode.  EOL TBD.<br>See [VERSION_11_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_11_UPGRADE.md).|
+
+-->
+",118,b highlightjs/highlight.js 3ff2bdb310e2058738446aeb9a166019871af9a5
+highlightjs/highlight.js,SECURITY.md,f7e5e3333dc172ec12cc226c66c28ae7ddcd1a80,2021-05-04 12:31:23+00:00,"# Security Policy
+
+Due to both time and resource constrains the Highlight.js core team fully supports only the current major/minor release of the library.  Prior major releases may be supported for a short time after new major releases are issued.  Problems with minor releases are often resolved by upgrading to the most recent minor release.
+
+### Release Status
+
+| Version  | Support | Status  |
+| :-----:  | :-: | :------ |
+| 11.0   | :fire: :pray: |  The 11.x series is currently in alpha. <br>See [VERSION_11_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_11_UPGRADE.md). |
+| 10.7.1   | :white_check_mark: |  The 10.x series recieves regular updates, new features & security fixes. |
+| <= 10.4.0  | :x: | Known vulnerabities. |
+| <= 9.18.5   | :x: | Known vulnerabities. [EOL](https://github.com/highlightjs/highlight.js/issues/2877) |
+| 7.x, 8.x    | :x: | Obsolete. Known vulnerabities. |
+
+
+### Reporting a Vulnerability
+
+Many vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+<!--
+| 11.0   | :white_check_mark: |  The 11.x series recieves regular updates, new features & security fixes. |
+| 10.7.1   | :white_check_mark: |  The 10.x series is in maintence mode.  EOL TBD.<br>See [VERSION_11_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_11_UPGRADE.md).|
+
+-->
+","# Security Policy
+
+Due to both time and resource constrains the Highlight.js core team fully supports only the current major/minor release of the library.  Prior major releases may be supported for a short time after new major releases are issued.  Problems with minor releases are often resolved by upgrading to the most recent minor release.
+
+### Release Status
+
+| Version  | Support | Status  |
+| :-----:  | :-: | :------ |
+| 11.0   | :white_check_mark: |  The 11.x series is currently in beta. <br>See [VERSION_11_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_11_UPGRADE.md). |
+| 10.7.1   | :white_check_mark: |  The 10.x series recieves regular updates, new features & security fixes. |
+| <= 10.4.0  | :x: | Known vulnerabities. |
+| <= 9.18.5   | :x: | Known vulnerabities. [EOL](https://github.com/highlightjs/highlight.js/issues/2877) |
+| 7.x, 8.x    | :x: | Obsolete. Known vulnerabities. |
+
+
+### Reporting a Vulnerability
+
+Many vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+<!--
+| 11.0   | :white_check_mark: |  The 11.x series recieves regular updates, new features & security fixes. |
+| 10.7.1   | :white_check_mark: |  The 10.x series is in maintence mode.  EOL TBD.<br>See [VERSION_11_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_11_UPGRADE.md).|
+
+-->
+",17,b highlightjs/highlight.js f7e5e3333dc172ec12cc226c66c28ae7ddcd1a80
+highlightjs/highlight.js,SECURITY.md,947e9255dc9fff01a628ecbb89c95df67ce48adc,2021-05-30 01:01:50+00:00,"# Security Policy
+
+Due to both time and resource constrains the Highlight.js core team fully supports only the current major/minor release of the library.  Prior major releases may be supported for a short time after new major releases are issued.  Problems with minor releases are often resolved by upgrading to the most recent minor release.
+
+### Release Status
+
+| Version  | Support | Status  |
+| :-----:  | :-: | :------ |
+| 11.0   | :white_check_mark: |  The 11.x series is currently in beta. <br>See [VERSION_11_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_11_UPGRADE.md). |
+| 10.7.1   | :white_check_mark: |  The 10.x series recieves regular updates, new features & security fixes. |
+| <= 10.4.0  | :x: | Known vulnerabities. |
+| <= 9.18.5   | :x: | Known vulnerabities. [EOL](https://github.com/highlightjs/highlight.js/issues/2877) |
+| 7.x, 8.x    | :x: | Obsolete. Known vulnerabities. |
+
+
+### Reporting a Vulnerability
+
+Many vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+<!--
+| 11.0   | :white_check_mark: |  The 11.x series recieves regular updates, new features & security fixes. |
+| 10.7.1   | :white_check_mark: |  The 10.x series is in maintence mode.  EOL TBD.<br>See [VERSION_11_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_11_UPGRADE.md).|
+
+-->
+","# Security Policy
+
+Due to both time and resource constrains the Highlight.js core team fully supports only the current major/minor release of the library.  Prior major releases may be supported for a short time after new major releases are issued.  Problems with minor releases are often resolved by upgrading to the most recent minor release.
+
+### Release Status
+
+| Version    | Support | Status  |
+| :-----:    | :-: | :------ |
+| 11.0       | :white_check_mark: |  The 11.x series recieves regular updates, new features & security fixes. |
+| 10.7.2     | :white_check_mark: |  The 10.x series is now in maintence mode.  EOL TBD.<br>See [VERSION_11_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_11_UPGRADE.md).|
+| <= 10.4.0  | :x: | Known vulnerabities. |
+| <= 9.18.5  | :x: | Known vulnerabities. [EOL](https://github.com/highlightjs/highlight.js/issues/2877) |
+| 7.x, 8.x   | :x: | Obsolete. Known vulnerabities. |
+
+
+### Reporting a Vulnerability
+
+Many vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+",556,b highlightjs/highlight.js 947e9255dc9fff01a628ecbb89c95df67ce48adc
+highlightjs/highlight.js,SECURITY.md,83ad2fbd9962e89177f46bf7b454f6b8d7123b28,2021-07-08 14:56:36+00:00,"# Security Policy
+
+Due to both time and resource constrains the Highlight.js core team fully supports only the current major/minor release of the library.  Prior major releases may be supported for a short time after new major releases are issued.  Problems with minor releases are often resolved by upgrading to the most recent minor release.
+
+### Release Status
+
+| Version    | Support | Status  |
+| :-----:    | :-: | :------ |
+| 11.0       | :white_check_mark: |  The 11.x series recieves regular updates, new features & security fixes. |
+| 10.7.2     | :white_check_mark: |  The 10.x series is now in maintence mode.  EOL TBD.<br>See [VERSION_11_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_11_UPGRADE.md).|
+| <= 10.4.0  | :x: | Known vulnerabities. |
+| <= 9.18.5  | :x: | Known vulnerabities. [EOL](https://github.com/highlightjs/highlight.js/issues/2877) |
+| 7.x, 8.x   | :x: | Obsolete. Known vulnerabities. |
+
+
+### Reporting a Vulnerability
+
+Many vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+","# Security Policy
+
+Due to both time and resource constrains the Highlight.js core team fully supports only the current major/minor release of the library.  Prior major releases may be supported for a short time after new major releases are issued.  Problems with minor releases are often resolved by upgrading to the most recent minor release.
+
+### Release Status
+
+| Version    | Support | Status  |
+| :-----:    | :-: | :------ |
+| 11.x       | :white_check_mark: |  The 11.x series recieves regular updates, new features & security fixes. |
+| 10.7.x     | :white_check_mark: |  The 10.x series is now in maintence mode.  EOL TBD.<br>See [VERSION_11_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_11_UPGRADE.md).|
+| <= 10.4.0  | :x: | Known vulnerabities. |
+| <= 9.18.5  | :x: | Known vulnerabities. [EOL](https://github.com/highlightjs/highlight.js/issues/2877) |
+| 7.x, 8.x   | :x: | Obsolete. Known vulnerabities. |
+
+
+### Reporting a Vulnerability
+
+Many vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+",2,b highlightjs/highlight.js 83ad2fbd9962e89177f46bf7b454f6b8d7123b28
+highlightjs/highlight.js,SECURITY.md,1a258a3e72dce8b6534e28a741cfcd7d813463dd,2021-10-08 16:15:53+00:00,"# Security Policy
+
+Due to both time and resource constrains the Highlight.js core team fully supports only the current major/minor release of the library.  Prior major releases may be supported for a short time after new major releases are issued.  Problems with minor releases are often resolved by upgrading to the most recent minor release.
+
+### Release Status
+
+| Version    | Support | Status  |
+| :-----:    | :-: | :------ |
+| 11.x       | :white_check_mark: |  The 11.x series recieves regular updates, new features & security fixes. |
+| 10.7.x     | :white_check_mark: |  The 10.x series is now in maintence mode.  EOL TBD.<br>See [VERSION_11_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_11_UPGRADE.md).|
+| <= 10.4.0  | :x: | Known vulnerabities. |
+| <= 9.18.5  | :x: | Known vulnerabities. [EOL](https://github.com/highlightjs/highlight.js/issues/2877) |
+| 7.x, 8.x   | :x: | Obsolete. Known vulnerabities. |
+
+
+### Reporting a Vulnerability
+
+Many vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+","# Security Policy
+
+Due to both time and resource constrains the Highlight.js core team fully supports only the current major/minor release of the library.  Prior major releases may be supported for a short time after new major releases are issued.  Problems with minor releases are often resolved by upgrading to the most recent minor release.
+
+### Release Status
+
+| Version    | Support | Status  |
+| :-----:    | :-: | :------ |
+| 11.x       | :white_check_mark: |  The 11.x series recieves regular updates, new features & security fixes. |
+| 10.7.x     | :x: |  No longer supported. <br>See [VERSION_11_UPGRADE.md](https://github.com/highlightjs/highlight.js/blob/master/VERSION_11_UPGRADE.md).|
+| <= 10.4.0  | :x: | Known vulnerabities. |
+| <= 9.18.5  | :x: | Known vulnerabities. [EOL](https://github.com/highlightjs/highlight.js/issues/2877) |
+| 7.x, 8.x   | :x: | Obsolete. Known vulnerabities. |
+
+
+### Reporting a Vulnerability
+
+Many vulnerabilities can simply be reported (and tracked) via our [GitHub issues](https://github.com/highlightjs/highlight.js/issues).   If you feel your issue is more sensitive than that you can always reach us via email: [security@highlightjs.org](mailto:security@highlightjs.org)
+
+",57,b highlightjs/highlight.js 1a258a3e72dce8b6534e28a741cfcd7d813463dd

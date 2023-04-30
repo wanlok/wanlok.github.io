@@ -1,0 +1,11 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+jitsi/jitsi-meet-electron,SECURITY.md,e20e3b4b839845ead38844de4b53616436ecebb1,2020-06-02 07:54:20+00:00,,"# Security
+
+## Reporting security issues
+
+We take security very seriously and develop all Jitsi projects to be secure and safe.
+
+If you find (or simply suspect) a security issue in any of the Jitsi projects, please send us an email to security@jitsi.org.
+
+**We encourage responsible disclosure for the sake of our users, so please reach out before posting in a public space.**
+",377,b jitsi/jitsi-meet-electron e20e3b4b839845ead38844de4b53616436ecebb1

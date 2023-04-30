@@ -1,0 +1,86 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+OSGeo/gdal,SECURITY.md,d305e57b732ea214919d340faf6cabdca6130560,2021-07-29 17:19:09+00:00,,"Security policy
+===============
+
+GDAL is a large software dealing literally with hundreds of file formats and protocols.
+Some effort is made to ensure the code is safe, but analysis tools like ossfuzz continually
+find issues in the code. Data from untrusted sources should be treated with caution.
+When security is a major concern, consider running GDAL or code using GDAL in a
+restricted sandbox environment.
+
+Our current policy for anyone wanting to report a security related issue is just
+to use the [public issue tracker](https://github.com/OSGeo/gdal/issues/new) for it.
+
+Note also that we have [listed a number of potential security issues](https://trac.osgeo.org/gdal/wiki/SecurityIssues)
+depending on how you use GDAL (caution: the linked page is somewhat outdated)
+",774,b OSGeo/gdal d305e57b732ea214919d340faf6cabdca6130560
+OSGeo/gdal,SECURITY.md,527dc0b80e1980f8c7ca534e553f43e040ce0bfc,2021-07-29 21:28:06+00:00,"Security policy
+===============
+
+GDAL is a large software dealing literally with hundreds of file formats and protocols.
+Some effort is made to ensure the code is safe, but analysis tools like ossfuzz continually
+find issues in the code. Data from untrusted sources should be treated with caution.
+When security is a major concern, consider running GDAL or code using GDAL in a
+restricted sandbox environment.
+
+Our current policy for anyone wanting to report a security related issue is just
+to use the [public issue tracker](https://github.com/OSGeo/gdal/issues/new) for it.
+
+Note also that we have [listed a number of potential security issues](https://trac.osgeo.org/gdal/wiki/SecurityIssues)
+depending on how you use GDAL (caution: the linked page is somewhat outdated)
+","Security policy
+===============
+
+GDAL is a large software dealing literally with hundreds of file formats and protocols.
+Some effort is made to ensure the code is safe, but analysis tools like ossfuzz continually
+find issues in the code. Data from untrusted sources should be treated with caution.
+When security is a major concern, consider running GDAL or code using GDAL in a
+restricted sandbox environment.
+
+Our current policy for anyone wanting to report a security related issue is just
+to use the [public issue tracker](https://github.com/OSGeo/gdal/issues/new) for it.
+However please refrain from publicly posting exploits with harmful consequences (data destruction,
+etc.). Only people with the github handles from the [Project Steering Committee](https://gdal.org/community/index.html#project-steering-committee)
+(or people that they would explictly allow) are allowed to ask you privately for
+such dangerous reproducers if that was needed.
+
+Note also that we have [listed a number of potential security issues](https://trac.osgeo.org/gdal/wiki/SecurityIssues)
+depending on how you use GDAL (caution: the linked page is somewhat outdated)
+",374,b OSGeo/gdal 527dc0b80e1980f8c7ca534e553f43e040ce0bfc
+OSGeo/gdal,SECURITY.md,d3ecf733262c7f8c8f2735f8a247d15f1322287d,2021-10-26 12:33:21+00:00,"Security policy
+===============
+
+GDAL is a large software dealing literally with hundreds of file formats and protocols.
+Some effort is made to ensure the code is safe, but analysis tools like ossfuzz continually
+find issues in the code. Data from untrusted sources should be treated with caution.
+When security is a major concern, consider running GDAL or code using GDAL in a
+restricted sandbox environment.
+
+Our current policy for anyone wanting to report a security related issue is just
+to use the [public issue tracker](https://github.com/OSGeo/gdal/issues/new) for it.
+However please refrain from publicly posting exploits with harmful consequences (data destruction,
+etc.). Only people with the github handles from the [Project Steering Committee](https://gdal.org/community/index.html#project-steering-committee)
+(or people that they would explictly allow) are allowed to ask you privately for
+such dangerous reproducers if that was needed.
+
+Note also that we have [listed a number of potential security issues](https://trac.osgeo.org/gdal/wiki/SecurityIssues)
+depending on how you use GDAL (caution: the linked page is somewhat outdated)
+","Security policy
+===============
+
+GDAL is a large software dealing literally with hundreds of file formats and protocols.
+Some effort is made to ensure the code is safe, but analysis tools like ossfuzz continually
+find issues in the code. Data from untrusted sources should be treated with caution.
+When security is a major concern, consider running GDAL or code using GDAL in a
+restricted sandbox environment.
+
+Our current policy for anyone wanting to report a security related issue is just
+to use the [public issue tracker](https://github.com/OSGeo/gdal/issues/new) for it.
+However please refrain from publicly posting exploits with harmful consequences (data destruction,
+etc.). Only people with the github handles from the [Project Steering Committee](https://gdal.org/community/index.html#project-steering-committee)
+(or people that they would explicitly allow) are allowed to ask you privately for
+such dangerous reproducers if that was needed.
+
+Note also that we have [listed a number of potential security issues](https://trac.osgeo.org/gdal/wiki/SecurityIssues)
+depending on how you use GDAL (caution: the linked page is somewhat outdated)
+",1,b OSGeo/gdal d3ecf733262c7f8c8f2735f8a247d15f1322287d

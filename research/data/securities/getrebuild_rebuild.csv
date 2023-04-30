@@ -1,0 +1,38 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+getrebuild/rebuild,SECURITY.md,d57fb0738b95e7eea2e3142050106155ffd0e055,2021-10-25 08:50:37+00:00,,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 2.x   | :white_check_mark: |
+| 1.x   | :x:                |
+
+## Reporting a Vulnerability
+
+Please report security issues to `rebuild@ruifang-tech.com`",260,b getrebuild/rebuild d57fb0738b95e7eea2e3142050106155ffd0e055
+getrebuild/rebuild,SECURITY.md,34e9138faac3252b2185008f84dce53fd64a24ee,2022-11-13 06:09:32+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 2.x   | :white_check_mark: |
+| 1.x   | :x:                |
+
+## Reporting a Vulnerability
+
+Please report security issues to `rebuild@ruifang-tech.com`","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 3.x   | :white_check_mark: |
+| 1.x   | :x:                |
+| 2.x   | :x:                |
+
+## Reporting a Vulnerability
+
+Please report security issues to `rebuild@ruifang-tech.com`
+",33,b getrebuild/rebuild 34e9138faac3252b2185008f84dce53fd64a24ee

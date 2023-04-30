@@ -1,0 +1,453 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+nightflyza/Ubilling,SECURITY.md,149c302f843f495ba40dfc43234624bbaff8f6e6,2021-07-31 11:12:01+00:00,,"Ubilling Security Policy
+========
+
+If you found that authorized users can do something.
+========
+Special notice, for all **wannabe** pentesters/white hats/black hats/1337 h4x0rs etc, about vulnerabilities that you think you have already discovered:
+
+If you find that some code or commands are executed somewhere - this means that the system is working and nothing else. This is the normal functionality of this project, and it is intended for it.
+
+Please stop being a moron who constantly writes us something like ""OMG, we have discovered the fact that users under root rights or administrator rights, or system configuration rights can execute any code under root rights!"".
+
+**This system is intended for** the administration of servers, server clusters and equipment in the telecommunications sector. Yes, under the root rights. Yes, under root access to database. This is the direct purpose of this project. This project does not have other purpose. It would be surprising if a system designed to **execute code under root rights** didn't do this when an administrator (user) logged in with the necessary rights for it. In real world, no one has access to this web-interface except system administrators who alredy have root permissions on this server.
+
+Perhaps you are one of those retarded persons who are also surprised by the fact that ssh or telnet executes some commands if you use a username and password for it. Okay then, you can assume that you've found the same serious vulnerability in Ubilling. Your mom is proud of you, but you are still retard.
+
+Known NOT Vulnerabilities
+========
+* [CVE-2020-29311](https://nvd.nist.gov/vuln/detail/CVE-2020-29311)
+* [CVE-2018-1000827](https://nvd.nist.gov/vuln/detail/CVE-2018-1000827)
+
+Reporting a Vulnerability
+========
+If you think that you discovered real vulnerability that not requires logged in administrator user accont to reproduce it, you can report it by emailing info@ubilling.net.ua 
+",1950,b nightflyza/Ubilling 149c302f843f495ba40dfc43234624bbaff8f6e6
+nightflyza/Ubilling,SECURITY.md,88876e7b30fa3f2597c2b8d8254e73b7eea6726a,2021-07-31 11:29:36+00:00,"Ubilling Security Policy
+========
+
+If you found that authorized users can do something.
+========
+Special notice, for all **wannabe** pentesters/white hats/black hats/1337 h4x0rs etc, about vulnerabilities that you think you have already discovered:
+
+If you find that some code or commands are executed somewhere - this means that the system is working and nothing else. This is the normal functionality of this project, and it is intended for it.
+
+Please stop being a moron who constantly writes us something like ""OMG, we have discovered the fact that users under root rights or administrator rights, or system configuration rights can execute any code under root rights!"".
+
+**This system is intended for** the administration of servers, server clusters and equipment in the telecommunications sector. Yes, under the root rights. Yes, under root access to database. This is the direct purpose of this project. This project does not have other purpose. It would be surprising if a system designed to **execute code under root rights** didn't do this when an administrator (user) logged in with the necessary rights for it. In real world, no one has access to this web-interface except system administrators who alredy have root permissions on this server.
+
+Perhaps you are one of those retarded persons who are also surprised by the fact that ssh or telnet executes some commands if you use a username and password for it. Okay then, you can assume that you've found the same serious vulnerability in Ubilling. Your mom is proud of you, but you are still retard.
+
+Known NOT Vulnerabilities
+========
+* [CVE-2020-29311](https://nvd.nist.gov/vuln/detail/CVE-2020-29311)
+* [CVE-2018-1000827](https://nvd.nist.gov/vuln/detail/CVE-2018-1000827)
+
+Reporting a Vulnerability
+========
+If you think that you discovered real vulnerability that not requires logged in administrator user accont to reproduce it, you can report it by emailing info@ubilling.net.ua 
+","# Ubilling Security Policy
+
+## If you found that authorized users can do something.
+Special notice, for all **wannabe** pentesters/white hats/black hats/1337 h4x0rs etc, about vulnerabilities that you think you have already discovered:
+
+If you find that some code or commands are executed somewhere - this means that the system is working and nothing else. This is the normal functionality of this project, and it is intended for it.
+
+Please stop being a moron who constantly writes us something like ""OMG, we have discovered the fact that users under root rights or administrator rights, or system configuration rights can execute any code under root rights!"".
+
+**This system is intended for** the administration of servers, server clusters and equipment in the telecommunications sector. Yes, under the root rights. Yes, under root access to database. This is the direct purpose of this project. This project does not have other purpose. It would be surprising if a system designed to **execute code under root rights** didn't do this when an administrator (user) logged in with the necessary rights for it. In real world, no one has access to this web-interface except system administrators who alredy have root permissions on this server.
+
+Perhaps you are one of those retarded persons who are also surprised by the fact that ssh or telnet executes some commands if you use a username and password for it. Okay then, you can assume that you've found the same serious vulnerability in Ubilling. Your mom is proud of you, but you are still retard.
+
+## Known NOT Vulnerabilities
+
+* 
+* [CVE-2018-1000827](https://nvd.nist.gov/vuln/detail/CVE-2018-1000827) - administrator with rights to register users can register users.. how unexpected..
+* [CVE-2020-29311](https://nvd.nist.gov/vuln/detail/CVE-2020-29311) - administrator with root rights can execute some code under root rights... WOW...
+* [""Tasks manager CSRF""](https://www.huntr.dev/bounties/8cfc8b16-b5ac-4e9c-a56b-97317efbaa0a/) - administrator with rights to create tasks can create some tasks.. amazing..
+
+
+## Reporting a Vulnerability
+
+If you think that you discovered real vulnerability that not requires logged in administrator user accont to reproduce it, you can report it by emailing info@ubilling.net.ua 
+
+**Anyway**
+
+* you will not receive any bounty
+* you will not become famous
+* you will not discover anything that we do not know about.. maybe.
+* but maybe you will satisfy your curiosity
+
+**Sorry if everything that you read above seems unacceptable or rude to you, but we are really tired of the fact that every day someone tells us that the project is doing what it was designed for. **",803,b nightflyza/Ubilling 88876e7b30fa3f2597c2b8d8254e73b7eea6726a
+nightflyza/Ubilling,SECURITY.md,a4ee8400ad9c46e341b908c670333a30a4a06ff1,2021-07-31 11:30:57+00:00,"# Ubilling Security Policy
+
+## If you found that authorized users can do something.
+Special notice, for all **wannabe** pentesters/white hats/black hats/1337 h4x0rs etc, about vulnerabilities that you think you have already discovered:
+
+If you find that some code or commands are executed somewhere - this means that the system is working and nothing else. This is the normal functionality of this project, and it is intended for it.
+
+Please stop being a moron who constantly writes us something like ""OMG, we have discovered the fact that users under root rights or administrator rights, or system configuration rights can execute any code under root rights!"".
+
+**This system is intended for** the administration of servers, server clusters and equipment in the telecommunications sector. Yes, under the root rights. Yes, under root access to database. This is the direct purpose of this project. This project does not have other purpose. It would be surprising if a system designed to **execute code under root rights** didn't do this when an administrator (user) logged in with the necessary rights for it. In real world, no one has access to this web-interface except system administrators who alredy have root permissions on this server.
+
+Perhaps you are one of those retarded persons who are also surprised by the fact that ssh or telnet executes some commands if you use a username and password for it. Okay then, you can assume that you've found the same serious vulnerability in Ubilling. Your mom is proud of you, but you are still retard.
+
+## Known NOT Vulnerabilities
+
+* 
+* [CVE-2018-1000827](https://nvd.nist.gov/vuln/detail/CVE-2018-1000827) - administrator with rights to register users can register users.. how unexpected..
+* [CVE-2020-29311](https://nvd.nist.gov/vuln/detail/CVE-2020-29311) - administrator with root rights can execute some code under root rights... WOW...
+* [""Tasks manager CSRF""](https://www.huntr.dev/bounties/8cfc8b16-b5ac-4e9c-a56b-97317efbaa0a/) - administrator with rights to create tasks can create some tasks.. amazing..
+
+
+## Reporting a Vulnerability
+
+If you think that you discovered real vulnerability that not requires logged in administrator user accont to reproduce it, you can report it by emailing info@ubilling.net.ua 
+
+**Anyway**
+
+* you will not receive any bounty
+* you will not become famous
+* you will not discover anything that we do not know about.. maybe.
+* but maybe you will satisfy your curiosity
+
+**Sorry if everything that you read above seems unacceptable or rude to you, but we are really tired of the fact that every day someone tells us that the project is doing what it was designed for. **","# Ubilling Security Policy
+
+## If you found that authorized users can do something.
+Special notice, for all **wannabe** pentesters/white hats/black hats/1337 h4x0rs etc, about vulnerabilities that you think you have already discovered:
+
+If you find that some code or commands are executed somewhere - this means that the system is working and nothing else. This is the normal functionality of this project, and it is intended for it.
+
+Please stop being a moron who constantly writes us something like ""OMG, we have discovered the fact that users under root rights or administrator rights, or system configuration rights can execute any code under root rights!"".
+
+**This system is intended for** the administration of servers, server clusters and equipment in the telecommunications sector. Yes, under the root rights. Yes, under root access to database. This is the direct purpose of this project. This project does not have other purpose. It would be surprising if a system designed to **execute code under root rights** didn't do this when an administrator (user) logged in with the necessary rights for it. In real world, no one has access to this web-interface except system administrators who alredy have root permissions on this server.
+
+Perhaps you are one of those retarded persons who are also surprised by the fact that ssh or telnet executes some commands if you use a username and password for it. Okay then, you can assume that you've found the same serious vulnerability in Ubilling. Your mom is proud of you, but you are still retard.
+
+## Known NOT Vulnerabilities
+
+* [CVE-2018-1000827](https://nvd.nist.gov/vuln/detail/CVE-2018-1000827) - administrator with rights to register users can register users.. how unexpected..
+* [CVE-2020-29311](https://nvd.nist.gov/vuln/detail/CVE-2020-29311) - administrator with root rights can execute some code under root rights... WOW...
+* [""Tasks manager CSRF""](https://www.huntr.dev/bounties/8cfc8b16-b5ac-4e9c-a56b-97317efbaa0a/) - administrator with rights to create tasks can create some tasks.. amazing..
+
+
+## Reporting a Vulnerability
+
+If you think that you discovered real vulnerability that not requires logged in administrator user accont to reproduce it, you can report it by emailing info@ubilling.net.ua 
+
+**Anyway**
+
+* you will not receive any bounty
+* you will not become famous
+* you will not discover anything that we do not know about.. maybe.
+* but maybe you will satisfy your curiosity
+
+## Sorry if everything that you read above seems unacceptable or rude to you, but we are really tired of the fact that every day someone tells us that the project is doing what it was designed for.",9,b nightflyza/Ubilling a4ee8400ad9c46e341b908c670333a30a4a06ff1
+nightflyza/Ubilling,SECURITY.md,76742ad73215921174935924b681ced8325c6f45,2021-07-31 11:33:39+00:00,"# Ubilling Security Policy
+
+## If you found that authorized users can do something.
+Special notice, for all **wannabe** pentesters/white hats/black hats/1337 h4x0rs etc, about vulnerabilities that you think you have already discovered:
+
+If you find that some code or commands are executed somewhere - this means that the system is working and nothing else. This is the normal functionality of this project, and it is intended for it.
+
+Please stop being a moron who constantly writes us something like ""OMG, we have discovered the fact that users under root rights or administrator rights, or system configuration rights can execute any code under root rights!"".
+
+**This system is intended for** the administration of servers, server clusters and equipment in the telecommunications sector. Yes, under the root rights. Yes, under root access to database. This is the direct purpose of this project. This project does not have other purpose. It would be surprising if a system designed to **execute code under root rights** didn't do this when an administrator (user) logged in with the necessary rights for it. In real world, no one has access to this web-interface except system administrators who alredy have root permissions on this server.
+
+Perhaps you are one of those retarded persons who are also surprised by the fact that ssh or telnet executes some commands if you use a username and password for it. Okay then, you can assume that you've found the same serious vulnerability in Ubilling. Your mom is proud of you, but you are still retard.
+
+## Known NOT Vulnerabilities
+
+* [CVE-2018-1000827](https://nvd.nist.gov/vuln/detail/CVE-2018-1000827) - administrator with rights to register users can register users.. how unexpected..
+* [CVE-2020-29311](https://nvd.nist.gov/vuln/detail/CVE-2020-29311) - administrator with root rights can execute some code under root rights... WOW...
+* [""Tasks manager CSRF""](https://www.huntr.dev/bounties/8cfc8b16-b5ac-4e9c-a56b-97317efbaa0a/) - administrator with rights to create tasks can create some tasks.. amazing..
+
+
+## Reporting a Vulnerability
+
+If you think that you discovered real vulnerability that not requires logged in administrator user accont to reproduce it, you can report it by emailing info@ubilling.net.ua 
+
+**Anyway**
+
+* you will not receive any bounty
+* you will not become famous
+* you will not discover anything that we do not know about.. maybe.
+* but maybe you will satisfy your curiosity
+
+## Sorry if everything that you read above seems unacceptable or rude to you, but we are really tired of the fact that every day someone tells us that the project is doing what it was designed for.","# Ubilling Security Policy
+
+## If you found that authorized users can do something.
+Special notice, for all **wannabe** pentesters/white hats/black hats/1337 h4x0rs etc, about vulnerabilities that you think you have already discovered:
+
+If you find that some code or commands are executed somewhere - this means that the system is working and nothing else. This is the normal functionality of this project, and it is intended for it.
+
+Please stop being a moron who constantly writes us something like ""OMG, we have discovered the fact that users under root rights or administrator rights, or system configuration rights can execute any code under root rights!"".
+
+**This system is intended for** the administration of servers, server clusters and equipment in the telecommunications sector. Yes, under the root rights. Yes, under root access to database. This is the direct purpose of this project. This project does not have other purpose. It would be surprising if a system designed to **execute code under root rights** didn't do this when an administrator (user) logged in with the necessary rights for it. In real world, no one has access to this web-interface except system administrators who alredy have root permissions on this server.
+
+Perhaps you are one of those retarded persons who are also surprised by the fact that ssh or telnet executes some commands if you use a username and password for it. Okay then, you can assume that you've found the same serious vulnerability in Ubilling. Your mom is proud of you, but you are still retard.
+
+## Known NOT Vulnerabilities
+
+* [CVE-2018-1000827](https://nvd.nist.gov/vuln/detail/CVE-2018-1000827) - administrator with rights to register users can register users.. how unexpected..
+* [CVE-2020-29311](https://nvd.nist.gov/vuln/detail/CVE-2020-29311) - administrator with root rights can execute some code under root rights... WOW...
+* [""Tasks manager CSRF""](https://www.huntr.dev/bounties/8cfc8b16-b5ac-4e9c-a56b-97317efbaa0a/) - administrator with rights to create tasks can create some tasks.. amazing..
+
+
+## Reporting a Vulnerability
+
+If you think that you discovered real vulnerability that not requires logged in administrator user accont to reproduce it, you can report it by emailing info@ubilling.net.ua 
+
+**Anyway**
+
+* you will not receive any bounty
+* you will not become famous
+* you will not discover anything that we do not know about.. maybe.
+* but maybe you will satisfy your curiosity
+
+## Sorry if something that you read above seems unacceptable or rude to you, but we are really tired of the fact that every day someone tells us that the project is doing what it was designed for.",5,b nightflyza/Ubilling 76742ad73215921174935924b681ced8325c6f45
+nightflyza/Ubilling,SECURITY.md,b34350caa97c78a2e42fd4bd81f7950ff325fe46,2021-07-31 11:44:34+00:00,"# Ubilling Security Policy
+
+## If you found that authorized users can do something.
+Special notice, for all **wannabe** pentesters/white hats/black hats/1337 h4x0rs etc, about vulnerabilities that you think you have already discovered:
+
+If you find that some code or commands are executed somewhere - this means that the system is working and nothing else. This is the normal functionality of this project, and it is intended for it.
+
+Please stop being a moron who constantly writes us something like ""OMG, we have discovered the fact that users under root rights or administrator rights, or system configuration rights can execute any code under root rights!"".
+
+**This system is intended for** the administration of servers, server clusters and equipment in the telecommunications sector. Yes, under the root rights. Yes, under root access to database. This is the direct purpose of this project. This project does not have other purpose. It would be surprising if a system designed to **execute code under root rights** didn't do this when an administrator (user) logged in with the necessary rights for it. In real world, no one has access to this web-interface except system administrators who alredy have root permissions on this server.
+
+Perhaps you are one of those retarded persons who are also surprised by the fact that ssh or telnet executes some commands if you use a username and password for it. Okay then, you can assume that you've found the same serious vulnerability in Ubilling. Your mom is proud of you, but you are still retard.
+
+## Known NOT Vulnerabilities
+
+* [CVE-2018-1000827](https://nvd.nist.gov/vuln/detail/CVE-2018-1000827) - administrator with rights to register users can register users.. how unexpected..
+* [CVE-2020-29311](https://nvd.nist.gov/vuln/detail/CVE-2020-29311) - administrator with root rights can execute some code under root rights... WOW...
+* [""Tasks manager CSRF""](https://www.huntr.dev/bounties/8cfc8b16-b5ac-4e9c-a56b-97317efbaa0a/) - administrator with rights to create tasks can create some tasks.. amazing..
+
+
+## Reporting a Vulnerability
+
+If you think that you discovered real vulnerability that not requires logged in administrator user accont to reproduce it, you can report it by emailing info@ubilling.net.ua 
+
+**Anyway**
+
+* you will not receive any bounty
+* you will not become famous
+* you will not discover anything that we do not know about.. maybe.
+* but maybe you will satisfy your curiosity
+
+## Sorry if something that you read above seems unacceptable or rude to you, but we are really tired of the fact that every day someone tells us that the project is doing what it was designed for.","# Ubilling Security Policy
+
+## If you found that authorized users can do something.
+Special notice, for all **wannabe** pentesters/white hats/black hats/1337 h4x0rs etc, about vulnerabilities that you think you have already discovered:
+
+If you find that some code or commands are executed somewhere - this means that the system is working and nothing else. This is the normal functionality of this project, and it is intended for it.
+
+Please stop being a moron who constantly writes us something like ""OMG, we have discovered the fact that users under root rights or administrator rights, or system configuration rights can execute any code under root rights!"".
+
+**This system is intended for** the administration of servers, server clusters and equipment in the telecommunications sector. Yes, under the root rights. Yes, under root access to database. This is the direct purpose of this project. This project does not have other purpose. It would be surprising if a system designed to **execute code under root rights** didn't do this when an administrator (user) logged in with the necessary rights for it. In real world, no one has access to this web-interface except system administrators who alredy have root permissions on this server.
+
+Perhaps you are one of those retarded persons who are also surprised by the fact that ssh or telnet executes some commands if you use a username and password for it. Okay then, you can assume that you've found the same serious vulnerability in Ubilling. Your mom is proud of you, but you are still retard.
+
+## Yes, following modules
+
+![wow](https://user-images.githubusercontent.com/1496954/127738770-1e9b7406-ebe4-41d9-8a40-d22f659d9805.png)
+
+allows you:
+* dump and download whole database
+* execute any SQL queries under root rights on host system
+* execute any PHP or shell code under root rights on host system
+
+Just think about it.
+
+## Known NOT Vulnerabilities
+
+* [CVE-2018-1000827](https://nvd.nist.gov/vuln/detail/CVE-2018-1000827) - administrator with rights to register users can register users.. how unexpected..
+* [CVE-2020-29311](https://nvd.nist.gov/vuln/detail/CVE-2020-29311) - administrator with root rights can execute some code under root rights... WOW...
+* [""Tasks manager CSRF""](https://www.huntr.dev/bounties/8cfc8b16-b5ac-4e9c-a56b-97317efbaa0a/) - administrator with rights to create tasks can create some tasks.. amazing..
+
+
+## Reporting a Vulnerability
+
+If you think that you discovered real vulnerability that not requires logged in administrator user accont to reproduce it, you can report it by emailing info@ubilling.net.ua 
+
+**Anyway**
+
+* you will not receive any bounty
+* you will not become famous
+* you will not discover anything that we do not know about.. maybe.
+* but maybe you will satisfy your curiosity
+
+## Sorry if something that you read above seems unacceptable or rude to you, but we are really tired of the fact that every day someone tells us that the project is doing what it was designed for.",331,b nightflyza/Ubilling b34350caa97c78a2e42fd4bd81f7950ff325fe46
+nightflyza/Ubilling,SECURITY.md,f9c19b38d08b4d6c3be4f3a137e2141884425bd6,2021-07-31 12:16:01+00:00,"# Ubilling Security Policy
+
+## If you found that authorized users can do something.
+Special notice, for all **wannabe** pentesters/white hats/black hats/1337 h4x0rs etc, about vulnerabilities that you think you have already discovered:
+
+If you find that some code or commands are executed somewhere - this means that the system is working and nothing else. This is the normal functionality of this project, and it is intended for it.
+
+Please stop being a moron who constantly writes us something like ""OMG, we have discovered the fact that users under root rights or administrator rights, or system configuration rights can execute any code under root rights!"".
+
+**This system is intended for** the administration of servers, server clusters and equipment in the telecommunications sector. Yes, under the root rights. Yes, under root access to database. This is the direct purpose of this project. This project does not have other purpose. It would be surprising if a system designed to **execute code under root rights** didn't do this when an administrator (user) logged in with the necessary rights for it. In real world, no one has access to this web-interface except system administrators who alredy have root permissions on this server.
+
+Perhaps you are one of those retarded persons who are also surprised by the fact that ssh or telnet executes some commands if you use a username and password for it. Okay then, you can assume that you've found the same serious vulnerability in Ubilling. Your mom is proud of you, but you are still retard.
+
+## Yes, following modules
+
+![wow](https://user-images.githubusercontent.com/1496954/127738770-1e9b7406-ebe4-41d9-8a40-d22f659d9805.png)
+
+allows you:
+* dump and download whole database
+* execute any SQL queries under root rights on host system
+* execute any PHP or shell code under root rights on host system
+
+Just think about it.
+
+## Known NOT Vulnerabilities
+
+* [CVE-2018-1000827](https://nvd.nist.gov/vuln/detail/CVE-2018-1000827) - administrator with rights to register users can register users.. how unexpected..
+* [CVE-2020-29311](https://nvd.nist.gov/vuln/detail/CVE-2020-29311) - administrator with root rights can execute some code under root rights... WOW...
+* [""Tasks manager CSRF""](https://www.huntr.dev/bounties/8cfc8b16-b5ac-4e9c-a56b-97317efbaa0a/) - administrator with rights to create tasks can create some tasks.. amazing..
+
+
+## Reporting a Vulnerability
+
+If you think that you discovered real vulnerability that not requires logged in administrator user accont to reproduce it, you can report it by emailing info@ubilling.net.ua 
+
+**Anyway**
+
+* you will not receive any bounty
+* you will not become famous
+* you will not discover anything that we do not know about.. maybe.
+* but maybe you will satisfy your curiosity
+
+## Sorry if something that you read above seems unacceptable or rude to you, but we are really tired of the fact that every day someone tells us that the project is doing what it was designed for.","# Ubilling Security Policy
+
+## If you found that authorized users can do something.
+Special notice, for all **wannabe** pentesters/white hats/black hats/1337 h4x0rs etc, about vulnerabilities that you think you have already discovered:
+
+If you find that some code or commands are executed somewhere - this means that the system is working and nothing else. This is the normal functionality of this project, and it is intended for it.
+
+Please stop being a moron who constantly writes us something like ""OMG, we have discovered the fact that users under root rights or administrator rights, or system configuration rights can execute any code under root rights!"".
+
+**This system is intended for** the administration of servers, server clusters and equipment in the telecommunications sector. Yes, under the root rights. Yes, under root access to database. This is the direct purpose of this project. This project does not have other purpose. It would be surprising if a system designed to **execute code under root rights** didn't do this when an administrator (user) logged in with the necessary rights for it. In real world, no one has access to this web-interface except system administrators who alredy have root permissions on this server. Yes, any data in 526 basic forms is not filtered. Its not required.
+
+Perhaps you are one of those retarded persons who are also surprised by the fact that ssh or telnet executes some commands if you use a username and password for it. Okay then, you can assume that you've found the same serious vulnerability in Ubilling. Your mom is proud of you, but you are still retard.
+
+## Yes, following modules
+
+![wow](https://user-images.githubusercontent.com/1496954/127738770-1e9b7406-ebe4-41d9-8a40-d22f659d9805.png)
+
+allows you:
+* dump and download whole database
+* execute any SQL queries under root rights on host system
+* execute any PHP or shell code under root rights on host system
+
+Just think about it.
+
+## Known NOT Vulnerabilities
+
+* [CVE-2018-1000827](https://nvd.nist.gov/vuln/detail/CVE-2018-1000827) - administrator with rights to register users can register users.. how unexpected..
+* [CVE-2020-29311](https://nvd.nist.gov/vuln/detail/CVE-2020-29311) - administrator with root rights can execute some code under root rights... WOW...
+* [""Tasks manager CSRF""](https://www.huntr.dev/bounties/8cfc8b16-b5ac-4e9c-a56b-97317efbaa0a/) - administrator with rights to create tasks can create some tasks.. amazing..
+
+
+## Reporting a Vulnerability
+
+If you think that you discovered real vulnerability that not requires logged in administrator user accont to reproduce it, you can report it by emailing info@ubilling.net.ua 
+
+**Anyway**
+
+* you will not receive any bounty
+* you will not become famous
+* you will not discover anything that we do not know about.. maybe.
+* but maybe you will satisfy your curiosity
+
+## Sorry if something that you read above seems unacceptable or rude to you, but we are really tired of the fact that every day someone tells us that the project is doing what it was designed for.",68,b nightflyza/Ubilling f9c19b38d08b4d6c3be4f3a137e2141884425bd6
+nightflyza/Ubilling,SECURITY.md,89b682536bf420e1d975efcb4741f64c59152644,2021-07-31 12:24:17+00:00,"# Ubilling Security Policy
+
+## If you found that authorized users can do something.
+Special notice, for all **wannabe** pentesters/white hats/black hats/1337 h4x0rs etc, about vulnerabilities that you think you have already discovered:
+
+If you find that some code or commands are executed somewhere - this means that the system is working and nothing else. This is the normal functionality of this project, and it is intended for it.
+
+Please stop being a moron who constantly writes us something like ""OMG, we have discovered the fact that users under root rights or administrator rights, or system configuration rights can execute any code under root rights!"".
+
+**This system is intended for** the administration of servers, server clusters and equipment in the telecommunications sector. Yes, under the root rights. Yes, under root access to database. This is the direct purpose of this project. This project does not have other purpose. It would be surprising if a system designed to **execute code under root rights** didn't do this when an administrator (user) logged in with the necessary rights for it. In real world, no one has access to this web-interface except system administrators who alredy have root permissions on this server. Yes, any data in 526 basic forms is not filtered. Its not required.
+
+Perhaps you are one of those retarded persons who are also surprised by the fact that ssh or telnet executes some commands if you use a username and password for it. Okay then, you can assume that you've found the same serious vulnerability in Ubilling. Your mom is proud of you, but you are still retard.
+
+## Yes, following modules
+
+![wow](https://user-images.githubusercontent.com/1496954/127738770-1e9b7406-ebe4-41d9-8a40-d22f659d9805.png)
+
+allows you:
+* dump and download whole database
+* execute any SQL queries under root rights on host system
+* execute any PHP or shell code under root rights on host system
+
+Just think about it.
+
+## Known NOT Vulnerabilities
+
+* [CVE-2018-1000827](https://nvd.nist.gov/vuln/detail/CVE-2018-1000827) - administrator with rights to register users can register users.. how unexpected..
+* [CVE-2020-29311](https://nvd.nist.gov/vuln/detail/CVE-2020-29311) - administrator with root rights can execute some code under root rights... WOW...
+* [""Tasks manager CSRF""](https://www.huntr.dev/bounties/8cfc8b16-b5ac-4e9c-a56b-97317efbaa0a/) - administrator with rights to create tasks can create some tasks.. amazing..
+
+
+## Reporting a Vulnerability
+
+If you think that you discovered real vulnerability that not requires logged in administrator user accont to reproduce it, you can report it by emailing info@ubilling.net.ua 
+
+**Anyway**
+
+* you will not receive any bounty
+* you will not become famous
+* you will not discover anything that we do not know about.. maybe.
+* but maybe you will satisfy your curiosity
+
+## Sorry if something that you read above seems unacceptable or rude to you, but we are really tired of the fact that every day someone tells us that the project is doing what it was designed for.","# Ubilling Security Policy
+
+## If you found that authorized users can do something.
+Special notice, for all **wannabe** pentesters/white hats/black hats/1337 h4x0rs etc, about vulnerabilities that you think you have already discovered:
+
+If you find that some code or commands are executed somewhere - this means that the system is working and nothing else. This is the normal functionality of this project, and it is intended for it.
+
+Please stop being a moron who constantly writes us something like ""OMG, we have discovered the fact that users under root rights or administrator rights, or system configuration rights can execute any code under root rights!"".
+
+**This system is intended for** the administration of servers, server clusters and equipment in the telecommunications sector. Yes, under the root rights. Yes, under root access to database. This is the direct purpose of this project. This project does not have other purpose. It would be surprising if a system designed to **execute code under root rights** didn't do this when an administrator (user) logged in with the necessary rights for it. In real world, no one has access to this web-interface except system administrators who alredy have root permissions on this server. 
+Yes, any data in 526 basic forms is not filtered. Its not required. Yes, in the real world no one from the outside doesnt knows Ubilling administrative interface URL.
+
+Perhaps you are one of those retarded persons who are also surprised by the fact that ssh or telnet executes some commands if you use a username and password for it. Okay then, you can assume that you've found the same serious vulnerability in Ubilling. Your mom is proud of you, but you are still retard.
+
+## Yes, following modules
+
+![wow](https://user-images.githubusercontent.com/1496954/127738770-1e9b7406-ebe4-41d9-8a40-d22f659d9805.png)
+
+allows you:
+* dump and download whole database
+* execute any SQL queries under root rights on host system
+* execute any PHP or shell code under root rights on host system
+
+Just think about it.
+
+## Known NOT Vulnerabilities
+
+* [CVE-2018-1000827](https://nvd.nist.gov/vuln/detail/CVE-2018-1000827) - administrator with rights to register users can register users.. how unexpected..
+* [CVE-2020-29311](https://nvd.nist.gov/vuln/detail/CVE-2020-29311) - administrator with root rights can execute some code under root rights... WOW...
+* [""Tasks manager CSRF""](https://www.huntr.dev/bounties/8cfc8b16-b5ac-4e9c-a56b-97317efbaa0a/) - administrator with rights to create tasks can create some tasks.. amazing..
+
+
+## Reporting a Vulnerability
+
+If you think that you discovered real vulnerability that not requires logged in administrator user accont to reproduce it, you can report it by emailing info@ubilling.net.ua 
+
+**Anyway**
+
+* you will not receive any bounty
+* you will not become famous
+* you will not discover anything that we do not know about.. maybe.
+* but maybe you will satisfy your curiosity
+
+## Sorry if something that you read above seems unacceptable or rude to you, but we are really tired of the fact that every day someone tells us that the project is doing what it was designed for.",100,b nightflyza/Ubilling 89b682536bf420e1d975efcb4741f64c59152644

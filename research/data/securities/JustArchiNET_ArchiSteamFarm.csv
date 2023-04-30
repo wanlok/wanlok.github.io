@@ -1,0 +1,190 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+JustArchiNET/ArchiSteamFarm,SECURITY.md,b7d12053b1b4a869d1fd1bec6e477541548ebde0,2019-06-13 15:36:26+00:00,,"# Security policy
+
+---
+
+## Supported versions
+
+We support **[the latest stable](https://github.com/JustArchiNET/ArchiSteamFarm/releases/latest)** release only. In addition to that, limited support applies to **[the latest pre-release](https://github.com/JustArchiNET/ArchiSteamFarm/releases)** version (if available). Check out our **[release cycle](https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Release-cycle)** for more info.
+
+---
+
+## Reporting a vulnerability
+
+We're doing our best to protect our community from all harm, therefore we take security vulnerabilities very seriously.
+
+If you believe that you've found one, we'd appreciate if you let us know about it. You can do so by contacting us privately at ASF@JustArchi.net e-mail, where we'll do our best to evaluate your issue ASAP and keep you updated with the development status. If your vulnerability isn't crucial and doesn't result in a direct escalation, therefore can be known publicly while the appropriate fix is being implemented, you can also open a standard **[issue](https://github.com/JustArchiNET/ArchiSteamFarm/issues/new/choose)** instead.
+
+Depending on the severity of the issue, we might take further actions in order to limit potential damage, for example by speeding up the release of the next stable ASF version. This is evaluated on a case-by-case basis.
+",1342,b JustArchiNET/ArchiSteamFarm b7d12053b1b4a869d1fd1bec6e477541548ebde0
+JustArchiNET/ArchiSteamFarm,SECURITY.md,0a973cefd2ba93c3df83224ffe7478a1c8d6a66b,2020-08-10 23:05:16+00:00,"# Security policy
+
+---
+
+## Supported versions
+
+We support **[the latest stable](https://github.com/JustArchiNET/ArchiSteamFarm/releases/latest)** release only. In addition to that, limited support applies to **[the latest pre-release](https://github.com/JustArchiNET/ArchiSteamFarm/releases)** version (if available). Check out our **[release cycle](https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Release-cycle)** for more info.
+
+---
+
+## Reporting a vulnerability
+
+We're doing our best to protect our community from all harm, therefore we take security vulnerabilities very seriously.
+
+If you believe that you've found one, we'd appreciate if you let us know about it. You can do so by contacting us privately at ASF@JustArchi.net e-mail, where we'll do our best to evaluate your issue ASAP and keep you updated with the development status. If your vulnerability isn't crucial and doesn't result in a direct escalation, therefore can be known publicly while the appropriate fix is being implemented, you can also open a standard **[issue](https://github.com/JustArchiNET/ArchiSteamFarm/issues/new/choose)** instead.
+
+Depending on the severity of the issue, we might take further actions in order to limit potential damage, for example by speeding up the release of the next stable ASF version. This is evaluated on a case-by-case basis.
+",,1342,b JustArchiNET/ArchiSteamFarm 0a973cefd2ba93c3df83224ffe7478a1c8d6a66b
+JustArchiNET/ArchiSteamFarm,.github/SECURITY.md,0a973cefd2ba93c3df83224ffe7478a1c8d6a66b,2020-08-10 23:05:16+00:00,,"# Security policy
+
+---
+
+## Supported versions
+
+We support **[the latest stable](https://github.com/JustArchiNET/ArchiSteamFarm/releases/latest)** release only. In addition to that, limited support applies to **[the latest pre-release](https://github.com/JustArchiNET/ArchiSteamFarm/releases)** version (if available). Check out our **[release cycle](https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Release-cycle)** for more info.
+
+---
+
+## Reporting a vulnerability
+
+We're doing our best to protect our community from all harm, therefore we take security vulnerabilities very seriously.
+
+If you believe that you've found one, we'd appreciate if you let us know about it. You can do so by contacting us privately at ASF@JustArchi.net e-mail, where we'll do our best to evaluate your issue ASAP and keep you updated with the development status. If your vulnerability isn't crucial and doesn't result in a direct escalation, therefore can be known publicly while the appropriate fix is being implemented, you can also open a standard **[issue](https://github.com/JustArchiNET/ArchiSteamFarm/issues/new/choose)** instead.
+
+Depending on the severity of the issue, we might take further actions in order to limit potential damage, for example by speeding up the release of the next stable ASF version. This is evaluated on a case-by-case basis.
+",1342,b JustArchiNET/ArchiSteamFarm 0a973cefd2ba93c3df83224ffe7478a1c8d6a66b
+JustArchiNET/ArchiSteamFarm,.github/SECURITY.md,c97985c793be1104db26bcf220f5bae86e376d5f,2021-07-23 18:30:49+00:00,"# Security policy
+
+---
+
+## Supported versions
+
+We support **[the latest stable](https://github.com/JustArchiNET/ArchiSteamFarm/releases/latest)** release only. In addition to that, limited support applies to **[the latest pre-release](https://github.com/JustArchiNET/ArchiSteamFarm/releases)** version (if available). Check out our **[release cycle](https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Release-cycle)** for more info.
+
+---
+
+## Reporting a vulnerability
+
+We're doing our best to protect our community from all harm, therefore we take security vulnerabilities very seriously.
+
+If you believe that you've found one, we'd appreciate if you let us know about it. You can do so by contacting us privately at ASF@JustArchi.net e-mail, where we'll do our best to evaluate your issue ASAP and keep you updated with the development status. If your vulnerability isn't crucial and doesn't result in a direct escalation, therefore can be known publicly while the appropriate fix is being implemented, you can also open a standard **[issue](https://github.com/JustArchiNET/ArchiSteamFarm/issues/new/choose)** instead.
+
+Depending on the severity of the issue, we might take further actions in order to limit potential damage, for example by speeding up the release of the next stable ASF version. This is evaluated on a case-by-case basis.
+","# Security policy
+
+---
+
+## Supported versions
+
+We support **[the latest stable](https://github.com/JustArchiNET/ArchiSteamFarm/releases/latest)** release only. In addition to that, limited support applies to **[the latest pre-release](https://github.com/JustArchiNET/ArchiSteamFarm/releases)** version (if available). Check out our **[release cycle](https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Release-cycle)** for more info.
+
+---
+
+## Security advisories
+
+We announce security advisories for our program on **[GitHub[(https://github.com/JustArchiNET/ArchiSteamFarm/security/advisories)**. Every entry includes detailed information about the security vulnerability it describes, especially affected versions, attack vectors, fixed versions as well as possible workarounds (if any).
+
+---
+
+## Reporting a vulnerability
+
+We're doing our best to protect our community from all harm, therefore we take security vulnerabilities very seriously.
+
+If you believe that you've found one, we'd appreciate if you let us know about it. You can do so by contacting us privately at ASF@JustArchi.net e-mail, where we'll do our best to evaluate your issue ASAP and keep you updated with the development status. If your vulnerability isn't crucial and doesn't result in a direct escalation, therefore can be known publicly while the appropriate fix is being implemented, you can also open a standard **[issue](https://github.com/JustArchiNET/ArchiSteamFarm/issues/new/choose)** instead.
+
+Depending on the severity of the issue, we might take further actions in order to limit potential damage, for example by speeding up the release of the next stable ASF version. This is evaluated on a case-by-case basis.
+",355,b JustArchiNET/ArchiSteamFarm c97985c793be1104db26bcf220f5bae86e376d5f
+JustArchiNET/ArchiSteamFarm,.github/SECURITY.md,95b17d4e791197718bf9bc1abc413921507cfaeb,2021-07-23 18:30:58+00:00,"# Security policy
+
+---
+
+## Supported versions
+
+We support **[the latest stable](https://github.com/JustArchiNET/ArchiSteamFarm/releases/latest)** release only. In addition to that, limited support applies to **[the latest pre-release](https://github.com/JustArchiNET/ArchiSteamFarm/releases)** version (if available). Check out our **[release cycle](https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Release-cycle)** for more info.
+
+---
+
+## Security advisories
+
+We announce security advisories for our program on **[GitHub[(https://github.com/JustArchiNET/ArchiSteamFarm/security/advisories)**. Every entry includes detailed information about the security vulnerability it describes, especially affected versions, attack vectors, fixed versions as well as possible workarounds (if any).
+
+---
+
+## Reporting a vulnerability
+
+We're doing our best to protect our community from all harm, therefore we take security vulnerabilities very seriously.
+
+If you believe that you've found one, we'd appreciate if you let us know about it. You can do so by contacting us privately at ASF@JustArchi.net e-mail, where we'll do our best to evaluate your issue ASAP and keep you updated with the development status. If your vulnerability isn't crucial and doesn't result in a direct escalation, therefore can be known publicly while the appropriate fix is being implemented, you can also open a standard **[issue](https://github.com/JustArchiNET/ArchiSteamFarm/issues/new/choose)** instead.
+
+Depending on the severity of the issue, we might take further actions in order to limit potential damage, for example by speeding up the release of the next stable ASF version. This is evaluated on a case-by-case basis.
+","# Security policy
+
+---
+
+## Supported versions
+
+We support **[the latest stable](https://github.com/JustArchiNET/ArchiSteamFarm/releases/latest)** release only. In addition to that, limited support applies to **[the latest pre-release](https://github.com/JustArchiNET/ArchiSteamFarm/releases)** version (if available). Check out our **[release cycle](https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Release-cycle)** for more info.
+
+---
+
+## Security advisories
+
+We announce security advisories for our program on **[GitHub](https://github.com/JustArchiNET/ArchiSteamFarm/security/advisories)**. Every entry includes detailed information about the security vulnerability it describes, especially affected versions, attack vectors, fixed versions as well as possible workarounds (if any).
+
+---
+
+## Reporting a vulnerability
+
+We're doing our best to protect our community from all harm, therefore we take security vulnerabilities very seriously.
+
+If you believe that you've found one, we'd appreciate if you let us know about it. You can do so by contacting us privately at ASF@JustArchi.net e-mail, where we'll do our best to evaluate your issue ASAP and keep you updated with the development status. If your vulnerability isn't crucial and doesn't result in a direct escalation, therefore can be known publicly while the appropriate fix is being implemented, you can also open a standard **[issue](https://github.com/JustArchiNET/ArchiSteamFarm/issues/new/choose)** instead.
+
+Depending on the severity of the issue, we might take further actions in order to limit potential damage, for example by speeding up the release of the next stable ASF version. This is evaluated on a case-by-case basis.
+",1,b JustArchiNET/ArchiSteamFarm 95b17d4e791197718bf9bc1abc413921507cfaeb
+JustArchiNET/ArchiSteamFarm,.github/SECURITY.md,d87c5a23cf3779e677ea24627f219fb0947218d5,2022-11-27 14:34:28+00:00,"# Security policy
+
+---
+
+## Supported versions
+
+We support **[the latest stable](https://github.com/JustArchiNET/ArchiSteamFarm/releases/latest)** release only. In addition to that, limited support applies to **[the latest pre-release](https://github.com/JustArchiNET/ArchiSteamFarm/releases)** version (if available). Check out our **[release cycle](https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Release-cycle)** for more info.
+
+---
+
+## Security advisories
+
+We announce security advisories for our program on **[GitHub](https://github.com/JustArchiNET/ArchiSteamFarm/security/advisories)**. Every entry includes detailed information about the security vulnerability it describes, especially affected versions, attack vectors, fixed versions as well as possible workarounds (if any).
+
+---
+
+## Reporting a vulnerability
+
+We're doing our best to protect our community from all harm, therefore we take security vulnerabilities very seriously.
+
+If you believe that you've found one, we'd appreciate if you let us know about it. You can do so by contacting us privately at ASF@JustArchi.net e-mail, where we'll do our best to evaluate your issue ASAP and keep you updated with the development status. If your vulnerability isn't crucial and doesn't result in a direct escalation, therefore can be known publicly while the appropriate fix is being implemented, you can also open a standard **[issue](https://github.com/JustArchiNET/ArchiSteamFarm/issues/new/choose)** instead.
+
+Depending on the severity of the issue, we might take further actions in order to limit potential damage, for example by speeding up the release of the next stable ASF version. This is evaluated on a case-by-case basis.
+","# Security policy
+
+---
+
+## Supported versions
+
+We support **[the latest stable](https://github.com/JustArchiNET/ArchiSteamFarm/releases/latest)** release only. In addition to that, limited support applies to **[the latest pre-release](https://github.com/JustArchiNET/ArchiSteamFarm/releases)** version (if available). Check out our **[release cycle](https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Release-cycle)** for more info.
+
+---
+
+## Security advisories
+
+We announce security advisories for our program on **[GitHub](https://github.com/JustArchiNET/ArchiSteamFarm/security/advisories)**. Every entry includes detailed information about the security vulnerability it describes, especially affected versions, attack vectors, fixed versions as well as possible workarounds (if any).
+
+---
+
+## Reporting a vulnerability
+
+We're doing our best to protect our community from all harm, therefore we take security vulnerabilities very seriously.
+
+If you believe that you've found one, we'd appreciate if you let us know about it. You can do so by **[opening a security advisory](https://github.com/JustArchiNET/ArchiSteamFarm/security/advisories/new)**, where we'll do our best to evaluate your issue ASAP and keep you updated with the development status. If your vulnerability isn't crucial and doesn't result in a direct escalation, therefore can be known publicly while the appropriate fix is being implemented, you can also open a standard **[issue](https://github.com/JustArchiNET/ArchiSteamFarm/issues/new/choose)** instead.
+
+Depending on the severity of the issue, we might take further actions in order to limit potential damage, for example by speeding up the release of the next stable ASF version. This is evaluated on a case-by-case basis.
+",82,b JustArchiNET/ArchiSteamFarm d87c5a23cf3779e677ea24627f219fb0947218d5

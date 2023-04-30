@@ -1,0 +1,58 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+Part-DB/Part-DB-server,SECURITY.md,504cd42f3e846d5e5c52fb9417a70aa609907f03,2021-10-02 16:22:20+00:00,,"# Security Policy
+
+## Supported Versions
+
+This is an alpha version without releases yet. Only the newest version from the master branch is supported.
+
+## Reporting a Vulnerability
+
+If you find an vulnerability contact the maintainer directly (Email: security@part-db.de).
+",272,b Part-DB/Part-DB-server 504cd42f3e846d5e5c52fb9417a70aa609907f03
+Part-DB/Part-DB-server,SECURITY.md,b8171f99ba35221d5589afce3adcef21bc6191a0,2023-02-12 22:37:09+00:00,"# Security Policy
+
+## Supported Versions
+
+This is an alpha version without releases yet. Only the newest version from the master branch is supported.
+
+## Reporting a Vulnerability
+
+If you find an vulnerability contact the maintainer directly (Email: security@part-db.de).
+","# Security Policy
+
+## Supported Versions
+
+Only the most recent release of Part-DB is supported.
+
+(Unreleased) development versions are not supported and might contain security vulnerabilities, which might not be 
+fixed before the next release. However, if you find a security vulnerability in a development version, please report it
+
+## Reporting a Vulnerability
+
+If you find a security vulnerability, contact the maintainer directly (Email: security@part-db.de).
+",235,b Part-DB/Part-DB-server b8171f99ba35221d5589afce3adcef21bc6191a0
+Part-DB/Part-DB-server,SECURITY.md,d1b8a36b93261e4b4d39554a2e7fd943fd6a9a05,2023-02-26 18:23:58+00:00,"# Security Policy
+
+## Supported Versions
+
+Only the most recent release of Part-DB is supported.
+
+(Unreleased) development versions are not supported and might contain security vulnerabilities, which might not be 
+fixed before the next release. However, if you find a security vulnerability in a development version, please report it
+
+## Reporting a Vulnerability
+
+If you find a security vulnerability, contact the maintainer directly (Email: security@part-db.de).
+","# Security Policy
+
+## Supported Versions
+
+Only the most recent release of Part-DB is supported.
+
+(Unreleased) development versions are not supported and might contain security vulnerabilities, which might not be 
+fixed before the next release. However, if you find a security vulnerability in a development version, please report it
+
+## Reporting a Vulnerability
+
+If you find a security vulnerability, report a vulnerability in the [security section of GitHub](https://github.com/Part-DB/Part-DB-server/security/advisories) or contact the maintainer directly (Email: security@part-db.de)
+",126,b Part-DB/Part-DB-server d1b8a36b93261e4b4d39554a2e7fd943fd6a9a05

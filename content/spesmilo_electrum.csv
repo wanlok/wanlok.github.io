@@ -1,0 +1,97 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+spesmilo/electrum,SECURITY.md,f24dea02776cccf596546b96759f1e403b087295,2019-12-06 20:47:28+00:00,,"# Security Policy
+
+## Reporting a Vulnerability
+
+To report security issues send an email to electrumdev@gmail.com.
+
+The following keys may be used to communicate sensitive information to developers:
+
+| Name | Fingerprint |
+|------|-------------|
+| ThomasV | 6694 D8DE 7BE8 EE56 31BE D950 2BD5 824B 7F94 70E6 |
+| SomberNight | 4AD6 4339 DFA0 5E20 B3F6 AD51 E7B7 48CD AF5E 5ED9 |
+
+You can import a key by running the following command with that
+individual’s fingerprint: `gpg --recv-keys ""<fingerprint>""`
+Ensure that you put quotes around fingerprints containing spaces.
+
+These public keys can also be found in the Electrum git repository,
+in the top-level `pubkeys` folder.
+",673,b spesmilo/electrum f24dea02776cccf596546b96759f1e403b087295
+spesmilo/electrum,SECURITY.md,90d2d826a4dc9bb4fe05c410c3221eed9811a0f8,2022-04-28 16:27:34+00:00,"# Security Policy
+
+## Reporting a Vulnerability
+
+To report security issues send an email to electrumdev@gmail.com.
+
+The following keys may be used to communicate sensitive information to developers:
+
+| Name | Fingerprint |
+|------|-------------|
+| ThomasV | 6694 D8DE 7BE8 EE56 31BE D950 2BD5 824B 7F94 70E6 |
+| SomberNight | 4AD6 4339 DFA0 5E20 B3F6 AD51 E7B7 48CD AF5E 5ED9 |
+
+You can import a key by running the following command with that
+individual’s fingerprint: `gpg --recv-keys ""<fingerprint>""`
+Ensure that you put quotes around fingerprints containing spaces.
+
+These public keys can also be found in the Electrum git repository,
+in the top-level `pubkeys` folder.
+","# Security Policy
+
+## Reporting a Vulnerability
+
+To report security issues send an email to electrumdev@gmail.com.
+
+The following keys may be used to communicate sensitive information to developers:
+
+| Name | Email | Fingerprint |
+|------|-------|----------------|
+| ThomasV | thomasv@electrum.org | 6694 D8DE 7BE8 EE56 31BE D950 2BD5 824B 7F94 70E6 |
+| SomberNight | somber.night@protonmail.com | 4AD6 4339 DFA0 5E20 B3F6 AD51 E7B7 48CD AF5E 5ED9 |
+
+You can import a key by running the following command with that
+individual’s fingerprint: `gpg --recv-keys ""<fingerprint>""`
+Ensure that you put quotes around fingerprints containing spaces.
+
+These public keys can also be found in the Electrum git repository,
+in the top-level `pubkeys` folder.
+",72,b spesmilo/electrum 90d2d826a4dc9bb4fe05c410c3221eed9811a0f8
+spesmilo/electrum,SECURITY.md,3c7d5663fd987e647542dd47a0bbd8133d55fe3d,2022-04-28 16:28:09+00:00,"# Security Policy
+
+## Reporting a Vulnerability
+
+To report security issues send an email to electrumdev@gmail.com.
+
+The following keys may be used to communicate sensitive information to developers:
+
+| Name | Email | Fingerprint |
+|------|-------|----------------|
+| ThomasV | thomasv@electrum.org | 6694 D8DE 7BE8 EE56 31BE D950 2BD5 824B 7F94 70E6 |
+| SomberNight | somber.night@protonmail.com | 4AD6 4339 DFA0 5E20 B3F6 AD51 E7B7 48CD AF5E 5ED9 |
+
+You can import a key by running the following command with that
+individual’s fingerprint: `gpg --recv-keys ""<fingerprint>""`
+Ensure that you put quotes around fingerprints containing spaces.
+
+These public keys can also be found in the Electrum git repository,
+in the top-level `pubkeys` folder.
+","# Security Policy
+
+## Reporting a Vulnerability
+
+The following keys may be used to communicate sensitive information to developers:
+
+| Name | Email | Fingerprint |
+|------|-------|----------------|
+| ThomasV | thomasv@electrum.org | 6694 D8DE 7BE8 EE56 31BE D950 2BD5 824B 7F94 70E6 |
+| SomberNight | somber.night@protonmail.com | 4AD6 4339 DFA0 5E20 B3F6 AD51 E7B7 48CD AF5E 5ED9 |
+
+You can import a key by running the following command with that
+individual’s fingerprint: `gpg --recv-keys ""<fingerprint>""`
+Ensure that you put quotes around fingerprints containing spaces.
+
+These public keys can also be found in the Electrum git repository,
+in the top-level `pubkeys` folder.
+",67,b spesmilo/electrum 3c7d5663fd987e647542dd47a0bbd8133d55fe3d

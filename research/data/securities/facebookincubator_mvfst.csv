@@ -1,0 +1,24 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+facebookincubator/.github,SECURITY.md,7d5b4ce3bf42efae55945002fd6e86a9bea2e701,2020-09-21 22:57:36+00:00,,"# Reporting and Fixing Security Issues
+
+Please do not open GitHub issues or pull requests - this makes the problem immediately visible to everyone, including malicious actors. Security issues in this open source project can be safely reported via Facebook's Whitehat Bug Bounty program:
+
+https://www.facebook.com/whitehat
+
+Facebook's security team will triage your report and determine whether or not is it eligible for a bounty under our program.
+",448,b facebookincubator/.github 7d5b4ce3bf42efae55945002fd6e86a9bea2e701
+facebookincubator/.github,SECURITY.md,a551a0c0724ef4da96b551412cbb34876c50fc14,2022-01-20 20:26:17+00:00,"# Reporting and Fixing Security Issues
+
+Please do not open GitHub issues or pull requests - this makes the problem immediately visible to everyone, including malicious actors. Security issues in this open source project can be safely reported via Facebook's Whitehat Bug Bounty program:
+
+https://www.facebook.com/whitehat
+
+Facebook's security team will triage your report and determine whether or not is it eligible for a bounty under our program.
+","# Reporting and Fixing Security Issues
+
+Please do not open GitHub issues or pull requests - this makes the problem immediately visible to everyone, including malicious actors. Security issues in this open source project can be safely reported via the Meta Bug Bounty program:
+
+https://www.facebook.com/whitehat
+
+Meta's security team will triage your report and determine whether or not is it eligible for a bounty under our program.
+",22,b facebookincubator/.github a551a0c0724ef4da96b551412cbb34876c50fc14

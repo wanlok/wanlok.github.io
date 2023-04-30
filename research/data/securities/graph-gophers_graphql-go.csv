@@ -1,0 +1,54 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+graph-gophers/graphql-go,SECURITY.md,ff0c18a883018ee41b162c4f690f9392eb01d8de,2022-01-20 10:14:35+00:00,,"# Security Policy
+
+## Supported Versions
+
+We always try to maintain the library secure and suggest our users to upgrade to the latest stable version. We realize that sometimes this is not possible.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.x     | :white_check_mark: |
+| < 1.0   | :x:                |
+
+## MaxDepth
+If you are using the `graphql.MaxDepth` schema option, make sure that you upgrade to version v1.3.0 or higher due to a bug causing security vulnerability in earlier versions.
+
+## Reporting a Vulnerability
+
+If you find a security vulnerability with this library, please, DO NOT submit a pull request right away. Please, report the issue to @pavelnikolov and/or @tony in the Gophers Slack in a private message.
+",753,b graph-gophers/graphql-go ff0c18a883018ee41b162c4f690f9392eb01d8de
+graph-gophers/graphql-go,SECURITY.md,96f18891ee4b1c5ffd155a5b74691006102cc492,2023-02-11 12:20:28+00:00,"# Security Policy
+
+## Supported Versions
+
+We always try to maintain the library secure and suggest our users to upgrade to the latest stable version. We realize that sometimes this is not possible.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.x     | :white_check_mark: |
+| < 1.0   | :x:                |
+
+## MaxDepth
+If you are using the `graphql.MaxDepth` schema option, make sure that you upgrade to version v1.3.0 or higher due to a bug causing security vulnerability in earlier versions.
+
+## Reporting a Vulnerability
+
+If you find a security vulnerability with this library, please, DO NOT submit a pull request right away. Please, report the issue to @pavelnikolov and/or @tony in the Gophers Slack in a private message.
+","# Security Policy
+
+## Supported Versions
+
+We always try to maintain the library secure and suggest our users to upgrade to the latest stable version. We realize that sometimes this is not possible.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.x     | :white_check_mark: |
+| < 1.0   | :x:                |
+
+## MaxDepth
+If you are using the `graphql.MaxDepth` schema option, make sure that you upgrade to version v1.3.0 or higher due to a bug causing security vulnerability in earlier versions.
+
+## Reporting a Vulnerability
+
+If you find a security vulnerability with this library, please, DO NOT submit a pull request right away. Please, report the issue to @pavelnikolov in the Gophers Slack in a private message.
+",13,b graph-gophers/graphql-go 96f18891ee4b1c5ffd155a5b74691006102cc492

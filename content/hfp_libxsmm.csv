@@ -1,0 +1,60 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+hfp/libxsmm,SECURITY.md,c5de0f9b3ee5ea8c58acb3e14f743a6e6da32670,2020-01-14 12:51:06+00:00,,"# Security Policy
+
+## Supported Versions
+
+LIBXSMM is distributed as source code package. In case of an issue, please report at https://github.com/hfp/libxsmm/issues. There is no formal commitment to update an existing release. Please feel free to write down such an expectation as part of the issue report!
+
+Determine accurate build information in case of an upstreamed package (binary distribution):
+
+```bash
+export LIBXSMM_DUMP_BUILD=1
+./application_linked_with_libxsmm ...
+```
+
+Build information is available when LIBXSMM was dynamically or statically linked with an application (not for header-only).
+
+## Reporting a Vulnerability
+
+Please report any kind of issue at https://github.com/hfp/libxsmm/issues or leave a reference to a report made elsewhere.
+
+",759,b hfp/libxsmm c5de0f9b3ee5ea8c58acb3e14f743a6e6da32670
+hfp/libxsmm,SECURITY.md,180aae45a74731c3f8fb697b62dcb6c336c218ac,2022-01-26 11:36:35+00:00,"# Security Policy
+
+## Supported Versions
+
+LIBXSMM is distributed as source code package. In case of an issue, please report at https://github.com/hfp/libxsmm/issues. There is no formal commitment to update an existing release. Please feel free to write down such an expectation as part of the issue report!
+
+Determine accurate build information in case of an upstreamed package (binary distribution):
+
+```bash
+export LIBXSMM_DUMP_BUILD=1
+./application_linked_with_libxsmm ...
+```
+
+Build information is available when LIBXSMM was dynamically or statically linked with an application (not for header-only).
+
+## Reporting a Vulnerability
+
+Please report any kind of issue at https://github.com/hfp/libxsmm/issues or leave a reference to a report made elsewhere.
+
+","# Security Policy
+
+## Supported Versions
+
+LIBXSMM is distributed as source code package. In case of an issue, please report at https://github.com/libxsmm/libxsmm/issues. There is no formal commitment to update an existing release. Please feel free to write down such an expectation as part of the issue report!
+
+Determine accurate build information in case of an upstreamed package (binary distribution):
+
+```bash
+export LIBXSMM_DUMP_BUILD=1
+./application_linked_with_libxsmm ...
+```
+
+Build information is available when LIBXSMM was dynamically or statically linked with an application (not for header-only).
+
+## Reporting a Vulnerability
+
+Please report any kind of issue at https://github.com/libxsmm/libxsmm/issues or leave a reference to a report made elsewhere.
+
+",14,b hfp/libxsmm 180aae45a74731c3f8fb697b62dcb6c336c218ac

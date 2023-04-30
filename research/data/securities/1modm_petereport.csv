@@ -1,0 +1,11 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+1modm/petereport,SECURITY.md,fd71e475e574e9c9fbf07c8e3a908312fd0e735c,2022-04-30 16:27:01+00:00,,"# Security Policy
+
+## Reporting a Vulnerability
+
+We take security very seriously and investigate all reported vulnerabilities.
+
+When escalating in that venue, please do not discuss your issue. Contact us and we will address as soon as possible.
+
+Thanks
+",253,b 1modm/petereport fd71e475e574e9c9fbf07c8e3a908312fd0e735c

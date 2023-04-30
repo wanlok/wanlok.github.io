@@ -1,0 +1,152 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+s-cart/core,SECURITY.md,adc3616ca3878bc0214c8fdd8b6324e032464004,2021-06-10 13:29:51+00:00,,"# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 6.3.x   | :white_check_mark: |
+| < 6.3   | :x:                |
+
+## Reporting a Vulnerability
+
+If you discover a security vulnerability within S-Cart ecommerce, please send an e-mail to Lanh Le via lanhktc@gmail.com. All security vulnerabilities will be promptly addressed.
+",507,b s-cart/core adc3616ca3878bc0214c8fdd8b6324e032464004
+s-cart/core,SECURITY.md,fd0e56a556104183bca3398da9c98bc2c9d2cdd7,2021-07-22 00:13:22+00:00,"# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 6.3.x   | :white_check_mark: |
+| < 6.3   | :x:                |
+
+## Reporting a Vulnerability
+
+If you discover a security vulnerability within S-Cart ecommerce, please send an e-mail to Lanh Le via lanhktc@gmail.com. All security vulnerabilities will be promptly addressed.
+","# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 6.3.x   | :white_check_mark: |
+| 6.4.x   | :white_check_mark: |
+| < 6.3   | :x:                |
+
+## Reporting a Vulnerability
+
+If you discover a security vulnerability within S-Cart ecommerce, please send an e-mail to Lanh Le via lanhktc@gmail.com. All security vulnerabilities will be promptly addressed.
+",33,b s-cart/core fd0e56a556104183bca3398da9c98bc2c9d2cdd7
+s-cart/core,SECURITY.md,5b4779ff3ff20481e3702e6f2807b184e88c26ee,2021-09-15 14:14:31+00:00,"# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 6.3.x   | :white_check_mark: |
+| 6.4.x   | :white_check_mark: |
+| < 6.3   | :x:                |
+
+## Reporting a Vulnerability
+
+If you discover a security vulnerability within S-Cart ecommerce, please send an e-mail to Lanh Le via lanhktc@gmail.com. All security vulnerabilities will be promptly addressed.
+","# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 6.5.x   | :white_check_mark: |
+| 6.4.x   | :white_check_mark: |
+| < 6.3   | :x:                |
+
+## Reporting a Vulnerability
+
+If you discover a security vulnerability within S-Cart ecommerce, please send an e-mail to Lanh Le via lanhktc@gmail.com. All security vulnerabilities will be promptly addressed.
+",1,b s-cart/core 5b4779ff3ff20481e3702e6f2807b184e88c26ee
+s-cart/core,SECURITY.md,f81c5f020e7cf836eea426f5da97a9189f6655cc,2021-09-28 03:06:10+00:00,"# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 6.5.x   | :white_check_mark: |
+| 6.4.x   | :white_check_mark: |
+| < 6.3   | :x:                |
+
+## Reporting a Vulnerability
+
+If you discover a security vulnerability within S-Cart ecommerce, please send an e-mail to Lanh Le via lanhktc@gmail.com. All security vulnerabilities will be promptly addressed.
+","# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 6.6.x   | :white_check_mark: |
+| 6.5.x   | :white_check_mark: |
+| 6.4.x   | :white_check_mark: |
+| < 6.4   | :x:                |
+
+## Reporting a Vulnerability
+
+If you discover a security vulnerability within S-Cart ecommerce, please send an e-mail to Lanh Le via lanhktc@gmail.com. All security vulnerabilities will be promptly addressed.
+",34,b s-cart/core f81c5f020e7cf836eea426f5da97a9189f6655cc
+s-cart/core,SECURITY.md,76b0dd2ed53b5d04258600893164c57b51ae3f43,2023-02-21 22:29:18+00:00,"# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 6.6.x   | :white_check_mark: |
+| 6.5.x   | :white_check_mark: |
+| 6.4.x   | :white_check_mark: |
+| < 6.4   | :x:                |
+
+## Reporting a Vulnerability
+
+If you discover a security vulnerability within S-Cart ecommerce, please send an e-mail to Lanh Le via lanhktc@gmail.com. All security vulnerabilities will be promptly addressed.
+",,573,b s-cart/core 76b0dd2ed53b5d04258600893164c57b51ae3f43
+s-cart/core,SECURITY.md,86a826c88735de12c94185a436c817a165dd6341,2023-02-21 22:30:02+00:00,,"# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 6.6.x   | :white_check_mark: |
+| 6.5.x   | :white_check_mark: |
+| 6.4.x   | :white_check_mark: |
+| < 6.4   | :x:                |
+
+## Reporting a Vulnerability
+
+If you discover a security vulnerability within S-Cart ecommerce, please send an e-mail to Lanh Le via lanhktc@gmail.com. All security vulnerabilities will be promptly addressed.
+",573,b s-cart/core 86a826c88735de12c94185a436c817a165dd6341

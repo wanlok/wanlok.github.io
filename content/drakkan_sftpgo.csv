@@ -1,0 +1,14 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+drakkan/sftpgo,SECURITY.md,80d695f3a2b1f36e83abc23a5a233fa1efa8f105,2020-10-11 07:29:17+00:00,,"# Security Policy
+
+## Supported Versions
+
+Only the current release of the software is actively supported.  If you need
+help backporting fixes into an older release, feel free to ask.
+
+## Reporting a Vulnerability
+
+Email your vulnerability information to SFTPGo's maintainer:
+
+  Nicola Murino <nicola.murino@gmail.com>
+",318,b drakkan/sftpgo 80d695f3a2b1f36e83abc23a5a233fa1efa8f105

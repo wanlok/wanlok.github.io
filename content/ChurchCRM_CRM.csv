@@ -1,0 +1,106 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+ChurchCRM/CRM,SECURITY.md,fcdd2131fd33807228aca241226c17c007a0053e,2019-11-16 00:43:11+00:00,,"# Security Policy
+
+## Supported Versions
+
+| Vers ion | Supported          | PHP Version | 
+| ------- | ------------------ | ------------
+| 4.0.x   | :white_check_mark: | 7.2.x 7.3.x |
+| 3.0.x   | :x:                | 7.x |
+| 2.0.x   | :x:                | 5.6 7.0 7.1  | 
+
+",273,b ChurchCRM/CRM fcdd2131fd33807228aca241226c17c007a0053e
+ChurchCRM/CRM,SECURITY.md,5e3a789a7ef3404b0b3f9d05d4894a0d8c4d8f32,2020-06-18 15:13:04+00:00,"# Security Policy
+
+## Supported Versions
+
+| Vers ion | Supported          | PHP Version | 
+| ------- | ------------------ | ------------
+| 4.0.x   | :white_check_mark: | 7.2.x 7.3.x |
+| 3.0.x   | :x:                | 7.x |
+| 2.0.x   | :x:                | 5.6 7.0 7.1  | 
+
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          | PHP Version | 
+| ------- | ------------------ | ------------
+| 4.0.x   | :white_check_mark: | 7.2.x 7.3.x |
+| 3.0.x   | :x:                | 7.x |
+| 2.0.x   | :x:                | 5.6 7.0 7.1  | 
+
+",1,b ChurchCRM/CRM 5e3a789a7ef3404b0b3f9d05d4894a0d8c4d8f32
+ChurchCRM/CRM,SECURITY.md,850c859c6b3d13f17899a9cf3a2a2e5a4d93e7d1,2020-10-19 19:41:50+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          | PHP Version | 
+| ------- | ------------------ | ------------
+| 4.0.x   | :white_check_mark: | 7.2.x 7.3.x |
+| 3.0.x   | :x:                | 7.x |
+| 2.0.x   | :x:                | 5.6 7.0 7.1  | 
+
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          | PHP Version | 
+| ------- | ------------------ | ------------
+| 4.2 +   | :white_check_mark: | 7.3.x 7.4.x |
+| 4.0.x   | :x: | 7.2.x 7.3.x |
+| 3.0.x   | :x:                | 7.x |
+| 2.0.x   | :x:                | 5.6 7.0 7.1  | 
+
+",35,b ChurchCRM/CRM 850c859c6b3d13f17899a9cf3a2a2e5a4d93e7d1
+ChurchCRM/CRM,SECURITY.md,6f6a15bf0a98dce257a608bc212b395d2bff6e3e,2021-07-01 17:07:48+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          | PHP Version | 
+| ------- | ------------------ | ------------
+| 4.2 +   | :white_check_mark: | 7.3.x 7.4.x |
+| 4.0.x   | :x: | 7.2.x 7.3.x |
+| 3.0.x   | :x:                | 7.x |
+| 2.0.x   | :x:                | 5.6 7.0 7.1  | 
+
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          | PHP Version | 
+| ------- | ------------------ | ------------
+| 4.2 +   | :white_check_mark: | 7.3.x 7.4.x |
+| 4.0.x   | :x: | 7.2.x 7.3.x |
+| 3.0.x   | :x:                | 7.x |
+| 2.0.x   | :x:                | 5.6 7.0 7.1  | 
+
+Please disclose security issues to info@churchcrm.io
+",53,b ChurchCRM/CRM 6f6a15bf0a98dce257a608bc212b395d2bff6e3e
+ChurchCRM/CRM,SECURITY.md,98ccb0c94afd9426d5bbbc840a5af88b2e6241ff,2022-06-18 20:31:10+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          | PHP Version | 
+| ------- | ------------------ | ------------
+| 4.2 +   | :white_check_mark: | 7.3.x 7.4.x |
+| 4.0.x   | :x: | 7.2.x 7.3.x |
+| 3.0.x   | :x:                | 7.x |
+| 2.0.x   | :x:                | 5.6 7.0 7.1  | 
+
+Please disclose security issues to info@churchcrm.io
+","# Security Policy
+
+Do **NOT** conduct penetration/security testing on the ChurchCRM demo site without discussing first with code owners (via support ticket, or [Gitter](https://gitter.im/ChurchCRM/CRM) ). This can (*and often does*) generate hundreds of bogus support cases which is unhelpful. All security testing should be done in your own hosting environment unless you have explicit permission from site owners to test their deployments (including the ChurchCRM demo system).
+
+## Supported Versions
+
+| Version | Supported          | PHP Version | 
+| ------- | ------------------ | ------------
+| 4.2 +   | :white_check_mark: | 7.3.x 7.4.x |
+| 4.0.x   | :x: | 7.2.x 7.3.x |
+| 3.0.x   | :x:                | 7.x |
+| 2.0.x   | :x:                | 5.6 7.0 7.1  | 
+
+Please disclose security issues to info@churchcrm.io
+",462,b ChurchCRM/CRM 98ccb0c94afd9426d5bbbc840a5af88b2e6241ff

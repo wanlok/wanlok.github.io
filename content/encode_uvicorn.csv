@@ -1,0 +1,58 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+encode/.github,SECURITY.md,4cf4a5641643c199ded67af6c5c061752244a851,2022-10-12 12:43:13+00:00,,"**in progress**
+",16,b encode/.github 4cf4a5641643c199ded67af6c5c061752244a851
+encode/.github,SECURITY.md,52104479ca18941a2534c1f2c01fcb3f882f4c8b,2022-11-09 23:03:11+00:00,"**in progress**
+","# Security Policy
+
+If you think you have identified a security issue with an Encode project, **do not open a public issue**.
+
+To responsibly report a security issue, please navigate to the Security tab for the repo and click ""Report a vulnerability.""
+
+Be sure to include as much detail as necessary in your report. As with reporting normal issues, a minimal reproducible example will help the maintainers address the issue faster.
+
+Thank you.
+",429,b encode/.github 52104479ca18941a2534c1f2c01fcb3f882f4c8b
+encode/.github,SECURITY.md,8e64dd8bc3a301ab9d3fb781999a73a19b8e1e0e,2022-11-09 23:04:48+00:00,"# Security Policy
+
+If you think you have identified a security issue with an Encode project, **do not open a public issue**.
+
+To responsibly report a security issue, please navigate to the Security tab for the repo and click ""Report a vulnerability.""
+
+Be sure to include as much detail as necessary in your report. As with reporting normal issues, a minimal reproducible example will help the maintainers address the issue faster.
+
+Thank you.
+","# Security Policy
+
+If you think you have identified a security issue with an Encode project, **do not open a public issue**.
+
+To responsibly report a security issue, please navigate to the Security tab for the repo and click ""Report a vulnerability.""
+
+![Screenshot of repo security tab showing ""Report a vulnerability"" button](img/github-demos-private-vulnerability-reporting.png)
+
+Be sure to include as much detail as necessary in your report. As with reporting normal issues, a minimal reproducible example will help the maintainers address the issue faster.
+
+Thank you.
+",130,b encode/.github 8e64dd8bc3a301ab9d3fb781999a73a19b8e1e0e
+encode/.github,SECURITY.md,840a9cb04c6f3d10055bce4edb0556b8f9f4e9e2,2022-11-10 11:09:02+00:00,"# Security Policy
+
+If you think you have identified a security issue with an Encode project, **do not open a public issue**.
+
+To responsibly report a security issue, please navigate to the Security tab for the repo and click ""Report a vulnerability.""
+
+![Screenshot of repo security tab showing ""Report a vulnerability"" button](img/github-demos-private-vulnerability-reporting.png)
+
+Be sure to include as much detail as necessary in your report. As with reporting normal issues, a minimal reproducible example will help the maintainers address the issue faster.
+
+Thank you.
+","# Security Policy
+
+If you think you have identified a security issue with an Encode project, **do not open a public issue**.
+
+To responsibly report a security issue, please navigate to the Security tab for the repo and click ""Report a vulnerability.""
+
+![Screenshot of repo security tab showing ""Report a vulnerability"" button](https://github.com/encode/.github/raw/master/img/github-demos-private-vulnerability-reporting.png)
+
+Be sure to include as much detail as necessary in your report. As with reporting normal issues, a minimal reproducible example will help the maintainers address the issue faster.
+
+Thank you.
+",45,b encode/.github 840a9cb04c6f3d10055bce4edb0556b8f9f4e9e2

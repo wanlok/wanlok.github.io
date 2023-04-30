@@ -1,0 +1,5 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+ansible/awx,SECURITY.md,fcb1c4823ead24b7096d9d14e6d2d489cd6573b1,2022-03-15 13:59:42+00:00,,"For all security related bugs, email security@ansible.com instead of using this issue tracker and you will receive a prompt response.
+
+For more information on the Ansible community's practices regarding responsible disclosure, see https://www.ansible.com/security
+",264,b ansible/awx fcb1c4823ead24b7096d9d14e6d2d489cd6573b1

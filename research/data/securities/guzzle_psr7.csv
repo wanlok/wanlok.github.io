@@ -1,0 +1,19 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+guzzle/.github,SECURITY.md,1ba69d5ef43a4479a07ce074b2e8bc5e29ddb669,2019-12-21 16:21:14+00:00,,"# Security Policy
+
+## Reporting a Vulnerability
+
+⚠ PLEASE DON'T DISCLOSE SECURITY-RELATED ISSUES PUBLICLY, SEE BELOW.
+
+If you have found a security issue in Guzzle, please send the details to
+security@guzzlephp.org and don't disclose it publicly until we can provide a fix for it.
+",281,b guzzle/.github 1ba69d5ef43a4479a07ce074b2e8bc5e29ddb669
+guzzle/.github,SECURITY.md,adcff14d0c3b024fcc09afc49f4897eb3758a1d2,2019-12-30 12:49:55+00:00,"# Security Policy
+
+## Reporting a Vulnerability
+
+⚠ PLEASE DON'T DISCLOSE SECURITY-RELATED ISSUES PUBLICLY, SEE BELOW.
+
+If you have found a security issue in Guzzle, please send the details to
+security@guzzlephp.org and don't disclose it publicly until we can provide a fix for it.
+",,281,b guzzle/.github adcff14d0c3b024fcc09afc49f4897eb3758a1d2

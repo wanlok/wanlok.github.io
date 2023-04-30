@@ -1,0 +1,344 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+PQClean/PQClean,SECURITY.md,c75320e0688cb5afb1f89b15f47c835c0ec43bf2,2019-07-22 12:30:09+00:00,,"# A note on the security of the included implementations and schemes
+
+This project contains (reference) implementations of cryptographic libraries.
+We do not make any security claims about the code included in PQClean.
+In the current state, we distribute reference implementations with minor modifications.
+We did not perform any extensive security analyses.
+This code is suitable for experimental or scientific use.
+We recommend careful expert code review before using any of the included implementations in production environments.
+
+See also the [NIST PQC Forum][forum] for discussion about the cryptographic schemes included in PQClean.
+
+[forum]: https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Email-List
+",718,b PQClean/PQClean c75320e0688cb5afb1f89b15f47c835c0ec43bf2
+PQClean/PQClean,SECURITY.md,07543ba92975225c96bd882f1ae223f72e2dcbb9,2019-09-25 08:47:49+00:00,"# A note on the security of the included implementations and schemes
+
+This project contains (reference) implementations of cryptographic libraries.
+We do not make any security claims about the code included in PQClean.
+In the current state, we distribute reference implementations with minor modifications.
+We did not perform any extensive security analyses.
+This code is suitable for experimental or scientific use.
+We recommend careful expert code review before using any of the included implementations in production environments.
+
+See also the [NIST PQC Forum][forum] for discussion about the cryptographic schemes included in PQClean.
+
+[forum]: https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Email-List
+","# A note on the security of the included implementations and schemes
+
+This project contains (reference) implementations of cryptographic libraries.
+We do not make any security claims about the code included in PQClean.
+In the current state, we distribute reference implementations with minor modifications.
+We did not perform any extensive security analyses.
+This code is suitable for experimental or scientific use.
+We recommend careful expert code review before using any of the included implementations in production environments.
+
+See also the [NIST PQC Forum][forum] for discussion about the cryptographic schemes included in PQClean.
+
+## Current and past security issues
+
+We will attempt to document security vulnerabilities made known to us on a best-effort basis.
+If an issue is marked with a date, the issue has been resolved since any commits made after that date.
+
+Again, we emphasise that the code in this repository has not seen any formal analysis or audit!
+Use at your own risk.
+
+### Open issues
+* LEDAcryptKEM `leaktime` implementations are known to not be constant-time and expected to have timing side channel vulnerabilities.
+
+<!-- new date line
+### 2019-XX-XX
+-->
+
+### 2019-09-24
+* All Falcon implementations before [PR #235][PR 235] got merged were insecure. See [EPRINT report 2019/893][2019/893].
+
+### 2019-09-10
+* The included incremental `sha512` implementation was calling `crypto_hashblocks_sha256` before 2019-9-10.
+  This lead to an insufficient security level of the results of this hash function.
+  The function was not used in any implementations, though.
+  See [PR #232][PR 232].
+
+
+[2019/893]: https://eprint.iacr.org/2019/893
+[forum]: https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Email-List
+
+[PR 232]: https://github.com/PQClean/PQClean/pull/232
+[PR 235]: https://github.com/PQClean/PQClean/pull/235
+",1128,b PQClean/PQClean 07543ba92975225c96bd882f1ae223f72e2dcbb9
+PQClean/PQClean,SECURITY.md,de14914a1ce1219c0a8aacd8e3eff91726237118,2020-06-21 20:53:26+00:00,"# A note on the security of the included implementations and schemes
+
+This project contains (reference) implementations of cryptographic libraries.
+We do not make any security claims about the code included in PQClean.
+In the current state, we distribute reference implementations with minor modifications.
+We did not perform any extensive security analyses.
+This code is suitable for experimental or scientific use.
+We recommend careful expert code review before using any of the included implementations in production environments.
+
+See also the [NIST PQC Forum][forum] for discussion about the cryptographic schemes included in PQClean.
+
+## Current and past security issues
+
+We will attempt to document security vulnerabilities made known to us on a best-effort basis.
+If an issue is marked with a date, the issue has been resolved since any commits made after that date.
+
+Again, we emphasise that the code in this repository has not seen any formal analysis or audit!
+Use at your own risk.
+
+### Open issues
+* LEDAcryptKEM `leaktime` implementations are known to not be constant-time and expected to have timing side channel vulnerabilities.
+
+<!-- new date line
+### 2019-XX-XX
+-->
+
+### 2019-09-24
+* All Falcon implementations before [PR #235][PR 235] got merged were insecure. See [EPRINT report 2019/893][2019/893].
+
+### 2019-09-10
+* The included incremental `sha512` implementation was calling `crypto_hashblocks_sha256` before 2019-9-10.
+  This lead to an insufficient security level of the results of this hash function.
+  The function was not used in any implementations, though.
+  See [PR #232][PR 232].
+
+
+[2019/893]: https://eprint.iacr.org/2019/893
+[forum]: https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Email-List
+
+[PR 232]: https://github.com/PQClean/PQClean/pull/232
+[PR 235]: https://github.com/PQClean/PQClean/pull/235
+","# A note on the security of the included implementations and schemes
+
+This project contains (reference) implementations of cryptographic libraries.
+We do not make any security claims about the code included in PQClean.
+In the current state, we distribute reference implementations with minor modifications.
+We did not perform any extensive security analyses.
+This code is suitable for experimental or scientific use.
+We recommend careful expert code review before using any of the included implementations in production environments.
+
+See also the [NIST PQC Forum][forum] for discussion about the cryptographic schemes included in PQClean.
+
+## Current and past security issues
+
+We will attempt to document security vulnerabilities made known to us on a best-effort basis.
+If an issue is marked with a date, the issue has been resolved since any commits made after that date.
+
+Again, we emphasise that the code in this repository has not seen any formal analysis or audit!
+Use at your own risk.
+
+### Open issues
+* LEDAcryptKEM `leaktime` implementations are known to not be constant-time and expected to have timing side channel vulnerabilities.
+
+<!-- new date line
+### 2019-XX-XX
+-->
+
+### 2020-06-19
+* A potential timing leak was present in the FrodoKEM decapsulation routine, as identified by [Guo, Johansson, and Nilsson](https://eprint.iacr.org/2020/743).  This was fixed in [PR #303](https://github.com/PQClean/PQClean/pull/303).
+
+### 2019-09-24
+* All Falcon implementations before [PR #235][PR 235] got merged were insecure. See [EPRINT report 2019/893][2019/893].
+
+### 2019-09-10
+* The included incremental `sha512` implementation was calling `crypto_hashblocks_sha256` before 2019-9-10.
+  This lead to an insufficient security level of the results of this hash function.
+  The function was not used in any implementations, though.
+  See [PR #232][PR 232].
+
+
+[2019/893]: https://eprint.iacr.org/2019/893
+[forum]: https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Email-List
+
+[PR 232]: https://github.com/PQClean/PQClean/pull/232
+[PR 235]: https://github.com/PQClean/PQClean/pull/235
+",250,b PQClean/PQClean de14914a1ce1219c0a8aacd8e3eff91726237118
+PQClean/PQClean,SECURITY.md,3d7d2024fa892bd7f00dca3fff4122175f4a26dc,2020-12-14 15:39:10+00:00,"# A note on the security of the included implementations and schemes
+
+This project contains (reference) implementations of cryptographic libraries.
+We do not make any security claims about the code included in PQClean.
+In the current state, we distribute reference implementations with minor modifications.
+We did not perform any extensive security analyses.
+This code is suitable for experimental or scientific use.
+We recommend careful expert code review before using any of the included implementations in production environments.
+
+See also the [NIST PQC Forum][forum] for discussion about the cryptographic schemes included in PQClean.
+
+## Current and past security issues
+
+We will attempt to document security vulnerabilities made known to us on a best-effort basis.
+If an issue is marked with a date, the issue has been resolved since any commits made after that date.
+
+Again, we emphasise that the code in this repository has not seen any formal analysis or audit!
+Use at your own risk.
+
+### Open issues
+* LEDAcryptKEM `leaktime` implementations are known to not be constant-time and expected to have timing side channel vulnerabilities.
+
+<!-- new date line
+### 2019-XX-XX
+-->
+
+### 2020-06-19
+* A potential timing leak was present in the FrodoKEM decapsulation routine, as identified by [Guo, Johansson, and Nilsson](https://eprint.iacr.org/2020/743).  This was fixed in [PR #303](https://github.com/PQClean/PQClean/pull/303).
+
+### 2019-09-24
+* All Falcon implementations before [PR #235][PR 235] got merged were insecure. See [EPRINT report 2019/893][2019/893].
+
+### 2019-09-10
+* The included incremental `sha512` implementation was calling `crypto_hashblocks_sha256` before 2019-9-10.
+  This lead to an insufficient security level of the results of this hash function.
+  The function was not used in any implementations, though.
+  See [PR #232][PR 232].
+
+
+[2019/893]: https://eprint.iacr.org/2019/893
+[forum]: https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Email-List
+
+[PR 232]: https://github.com/PQClean/PQClean/pull/232
+[PR 235]: https://github.com/PQClean/PQClean/pull/235
+","# A note on the security of the included implementations and schemes
+
+This project contains (reference) implementations of cryptographic libraries.
+We do not make any security claims about the code included in PQClean.
+In the current state, we distribute reference implementations with minor modifications.
+We did not perform any extensive security analyses.
+This code is suitable for experimental or scientific use.
+We recommend careful expert code review before using any of the included implementations in production environments.
+
+See also the [NIST PQC Forum][forum] for discussion about the cryptographic schemes included in PQClean.
+
+## Current and past security issues
+
+We will attempt to document security vulnerabilities made known to us on a best-effort basis.
+If an issue is marked with a date, the issue has been resolved since any commits made after that date.
+
+Again, we emphasise that the code in this repository has not seen any formal analysis or audit!
+Use at your own risk.
+
+### Open issues
+* LEDAcryptKEM `leaktime` implementations are known to not be constant-time and expected to have timing side channel vulnerabilities.
+
+<!-- new date line
+### 2019-XX-XX
+-->
+
+### 2020-12-11
+* The fix of the timing leak in the CCA transform of FrodoKEM in [PR #303](https://github.com/PQClean/PQClean/pull/303) was ineffective. The FrodoKEM team released another [fix](https://github.com/microsoft/PQCrypto-LWEKE/commit/669522db63850fa64d1a24a47e138e80a59349db) which was ported to PQClean in [PR #367](https://github.com/PQClean/PQClean/pull/367).
+
+### 2020-06-19
+* A potential timing leak was present in the FrodoKEM decapsulation routine, as identified by [Guo, Johansson, and Nilsson](https://eprint.iacr.org/2020/743).  This was fixed in [PR #303](https://github.com/PQClean/PQClean/pull/303).
+
+### 2019-09-24
+* All Falcon implementations before [PR #235][PR 235] got merged were insecure. See [EPRINT report 2019/893][2019/893].
+
+### 2019-09-10
+* The included incremental `sha512` implementation was calling `crypto_hashblocks_sha256` before 2019-9-10.
+  This lead to an insufficient security level of the results of this hash function.
+  The function was not used in any implementations, though.
+  See [PR #232][PR 232].
+
+
+[2019/893]: https://eprint.iacr.org/2019/893
+[forum]: https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Email-List
+
+[PR 232]: https://github.com/PQClean/PQClean/pull/232
+[PR 235]: https://github.com/PQClean/PQClean/pull/235
+",374,b PQClean/PQClean 3d7d2024fa892bd7f00dca3fff4122175f4a26dc
+PQClean/PQClean,SECURITY.md,ec917a6bb813ba374b223362fad2487df9a76cf8,2022-10-21 08:32:38+00:00,"# A note on the security of the included implementations and schemes
+
+This project contains (reference) implementations of cryptographic libraries.
+We do not make any security claims about the code included in PQClean.
+In the current state, we distribute reference implementations with minor modifications.
+We did not perform any extensive security analyses.
+This code is suitable for experimental or scientific use.
+We recommend careful expert code review before using any of the included implementations in production environments.
+
+See also the [NIST PQC Forum][forum] for discussion about the cryptographic schemes included in PQClean.
+
+## Current and past security issues
+
+We will attempt to document security vulnerabilities made known to us on a best-effort basis.
+If an issue is marked with a date, the issue has been resolved since any commits made after that date.
+
+Again, we emphasise that the code in this repository has not seen any formal analysis or audit!
+Use at your own risk.
+
+### Open issues
+* LEDAcryptKEM `leaktime` implementations are known to not be constant-time and expected to have timing side channel vulnerabilities.
+
+<!-- new date line
+### 2019-XX-XX
+-->
+
+### 2020-12-11
+* The fix of the timing leak in the CCA transform of FrodoKEM in [PR #303](https://github.com/PQClean/PQClean/pull/303) was ineffective. The FrodoKEM team released another [fix](https://github.com/microsoft/PQCrypto-LWEKE/commit/669522db63850fa64d1a24a47e138e80a59349db) which was ported to PQClean in [PR #367](https://github.com/PQClean/PQClean/pull/367).
+
+### 2020-06-19
+* A potential timing leak was present in the FrodoKEM decapsulation routine, as identified by [Guo, Johansson, and Nilsson](https://eprint.iacr.org/2020/743).  This was fixed in [PR #303](https://github.com/PQClean/PQClean/pull/303).
+
+### 2019-09-24
+* All Falcon implementations before [PR #235][PR 235] got merged were insecure. See [EPRINT report 2019/893][2019/893].
+
+### 2019-09-10
+* The included incremental `sha512` implementation was calling `crypto_hashblocks_sha256` before 2019-9-10.
+  This lead to an insufficient security level of the results of this hash function.
+  The function was not used in any implementations, though.
+  See [PR #232][PR 232].
+
+
+[2019/893]: https://eprint.iacr.org/2019/893
+[forum]: https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Email-List
+
+[PR 232]: https://github.com/PQClean/PQClean/pull/232
+[PR 235]: https://github.com/PQClean/PQClean/pull/235
+","# A note on the security of the included implementations and schemes
+
+This project contains (reference) implementations of cryptographic libraries.
+We do not make any security claims about the code included in PQClean.
+In the current state, we distribute reference implementations with minor modifications.
+We did not perform any extensive security analyses.
+This code is suitable for experimental or scientific use.
+We recommend careful expert code review before using any of the included implementations in production environments.
+
+See also the [NIST PQC Forum][forum] for discussion about the cryptographic schemes included in PQClean.
+
+## Current and past security issues
+
+We will attempt to document security vulnerabilities made known to us on a best-effort basis.
+If an issue is marked with a date, the issue has been resolved since any commits made after that date.
+
+Again, we emphasise that the code in this repository has not seen any formal analysis or audit!
+Use at your own risk.
+
+### Historic issues
+* LEDAcryptKEM `leaktime` implementations are known to not be constant-time and expected to have timing side channel vulnerabilities.
+  * LEDA support has since been dropped from PQClean as it got eliminated from the NIST PQC standardization project in round 3.
+* Rainbow level I has been shown to be insecure by Ward Beullens. 
+  * Rainbow was eliminated from the NIST PQC standardization project and removed from PQClean in round 4.
+
+<!-- new date line
+### 2019-XX-XX
+-->
+
+### 2020-12-11
+* The fix of the timing leak in the CCA transform of FrodoKEM in [PR #303](https://github.com/PQClean/PQClean/pull/303) was ineffective. The FrodoKEM team released another [fix](https://github.com/microsoft/PQCrypto-LWEKE/commit/669522db63850fa64d1a24a47e138e80a59349db) which was ported to PQClean in [PR #367](https://github.com/PQClean/PQClean/pull/367).
+
+### 2020-06-19
+* A potential timing leak was present in the FrodoKEM decapsulation routine, as identified by [Guo, Johansson, and Nilsson](https://eprint.iacr.org/2020/743).  This was fixed in [PR #303](https://github.com/PQClean/PQClean/pull/303).
+
+### 2019-09-24
+* All Falcon implementations before [PR #235][PR 235] got merged were insecure. See [EPRINT report 2019/893][2019/893].
+
+### 2019-09-10
+* The included incremental `sha512` implementation was calling `crypto_hashblocks_sha256` before 2019-9-10.
+  This lead to an insufficient security level of the results of this hash function.
+  The function was not used in any implementations, though.
+  See [PR #232][PR 232].
+
+
+[2019/893]: https://eprint.iacr.org/2019/893
+[forum]: https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Email-List
+
+[PR 232]: https://github.com/PQClean/PQClean/pull/232
+[PR 235]: https://github.com/PQClean/PQClean/pull/235
+",309,b PQClean/PQClean ec917a6bb813ba374b223362fad2487df9a76cf8

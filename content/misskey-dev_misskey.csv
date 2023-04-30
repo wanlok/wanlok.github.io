@@ -1,0 +1,11 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+misskey-dev/misskey,SECURITY.md,c92744c3d36e371ddc8c6f9bbf9d64812ae5ace9,2021-05-23 20:50:45+00:00,,"# Reporting Security Issues
+
+If you discover a security issue in Misskey, please report it by sending an
+email to [syuilotan@yahoo.co.jp](mailto:syuilotan@yahoo.co.jp).
+
+This will allow us to assess the risk, and make a fix available before we add a
+bug report to the GitHub repository.
+
+Thanks for helping make Misskey safe for everyone.
+",339,b misskey-dev/misskey c92744c3d36e371ddc8c6f9bbf9d64812ae5ace9

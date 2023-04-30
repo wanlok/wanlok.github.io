@@ -1,0 +1,60 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+restsharp/RestSharp,SECURITY.md,3a8155fc1b29046855a61adc2bc23ff4d67578e2,2021-05-05 18:53:50+00:00,,"# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 106.x   | :white_check_mark: |
+| < 106.0 | :x:                |
+
+## Reporting a Vulnerability
+
+Use this section to tell people how to report a vulnerability.
+
+Tell them where to go, how often they can expect to get an update on a
+reported vulnerability, what to expect if the vulnerability is accepted or
+declined, etc.
+",553,b restsharp/RestSharp 3a8155fc1b29046855a61adc2bc23ff4d67578e2
+restsharp/RestSharp,SECURITY.md,30a07067a8b1b818e0bde0496fe33a888b0eb6dc,2022-08-28 19:53:59+00:00,"# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 106.x   | :white_check_mark: |
+| < 106.0 | :x:                |
+
+## Reporting a Vulnerability
+
+Use this section to tell people how to report a vulnerability.
+
+Tell them where to go, how often they can expect to get an update on a
+reported vulnerability, what to expect if the vulnerability is accepted or
+declined, etc.
+","# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 108.x   | :white_check_mark: |
+| < 108.0 | :x:                |
+
+## Reporting a Vulnerability
+
+Use this section to tell people how to report a vulnerability.
+
+Tell them where to go, how often they can expect to get an update on a
+reported vulnerability, what to expect if the vulnerability is accepted or
+declined, etc.
+",2,b restsharp/RestSharp 30a07067a8b1b818e0bde0496fe33a888b0eb6dc

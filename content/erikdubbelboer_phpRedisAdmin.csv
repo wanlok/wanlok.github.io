@@ -1,0 +1,15 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+erikdubbelboer/phpRedisAdmin,SECURITY.md,51c5425d3bf6e96b4820fb23e3a50a26f0d78290,2021-08-23 09:31:31+00:00,,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.13.x  | :white_check_mark: |
+| 1.12.x  | :white_check_mark: |
+| < 1.12  | :x:                |
+
+## Reporting a Vulnerability
+
+Vulnerabilities can be emailed to erik@dubbelboer.com
+",292,b erikdubbelboer/phpRedisAdmin 51c5425d3bf6e96b4820fb23e3a50a26f0d78290

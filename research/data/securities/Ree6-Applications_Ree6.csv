@@ -1,0 +1,254 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+Ree6-Applications/Ree6,SECURITY.md,e70336094d38774420dbed354c2559bb3003efed,2021-11-15 13:24:37+00:00,,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.x.x   | :white_check_mark: |
+| 0.x     | :x:                |
+
+## Reporting a Vulnerability
+
+If you find any Bug that could harm our User Privacy contact us under:
+
+Email: support@ree6.de
+",300,b Ree6-Applications/Ree6 e70336094d38774420dbed354c2559bb3003efed
+Ree6-Applications/Ree6,SECURITY.md,8d9c781147fc26306af603ada4d449fd29a6fd43,2022-01-10 13:28:50+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.x.x   | :white_check_mark: |
+| 0.x     | :x:                |
+
+## Reporting a Vulnerability
+
+If you find any Bug that could harm our User Privacy contact us under:
+
+Email: support@ree6.de
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.6.x   | :white_check_mark: |
+| 1.5.x   | :white_check_mark: |
+| < 1.5.0 | :x:                |
+
+## Reporting a Vulnerability
+
+If you find any Bug that could harm our User Privacy contact us under:
+
+Email: support@ree6.de
+",35,b Ree6-Applications/Ree6 8d9c781147fc26306af603ada4d449fd29a6fd43
+Ree6-Applications/Ree6,SECURITY.md,e6c23dce5222b5532af8f5cc79d0aee7a8dcac0e,2022-02-01 12:23:16+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.6.x   | :white_check_mark: |
+| 1.5.x   | :white_check_mark: |
+| < 1.5.0 | :x:                |
+
+## Reporting a Vulnerability
+
+If you find any Bug that could harm our User Privacy contact us under:
+
+Email: support@ree6.de
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.6.x   | :white_check_mark: |
+| < 1.6.0 | :x:                |
+
+## Reporting a Vulnerability
+
+If you find any Bug that could harm our User Privacy contact us under:
+
+Email: support@ree6.de
+",34,b Ree6-Applications/Ree6 e6c23dce5222b5532af8f5cc79d0aee7a8dcac0e
+Ree6-Applications/Ree6,SECURITY.md,2b45b4ab19cdbabc31094428c8596f33fe4c6dac,2022-04-04 09:58:10+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.6.x   | :white_check_mark: |
+| < 1.6.0 | :x:                |
+
+## Reporting a Vulnerability
+
+If you find any Bug that could harm our User Privacy contact us under:
+
+Email: support@ree6.de
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+|---------| ------------------ |
+| 1.7.x   | :white_check_mark: |
+| < 1.7.0 | :x:                |
+
+## Reporting a Vulnerability
+
+If you find any Bug that could harm our User Privacy contact us under:
+
+Email: support@ree6.de
+",4,b Ree6-Applications/Ree6 2b45b4ab19cdbabc31094428c8596f33fe4c6dac
+Ree6-Applications/Ree6,SECURITY.md,9e2f925ae1df56868fcabfcea9b1b666a9896281,2022-09-13 10:28:10+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+|---------| ------------------ |
+| 1.7.x   | :white_check_mark: |
+| < 1.7.0 | :x:                |
+
+## Reporting a Vulnerability
+
+If you find any Bug that could harm our User Privacy contact us under:
+
+Email: support@ree6.de
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+|---------| ------------------ |
+| 1.9.x   | :white_check_mark: |
+| < 1.9.0 | :x:                |
+
+## Reporting a Vulnerability
+
+If you find any Bug that could harm our User Privacy contact us under:
+
+Email: support@ree6.de
+",2,b Ree6-Applications/Ree6 9e2f925ae1df56868fcabfcea9b1b666a9896281
+Ree6-Applications/Ree6,SECURITY.md,7ce9661d3fe169e46f125cada705db3f55835478,2022-10-25 06:17:18+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+|---------| ------------------ |
+| 1.9.x   | :white_check_mark: |
+| < 1.9.0 | :x:                |
+
+## Reporting a Vulnerability
+
+If you find any Bug that could harm our User Privacy contact us under:
+
+Email: support@ree6.de
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+|---------| ------------------ |
+| 2.0.x   | :white_check_mark: |
+| 1.10.x   | :white_check_mark: |
+| < 1.10. | :x:                |
+
+## Reporting a Vulnerability
+
+If you find any Bug that could harm our User Privacy contact us under:
+
+Email: support@ree6.de
+",38,b Ree6-Applications/Ree6 7ce9661d3fe169e46f125cada705db3f55835478
+Ree6-Applications/Ree6,SECURITY.md,d70c99181a5a4c7e84012b5ef1f0d4f09d66aed4,2022-11-02 15:34:55+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+|---------| ------------------ |
+| 2.0.x   | :white_check_mark: |
+| 1.10.x   | :white_check_mark: |
+| < 1.10. | :x:                |
+
+## Reporting a Vulnerability
+
+If you find any Bug that could harm our User Privacy contact us under:
+
+Email: support@ree6.de
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+|---------| ------------------ |
+| 2.0.x   | :white_check_mark: |
+| 1.10.x   | :white_check_mark: |
+| < 1.10 | :x:                |
+
+## Reporting a Vulnerability
+
+If you find any Bug that could harm our User Privacy contact us under:
+
+Email: support@ree6.de
+",1,b Ree6-Applications/Ree6 d70c99181a5a4c7e84012b5ef1f0d4f09d66aed4
+Ree6-Applications/Ree6,SECURITY.md,459fb238c2bb94de17e4132e210c3326cb0b9f59,2022-11-29 08:27:56+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+|---------| ------------------ |
+| 2.0.x   | :white_check_mark: |
+| 1.10.x   | :white_check_mark: |
+| < 1.10 | :x:                |
+
+## Reporting a Vulnerability
+
+If you find any Bug that could harm our User Privacy contact us under:
+
+Email: support@ree6.de
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+|---------| ------------------ |
+| 2.0.x   | :white_check_mark: |
+| < 2.0.0 | :x:                |
+
+## Reporting a Vulnerability
+
+If you find any Bug that could harm our User Privacy contact us under:
+
+Email: support@ree6.de
+",37,b Ree6-Applications/Ree6 459fb238c2bb94de17e4132e210c3326cb0b9f59
+Ree6-Applications/Ree6,SECURITY.md,a807bd08200d59c4fc85b02b0e9b219760655135,2023-02-02 12:24:40+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+|---------| ------------------ |
+| 2.0.x   | :white_check_mark: |
+| < 2.0.0 | :x:                |
+
+## Reporting a Vulnerability
+
+If you find any Bug that could harm our User Privacy contact us under:
+
+Email: support@ree6.de
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+|---------| ------------------ |
+| 2.2.x   | :white_check_mark: |
+| < 2.2.0 | :x:                |
+
+## Reporting a Vulnerability
+
+If you find any Bug that could harm our User Privacy contact us under:
+
+Email: support@ree6.de
+",2,b Ree6-Applications/Ree6 a807bd08200d59c4fc85b02b0e9b219760655135

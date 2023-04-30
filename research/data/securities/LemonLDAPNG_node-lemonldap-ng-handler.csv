@@ -1,0 +1,13 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+LemonLDAPNG/node-lemonldap-ng-handler,SECURITY.md,96f79b7f4b0a71e6b1216f1cebc9f656b78ab4de,2022-06-28 12:45:36+00:00,,"# Security Policy
+
+## Supported Versions
+
+lemonldap-ng-handler is a beta version, only last version is supported for now.
+
+## Reporting a Vulnerability
+
+You can create an issue into [this GitHub repository](https://github.com/LemonLDAPNG/node-lemonldap-ng-handler/issues)
+but prefer to use our [main repository](https://gitlab.ow2.org/lemonldap-ng/lemonldap-ng/-/issues)
+using **Node Handler** label.
+",401,b LemonLDAPNG/node-lemonldap-ng-handler 96f79b7f4b0a71e6b1216f1cebc9f656b78ab4de

@@ -1,0 +1,7 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+collectiveaccess/providence,SECURITY.md,613988b88908c138506b556be41434f7af6b40af,2021-09-24 16:04:01+00:00,,"# Security Policy
+
+ ## Reporting a Vulnerability
+
+ Please report security issues to `support@collectiveaccess.org`
+",115,b collectiveaccess/providence 613988b88908c138506b556be41434f7af6b40af

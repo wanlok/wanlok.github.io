@@ -1,0 +1,64 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+gravitl/netmaker,SECURITY.md,0944ed7b48514d5d0523a1c5b0a4372cfbe9604b,2022-02-12 17:55:59+00:00,,"# Security Policy
+
+Netmaker is reliant on secure networking. If you find a vulnerability or bug please report it.
+Depending on complexity or severity, the Gravitl team may compensate (aka. bug bounty) the reporter. 
+However, there is no official bug bounty program up yet for the Netmaker project.
+
+## Supported Versions
+- We currently only are able to support work on the latest version(s)
+
+## Reporting a Vulnerability
+
+Please report security issues to `info@gravitl.com`
+",474,b gravitl/netmaker 0944ed7b48514d5d0523a1c5b0a4372cfbe9604b
+gravitl/netmaker,SECURITY.md,d53bfd6ab1e94ab8a7d8cd8fb64ce11dba162811,2022-02-12 17:56:57+00:00,"# Security Policy
+
+Netmaker is reliant on secure networking. If you find a vulnerability or bug please report it.
+Depending on complexity or severity, the Gravitl team may compensate (aka. bug bounty) the reporter. 
+However, there is no official bug bounty program up yet for the Netmaker project.
+
+## Supported Versions
+- We currently only are able to support work on the latest version(s)
+
+## Reporting a Vulnerability
+
+Please report security issues to `info@gravitl.com`
+","# Security Policy
+
+Netmaker is reliant on secure networking. If you find a vulnerability or bug please report it.
+Depending on complexity or severity, the Gravitl team may compensate (aka. bug bounty) the reporter. 
+However, there is no official bug bounty program up yet for the Netmaker project.
+
+## Supported Versions
+- We currently are only able to support work on the latest version(s)
+
+## Reporting a Vulnerability
+
+Please report security issues to `info@gravitl.com`
+",8,b gravitl/netmaker d53bfd6ab1e94ab8a7d8cd8fb64ce11dba162811
+gravitl/netmaker,SECURITY.md,3c2bc3e683c7c2a8d55f8bb5918dc46aad2decc8,2022-11-02 13:10:50+00:00,"# Security Policy
+
+Netmaker is reliant on secure networking. If you find a vulnerability or bug please report it.
+Depending on complexity or severity, the Gravitl team may compensate (aka. bug bounty) the reporter. 
+However, there is no official bug bounty program up yet for the Netmaker project.
+
+## Supported Versions
+- We currently are only able to support work on the latest version(s)
+
+## Reporting a Vulnerability
+
+Please report security issues to `info@gravitl.com`
+","# Security Policy
+
+Netmaker is reliant on secure networking. If you find a vulnerability or bug please report it.
+Depending on complexity or severity, the Gravitl team may compensate (aka. bug bounty) the reporter. 
+However, there is no official bug bounty program up yet for the Netmaker project.
+
+## Supported Versions
+- We currently are only able to support work on the latest version(s)
+
+## Reporting a Vulnerability
+
+Please report security issues to `info@netmaker.io`
+",10,b gravitl/netmaker 3c2bc3e683c7c2a8d55f8bb5918dc46aad2decc8

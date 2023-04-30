@@ -1,0 +1,19 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+rhymix/rhymix,SECURITY.md,fc662926a362e35fcd3c252aad0eea8eae368b90,2021-01-05 14:39:57+00:00,,"Security Policy
+---------------
+
+### Supported Versions
+
+Only the latest version is actively supported.
+
+## Reporting a Vulnerability
+
+Please report possible vulnerabilities by email to devops@rhymix.org.
+Please DO NOT use GitHub issues or pull requests for this purpose.
+
+We do not consider it a vulnerability if the superuser (is_admin=Y) account
+can insert scripts or delete information. That's what the superuser account is for!
+It will, however, be considered a serious vulnerability if someone else can
+trick a superuser to perform such actions inadvertently,
+for example through a CSRF attack.
+",601,b rhymix/rhymix fc662926a362e35fcd3c252aad0eea8eae368b90

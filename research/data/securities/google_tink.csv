@@ -1,0 +1,6 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+google/tink,docs/SECURITY.md,e29b788f1a570e1de293173964c19aff7e3e11a7,2021-07-08 20:37:59+00:00,,"To report a security issue, please use http://g.co/vulnz. We use
+http://g.co/vulnz for our intake and coordination, and disclose vulnerabilities
+using GitHub Security Advisory. The Google Security Team will
+respond within 5 working days of your report on g.co/vulnz.
+",267,b google/tink e29b788f1a570e1de293173964c19aff7e3e11a7

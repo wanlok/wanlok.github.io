@@ -1,0 +1,7 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+craigk5n/webcalendar,SECURITY.md,c65de7d4abef8ba7e6c0e32d228c45f7649829e7,2022-02-25 17:19:15+00:00,,"# WebCalendar Security
+
+## Reporting Security Concerns
+
+Contact the project using the craig@k5n.us email address.
+",114,b craigk5n/webcalendar c65de7d4abef8ba7e6c0e32d228c45f7649829e7

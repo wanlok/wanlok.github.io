@@ -1,0 +1,25 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+postfixadmin/postfixadmin,SECURITY.md,99a549c2e391dbe5fe9600285be370d4ba79696a,2021-08-02 19:27:17+00:00,,"# Security Policy
+
+## Supported Versions
+
+As of 2021/08 -
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 'dev'   | :x: GitHub 'master' branch, use at own risk! |
+| 3.3.x   | :white_check_mark: |
+| 3.2.x   | Security/critical fixes only |
+| < 3.2.x | :x:                |
+
+Releases are published at :
+
+ * https://github.com/postfixadmin/postfixadmin/releases
+ * ocassionally at https://sourceforge.net/projects/postfixadmin/ - sometimes with RPM/DEB packages.
+  
+## Reporting a Vulnerability
+
+Either message GingerDog or cboltz on the PostfixAdmin libera chat - IRC channel, or email. Email addresses can be found in the 'git' changelog.
+
+
+",661,b postfixadmin/postfixadmin 99a549c2e391dbe5fe9600285be370d4ba79696a

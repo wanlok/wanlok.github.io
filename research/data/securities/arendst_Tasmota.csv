@@ -1,0 +1,18 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+arendst/Tasmota,SECURITY.md,68b06ceb47561725d06029b4a9db381e0bda164b,2021-09-20 14:01:45+00:00,,"# Security Policy
+
+## Reporting a Vulnerability
+
+Please report security issues to <email>
+",90,b arendst/Tasmota 68b06ceb47561725d06029b4a9db381e0bda164b
+arendst/Tasmota,SECURITY.md,0f0ea206b5cba00b7af461adaafcfc6a33dd723d,2021-09-20 14:07:40+00:00,"# Security Policy
+
+## Reporting a Vulnerability
+
+Please report security issues to <email>
+","# Security Policy
+
+## Reporting a Vulnerability
+
+Please report security issues to https://sidweb.nl/cms3/en/contact
+",31,b arendst/Tasmota 0f0ea206b5cba00b7af461adaafcfc6a33dd723d

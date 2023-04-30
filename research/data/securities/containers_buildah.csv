@@ -1,0 +1,12 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+containers/buildah,SECURITY.md,cd9d5d00b2c4f997baa8b8ea171a15aacda6a673,2020-05-04 21:04:47+00:00,,"## Security and Disclosure Information Policy for the Buildah Project
+
+The Buildah Project follows the [Security and Disclosure Information Policy](https://github.com/containers/common/blob/master/SECURITY.md) for the Containers Projects.
+",239,b containers/buildah cd9d5d00b2c4f997baa8b8ea171a15aacda6a673
+containers/buildah,SECURITY.md,73c6742ca08deed552acb475f255ff6f5985a8b3,2021-06-10 15:15:54+00:00,"## Security and Disclosure Information Policy for the Buildah Project
+
+The Buildah Project follows the [Security and Disclosure Information Policy](https://github.com/containers/common/blob/master/SECURITY.md) for the Containers Projects.
+","## Security and Disclosure Information Policy for the Buildah Project
+
+The Buildah Project follows the [Security and Disclosure Information Policy](https://github.com/containers/common/blob/main/SECURITY.md) for the Containers Projects.
+",4,b containers/buildah 73c6742ca08deed552acb475f255ff6f5985a8b3

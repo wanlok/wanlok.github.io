@@ -1,0 +1,18 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+latchset/jwcrypto,SECURITY.md,82518c945ecf8ff01d2a578521eede91755f1e22,2021-06-09 19:02:52+00:00,,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 0.8 +   | :white_check_mark: |
+| < 0.8   | :x:                |
+
+## Reporting a Vulnerability
+
+Please contact simo@redhat.com if you have found a security vulnerability
+
+Expect a response within 2 business days (not on week ends or holidays).
+
+If the vulnerbaility is confirmed and accepted you will be given instruction on any embargo or disclosure timeline via email.
+",480,b latchset/jwcrypto 82518c945ecf8ff01d2a578521eede91755f1e22

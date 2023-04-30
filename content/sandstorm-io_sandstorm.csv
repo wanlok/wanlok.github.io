@@ -1,0 +1,30 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+sandstorm-io/sandstorm,SECURITY.md,b239e7dd0e4ab90c3a78aa6e7368cfb90404c4c1,2021-08-12 20:37:23+00:00,,"# Security Policy
+
+## Supported Versions
+
+Sandstorm operates on an evergreen release model. Only the latest release is considered supported.
+
+## Reporting a Vulnerability
+
+Please report security vulnerabilities to security@sandstorm.io for responsible disclosure. We ask that you hold disclosure for at least 90 days from disclosure or 48 hours from patch release, whichever is shorter.
+",387,b sandstorm-io/sandstorm b239e7dd0e4ab90c3a78aa6e7368cfb90404c4c1
+sandstorm-io/sandstorm,SECURITY.md,674791a179ff02f69ed8ba3cb36effc9120d8226,2021-08-13 20:24:56+00:00,"# Security Policy
+
+## Supported Versions
+
+Sandstorm operates on an evergreen release model. Only the latest release is considered supported.
+
+## Reporting a Vulnerability
+
+Please report security vulnerabilities to security@sandstorm.io for responsible disclosure. We ask that you hold disclosure for at least 90 days from disclosure or 48 hours from patch release, whichever is shorter.
+","# Security Policy
+
+## Supported Versions
+
+Sandstorm operates on an evergreen release model. Only the latest release is considered supported.
+
+## Reporting a Vulnerability
+
+Please report security vulnerabilities to security@sandstorm.io for responsible disclosure. We ask that you withhold public disclosure for at least 90 days after reporting the vulnerability or 48 hours after the release of fixed code which corrects the issue, whichever is shorter.
+",83,b sandstorm-io/sandstorm 674791a179ff02f69ed8ba3cb36effc9120d8226

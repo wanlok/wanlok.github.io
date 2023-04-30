@@ -1,0 +1,29 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+haraldk/TwelveMonkeys,SECURITY.md,9196e60c74ad281d12fa8b0c9bd82a9118ff20d4,2023-03-20 17:49:44+00:00,,"# Security Policy
+
+To report a security issue, please disclose it at [security advisory](https://github.com/haraldk/TwelveMonkeys/security/advisories/new).
+
+We will respond within 7 working days of your submission. If the issue is confirmed as a vulnerability, we will open a Security Advisory and acknowledge your contributions as part of it. This project follows a 90 day disclosure timeline.
+",395,b haraldk/TwelveMonkeys 9196e60c74ad281d12fa8b0c9bd82a9118ff20d4
+haraldk/TwelveMonkeys,SECURITY.md,e8996daa12ce55294a525c9ec4bed507207b9c55,2023-03-21 13:03:27+00:00,"# Security Policy
+
+To report a security issue, please disclose it at [security advisory](https://github.com/haraldk/TwelveMonkeys/security/advisories/new).
+
+We will respond within 7 working days of your submission. If the issue is confirmed as a vulnerability, we will open a Security Advisory and acknowledge your contributions as part of it. This project follows a 90 day disclosure timeline.
+","# Security Policy
+
+To report a security issue, please disclose it at [security advisory](https://github.com/haraldk/TwelveMonkeys/security/advisories/new).
+
+All support will be made on the best effort base.
+",202,b haraldk/TwelveMonkeys e8996daa12ce55294a525c9ec4bed507207b9c55
+haraldk/TwelveMonkeys,SECURITY.md,4a8c3530f74c1ef8f5e1a3ee4a8bbdc6af6f2fbb,2023-03-21 13:10:34+00:00,"# Security Policy
+
+To report a security issue, please disclose it at [security advisory](https://github.com/haraldk/TwelveMonkeys/security/advisories/new).
+
+All support will be made on the best effort base.
+","# Security Policy
+
+To report a security issue, please disclose it at [security advisory](https://github.com/haraldk/TwelveMonkeys/security/advisories/new).
+
+Vulnerabilities will be disclosed in a best effort base.
+",25,b haraldk/TwelveMonkeys 4a8c3530f74c1ef8f5e1a3ee4a8bbdc6af6f2fbb

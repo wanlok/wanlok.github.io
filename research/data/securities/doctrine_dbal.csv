@@ -1,0 +1,74 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+doctrine/dbal,SECURITY.md,9230abadbd1aed512217c9e04576ab5f1375f7fa,2014-02-21 14:39:44+00:00,,"Security
+========
+
+The Doctrine library is operating very close to your database and as such needs
+to handle and make assumptions about SQL injection vulnerabilities.
+
+It is vital that you understand how Doctrine approaches security, because
+we cannot protect you from SQL injection.
+
+Please read the documentation chapter on Security in Doctrine DBAL to
+understand the assumptions we make.
+
+- [Latest security.rst page on Github](https://github.com/doctrine/dbal/blob/master/docs/en/reference/security.rst)
+- [Security Page in rendered documentation](http://docs.doctrine-project.org/projects/doctrine-dbal/en/latest/reference/security.html)
+",643,b doctrine/dbal 9230abadbd1aed512217c9e04576ab5f1375f7fa
+doctrine/dbal,SECURITY.md,c09838280b0436b954762c510e184c8c888a4e0c,2020-11-28 18:47:02+00:00,"Security
+========
+
+The Doctrine library is operating very close to your database and as such needs
+to handle and make assumptions about SQL injection vulnerabilities.
+
+It is vital that you understand how Doctrine approaches security, because
+we cannot protect you from SQL injection.
+
+Please read the documentation chapter on Security in Doctrine DBAL to
+understand the assumptions we make.
+
+- [Latest security.rst page on Github](https://github.com/doctrine/dbal/blob/master/docs/en/reference/security.rst)
+- [Security Page in rendered documentation](http://docs.doctrine-project.org/projects/doctrine-dbal/en/latest/reference/security.html)
+","Security
+========
+
+The Doctrine library is operating very close to your database and as such needs
+to handle and make assumptions about SQL injection vulnerabilities.
+
+It is vital that you understand how Doctrine approaches security because
+we cannot protect you from SQL injection.
+
+Please read the documentation chapter on Security in Doctrine DBAL to
+understand the assumptions we make.
+
+- [Latest security.rst page on Github](https://github.com/doctrine/dbal/blob/master/docs/en/reference/security.rst)
+- [Security Page in rendered documentation](http://docs.doctrine-project.org/projects/doctrine-dbal/en/latest/reference/security.html)
+",1,b doctrine/dbal c09838280b0436b954762c510e184c8c888a4e0c
+doctrine/dbal,SECURITY.md,935ca9d3a9331c7457d215ce85b2860c2976c0be,2021-02-01 21:01:48+00:00,"Security
+========
+
+The Doctrine library is operating very close to your database and as such needs
+to handle and make assumptions about SQL injection vulnerabilities.
+
+It is vital that you understand how Doctrine approaches security because
+we cannot protect you from SQL injection.
+
+Please read the documentation chapter on Security in Doctrine DBAL to
+understand the assumptions we make.
+
+- [Latest security.rst page on Github](https://github.com/doctrine/dbal/blob/master/docs/en/reference/security.rst)
+- [Security Page in rendered documentation](http://docs.doctrine-project.org/projects/doctrine-dbal/en/latest/reference/security.html)
+","Security
+========
+
+The Doctrine library is operating very close to your database and as such needs
+to handle and make assumptions about SQL injection vulnerabilities.
+
+It is vital that you understand how Doctrine approaches security because
+we cannot protect you from SQL injection.
+
+Please read the documentation chapter on Security in Doctrine DBAL to
+understand the assumptions we make.
+
+- [Latest security.rst page on Github](https://github.com/doctrine/dbal/blob/4.0.x/docs/en/reference/security.rst)
+- [Security Page in rendered documentation](http://docs.doctrine-project.org/projects/doctrine-dbal/en/latest/reference/security.html)
+",6,b doctrine/dbal 935ca9d3a9331c7457d215ce85b2860c2976c0be

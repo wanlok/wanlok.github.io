@@ -1,0 +1,11 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+hay-kot/mealie,SECURITY.md,f1fdec5afeec887087182af54ca8a954dc2d7577,2022-05-31 16:29:45+00:00,,"# Security Policy
+
+## Supported Versions
+
+Since this software is still considered beta/WIP support is always only given for the latest version. Security patches are only available for the latest version and not back-ported to older versions.
+
+## Reporting a Vulnerability
+
+For general security vulnerabilities you're welcome to open a GitHub issues or contribute a fix. If you feel the vulnerability should not be disclosed you can open a generic issue on GitHub and email to the details to [ob92oy0sl@mozmail.com](mailto:ob92oy0sl@mozmail.com) which is monitored by the maintainer.
+",583,b hay-kot/mealie f1fdec5afeec887087182af54ca8a954dc2d7577

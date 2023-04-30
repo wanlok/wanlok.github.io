@@ -1,0 +1,310 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+mirumee/saleor,SECURITY.md,a2ef1432497a5ef1adbd1ae52ab08b0c2732eff9,2020-02-10 10:28:15+00:00,,"# Security Policy
+
+## Supported Versions
+
+The following releases of Saleor are currently supported.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 2.9.x   | :white_check_mark: |
+| < 2.9   | :x:                |
+
+## Reporting a Vulnerability
+
+Please DO NOT report security vulnerabilities using a public GitHub issue. If you believe you've found a security issue, please contact our security mailing list:
+
+security@getsaleor.com
+
+You will be credited as the reporter once a fix is ready to be published. At this time we do not have a bounty program in place so we are not able to offer monetary rewards for any problems reported.
+",652,b mirumee/saleor a2ef1432497a5ef1adbd1ae52ab08b0c2732eff9
+mirumee/saleor,SECURITY.md,9758b1f91476b04523258db63bbe59d6ec51d524,2020-06-30 10:54:35+00:00,"# Security Policy
+
+## Supported Versions
+
+The following releases of Saleor are currently supported.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 2.9.x   | :white_check_mark: |
+| < 2.9   | :x:                |
+
+## Reporting a Vulnerability
+
+Please DO NOT report security vulnerabilities using a public GitHub issue. If you believe you've found a security issue, please contact our security mailing list:
+
+security@getsaleor.com
+
+You will be credited as the reporter once a fix is ready to be published. At this time we do not have a bounty program in place so we are not able to offer monetary rewards for any problems reported.
+","# Security Policy
+
+## Supported Versions
+
+The following releases of Saleor are currently supported.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 2.10.x  | :white_check_mark: |
+| < 2.10  | :x:                |
+
+## Reporting a Vulnerability
+
+Please DO NOT report security vulnerabilities using a public GitHub issue. If you believe you've found a security issue, please contact our security mailing list:
+
+security@saleor.io
+
+You will be credited as the reporter once a fix is ready to be published. At this time we do not have a bounty program in place so we are not able to offer monetary rewards for any problems reported.
+",10,b mirumee/saleor 9758b1f91476b04523258db63bbe59d6ec51d524
+mirumee/saleor,SECURITY.md,3e5030244ab8b38d925bd532763dcc5a369228cb,2020-11-30 15:39:09+00:00,"# Security Policy
+
+## Supported Versions
+
+The following releases of Saleor are currently supported.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 2.10.x  | :white_check_mark: |
+| < 2.10  | :x:                |
+
+## Reporting a Vulnerability
+
+Please DO NOT report security vulnerabilities using a public GitHub issue. If you believe you've found a security issue, please contact our security mailing list:
+
+security@saleor.io
+
+You will be credited as the reporter once a fix is ready to be published. At this time we do not have a bounty program in place so we are not able to offer monetary rewards for any problems reported.
+","# Security Policy
+
+## Supported Versions
+
+The following releases of Saleor are currently supported.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 2.11.x  | :white_check_mark: |
+| < 2.11  | :x:                |
+
+## Reporting a Vulnerability
+
+Please DO NOT report security vulnerabilities using a public GitHub issue. If you believe you've found a security issue, please contact our security mailing list:
+
+security@saleor.io
+
+You will be credited as the reporter once a fix is ready to be published. At this time we do not have a bounty program in place so we are not able to offer monetary rewards for any problems reported.
+",2,b mirumee/saleor 3e5030244ab8b38d925bd532763dcc5a369228cb
+mirumee/saleor,SECURITY.md,96fbddbb5e7f345a99ab8a19013f75bb7b9ccc84,2022-03-04 14:01:29+00:00,"# Security Policy
+
+## Supported Versions
+
+The following releases of Saleor are currently supported.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 2.11.x  | :white_check_mark: |
+| < 2.11  | :x:                |
+
+## Reporting a Vulnerability
+
+Please DO NOT report security vulnerabilities using a public GitHub issue. If you believe you've found a security issue, please contact our security mailing list:
+
+security@saleor.io
+
+You will be credited as the reporter once a fix is ready to be published. At this time we do not have a bounty program in place so we are not able to offer monetary rewards for any problems reported.
+","# Security Policy
+
+## Supported Versions
+
+The following releases of Saleor are currently supported.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 3.1.x   | :white_check_mark: |
+| < 3.1   | :x:                |
+
+## Reporting a Vulnerability
+
+Please DO NOT report security vulnerabilities using a public GitHub issue. If you believe you've found a security issue, please contact our security mailing list:
+
+security@saleor.io
+
+You will be credited as the reporter once a fix is ready to be published. At this time we do not have a bounty program in place so we are not able to offer monetary rewards for any problems reported.
+",5,b mirumee/saleor 96fbddbb5e7f345a99ab8a19013f75bb7b9ccc84
+mirumee/saleor,SECURITY.md,66497264449457aea9f419021eb78b874f5cd1e6,2022-09-12 07:46:10+00:00,"# Security Policy
+
+## Supported Versions
+
+The following releases of Saleor are currently supported.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 3.1.x   | :white_check_mark: |
+| < 3.1   | :x:                |
+
+## Reporting a Vulnerability
+
+Please DO NOT report security vulnerabilities using a public GitHub issue. If you believe you've found a security issue, please contact our security mailing list:
+
+security@saleor.io
+
+You will be credited as the reporter once a fix is ready to be published. At this time we do not have a bounty program in place so we are not able to offer monetary rewards for any problems reported.
+","# Security Policy
+
+## Supported Versions
+
+The following releases of Saleor are currently supported.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| ≥ 3.1   | :white_check_mark: |
+| < 3.1   | :x:                |
+
+## Reporting a Vulnerability
+
+Please DO NOT report security vulnerabilities using a public GitHub issue. If you believe you've found a security issue, please contact our security mailing list:
+
+security@saleor.io
+
+You will be credited as the reporter once a fix is ready to be published. At this time we do not have a bounty program in place so we are not able to offer monetary rewards for any problems reported.
+",4,b mirumee/saleor 66497264449457aea9f419021eb78b874f5cd1e6
+mirumee/saleor,SECURITY.md,12f26a6a660f3fd1a2fb7a28da901ed477d333fa,2023-01-19 11:31:57+00:00,"# Security Policy
+
+## Supported Versions
+
+The following releases of Saleor are currently supported.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| ≥ 3.1   | :white_check_mark: |
+| < 3.1   | :x:                |
+
+## Reporting a Vulnerability
+
+Please DO NOT report security vulnerabilities using a public GitHub issue. If you believe you've found a security issue, please contact our security mailing list:
+
+security@saleor.io
+
+You will be credited as the reporter once a fix is ready to be published. At this time we do not have a bounty program in place so we are not able to offer monetary rewards for any problems reported.
+","# Security Policy
+
+## Supported Versions
+
+The following releases of Saleor are currently supported.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| ≥ 3.7   | :white_check_mark: |
+| 3.6     | :x:                |
+| 3.5     | :x:                |
+| 3.4     | :x:                |
+| 3.3     | :x:                |
+| 3.2     | :x:                |
+| 3.1     | :white_check_mark: |
+| < 3.1   | :x:                |
+
+## Reporting a Vulnerability
+
+Please DO NOT report security vulnerabilities using a public GitHub issue. If you believe you've found a security issue, please contact our security mailing list.
+
+security@saleor.io
+
+At this time we do not have a bounty program in place so we are not able to offer monetary rewards for any problems reported.
+
+You can also claim bounty rewards by reporting vulnerabilities using Huntr: https://huntr.dev
+
+Whichever method you choose, you will be credited as the reporter once the announcement is published.
+",434,b mirumee/saleor 12f26a6a660f3fd1a2fb7a28da901ed477d333fa
+mirumee/saleor,SECURITY.md,96252534da5737c7c61048b9f7cf7bd7dbee4b27,2023-03-02 12:17:19+00:00,"# Security Policy
+
+## Supported Versions
+
+The following releases of Saleor are currently supported.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| ≥ 3.7   | :white_check_mark: |
+| 3.6     | :x:                |
+| 3.5     | :x:                |
+| 3.4     | :x:                |
+| 3.3     | :x:                |
+| 3.2     | :x:                |
+| 3.1     | :white_check_mark: |
+| < 3.1   | :x:                |
+
+## Reporting a Vulnerability
+
+Please DO NOT report security vulnerabilities using a public GitHub issue. If you believe you've found a security issue, please contact our security mailing list.
+
+security@saleor.io
+
+At this time we do not have a bounty program in place so we are not able to offer monetary rewards for any problems reported.
+
+You can also claim bounty rewards by reporting vulnerabilities using Huntr: https://huntr.dev
+
+Whichever method you choose, you will be credited as the reporter once the announcement is published.
+","# Security Policy
+
+## Supported Versions
+
+The following releases of Saleor are currently supported.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| ≥ 3.7   | :white_check_mark: |
+| < 3.7   | :x:                |
+
+## Reporting a Vulnerability
+
+Please DO NOT report security vulnerabilities using a public GitHub issue. If you believe you've found a security issue, please contact our security mailing list.
+
+security@saleor.io
+
+At this time we do not have a bounty program in place so we are not able to offer monetary rewards for any problems reported.
+
+You can also claim bounty rewards by reporting vulnerabilities using Huntr: https://huntr.dev
+
+Whichever method you choose, you will be credited as the reporter once the announcement is published.
+",199,b mirumee/saleor 96252534da5737c7c61048b9f7cf7bd7dbee4b27
+mirumee/saleor,SECURITY.md,41d1557252a04cd9518abe8cace5d3130045079d,2023-03-06 09:17:24+00:00,"# Security Policy
+
+## Supported Versions
+
+The following releases of Saleor are currently supported.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| ≥ 3.7   | :white_check_mark: |
+| < 3.7   | :x:                |
+
+## Reporting a Vulnerability
+
+Please DO NOT report security vulnerabilities using a public GitHub issue. If you believe you've found a security issue, please contact our security mailing list.
+
+security@saleor.io
+
+At this time we do not have a bounty program in place so we are not able to offer monetary rewards for any problems reported.
+
+You can also claim bounty rewards by reporting vulnerabilities using Huntr: https://huntr.dev
+
+Whichever method you choose, you will be credited as the reporter once the announcement is published.
+","# Security Policy
+
+## Supported Versions
+
+The following releases of Saleor are currently supported.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| ≥ 3.7   | :white_check_mark: |
+| < 3.7   | :x:                |
+
+## Reporting a Vulnerability
+
+Please DO NOT report security vulnerabilities using a public GitHub issue. If you believe you've found a security issue, please contact us through one of the following methods:
+- https://github.com/saleor/saleor/security/advisories
+- https://huntr.dev/repos/saleor/saleor
+- Alternavely, through our mailing list: security@saleor.io
+
+At this time we do not have a bounty program in place so we are not able to offer monetary rewards for any problems reported.
+You can claim bounty rewards by reporting vulnerabilities using Huntr: https://huntr.dev.
+Whichever method you choose, you will be credited as the reporter once the announcement is published.
+",161,b mirumee/saleor 41d1557252a04cd9518abe8cace5d3130045079d

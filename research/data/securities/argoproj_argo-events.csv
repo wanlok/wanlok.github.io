@@ -1,0 +1,201 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+argoproj/argo-events,SECURITY.md,50f9b9a99930075d717c4e1b52c20ea194124b71,2020-12-03 22:42:12+00:00,,"# Security 
+
+## Reporting Vulnerabilities
+
+Please report security vulnerabilities by e-mailing:
+
+* [Jesse_Suen@intuit.com](mailto:Jesse_Suen@intuit.com)
+* [Alex_Collins@intuit.com](mailto:Alex_Collins@intuit.com)
+* [Edward_Lee@intuit.com](mailto:Edward_Lee@intuit.com)
+
+## Public Disclosure
+
+Security vulnerabilities will be disclosed via [release notes](docs/releasing.md).
+
+## Vulnerability Scanning
+
+See [static code analysis](docs/static-code-analysis.md).
+",461,b argoproj/argo-events 50f9b9a99930075d717c4e1b52c20ea194124b71
+argoproj/argo-events,SECURITY.md,871b1468cf48f255ea4af5f277d94ae19b2909d3,2021-09-21 23:41:25+00:00,"# Security 
+
+## Reporting Vulnerabilities
+
+Please report security vulnerabilities by e-mailing:
+
+* [Jesse_Suen@intuit.com](mailto:Jesse_Suen@intuit.com)
+* [Alex_Collins@intuit.com](mailto:Alex_Collins@intuit.com)
+* [Edward_Lee@intuit.com](mailto:Edward_Lee@intuit.com)
+
+## Public Disclosure
+
+Security vulnerabilities will be disclosed via [release notes](docs/releasing.md).
+
+## Vulnerability Scanning
+
+See [static code analysis](docs/static-code-analysis.md).
+","# Security 
+
+## Reporting Vulnerabilities
+
+Please report security vulnerabilities by e-mailing:
+
+* [Alex_Collins@intuit.com](mailto:Alex_Collins@intuit.com)
+* [Edward_Lee@intuit.com](mailto:Edward_Lee@intuit.com)
+
+## Public Disclosure
+
+Security vulnerabilities will be disclosed via [release notes](docs/releasing.md).
+
+## Vulnerability Scanning
+
+See [static code analysis](docs/static-code-analysis.md).
+",56,b argoproj/argo-events 871b1468cf48f255ea4af5f277d94ae19b2909d3
+argoproj/argo-events,SECURITY.md,05a697c9261fbf006342db72ff6a3435bfbce2db,2022-02-02 23:29:49+00:00,"# Security 
+
+## Reporting Vulnerabilities
+
+Please report security vulnerabilities by e-mailing:
+
+* [Alex_Collins@intuit.com](mailto:Alex_Collins@intuit.com)
+* [Edward_Lee@intuit.com](mailto:Edward_Lee@intuit.com)
+
+## Public Disclosure
+
+Security vulnerabilities will be disclosed via [release notes](docs/releasing.md).
+
+## Vulnerability Scanning
+
+See [static code analysis](docs/static-code-analysis.md).
+","# Security policy for Argo Events 
+
+## Reporting a Vulnerability
+
+If you find a security related bug in Argo Events, we kindly ask you for responsible
+disclosure and for giving us appropriate time to react, analyze and develop a
+fix to mitigate the found security vulnerability.
+
+Please report vulnerabilities by e-mail to the following address: 
+
+* cncf-argo-security@lists.cncf.io
+
+All vulnerabilites and associated information will be treated with full confidentiality. 
+
+## Public Disclosure
+
+Security vulnerabilities will be disclosed via [release notes](docs/releasing.md) and using the
+[GitHub Security Advisories](https://github.com/argoproj/argo-events/security/advisories)
+feature to keep our community well informed, and will credit you for your findings (unless you prefer to stay anonymous, of course).
+
+## Vulnerability Scanning
+
+See [static code analysis](docs/static-code-analysis.md).
+",593,b argoproj/argo-events 05a697c9261fbf006342db72ff6a3435bfbce2db
+argoproj/argo-events,SECURITY.md,6b7b466bbff7e22227e33dd955ad4e5cd3755f02,2022-04-21 23:51:11+00:00,"# Security policy for Argo Events 
+
+## Reporting a Vulnerability
+
+If you find a security related bug in Argo Events, we kindly ask you for responsible
+disclosure and for giving us appropriate time to react, analyze and develop a
+fix to mitigate the found security vulnerability.
+
+Please report vulnerabilities by e-mail to the following address: 
+
+* cncf-argo-security@lists.cncf.io
+
+All vulnerabilites and associated information will be treated with full confidentiality. 
+
+## Public Disclosure
+
+Security vulnerabilities will be disclosed via [release notes](docs/releasing.md) and using the
+[GitHub Security Advisories](https://github.com/argoproj/argo-events/security/advisories)
+feature to keep our community well informed, and will credit you for your findings (unless you prefer to stay anonymous, of course).
+
+## Vulnerability Scanning
+
+See [static code analysis](docs/static-code-analysis.md).
+","# Security policy for Argo Events
+
+## Reporting a Vulnerability
+
+If you find a security related bug in Argo Events, we kindly ask you for responsible
+disclosure and for giving us appropriate time to react, analyze and develop a
+fix to mitigate the found security vulnerability.
+
+Please report vulnerabilities by e-mail to the following address:
+
+* cncf-argo-security@lists.cncf.io
+
+All vulnerabilities and associated information will be treated with full confidentiality.
+
+## Public Disclosure
+
+Security vulnerabilities will be disclosed via [release notes](docs/releasing.md) and using the
+[GitHub Security Advisories](https://github.com/argoproj/argo-events/security/advisories)
+feature to keep our community well informed, and will credit you for your findings (unless you prefer to stay anonymous, of course).
+
+## Vulnerability Scanning
+
+See [static code analysis](docs/static-code-analysis.md).
+",4,b argoproj/argo-events 6b7b466bbff7e22227e33dd955ad4e5cd3755f02
+argoproj/argo-events,SECURITY.md,b1097555190ca3d1d84a6c500a9c1db5099ad58d,2023-03-07 17:03:44+00:00,"# Security policy for Argo Events
+
+## Reporting a Vulnerability
+
+If you find a security related bug in Argo Events, we kindly ask you for responsible
+disclosure and for giving us appropriate time to react, analyze and develop a
+fix to mitigate the found security vulnerability.
+
+Please report vulnerabilities by e-mail to the following address:
+
+* cncf-argo-security@lists.cncf.io
+
+All vulnerabilities and associated information will be treated with full confidentiality.
+
+## Public Disclosure
+
+Security vulnerabilities will be disclosed via [release notes](docs/releasing.md) and using the
+[GitHub Security Advisories](https://github.com/argoproj/argo-events/security/advisories)
+feature to keep our community well informed, and will credit you for your findings (unless you prefer to stay anonymous, of course).
+
+## Vulnerability Scanning
+
+See [static code analysis](docs/static-code-analysis.md).
+","# Security policy for Argo Events
+
+## Reporting a Vulnerability
+
+If you find a security related bug in Argo Events, we kindly ask you for responsible
+disclosure and for giving us appropriate time to react, analyze and develop a
+fix to mitigate the found security vulnerability.
+
+Please report vulnerabilities by e-mail to the following address:
+
+* cncf-argo-security@lists.cncf.io
+
+All vulnerabilities and associated information will be treated with full confidentiality.
+
+## Public Disclosure
+
+Security vulnerabilities will be disclosed via [release notes](docs/releasing.md) and using the
+[GitHub Security Advisories](https://github.com/argoproj/argo-events/security/advisories)
+feature to keep our community well informed, and will credit you for your findings (unless you prefer to stay anonymous, of course).
+
+## Internet Bug Bounty collaboration
+
+We're happy to announce that the Argo project is collaborating with the great
+folks over at
+[Hacker One](https://hackerone.com/) and their
+[Internet Bug Bounty program](https://hackerone.com/ibb)
+to reward the awesome people who find security vulnerabilities in the four
+main Argo projects (CD, Events, Rollouts and Workflows) and then work with
+us to fix and disclose them in a responsible manner.
+
+If you report a vulnerability to us as outlined in this security policy, we
+will work together with you to find out whether your finding is eligible for
+claiming a bounty, and also on how to claim it.
+
+## Vulnerability Scanning
+
+See [static code analysis](docs/static-code-analysis.md).
+",640,b argoproj/argo-events b1097555190ca3d1d84a6c500a9c1db5099ad58d

@@ -1,0 +1,7 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+buddypress/BuddyPress,SECURITY.md,57f6f45728712721f46ff7260963c273d12c3d39,2020-10-09 05:13:56+00:00,,"# Reporting Security Issues
+
+The BuddyPress team and WordPress community take security bugs seriously. We appreciate your efforts to responsibly disclose your findings, and will make every effort to acknowledge your contributions.
+
+To report a security issue, please visit the [WordPress HackerOne](https://hackerone.com/wordpress) program.
+",341,b buddypress/BuddyPress 57f6f45728712721f46ff7260963c273d12c3d39

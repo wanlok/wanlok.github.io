@@ -1,0 +1,8 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+rtxteam/rtx,SECURITY.md,12b9fa79bbe71299dfe3e9211239b381153014df,2022-04-17 21:12:48+00:00,,"# Contact information for security issues with ARAX (i.e., RTXteam/RTX)
+
+For any security-related issues or bug reports pertaining
+to the code in this repository, please send an email to
+user `ramseyst`, host domain `oregonstate.edu`.
+
+",236,b rtxteam/rtx 12b9fa79bbe71299dfe3e9211239b381153014df

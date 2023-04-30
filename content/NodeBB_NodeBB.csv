@@ -1,0 +1,28 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+NodeBB/NodeBB,.github/SECURITY.md,45c8de129ca44431cff4d674d3789c1fbcf765bb,2020-08-13 20:56:52+00:00,,"# Reporting a security vulnerability
+
+NodeBB's security policy is based around a private bug bounty program. Users are invited to explore NodeBB for vulnerabilities, and report them to the NodeBB team so that they can be patched.
+
+If you have found a security vulnerability, **do not post it onto our GitHub tracker**. Some security vulnerabilities are quite severe and discretion is recommended. Email the NodeBB Security Team at security@nodebb.org, instead.
+
+# Bug Bounty Program
+
+Security vulnerability reports may be eligible for a bounty based on severity and confirmation from NodeBB team members. For full details regarding our bug bounty program, including the bounty amounts, please consult the following page: https://blog.nodebb.org/bounty",751,b NodeBB/NodeBB 45c8de129ca44431cff4d674d3789c1fbcf765bb
+NodeBB/NodeBB,.github/SECURITY.md,868bff302c0cb1d8bf9e0ea5a79321f3cea82817,2022-01-21 15:39:54+00:00,"# Reporting a security vulnerability
+
+NodeBB's security policy is based around a private bug bounty program. Users are invited to explore NodeBB for vulnerabilities, and report them to the NodeBB team so that they can be patched.
+
+If you have found a security vulnerability, **do not post it onto our GitHub tracker**. Some security vulnerabilities are quite severe and discretion is recommended. Email the NodeBB Security Team at security@nodebb.org, instead.
+
+# Bug Bounty Program
+
+Security vulnerability reports may be eligible for a bounty based on severity and confirmation from NodeBB team members. For full details regarding our bug bounty program, including the bounty amounts, please consult the following page: https://blog.nodebb.org/bounty","# Reporting a security vulnerability
+
+NodeBB's security policy is based around a private bug bounty program. Users are invited to explore NodeBB for vulnerabilities, and report them to the NodeBB team so that they can be patched.
+
+If you have found a security vulnerability, **do not post it onto our GitHub tracker**. Some security vulnerabilities are quite severe and discretion is recommended. Email the NodeBB Security Team at security@nodebb.org, instead, even if you are not sure whether something qualifies.
+
+# Bug Bounty Program
+
+Security vulnerability reports may be eligible for a bounty based on severity and confirmation from NodeBB team members. For full details regarding our bug bounty program, including the bounty amounts, please consult the [dedicated page for our Bug Bounty Program](https://nodebb.org/bounty).
+",100,b NodeBB/NodeBB 868bff302c0cb1d8bf9e0ea5a79321f3cea82817

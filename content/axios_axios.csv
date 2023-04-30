@@ -1,0 +1,41 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+axios/axios,SECURITY.md,82c94555917834770bd1389fc0b4cd9ba35ec3fe,2021-09-02 08:14:12+00:00,,"# Security Policy
+
+## Reporting a Vulnerability
+
+Please report security issues to jasonsaayman@gmail.com
+",105,b axios/axios 82c94555917834770bd1389fc0b4cd9ba35ec3fe
+axios/axios,SECURITY.md,8d26147ae065197a1e2282650d94c8dc92fc3792,2022-05-06 11:50:09+00:00,"# Security Policy
+
+## Reporting a Vulnerability
+
+Please report security issues to jasonsaayman@gmail.com
+","## Reporting a Vulnerability
+
+If you discover a security vulnerability within axios, please submit a report via [huntr.dev](https://huntr.dev/bounties/?target=https%3A%2F%2Fgithub.com%2Faxios%2Faxios). Bounties and CVEs are automatically managed and allocated via the platform.
+
+All security vulnerabilities will be promptly addressed.
+",266,b axios/axios 8d26147ae065197a1e2282650d94c8dc92fc3792
+axios/axios,SECURITY.md,c714cffa6c642e8e52bf1a3dfc91a63bef0f6a29,2022-05-28 15:25:06+00:00,"## Reporting a Vulnerability
+
+If you discover a security vulnerability within axios, please submit a report via [huntr.dev](https://huntr.dev/bounties/?target=https%3A%2F%2Fgithub.com%2Faxios%2Faxios). Bounties and CVEs are automatically managed and allocated via the platform.
+
+All security vulnerabilities will be promptly addressed.
+","# Reporting a Vulnerability
+
+If you discover a security vulnerability within axios, please submit a report via [huntr.dev](https://huntr.dev/bounties/?target=https%3A%2F%2Fgithub.com%2Faxios%2Faxios). Bounties and CVEs are automatically managed and allocated via the platform.
+
+All security vulnerabilities will be promptly addressed.
+",1,b axios/axios c714cffa6c642e8e52bf1a3dfc91a63bef0f6a29
+axios/axios,SECURITY.md,e518c5da1b205ddbdd7e99ee1e1743206b3e5364,2022-06-14 18:44:31+00:00,"# Reporting a Vulnerability
+
+If you discover a security vulnerability within axios, please submit a report via [huntr.dev](https://huntr.dev/bounties/?target=https%3A%2F%2Fgithub.com%2Faxios%2Faxios). Bounties and CVEs are automatically managed and allocated via the platform.
+
+All security vulnerabilities will be promptly addressed.
+","# Reporting a Vulnerability
+
+If you discover a security vulnerability in axios please disclose it via [our huntr page](https://huntr.dev/repos/axios/axios/). Bounty eligibility, CVE assignment, response times and past reports are all there.
+
+
+Thank you for improving the security of axios.
+",173,b axios/axios e518c5da1b205ddbdd7e99ee1e1743206b3e5364

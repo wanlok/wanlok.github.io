@@ -1,0 +1,133 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+ssh-mitm/ssh-mitm,SECURITY.md,e9b5f8d1c51350d94dc5fee8a52cbb9229f5d2dd,2020-06-12 16:14:28+00:00,,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 0.1.x   | :white_check_mark: |
+| 0.0.x   | :x:                |
+",174,b ssh-mitm/ssh-mitm e9b5f8d1c51350d94dc5fee8a52cbb9229f5d2dd
+ssh-mitm/ssh-mitm,SECURITY.md,3c66f5f17e79928e2af501d3571a56934fac6794,2020-12-03 08:14:29+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 0.1.x   | :white_check_mark: |
+| 0.0.x   | :x:                |
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 0.2.x   | :white_check_mark: |
+| 0.1.x   | :x:                |
+| 0.0.x   | :x:                |
+",34,b ssh-mitm/ssh-mitm 3c66f5f17e79928e2af501d3571a56934fac6794
+ssh-mitm/ssh-mitm,SECURITY.md,81b60ec8352881586e3f2609eb9861ee8e57fca9,2020-12-04 06:31:50+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 0.2.x   | :white_check_mark: |
+| 0.1.x   | :x:                |
+| 0.0.x   | :x:                |
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 0.2.x   | :heavy_check_mark: |
+| 0.1.x   | :x:                |
+| 0.0.x   | :x:                |
+",5,b ssh-mitm/ssh-mitm 81b60ec8352881586e3f2609eb9861ee8e57fca9
+ssh-mitm/ssh-mitm,SECURITY.md,14f514073d12bce20c57cb2f519f11c92e5c2d4c,2021-01-05 07:59:38+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 0.2.x   | :heavy_check_mark: |
+| 0.1.x   | :x:                |
+| 0.0.x   | :x:                |
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 0.3.x   | :heavy_check_mark: |
+| 0.2.x   | :x:                |
+| 0.1.x   | :x:                |
+| 0.0.x   | :x:                |
+",34,b ssh-mitm/ssh-mitm 14f514073d12bce20c57cb2f519f11c92e5c2d4c
+ssh-mitm/ssh-mitm,SECURITY.md,97dfa419cea3a4475ae298a0e5dd11009285ea50,2021-03-26 16:27:29+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 0.3.x   | :heavy_check_mark: |
+| 0.2.x   | :x:                |
+| 0.1.x   | :x:                |
+| 0.0.x   | :x:                |
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 0.5.x   | :heavy_check_mark: |
+| 0.4.x   | :x:                |
+| 0.3.x   | :x:                |
+| 0.2.x   | :x:                |
+| 0.1.x   | :x:                |
+| 0.0.x   | :x:                |
+",67,b ssh-mitm/ssh-mitm 97dfa419cea3a4475ae298a0e5dd11009285ea50
+ssh-mitm/ssh-mitm,SECURITY.md,cb9b2d739db223777000ef14e0b8ef4be5123320,2022-04-06 09:35:15+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 0.5.x   | :heavy_check_mark: |
+| 0.4.x   | :x:                |
+| 0.3.x   | :x:                |
+| 0.2.x   | :x:                |
+| 0.1.x   | :x:                |
+| 0.0.x   | :x:                |
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 3.x.x   | :heavy_check_mark: |
+| 2.x.x   | :heavy_check_mark: |
+| 1.x.x   | :x:                |
+| 0.x.x   | :x:                |
+",88,b ssh-mitm/ssh-mitm cb9b2d739db223777000ef14e0b8ef4be5123320
+ssh-mitm/ssh-mitm,SECURITY.md,fc8a42dd49bda99cc689ec066060377ab7faa736,2022-05-20 11:29:50+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 3.x.x   | :heavy_check_mark: |
+| 2.x.x   | :heavy_check_mark: |
+| 1.x.x   | :x:                |
+| 0.x.x   | :x:                |
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 2.x.x   | :heavy_check_mark: |
+| 1.x.x   | :x:                |
+| 0.x.x   | :x:                |
+",33,b ssh-mitm/ssh-mitm fc8a42dd49bda99cc689ec066060377ab7faa736

@@ -1,0 +1,3 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+dask/.github,SECURITY.md,fc97b65a6481fff2f11ac8eca09e0180b2b0ed25,2020-08-26 13:42:16+00:00,,"To report a security vulnerability to Dask, please go to https://tidelift.com/security and follow the instructions there.
+",122,b dask/.github fc97b65a6481fff2f11ac8eca09e0180b2b0ed25

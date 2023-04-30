@@ -1,0 +1,124 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+angus-c/just,SECURITY.md,9d991ec72b1d97e3c125b51f1c16591f29bcce38,2021-11-07 05:59:26+00:00,,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| Chrome | :white_check_mark: |
+| Safari | :white_check_mark:                |
+| Firefox   | :white_check_mark: |
+| Edge   | >= 12                |
+| Node   | >= 6                |
+| Mobile Safari | >= iOS 8 |
+| Android | >= OS 5 |
+
+## Reporting a Vulnerability
+
+You can report suspected vulnerabilities directly through issues (since no vulnerability will affect Just library itself) 
+",494,b angus-c/just 9d991ec72b1d97e3c125b51f1c16591f29bcce38
+angus-c/just,SECURITY.md,1fc3045353c3239a38e7983c9bb4f43b315a034b,2021-11-07 06:08:00+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| Chrome | :white_check_mark: |
+| Safari | :white_check_mark:                |
+| Firefox   | :white_check_mark: |
+| Edge   | >= 12                |
+| Node   | >= 6                |
+| Mobile Safari | >= iOS 8 |
+| Android | >= OS 5 |
+
+## Reporting a Vulnerability
+
+You can report suspected vulnerabilities directly through issues (since no vulnerability will affect Just library itself) 
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| Chrome | :white_check_mark: |
+| Safari | :white_check_mark:                |
+| Firefox   | :white_check_mark: |
+| Edge   | >= 12                |
+| Node   | >= 6                |
+| Mobile Safari | >= iOS 8 |
+| Android | >= OS 5 |
+
+## Reporting a Vulnerability
+
+You can report suspected vulnerabilities by creating an issue
+",69,b angus-c/just 1fc3045353c3239a38e7983c9bb4f43b315a034b
+angus-c/just,SECURITY.md,859d252a6070b80271c983956b0314050940b3a8,2021-12-10 02:27:33+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| Chrome | :white_check_mark: |
+| Safari | :white_check_mark:                |
+| Firefox   | :white_check_mark: |
+| Edge   | >= 12                |
+| Node   | >= 6                |
+| Mobile Safari | >= iOS 8 |
+| Android | >= OS 5 |
+
+## Reporting a Vulnerability
+
+You can report suspected vulnerabilities by creating an issue
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| Chrome | :white_check_mark: |
+| Safari | :white_check_mark:                |
+| Firefox   | :white_check_mark: |
+| Edge   | >= 12                |
+| Node   | >= 6                |
+| Mobile Safari | >= iOS 8 |
+| Android | >= OS 5 |
+
+## Reporting a Vulnerability
+
+You can report suspected vulnerabilities by DMing me on Twitter at @angustweets
+",28,b angus-c/just 859d252a6070b80271c983956b0314050940b3a8
+angus-c/just,SECURITY.md,f4a8643a49b25b12f2cb17550168ce1caaaa2406,2021-12-10 21:17:11+00:00,"# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| Chrome | :white_check_mark: |
+| Safari | :white_check_mark:                |
+| Firefox   | :white_check_mark: |
+| Edge   | >= 12                |
+| Node   | >= 6                |
+| Mobile Safari | >= iOS 8 |
+| Android | >= OS 5 |
+
+## Reporting a Vulnerability
+
+You can report suspected vulnerabilities by DMing me on Twitter at @angustweets
+","# Security Policy
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| Chrome | :white_check_mark: |
+| Safari | :white_check_mark:                |
+| Firefox   | :white_check_mark: |
+| Edge   | >= 12                |
+| Node   | >= 6                |
+| Mobile Safari | >= iOS 8 |
+| Android | >= OS 5 |
+
+## Reporting a Vulnerability
+
+You can report suspected vulnerabilities by [DMing me on Twitter](https://twitter.com/angustweets)
+",23,b angus-c/just f4a8643a49b25b12f2cb17550168ce1caaaa2406

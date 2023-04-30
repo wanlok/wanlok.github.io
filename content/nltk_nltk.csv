@@ -1,0 +1,20 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+nltk/nltk,SECURITY.md,f4ce2cef06125dd406bd57ab08b2fdb57ebe1531,2021-09-24 12:22:07+00:00,,"# Security Policy
+
+## Reporting a Vulnerability
+
+Please report security issues to `nltk.team@gmail.com`
+
+",105,b nltk/nltk f4ce2cef06125dd406bd57ab08b2fdb57ebe1531
+nltk/nltk,SECURITY.md,23f4b1c4b4006b0cb3ec278e801029557cec4e82,2021-09-24 13:42:03+00:00,"# Security Policy
+
+## Reporting a Vulnerability
+
+Please report security issues to `nltk.team@gmail.com`
+
+","# Security Policy
+
+## Reporting a Vulnerability
+
+Please report security issues to `nltk.team@gmail.com`
+",1,b nltk/nltk 23f4b1c4b4006b0cb3ec278e801029557cec4e82

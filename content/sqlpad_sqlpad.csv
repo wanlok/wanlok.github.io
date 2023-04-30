@@ -1,0 +1,34 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+sqlpad/sqlpad,SECURITY.md,ad241a2731a0d7d7da66da0690b1e8d3cfb58c5f,2021-09-05 15:55:16+00:00,,"# Security Policy
+
+## Supported Versions
+
+Only the latest release is supported in the sense that security and bug fixes are not applied to previous releases.
+
+For example, a fix `6.1.1` will not be applied to `6.0.`x or `5.x.x` versions.
+
+## Reporting a Vulnerability
+
+Please report to rick.bergfalk@gmail.com.
+",311,b sqlpad/sqlpad ad241a2731a0d7d7da66da0690b1e8d3cfb58c5f
+sqlpad/sqlpad,SECURITY.md,e1337344af6c4cd24d538e517be49afe6b81010a,2022-12-03 07:27:56+00:00,"# Security Policy
+
+## Supported Versions
+
+Only the latest release is supported in the sense that security and bug fixes are not applied to previous releases.
+
+For example, a fix `6.1.1` will not be applied to `6.0.`x or `5.x.x` versions.
+
+## Reporting a Vulnerability
+
+Please report to rick.bergfalk@gmail.com.
+","# Security Policy
+
+## Supported Versions
+
+Only the latest release is supported. Fixes are not ported back to prior major versions.
+
+## Reporting a Vulnerability
+
+Please report to rick.bergfalk@gmail.com.
+",121,b sqlpad/sqlpad e1337344af6c4cd24d538e517be49afe6b81010a

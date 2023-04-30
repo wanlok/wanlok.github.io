@@ -1,0 +1,103 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+i7MEDIA/mojoportal,SECURITY.md,f19d38b028307ea90bc75ececf3ff9159d44725c,2022-03-30 21:52:59+00:00,,"# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 5.1.x   | :white_check_mark: |
+| 5.0.x   | :x:                |
+| 4.0.x   | :white_check_mark: |
+| < 4.0   | :x:                |
+
+## Reporting a Vulnerability
+
+Use this section to tell people how to report a vulnerability.
+
+Tell them where to go, how often they can expect to get an update on a
+reported vulnerability, what to expect if the vulnerability is accepted or
+declined, etc.
+",619,b i7MEDIA/mojoportal f19d38b028307ea90bc75ececf3ff9159d44725c
+i7MEDIA/mojoportal,SECURITY.md,6f53e74c93091422bb8c0e90011b9f2a9e04ff57,2022-03-30 21:56:29+00:00,"# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 5.1.x   | :white_check_mark: |
+| 5.0.x   | :x:                |
+| 4.0.x   | :white_check_mark: |
+| < 4.0   | :x:                |
+
+## Reporting a Vulnerability
+
+Use this section to tell people how to report a vulnerability.
+
+Tell them where to go, how often they can expect to get an update on a
+reported vulnerability, what to expect if the vulnerability is accepted or
+declined, etc.
+","# Security Policy
+
+## Supported Versions
+
+Only the versions listed below are supported with Security Updates.
+
+If a vulnerability is found in a supported version, but the vulnerability does not exist in a later version, the vulnerability may not be patched in the affected version.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 2.5 +   | :white_check_mark: |
+| < 2.5   | :x:                |
+
+## Reporting a Vulnerability
+
+Vulnerabilities should be reported on the mojoPortal website using the [Report a Vulnerability](https://www.mojoportal.com/report-a-vulnerability) form. 
+
+Each report will be taken seriously and we will respond directly to the person who submitted the report with our findings.
+",430,b i7MEDIA/mojoportal 6f53e74c93091422bb8c0e90011b9f2a9e04ff57
+i7MEDIA/mojoportal,SECURITY.md,d21e9a9f3649e447f0d3bbb9d3b0f526bfdb5d4c,2022-03-30 21:57:52+00:00,"# Security Policy
+
+## Supported Versions
+
+Only the versions listed below are supported with Security Updates.
+
+If a vulnerability is found in a supported version, but the vulnerability does not exist in a later version, the vulnerability may not be patched in the affected version.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 2.5 +   | :white_check_mark: |
+| < 2.5   | :x:                |
+
+## Reporting a Vulnerability
+
+Vulnerabilities should be reported on the mojoPortal website using the [Report a Vulnerability](https://www.mojoportal.com/report-a-vulnerability) form. 
+
+Each report will be taken seriously and we will respond directly to the person who submitted the report with our findings.
+","# Security Policy
+
+## Supported Versions
+
+Only the versions listed below are supported with Security Updates.
+
+If a vulnerability is found in a supported version, but the vulnerability does not exist in a later version, the vulnerability may not be patched in the affected version.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 2.8.x   | :white_check_mark: |
+| 2.7.x   | :white_check_mark: |
+| 2.6.x   | :white_check_mark: |
+| 2.5.x   | :white_check_mark: |
+| < 2.5   | :x:                |
+
+## Reporting a Vulnerability
+
+Vulnerabilities should be reported on the mojoPortal website using the [Report a Vulnerability](https://www.mojoportal.com/report-a-vulnerability) form. 
+
+Each report will be taken seriously and we will respond directly to the person who submitted the report with our findings.
+",101,b i7MEDIA/mojoportal d21e9a9f3649e447f0d3bbb9d3b0f526bfdb5d4c

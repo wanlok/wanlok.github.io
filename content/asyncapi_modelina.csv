@@ -1,0 +1,2 @@
+repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
+asyncapi/.github,SECURITY.md,6f57b2e5dd22b8c05938ad5ad3d16e11d1b4315b,2020-04-13 16:41:19+00:00,,"In case you do not want to publicly report a security issue for one of the libraries owned by the AsyncAPI community, write an email with a detailed description of the issue to info@asyncapi.io.",194,b asyncapi/.github 6f57b2e5dd22b8c05938ad5ad3d16e11d1b4315b
