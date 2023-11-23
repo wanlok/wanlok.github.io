@@ -1,0 +1,11 @@
+#,Repository characteristic,Security policy category,Sign,Size,p-value,Odds ratio
+1,GO dependency,Subscription,+,2068,1.31E-11,6.2007
+2,GO language,Subscription,+,2068,5.21E-11,6.0604
+3,CWE-269,Introduction,+,2068,7.75E-07,3.809
+4,RUST dependency,Secure communication,+,2068,2.67E-07,3.757
+5,NUGET dependency,Secure communication,+,2068,6.00E-07,3.215
+6,NUGET dependency,Empty,+,2068,0.000058,3.08608
+7,CWE-287,Guideline,+,2068,0.000035,2.9807
+8,CWE-200,Guideline,+,2068,0.000044,2.662
+9,Broken Access Control,Guideline,+,2068,0.000047,1.896
+10,Object-oriented language,Subscription,-,2068,1.54E-06,0.2906

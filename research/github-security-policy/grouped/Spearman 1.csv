@@ -1,0 +1,53 @@
+#,Repository Characteristic,Security Policy Category,Sign,Size,p-value,rho
+1,Number of languages,Number of words,+,2068,1.05E-27,0.236
+2,Number of languages,Number of characters,+,2068,4.90E-27,0.233
+3,Number of languages,Number of paragraphs,+,2068,8.21E-26,0.228
+4,Number of committers,Number of words,+,2068,2.90E-22,0.211
+5,Number of security-related issues,Number of characters,+,2068,1.58E-21,0.207
+6,Number of committers,Number of characters,+,2068,2.45E-21,0.206
+7,Number of security-related issues,Number of words,+,2068,4.35E-21,0.205
+8,Number of lines of code,Number of characters,+,2068,1.56E-19,0.197
+9,Number of lines of code,Number of words,+,2068,5.34E-19,0.194
+10,Number of security-related issues,Number of paragraphs,+,2068,1.98E-17,0.185
+11,Number of committers,Number of paragraphs,+,2068,3.74E-17,0.183
+12,Number of issues,Number of words,+,2068,1.10E-15,0.175
+13,Number of issues,Number of characters,+,2068,2.39E-15,0.172
+14,Number of lines of code,Number of paragraphs,+,2068,2.89E-15,0.172
+15,Number of issues,Number of paragraphs,+,2068,1.99E-13,0.1607
+16,Number of CVSS v3 impact score medium or above,Number of paragraphs,+,2068,8.28E-09,0.126
+17,Number of CVSS v3 impact score medium or above,Number of characters,+,2068,8.83E-09,0.126
+18,Number of RUST dependencies,Number of characters,+,2068,1.13E-08,0.125
+19,Number of CVSS v3 impact score medium or above,Number of words,+,2068,1.58E-08,0.123
+20,Number of RUST dependencies,Number of words,+,2068,4.46E-08,0.119
+21,Number of CWEs,Number of paragraphs,+,2068,1.77E-07,0.114
+22,Number of CVSS v2 impact score medium or above,Number of characters,+,2068,3.79E-07,0.111
+23,Number of OWASP descriptions,Number of paragraphs,+,2068,4.11E-07,0.111
+24,Number of CWEs,Number of characters,+,2068,5.51E-07,0.109
+25,Number of CWEs,Number of words,+,2068,6.76E-07,0.109
+26,Number of RUST dependencies,Number of paragraphs,+,2068,7.76E-07,0.108
+27,Number of CVEs,Number of paragraphs,+,2068,8.36E-07,0.108
+28,Number of CVSS v2 impact score medium or above,Number of words,+,2068,1.13E-06,0.106
+29,Number of GO dependencies,Number of paragraphs,+,2068,1.66E-06,0.105
+30,Number of CVSS v2 impact score medium or above,Number of paragraphs,+,2068,1.83E-06,0.104
+31,Number of GO dependencies,Number of characters,+,2068,2.34E-06,0.103
+32,Number of CVEs,Number of characters,+,2068,2.61E-06,0.103
+33,Number of CVEs,Number of words,+,2068,3.35E-06,0.102
+34,Number of GO dependencies,Number of words,+,2068,3.79E-06,0.101
+35,Number of OWASP descriptions,Number of characters,+,2068,5.85E-06,0.0994
+36,Number of OWASP descriptions,Number of words,+,2068,7.04E-06,0.0986
+37,Number of forks,Number of words,+,2068,0.000018,0.0942
+38,Number of forks,Number of characters,+,2068,0.000024,0.0928
+39,Number of dependencies,Number of paragraphs,+,2068,0.000036,0.0907
+40,Number of CVSS v3 impact score low,Number of paragraphs,+,2068,0.000038,0.0904
+41,Number of forks,Number of paragraphs,+,2068,0.000044,0.0897
+42,Number of PIP dependencies,Number of characters,+,2068,0.000045,0.0896
+43,Number of CVSS v2 impact score low,Number of paragraphs,+,2068,0.000045,0.0895
+44,Number of CVSS v2 impact score low,Number of words,+,2068,0.000047,0.0894
+45,Number of CVSS v2 impact score low,Number of characters,+,2068,0.000048,0.0893
+46,Number of CVSS v3 impact score low,Number of characters,+,2068,0.000143,0.0835
+47,Number of MAVEN dependencies,Number of characters,+,2068,0.000178,0.0823
+48,Number of PIP dependencies,Number of words,+,2068,0.000222,0.0811
+49,Number of CVSS v3 impact score low,Number of words,+,2068,0.000223,0.0811
+50,Number of PIP dependencies,Number of paragraphs,+,2068,0.000261,0.0802
+51,Number of MAVEN dependencies,Number of paragraphs,+,2068,0.000531,0.0761
+52,Number of dependencies,Number of characters,+,2068,0.000559,0.0758

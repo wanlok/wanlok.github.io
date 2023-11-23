@@ -1,0 +1,60 @@
+#,Repository Characteristic,Security Policy Category,Sign,Size,p-value,rho
+1,Number of languages,Reporting procedure,+,2068,4.95E-20,0.199
+2,Number of GO dependencies,Subscription,+,2068,1.36E-17,0.186
+3,Number of committers,Reporting procedure,+,2068,2.24E-15,0.173
+4,Number of security-related issues,Reporting procedure,+,2068,1.26E-14,0.168
+5,Number of issues,Reporting procedure,+,2068,2.15E-14,0.166
+6,Number of committers,Introduction,+,2068,5.34E-13,0.157
+7,Number of languages,Handling procedure,+,2068,1.17E-10,0.141
+8,Number of languages,Introduction,+,2068,1.59E-10,0.14008
+9,Number of lines of code,Reporting procedure,+,2068,2.11E-10,0.139
+10,Number of RUST dependencies,Secure communication,+,2068,2.79E-10,0.138
+11,Number of committers,Handling procedure,+,2068,3.68E-10,0.137
+12,Number of committers,Bug bounty program,+,2068,1.02E-09,0.133
+13,Number of lines of code,Guideline,+,2068,1.56E-09,0.132
+14,Number of languages,Guideline,+,2068,1.68E-09,0.132
+15,Number of security-related issues,Introduction,+,2068,2.69E-09,0.1303
+16,Number of NUGET dependencies,Secure communication,+,2068,9.13E-09,0.125
+17,Number of issues,Introduction,+,2068,4.44E-08,0.120005
+18,Number of security-related issues,Handling procedure,+,2068,7.02E-08,0.118
+19,Number of issues,Handling procedure,+,2068,8.75E-08,0.117
+20,Number of lines of code,Introduction,+,2068,9.78E-08,0.116
+21,Number of languages,Secure communication,+,2068,1.59E-07,0.114
+22,Number of lines of code,Handling procedure,+,2068,1.68E-07,0.114
+23,Number of languages,Bug bounty program,+,2068,1.83E-07,0.114
+24,Number of security-related issues,Bug bounty program,+,2068,2.95E-07,0.112
+25,Number of committers,Subscription,+,2068,3.58E-07,0.111
+26,Number of forks,Reporting procedure,+,2068,6.26E-07,0.109
+27,Number of NUGET dependencies,Empty,+,2068,6.66E-07,0.109
+28,Number of issues,Bug bounty program,+,2068,7.19E-07,0.108
+29,Number of lines of code,Bug bounty program,+,2068,7.36E-07,0.108
+30,Number of dependencies,Reporting procedure,+,2068,1.18E-06,0.106
+31,Number of GO dependencies,Reporting procedure,+,2068,1.77E-06,0.104
+32,Number of CVSS v2 impact score medium or above,Guideline,+,2068,2.92E-06,0.102
+33,Number of committers,Guideline,+,2068,3.21E-06,0.102
+34,Number of CVSS v3 impact score medium or above,Guideline,+,2068,5.12E-06,0.1001
+35,Number of forks,Bug bounty program,+,2068,5.42E-06,0.0998
+36,Number of security-related issues,Guideline,+,2068,8.25E-06,0.0978
+37,Number of NUGET dependencies,Bug bounty program,+,2068,9.95E-06,0.09701
+38,Number of CWEs,Guideline,+,2068,0.000013,0.0956
+39,Number of CVSS v2 impact score low,Guideline,+,2068,0.000017,0.0944
+40,Number of CVSS v3 impact score medium or above,Reporting procedure,+,2068,0.000018,0.0942
+41,Number of CVEs,Guideline,+,2068,0.000019,0.0938
+42,Number of security-related issues,Subscription,+,2068,0.000021,0.0934
+43,Number of dependencies,Introduction,+,2068,0.000029,0.0918
+44,Number of MAVEN dependencies,Reporting procedure,+,2068,0.000032,0.0912
+45,Number of RUBYGEMS dependencies,Reporting procedure,+,2068,0.000042,0.0899
+46,Number of GO dependencies,Handling procedure,+,2068,0.000045,0.0896
+47,Number of stars,Reporting procedure,+,2068,0.000045,0.0895
+48,Number of CVSS v2 impact score low,Known vulnerabilities,+,2068,0.000053,0.0887
+49,Number of issues,Subscription,+,2068,0.000062,0.088007
+50,Number of NUGET dependencies,Handling procedure,+,2068,0.000062,0.0879
+51,Number of OWASP descriptions,Guideline,+,2068,0.000088,0.0861
+52,Number of issues,Guideline,+,2068,0.000089,0.0861
+53,Number of RUST dependencies,Reporting procedure,+,2068,0.000094,0.0857
+54,Number of RUBYGEMS dependencies,Handling procedure,+,2068,0.000125,0.0842
+55,Number of RUBYGEMS dependencies,Bug bounty program,+,2068,0.000132,0.0839
+56,Number of PUB dependencies,Known vulnerabilities,+,2068,0.00016,0.0829
+57,Number of CVSS v3 impact score low,Guideline,+,2068,0.000165,0.0827
+58,Number of PIP dependencies,Subscription,+,2068,0.000171,0.0825
+59,Number of languages,Subscription,+,2068,0.000172,0.0825

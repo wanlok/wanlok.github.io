@@ -1,0 +1,36 @@
+#,Repository characteristic,Security policy category,Sign,Size,p-value,Effect size
+1,Number of committers,Introduction,+,2068,1.65E-11,0.148
+2,Number of lines of code,Guideline,+,2068,3.24E-09,0.1301
+3,Number of committers,Bug bounty program,+,2068,4.16E-09,0.129
+4,Number of languages,Guideline,+,2068,4.27E-09,0.128
+5,Number of languages,Introduction,+,2068,1.56E-08,0.124
+6,Number of security-related issues,Introduction,+,2068,7.47E-08,0.118
+7,Number of GO dependencies,Subscription,+,2068,5.49E-17,0.111
+8,Number of committers,Subscription,+,2068,4.42E-07,0.111
+9,Number of languages,Bug bounty program,+,2068,6.80E-07,0.108
+10,Number of issues,Introduction,+,2068,7.64E-07,0.108
+11,Number of security-related issues,Bug bounty program,+,2068,8.82E-07,0.108
+12,Number of lines of code,Introduction,+,2068,1.02E-06,0.107
+13,Number of languages,Secure communication,+,2068,1.34E-06,0.106
+14,Number of lines of code,Bug bounty program,+,2068,2.21E-06,0.104
+15,Number of issues,Bug bounty program,+,2068,2.26E-06,0.104
+16,Number of committers,Guideline,+,2068,4.58E-06,0.1007
+17,Number of security-related issues,Guideline,+,2068,0.000012,0.0964
+18,Number of forks,Scope,-,2068,0.000013,0.0959
+19,Number of forks,Bug bounty program,+,2068,0.000018,0.0943
+20,Number of security-related issues,Subscription,+,2068,0.000023,0.0931
+21,Number of stars,Scope,-,2068,3.95E-05,0.0904
+22,Number of CWEs,Guideline,+,2068,2.04E-05,0.0893
+23,Number of CVEs,Guideline,+,2068,0.000026,0.0889
+24,Number of issues,Subscription,+,2068,0.000066,0.0877
+25,Number of CVSS v2 impact score medium or above,Guideline,+,2068,4.37E-06,0.08704
+26,Number of CVSS v3 impact score medium or above,Guideline,+,2068,8.74E-06,0.0858
+27,Number of issues,Guideline,+,2068,0.000126,0.0843
+28,Number of CVSS v2 impact score low,Guideline,+,2068,0.000025,0.0811
+29,Number of OWASP descriptions,Guideline,+,2068,0.00013,0.0782
+30,Number of CVSS v2 impact score low,Known vulnerabilities,+,2068,0.000065,0.0769
+31,Number of PIP dependencies,Subscription,+,2068,0.000168,0.0612
+32,Number of NUGET dependencies,Secure communication,+,2068,2.44E-08,0.0477
+33,Number of RUST dependencies,Secure communication,+,2068,3.35E-09,0.0444
+34,Number of NUGET dependencies,Empty,+,2068,3.41E-06,0.0397
+35,Number of NUGET dependencies,Bug bounty program,+,2068,0.000021,0.0363
