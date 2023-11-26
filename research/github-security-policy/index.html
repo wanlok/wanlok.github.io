@@ -6,73 +6,86 @@
             padding: 0px;
         }
 
-        #myiframe {
-            height: calc(100% - 40px);
+
+        h1,
+        h2,
+        td,
+        a {
+            padding: 16px;
         }
 
-        .mya {
-            display: block;
-            line-height: 40px;
+        h1 {
+            font-size: 24px;
+        }
+
+        
+        body,
+        td,
+        h2 {
+            font-size: 16px;
+        }
+
+        h1,
+        h2 {
+            margin: 0px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        tr:nth-child(1) {
+            font-weight: bold;
+        }
+
+        td {
+            border-top: #CCCCCC solid 1px;
+            border-bottom: #CCCCCC solid 1px;
+            padding: 16px;
         }
     </style>
+    <script src="wanlok.js"></script>
     <script>
-function helloworld(path) {
-fetch(path)
-.then(response => {
-if (!response.ok) {
-throw new Error('Network response was not ok');
-}
-return response.text();
-})
-.then(csvData => {
-const data = parseCSV(csvData);
-// Do something with the parsed data, e.g., display it in the console
-console.log(data);
-})
-.catch(error => {
-console.error('There was a problem fetching the CSV file:', error);
-});
-}
+        elementId = 'main';
 
-
-function parseCSV(csv) {
-const lines = csv.split('\n');
-const result = [];
-
-const headers = lines[0].split(',');
-
-for (let i = 1; i < lines.length; i++) {
-const obj = {};
-const currentLine = lines[i].split(',');
-
-for (let j = 0; j < headers.length; j++) {
-obj[headers[j]] = currentLine[j];
-}
-
-result.push(obj);
-}
-
-return result;
-}
+        callback = function(title, columnNames, rows) {
+            s = '<h1>' + title + '</h1>';
+            s = s + '<table>';
+            s = s + '<tr>';
+            for (j = 0; j < columnNames.length; j++) {
+                s = s + '<td>' + columnNames[j] + '</td>';
+            }
+            s = s + '</tr>';
+            for (i = 0; i < rows.length; i++) {
+                s = s + '<tr>';
+                for (j = 0; j < columnNames.length; j++) {
+                    s = s + '<td>' + rows[i][columnNames[j]] + '</td>';
+                }
+                s = s + '</tr>';
+            }
+            s = s + '</table>';
+            getContentDiv().innerHTML = s;
+        }
     </script>
 </head>
-<body>
-<a class="mya" href="Attributes.csv">Attributes</a>
-<h3>Ungrouped</h3>
-<ul>
-    <li><a class="mya" onclick="helloworld('./ungrouped/Spearman 1.csv')" href="#">Spearman 1</a></li>
-    <li><a class="mya" href="./ungrouped/Spearman 2.csv">Spearman 2</a></li>
-    <li><a class="mya" href="./ungrouped/Mann.csv">Mann</a></li>
-    <li><a class="mya" href="./ungrouped/Chi.csv">Chi</a></li>
-    <li><a class="mya" href="./ungrouped/Fisher.csv">Fisher</a></li>
-</ul>
-<h3>Grouped</h3>
-<ul>
-    <li><a class="mya" href="./grouped/Spearman 1.csv">Spearman 1</a></li>
-    <li><a class="mya" href="./grouped/Spearman 2.csv">Spearman 2</a></li>
-    <li><a class="mya" href="./grouped/Mann.csv">Mann</a></li>
-    <li><a class="mya" href="./grouped/Chi.csv">Chi</a></li>
-    <li><a class="mya" href="./grouped/Fisher.csv">Fisher</a></li>
-</ul>
+<body onload="prepareAndUpdateUI()" onresize="updateUI()">
+    <div id="main">
+        <div>
+            <div>
+                <a href="#">Repositories</a>
+                <h2>Research Question 2</h2>
+                <a onclick="get('Spearman Test (Level 1)', 'Spearman 1.csv')" href="#spearman-level-1-test">Spearman Test (Level 1)</a>
+                <a onclick="get('Spearman Test (Level 2)', 'Spearman 2.csv')" href="#spearman-level-2-test">Spearman Test (Level 2)</a>
+                <a onclick="get('Mann-Whitney U Test', 'Mann.csv')" href="#mann-whitney-u-test">Mann-Whitney U Test</a>
+                <a onclick="get('Chi-square Test', 'Chi.csv')" href="#chi-square-test">Chi-square Test</a>
+                <a onclick="get('Fisher Exact Test', 'Fisher.csv')" href="#fisher-exact-test">Fisher Exact Test</a>
+            </div>
+        </div>
+        <div>
+            <div>
+                <!-- content -->
+            </div>
+        </div>
+    </div>
 </body>
 </html>
