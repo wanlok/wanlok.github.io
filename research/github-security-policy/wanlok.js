@@ -1,3 +1,5 @@
+leftWidth = 240;
+
 function prepareUI() {
     div = document.getElementById(elementId);
     div.style.display = 'table';
@@ -5,7 +7,7 @@ function prepareUI() {
     leftDiv = div.children[0];
     leftDiv.style.display = 'table-cell';
     leftDiv.style.verticalAlign = 'top';
-    leftDiv.style.width = '240px';
+    leftDiv.style.width = leftWidth + 'px';
     leftDiv.children[0].style.overflowY = 'scroll';
     for (i = 0; i < leftDiv.children[0].children.length; i++) {
         leftA = leftDiv.children[0].children[i];
@@ -14,8 +16,8 @@ function prepareUI() {
     rightDiv = div.children[1];
     rightDiv.style.display = 'table-cell';
     rightDiv.style.verticalAlign = 'top';
+    rightDiv.children[0].style.overflowX = 'auto';
     rightDiv.children[0].style.overflowY = 'scroll';
-    // rightDiv.children[0].style.padding = '16px';
 }
 
 function updateUI() {
@@ -23,6 +25,7 @@ function updateUI() {
     div = document.getElementById(elementId);
     div.style.height = height;
     div.children[0].children[0].style.height = height;
+    div.children[1].children[0].style.width = window.innerWidth - leftWidth;
     div.children[1].children[0].style.height = height;
 }
 
