@@ -44,6 +44,11 @@
             border-bottom: #CCCCCC solid 1px;
             padding: 16px;
         }
+
+        img.loading {
+            width: 40px;
+            height: 40px;
+        }
     </style>
     <script src="wanlok.js"></script>
     <script>
@@ -59,11 +64,12 @@
             s = s + '</tr>';
             for (i = 0; i < rows.length; i++) {
                 s = s + '<tr>';
-                for (j = 0; j < columnNames.length; j++) {
-                    s = s + '<td>' + rows[i][columnNames[j]] + '</td>';
+                for (j = 0; j < rows[i].length; j++) {
+                    s = s + '<td>' + rows[i][j] + '</td>';
                 }
                 s = s + '</tr>';
             }
+            console.log('hihi');
             s = s + '</table>';
             getContentDiv().innerHTML = s;
         }
