@@ -1,6 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-puppetlabs/.github,SECURITY.md,d991178e9ca8e2ea588753730b5f13365f55906e,2019-08-06 18:57:27+00:00,,"# Security Policy
-
-Please see https://puppet.com/security for information about our security policy
-and for responsibly reporting security issues.
-",147,b puppetlabs/.github d991178e9ca8e2ea588753730b5f13365f55906e

@@ -1,8 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-apostrophecms/.github,SECURITY.md,300fb5e127a4aec6eed48af64591353b4a87a66d,2020-05-28 20:18:35+00:00,,"# Security
-
-Please help us keep all ApostropheCMS projects safe. If you become aware of a
-security vulnerability in ApostropheCMS or any official modules, please contact
-us via email at [security@apostrophecms.com](mailto:security@apostrophecms.com).
-
-",252,b apostrophecms/.github 300fb5e127a4aec6eed48af64591353b4a87a66d

@@ -1,8 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-filegator/filegator,SECURITY.md,3ee8c36d7a3a5fa7a5467c0bf2683c7dde74a1a3,2021-07-15 07:05:39+00:00,,"# Security Policy
-
-## Reporting a Vulnerability
-
-If you discover any security related issues, please email alcalbg@gmail.com instead of using the issue tracker.
-
-",162,b filegator/filegator 3ee8c36d7a3a5fa7a5467c0bf2683c7dde74a1a3

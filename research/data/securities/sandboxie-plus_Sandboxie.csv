@@ -1,8 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-sandboxie-plus/Sandboxie,SECURITY.md,531f1100af92317467d07211a4bd8f2355edaf57,2021-07-09 12:59:50+00:00,,"# Security Policy
-
-## Reporting a Vulnerability
-
-Please report any found security Vulnerability directly to me at xanatosdavid[at]gmail.com
-Please describe the issue in full detail and if possible provide a proof of concept exploit.
-",233,b sandboxie-plus/Sandboxie 531f1100af92317467d07211a4bd8f2355edaf57

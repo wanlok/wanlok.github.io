@@ -1,3 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-wireapp/wire-webapp,SECURITY.md,258cac69270279b87158375688ae99f3a9bf4776,2020-08-20 12:43:06+00:00,,"Please check Wire's [global SECURITY.md](https://github.com/wireapp/wire/blob/master/SECURITY.md).
-",99,b wireapp/wire-webapp 258cac69270279b87158375688ae99f3a9bf4776

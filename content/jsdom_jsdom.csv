@@ -1,5 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-jsdom/.github,SECURITY.md,d58c089b519c966b5ee7fcf46652ca918fb48076,2019-08-04 19:41:52+00:00,,"# Security Policy
-
-To report a security vulnerability, please use the [Tidelift security contact](https://tidelift.com/security). Tidelift will coordinate the fix and disclosure.
-",179,b jsdom/.github d58c089b519c966b5ee7fcf46652ca918fb48076

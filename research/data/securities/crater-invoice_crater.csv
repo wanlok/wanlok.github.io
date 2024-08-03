@@ -1,7 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-crater-invoice/crater,SECURITY.md,7e683aa5cc692cead327500762b882016794057b,2021-12-06 08:34:54+00:00,,"# Security Policy
-
-## Reporting a Vulnerability
-
-Please email security@craterapp.com to report any security vulnerabilities. We will acknowledge receipt of your vulnerability and strive to send you regular updates about our progress. If you're curious about the status of your disclosure please feel free to email us again.
-",324,b crater-invoice/crater 7e683aa5cc692cead327500762b882016794057b

@@ -1,5 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-ljharb/.github,SECURITY.md,6831aac60d81393569de3286482d08b8e7855bda,2019-07-16 17:33:52+00:00,,"# Security
-
-Please email [@ljharb](https://github.com/ljharb) or see https://tidelift.com/security if you have a potential security vulnerability to report.
-",157,b ljharb/.github 6831aac60d81393569de3286482d08b8e7855bda

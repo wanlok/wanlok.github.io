@@ -1,8 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-mpdf/mpdf,.github/SECURITY.md,1637af2b2222dbf132b8bc4d760171c47ad7b799,2022-03-21 19:29:45+00:00,,"How to disclose potential security issues
-============
-
-As mPDF does not have a domain or a dedicated contact apart from its Github repository, to prevent 
-disclosing maintainers' contacts publicly, please create an Issue about the security issue with means to contact you. 
-We will reach out to you as soon as possible.
-",321,b mpdf/mpdf 1637af2b2222dbf132b8bc4d760171c47ad7b799

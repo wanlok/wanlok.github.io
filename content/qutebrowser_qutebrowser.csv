@@ -1,9 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-qutebrowser/qutebrowser,.github/SECURITY.md,e46ae39ebe7a1ece62c82e42e2c0b62ccabeeef6,2020-05-07 16:04:15+00:00,,"Please report security bugs to [security@qutebrowser.org](mailto:security@qutebrowser.org).
-",92,b qutebrowser/qutebrowser e46ae39ebe7a1ece62c82e42e2c0b62ccabeeef6
-qutebrowser/qutebrowser,.github/SECURITY.md,9bf258c8f8fa2c255be92535a64fd356146d8482,2022-12-13 13:24:32+00:00,"Please report security bugs to [security@qutebrowser.org](mailto:security@qutebrowser.org).
-","Please report security bugs to [security@qutebrowser.org](mailto:security@qutebrowser.org).
-(or if GPG encryption is desired, contact me@the-compiler.org with GPG ID [0x916EB0C8FD55A072](https://www.the-compiler.org/pubkey.asc)).
-
-Alternatively, [report a vulnerability](https://github.com/qutebrowser/qutebrowser/security/advisories/new) via GitHub's [private reporting feature](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability).
-",430,b qutebrowser/qutebrowser 9bf258c8f8fa2c255be92535a64fd356146d8482

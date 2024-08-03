@@ -1,7 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-marshmallow-code/marshmallow,SECURITY.md,0462b16e3d7719fc341f75917e9a81c9b51c870f,2022-09-11 19:46:40+00:00,,"# Security Contact Information
-
-To report a security vulnerability, please use the
-[Tidelift security contact](https://tidelift.com/security).
-Tidelift will coordinate the fix and disclosure.
-",192,b marshmallow-code/marshmallow 0462b16e3d7719fc341f75917e9a81c9b51c870f

@@ -1,7 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-FreshRSS/FreshRSS,SECURITY.md,3d2fea6bbfaf49d903e3db806b5405cd5ab80526,2021-07-17 23:42:00+00:00,,"# Security Policy
-
-## Reporting a Vulnerability
-
-Please report security issues to alexandre@alapetite.fr
-",105,b FreshRSS/FreshRSS 3d2fea6bbfaf49d903e3db806b5405cd5ab80526

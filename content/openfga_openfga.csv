@@ -1,9 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-openfga/.github,SECURITY.md,a04e31afb310446dd4c8cdf31f4315b54515a641,2022-06-09 15:01:24+00:00,,"# Security Policy
-
-## Reporting a Vulnerability
-
-Please use this email: security@openfga.dev to reach out to us regarding any security concerns/vulnerabilities. Please avoid using Github issues/discussions for the same.
-
-All vulnerabilities and associated information will be treated with full confidentiality. We strive to reply within 5 business days.
-",354,b openfga/.github a04e31afb310446dd4c8cdf31f4315b54515a641

@@ -1,7 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-mermaid-js/.github,SECURITY.md,32e3781d1dd2aa20d803c79dfddf6fedeeca6cd5,2022-11-03 05:15:50+00:00,,"# Security Policy
-
-## Reporting a Vulnerability
-
-To report a vulnerability, please e-mail security@mermaid.live with a description of the issue, the steps you took to create the issue, affected versions, and if known, mitigation for the issue.
-",244,b mermaid-js/.github 32e3781d1dd2aa20d803c79dfddf6fedeeca6cd5

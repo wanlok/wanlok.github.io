@@ -1,7 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-flipped-aurora/gin-vue-admin,SECURITY.md,5b1fc9b1ab96fca04a7f0c276ad3d316f05173fc,2021-07-06 08:53:20+00:00,,"# Security Policy
-
-## Reporting a Vulnerability
-
-Please report security issues to qimiaojiangjizhao@gmail.com
-",110,b flipped-aurora/gin-vue-admin 5b1fc9b1ab96fca04a7f0c276ad3d316f05173fc

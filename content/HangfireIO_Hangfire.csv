@@ -1,5 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-HangfireIO/Hangfire,SECURITY.md,e78bac370f3ea33e225863de494a530f8cf81df7,2019-05-23 13:08:48+00:00,,"# Reporting security issues 
-
-In order to give the community time to respond and upgrade we strongly urge you report all security issues privately. Please email us at [support@hangfire.io](support@hangfire.io) with details and we will respond ASAP. Security issues always take precedence over bug fixes and feature work. We can and do mark releases as ""urgent"" if they contain serious security fixes. 
-",402,b HangfireIO/Hangfire e78bac370f3ea33e225863de494a530f8cf81df7

@@ -1,7 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-healthchecks/healthchecks,SECURITY.md,58c6bd0a8641558b38aa7ff5889f7b8685efd1b7,2023-01-21 09:20:19+00:00,,"# Security Policy
-
-## Reporting a Vulnerability
-
-To report a security vulnerability, please email contact@healthchecks.io.
-",123,b healthchecks/healthchecks 58c6bd0a8641558b38aa7ff5889f7b8685efd1b7

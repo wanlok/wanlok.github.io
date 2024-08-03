@@ -1,5 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-OpenZeppelin/cairo-contracts,SECURITY.md,d675e9a1dbc1c11a04b955b723b197258ab32559,2022-06-15 17:26:08+00:00,,"> ⚠️ Warning! ⚠️
-> This project is still in a very early and experimental phase. It has never been audited nor thoroughly reviewed for security vulnerabilities. Do not use in production.
-
-Please report any security issues you find to security@openzeppelin.com.",260,b OpenZeppelin/cairo-contracts d675e9a1dbc1c11a04b955b723b197258ab32559

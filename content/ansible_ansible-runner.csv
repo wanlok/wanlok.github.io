@@ -1,9 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-ansible/ansible-runner,SECURITY.md,456cfa87ca0c415882cbe8d3ae2020c446591251,2022-02-28 16:18:16+00:00,,"# Security Policy
-
-## Reporting a Vulnerability
-
-For all security related bugs, email security@ansible.com instead of using this issue tracker and you will receive a prompt response.
-
-For more information on the Ansible community's practices regarding responsible disclosure, see https://www.ansible.com/security
-",313,b ansible/ansible-runner 456cfa87ca0c415882cbe8d3ae2020c446591251

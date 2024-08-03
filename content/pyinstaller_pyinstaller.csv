@@ -1,7 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-pyinstaller/pyinstaller,.github/SECURITY.md,1985b46e8e1586162891a6dbe099834b23ddad21,2020-01-08 17:58:03+00:00,,"## Security contact information
-
-To report a security vulnerability, please use the
-[Tidelift security contact](https://tidelift.com/security).
-Tidelift will coordinate the fix and disclosure.
-",193,b pyinstaller/pyinstaller 1985b46e8e1586162891a6dbe099834b23ddad21

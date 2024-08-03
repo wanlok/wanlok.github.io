@@ -1,6 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-answerdev/answer,SECURITY.md,341966bbee308a8c40e4ed5100bdc5b7c20d35ed,2023-01-13 07:39:39+00:00,,"# Security Policy
-
-## Reporting a Vulnerability
-
-Please report security issues to `security@answer.dev`",103,b answerdev/answer 341966bbee308a8c40e4ed5100bdc5b7c20d35ed

@@ -1,3 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-Automattic/mongoose,SECURITY.md,77dd672c0138f342311b9bbb0b206ee2fea5bdf7,2019-11-22 00:19:34+00:00,,"Please follow the instructions on [Tidelift's security page](https://tidelift.com/docs/security) to report a security issue.
-",125,b Automattic/mongoose 77dd672c0138f342311b9bbb0b206ee2fea5bdf7

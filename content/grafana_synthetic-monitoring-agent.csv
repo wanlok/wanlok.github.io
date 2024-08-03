@@ -1,7 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-grafana/synthetic-monitoring-agent,SECURITY.md,0709dc88abee97054d14421bdd5a79b9b19a72f6,2022-11-29 20:38:19+00:00,,"# Security Policy
-
-## Reporting a Vulnerability
-
-Please go to the [Grafana security policy](https://github.com/grafana/grafana/security/policy) for details.
-",157,b grafana/synthetic-monitoring-agent 0709dc88abee97054d14421bdd5a79b9b19a72f6

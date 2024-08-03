@@ -1,5 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-xwiki/xwiki-commons,SECURITY.md,980d1289b2fdc5f26817f74aa6cc086e86f02455,2021-01-06 10:03:30+00:00,,"# Security Policy
-
-XWiki security policy is detailed on the following document: https://dev.xwiki.org/xwiki/bin/view/Community/SecurityPolicy/.
-",144,b xwiki/xwiki-commons 980d1289b2fdc5f26817f74aa6cc086e86f02455

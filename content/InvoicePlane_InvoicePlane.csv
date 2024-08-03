@@ -1,7 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-InvoicePlane/InvoicePlane,SECURITY.md,8de1b28a2296ac8aea2c759d6d1723ca6ef54184,2021-08-11 15:07:43+00:00,,"# Security Policy
-
-## Reporting a Vulnerability
-
-Please report security issues to mail@invoiceplane.com
-",104,b InvoicePlane/InvoicePlane 8de1b28a2296ac8aea2c759d6d1723ca6ef54184

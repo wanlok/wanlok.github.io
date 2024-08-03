@@ -1,5 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-django/django,.github/SECURITY.md,007f9f9a4c752b0619147103e25ae352c30cfd18,2020-05-07 15:25:46+00:00,,"# Django Security Policies
-
-Please see https://www.djangoproject.com/security/.
-",80,b django/django 007f9f9a4c752b0619147103e25ae352c30cfd18

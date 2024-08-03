@@ -1,5 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-chaskiq/chaskiq,SECURITY.md,e5820b2a19b138e58f9c15d54e44b9556ac4c038,2022-01-14 05:46:09+00:00,,"For security disclosures please contact me at [miguel at chaskiq.io]
-thanks!
-
-",78,b chaskiq/chaskiq e5820b2a19b138e58f9c15d54e44b9556ac4c038

@@ -1,7 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-omeka/.github,SECURITY.md,625032b94e57f33a2d87997e7bb9789fb14b84dd,2021-07-06 18:42:19+00:00,,"# Reporting security issues
-
-Security-related issues can be privately reported via email to security@omeka.org.
-
-Please specify the specific repository and version involved when sending a report, along with any other necessary details.
-",236,b omeka/.github 625032b94e57f33a2d87997e7bb9789fb14b84dd

@@ -1,7 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-kirilkirkov/Ecommerce-CodeIgniter-Bootstrap,SECURITY.md,0310d37325d1a622fe8333907cbdaab8f135be55,2021-12-05 15:28:10+00:00,,"# Security Policy
-
-## Reporting a Vulnerability
-
-Please, contact me on email - kirilkirkov91@gmail.com
-",103,b kirilkirkov/Ecommerce-CodeIgniter-Bootstrap 0310d37325d1a622fe8333907cbdaab8f135be55

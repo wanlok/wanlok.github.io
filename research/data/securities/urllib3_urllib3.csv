@@ -1,6 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-urllib3/urllib3,.github/SECURITY.md,aa8df11ce4bcd68d68982f9d40350ffa3a90efb0,2021-07-27 02:12:07+00:00,,"# Security Disclosures
-
-To report a security vulnerability, please use the [Tidelift security contact](https://tidelift.com/security).
-Tidelift will coordinate the fix and disclosure with maintainers.
-",201,b urllib3/urllib3 aa8df11ce4bcd68d68982f9d40350ffa3a90efb0

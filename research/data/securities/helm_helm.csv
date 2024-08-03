@@ -1,4 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-helm/helm,SECURITY.md,a704ba7e203b1ba6336d7b7b4e39094e9079bca0,2020-01-28 15:58:27+00:00,,"# Helm Security Reporting and Policy
-
-The Helm project has [a common process and policy that can be found here](https://github.com/helm/community/blob/master/SECURITY.md).",171,b helm/helm a704ba7e203b1ba6336d7b7b4e39094e9079bca0

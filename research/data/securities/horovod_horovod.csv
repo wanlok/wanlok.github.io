@@ -1,9 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-horovod/horovod,SECURITY.md,8c0d82a44a01bd7d8006e3da5b27ecd7a2cc9c2f,2022-01-13 21:08:59+00:00,,"# Security Policy
-
-## Reporting a Vulnerability
-
-Please report security vulnerabilities to horovod-security@lists.lfaidata.foundation.
-
-Anyone can post to this mailing list, however, only active maintainers of the Horovod project will be able to read to the message.
-",267,b horovod/horovod 8c0d82a44a01bd7d8006e3da5b27ecd7a2cc9c2f

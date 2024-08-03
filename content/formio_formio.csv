@@ -1,6 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-formio/formio,SECURITY.md,9e6d1258ddc98bde96ab26134c757f50c9b63c3e,2016-03-02 19:16:05+00:00,,"Security
-=========
-If you find and/or think you have found a Security issue, please quietly disclose it to security@form.io, and give us
-sufficient time to patch the issue before disclosing it publicly.
-",203,b formio/formio 9e6d1258ddc98bde96ab26134c757f50c9b63c3e

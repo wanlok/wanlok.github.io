@@ -1,9 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-pi-hole/.github,SECURITY.md,d05ae70483cf61bacaa44a4aba7e5047318f4e4d,2020-08-03 07:34:02+00:00,,"# Security Policy
-
-## Reporting a Vulnerability
-
-Pi-hole welcomes all responsible disclosures. **Please do not open an ISSUE to report a security problem**
-
-We accept disclosures via email at disclosure@pi-hole.net.
-",216,b pi-hole/.github d05ae70483cf61bacaa44a4aba7e5047318f4e4d

@@ -1,5 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-xwiki-contrib/oidc,SECURITY.md,e9d8c156258dd1119d3965bac6838bfbaeb311c5,2022-01-27 14:30:39+00:00,,"# Security Policy
-
-XWiki security policy is detailed on the following document: https://dev.xwiki.org/xwiki/bin/view/Community/SecurityPolicy/.
-",144,b xwiki-contrib/oidc e9d8c156258dd1119d3965bac6838bfbaeb311c5

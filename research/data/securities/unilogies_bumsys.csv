@@ -1,9 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-unilogies/bumsys,SECURITY.md,1459c449624ad70ce4e2723556abcfa80c2459ff,2022-10-31 09:13:59+00:00,,"## Reporting a Vulnerability
-
-Please send any security issues or vulnerabilities found to the maintainers privately.
-
-Email: talk@bumsys.org
-
-Thank You
-",152,b unilogies/bumsys 1459c449624ad70ce4e2723556abcfa80c2459ff

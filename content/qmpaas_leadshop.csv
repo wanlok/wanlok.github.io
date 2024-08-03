@@ -1,5 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-qmpaas/leadshop,SECURITY.md,b28b1d20e7e7e3108b18bded47e66b7e649c8f4a,2022-03-22 08:00:55+00:00,,"Reporting a Vulnerability
-
-please contact:   569937993@qq.com
-",62,b qmpaas/leadshop b28b1d20e7e7e3108b18bded47e66b7e649c8f4a

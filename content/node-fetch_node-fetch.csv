@@ -1,6 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-node-fetch/node-fetch,SECURITY.md,f2c3d563755d4d357df987fe871607e296463cef,2022-01-08 13:21:04+00:00,,"# Security Policy
-
-## Reporting a Vulnerability
-
-Please report security issues to `jimmy@warting.se`",100,b node-fetch/node-fetch f2c3d563755d4d357df987fe871607e296463cef

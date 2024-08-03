@@ -1,6 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-bookwyrm-social/bookwyrm,SECURITY.md,1609b9b74cbec5a7fc82fae0a5ffcc791bf0b80e,2022-06-30 04:46:41+00:00,,"# Security Policy
-
-## Reporting a Vulnerability
-
-Please report security issues to `mousereeve@riseup.net`",105,b bookwyrm-social/bookwyrm 1609b9b74cbec5a7fc82fae0a5ffcc791bf0b80e

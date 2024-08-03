@@ -1,6 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-okta/okta-oidc-middleware,.github/SECURITY.md,113e1a3678b46daca51059d23313f541720c027e,2022-02-16 16:46:26+00:00,,"# Security Policy
-
-## Report a Vulnerability
-At Okta we take the protection of our customers’ data very seriously. If you need to report a vulnerability, please visit https://www.okta.com/vulnerability-reporting-policy/ for more information.
-",242,b okta/okta-oidc-middleware 113e1a3678b46daca51059d23313f541720c027e

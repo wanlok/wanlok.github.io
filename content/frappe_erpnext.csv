@@ -1,8 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-frappe/erpnext,SECURITY.md,22bc0a929b7a6c1e6265c41fdf39d07dff9445f4,2019-10-22 07:44:57+00:00,,"# Security Policy
-
-The ERPNext team and community take security issues seriously. To report a security issue, fill out the form at [https://erpnext.com/security/report](https://erpnext.com/security/report).
-
-You can help us make ERPNext and all it's users more secure by following the [Reporting guidelines](https://erpnext.com/security).
-
-We appreciate your efforts to responsibly disclose your findings. We'll endeavor to respond quickly, and will keep you updated throughout the process.",490,b frappe/erpnext 22bc0a929b7a6c1e6265c41fdf39d07dff9445f4

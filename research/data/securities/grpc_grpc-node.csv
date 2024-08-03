@@ -1,5 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-grpc/grpc-node,SECURITY.md,85111c2b0bb1e9652ca0a66db23e9a8fc3a6ce70,2021-01-22 18:57:55+00:00,,"# Security Policy
-
-For information on gRPC Security Policy and reporting potentional security issues, please see [gRPC CVE Process](https://github.com/grpc/proposal/blob/master/P4-grpc-cve-process.md).
-",202,b grpc/grpc-node 85111c2b0bb1e9652ca0a66db23e9a8fc3a6ce70

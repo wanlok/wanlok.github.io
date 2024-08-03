@@ -1,7 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-zmister2016/mrdoc,SECURITY.md,fd3a5000884d07d2decf11cffaed6b490d075562,2021-09-10 16:04:27+00:00,,"# Security Policy
-
-## Reporting a Vulnerability
-
-Please report security issues to `zmister@qq.com`
-",99,b zmister2016/mrdoc fd3a5000884d07d2decf11cffaed6b490d075562

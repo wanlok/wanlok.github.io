@@ -1,7 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-josdejong/jsoneditor,SECURITY.md,6e64f937ef26eb5d894228693ff008f12f7386c6,2021-09-22 07:25:58+00:00,,"# Security Policy
-
-## Reporting a Vulnerability
-
-Please report (suspected) security vulnerabilities privately to one of the maintainers of the library, for example to Jos de Jong: https://github.com/josdejong.
-",210,b josdejong/jsoneditor 6e64f937ef26eb5d894228693ff008f12f7386c6

@@ -1,5 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-Charcoal-SE/SmokeDetector,SECURITY.md,4755b2ed7cbfa3aeab38d9d4c64f819e67f22c8d,2020-05-18 06:40:08+00:00,,"# Security Policy
-
-Please refer to https://charcoal-se.org/security
-",68,b Charcoal-SE/SmokeDetector 4755b2ed7cbfa3aeab38d9d4c64f819e67f22c8d

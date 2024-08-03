@@ -1,5 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-opensearch-project/anomaly-detection,SECURITY.md,ed03dca09f9341da2b6bee10d9d4f23405c02b52,2021-06-24 19:21:52+00:00,,"## Reporting a Vulnerability
-
-If you discover a potential security issue in this project we ask that you notify AWS/Amazon Security via our [vulnerability reporting page](http://aws.amazon.com/security/vulnerability-reporting/) or directly via email to aws-security@amazon.com. Please do **not** create a public GitHub issue.
-",326,b opensearch-project/anomaly-detection ed03dca09f9341da2b6bee10d9d4f23405c02b52

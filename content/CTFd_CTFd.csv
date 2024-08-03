@@ -1,7 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-CTFd/CTFd,SECURITY.md,671c62cdefd09acdd9cd5e61f84234a2791398d9,2021-07-09 17:05:11+00:00,,"# Security Policy
-
-## Reporting a Vulnerability
-
-**Do not open up a GitHub issue if the bug is a security vulnerability in CTFd**. Instead [email the details to us at support@ctfd.io](mailto:support@ctfd.io).
-",209,b CTFd/CTFd 671c62cdefd09acdd9cd5e61f84234a2791398d9

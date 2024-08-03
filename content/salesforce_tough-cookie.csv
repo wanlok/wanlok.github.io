@@ -1,9 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-salesforce/tough-cookie,SECURITY.md,88927b0575f98249403ddedb697fba989b96f5da,2020-08-12 21:16:32+00:00,,"## Security
-
-Please report any security issue to [security@salesforce.com](mailto:security@salesforce.com)
-as soon as it is discovered. This library limits its runtime dependencies in
-order to reduce the total cost of ownership as much as can be, but all consumers
-should remain vigilant and have their security stakeholders review all third-party
-products (3PP) like this one and their dependencies.
-",401,b salesforce/tough-cookie 88927b0575f98249403ddedb697fba989b96f5da

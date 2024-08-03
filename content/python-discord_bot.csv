@@ -1,5 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-python-discord/bot,SECURITY.md,5da727234595fe7fb19fc04efa5ba1984328e06a,2021-04-01 08:37:22+00:00,,"# Security Notice
-
-The Security Notice for Python Discord projects can be found [on our website](https://pydis.com/security.md).
-",129,b python-discord/bot 5da727234595fe7fb19fc04efa5ba1984328e06a

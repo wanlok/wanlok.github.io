@@ -1,7 +1,0 @@
-repo,path,sha,date_time,previous_content,content,levenshtein_distance,bcompare
-Shopify/.github,SECURITY.md,4dab74dcf534e2c5e624247a5e235a71e4863189,2021-09-20 14:01:55+00:00,,"# Shopify Security Policy
-
-Shopify's [Whitehat Bug Bounty program](https://www.shopify.com/whitehat) rewards researchers for discovering security vulnerabilities.
-
-You can submit a report via [HackerOne](https://hackerone.com/shopify).
-",236,b Shopify/.github 4dab74dcf534e2c5e624247a5e235a71e4863189
