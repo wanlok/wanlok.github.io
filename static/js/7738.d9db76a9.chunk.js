@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwanlok_component_react=self.webpackChunkwanlok_component_react||[]).push([[7738],{37738:(c,e,a)=>{c.exports=a.p+"static/media/16.70cfccb9be77235a98c5.mp3"}}]);
