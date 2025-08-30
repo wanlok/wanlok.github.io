@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.12f73cad.css",
-    "main.js": "/static/js/main.430f4b45.js",
+    "main.js": "/static/js/main.f3751f17.js",
     "static/js/1956.fed9054e.chunk.js": "/static/js/1956.fed9054e.chunk.js",
     "static/js/5636.ec07647e.chunk.js": "/static/js/5636.ec07647e.chunk.js",
     "static/js/2457.98c3c486.chunk.js": "/static/js/2457.98c3c486.chunk.js",
@@ -392,7 +392,6 @@
     "static/media/32.mp3": "/static/media/32.b501f7a89c7536276b92.mp3",
     "static/media/38.mp3": "/static/media/38.1cdb12bd8b19596c84c7.mp3",
     "static/media/41.mp3": "/static/media/41.2d429ba481d1a8b06e99.mp3",
-    "static/media/image.png": "/static/media/image.eea41643961ccc095ed0.png",
     "static/media/39.mp3": "/static/media/39.71b2be54e1eead2b379a.mp3",
     "static/media/35.mp3": "/static/media/35.318baf86abb5528d4f8a.mp3",
     "static/media/42.mp3": "/static/media/42.3be5e7da2ef15c0d1ca8.mp3",
@@ -404,7 +403,6 @@
     "static/media/25.mp3": "/static/media/25.bcb2cb82e347c10b8444.mp3",
     "static/media/29.mp3": "/static/media/29.0ea603145fe122389b37.mp3",
     "static/media/37.mp3": "/static/media/37.7c08f03089122ce59436.mp3",
-    "static/media/image_selected.png": "/static/media/image_selected.6a4fe1e184a02d393134.png",
     "static/media/snapshot.png": "/static/media/snapshot.bad1ccae67e75e679d8c.png",
     "static/media/3.mp3": "/static/media/3.3b181a2ea8d90ac53c2e.mp3",
     "static/media/4.mp3": "/static/media/4.d40759dc96bd7956c5eb.mp3",
@@ -416,7 +414,7 @@
     "static/media/2.mp3": "/static/media/2.54a69b88d505ff4f209f.mp3",
     "index.html": "/index.html",
     "main.12f73cad.css.map": "/static/css/main.12f73cad.css.map",
-    "main.430f4b45.js.map": "/static/js/main.430f4b45.js.map",
+    "main.f3751f17.js.map": "/static/js/main.f3751f17.js.map",
     "239.25175e85.chunk.js.map": "/static/js/239.25175e85.chunk.js.map",
     "623.4830cf7f.chunk.js.map": "/static/js/623.4830cf7f.chunk.js.map",
     "1145.c904257c.chunk.js.map": "/static/js/1145.c904257c.chunk.js.map",
@@ -687,6 +685,6 @@
   },
   "entrypoints": [
     "static/css/main.12f73cad.css",
-    "static/js/main.430f4b45.js"
+    "static/js/main.f3751f17.js"
   ]
 }
