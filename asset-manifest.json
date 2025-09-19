@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.12f73cad.css",
-    "main.js": "/static/js/main.44fbc7c4.js",
+    "main.css": "/static/css/main.48f0436d.css",
+    "main.js": "/static/js/main.6ff3e7a1.js",
     "static/js/1956.fed9054e.chunk.js": "/static/js/1956.fed9054e.chunk.js",
     "static/js/5636.ec07647e.chunk.js": "/static/js/5636.ec07647e.chunk.js",
     "static/js/2457.98c3c486.chunk.js": "/static/js/2457.98c3c486.chunk.js",
@@ -378,7 +378,6 @@
     "static/media/26.mp3": "/static/media/26.67eb8d1e933bfede2e4f.mp3",
     "static/media/27.mp3": "/static/media/27.2725dfd290b628e83f95.mp3",
     "static/media/28.mp3": "/static/media/28.5bd9f3a8d2bed27e2d55.mp3",
-    "static/media/map.png": "/static/media/map.331482282b17d4ab1127.png",
     "static/media/steam.png": "/static/media/steam.ae38369bb9900b4b17d0.png",
     "static/media/hyperlink.png": "/static/media/hyperlink.7e1e53e4010f34ac87c7.png",
     "static/media/12.mp3": "/static/media/12.2d9794f93abff7d9ad7c.mp3",
@@ -389,7 +388,6 @@
     "static/media/21.mp3": "/static/media/21.c334c15cb91a89cc9a71.mp3",
     "static/media/7.mp3": "/static/media/7.86b3ef9dfe092d9de846.mp3",
     "static/media/31.mp3": "/static/media/31.ef53212595a01e8f44fa.mp3",
-    "static/media/map_selected.png": "/static/media/map_selected.86519315b3f98ccffec8.png",
     "static/media/32.mp3": "/static/media/32.b501f7a89c7536276b92.mp3",
     "static/media/38.mp3": "/static/media/38.1cdb12bd8b19596c84c7.mp3",
     "static/media/41.mp3": "/static/media/41.2d429ba481d1a8b06e99.mp3",
@@ -407,7 +405,6 @@
     "static/media/red_circle.png": "/static/media/red_circle.27688dc5317bd51ca350.png",
     "static/media/green_circle.png": "/static/media/green_circle.29bfcdafdafd8179a318.png",
     "static/media/left_right.png": "/static/media/left_right.0bf9a29b25d0936d5228.png",
-    "static/media/snapshot.png": "/static/media/snapshot.bad1ccae67e75e679d8c.png",
     "static/media/3.mp3": "/static/media/3.3b181a2ea8d90ac53c2e.mp3",
     "static/media/4.mp3": "/static/media/4.d40759dc96bd7956c5eb.mp3",
     "static/media/34.mp3": "/static/media/34.9eaa8c3e27b460eada2f.mp3",
@@ -417,8 +414,8 @@
     "static/media/1.mp3": "/static/media/1.cbcbd7c5a43cd20fc0fd.mp3",
     "static/media/2.mp3": "/static/media/2.54a69b88d505ff4f209f.mp3",
     "index.html": "/index.html",
-    "main.12f73cad.css.map": "/static/css/main.12f73cad.css.map",
-    "main.44fbc7c4.js.map": "/static/js/main.44fbc7c4.js.map",
+    "main.48f0436d.css.map": "/static/css/main.48f0436d.css.map",
+    "main.6ff3e7a1.js.map": "/static/js/main.6ff3e7a1.js.map",
     "239.25175e85.chunk.js.map": "/static/js/239.25175e85.chunk.js.map",
     "623.4830cf7f.chunk.js.map": "/static/js/623.4830cf7f.chunk.js.map",
     "1145.c904257c.chunk.js.map": "/static/js/1145.c904257c.chunk.js.map",
@@ -688,7 +685,7 @@
     "8105.cee5a839.chunk.js.map": "/static/js/8105.cee5a839.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12f73cad.css",
-    "static/js/main.44fbc7c4.js"
+    "static/css/main.48f0436d.css",
+    "static/js/main.6ff3e7a1.js"
   ]
 }
