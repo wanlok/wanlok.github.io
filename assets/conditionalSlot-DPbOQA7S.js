@@ -1,0 +1,1 @@
+import{R as e}from"./index-BWCyjt2-.js";import{t}from"./observers-BepzkUPM.js";var n,r={childList:!0};function i(e){n||=t(`mutation`,o),n.observe(e.el,r)}function a(e){n.unobserve(e.el)}function o(t){t.forEach(({target:t})=>{e(t)})}export{a as n,i as t};

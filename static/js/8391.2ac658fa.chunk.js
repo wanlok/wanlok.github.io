@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwanlok_component_react=self.webpackChunkwanlok_component_react||[]).push([[8391],{48391:(e,n,a)=>{a.r(n),a.d(n,{build:()=>c.b});a(34981),a(26917),a(59395),a(81993),a(80883),a(3799),a(21390),a(64839),a(32307),a(70367),a(10773),a(66470);var c=a(29201)}}]);

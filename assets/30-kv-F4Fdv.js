@@ -1,0 +1,1 @@
+var e=`/assets/30-Ddcg_SpX.mp3`;export{e as default};

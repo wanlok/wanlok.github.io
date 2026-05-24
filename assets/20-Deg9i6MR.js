@@ -1,0 +1,1 @@
+var e=`/assets/20-CEFVXgRP.mp3`;export{e as default};

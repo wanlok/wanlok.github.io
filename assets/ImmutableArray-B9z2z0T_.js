@@ -1,0 +1,1 @@
+var e=class{constructor(e=[]){this._elements=e}length(){return this._elements.length}get(e){return this._elements[e]}toArray(){let e=[];for(let t=0;t<this.length();t++)e.push(this.get(t));return e}};export{e as t};

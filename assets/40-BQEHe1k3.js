@@ -1,0 +1,1 @@
+var e=`/assets/40-SMuPTUWN.mp3`;export{e as default};

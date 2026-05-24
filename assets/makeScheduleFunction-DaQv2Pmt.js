@@ -1,0 +1,1 @@
+function e(e){return t=>{if(e.immediate)return e.immediate.schedule(t);let n=`No immediate scheduler`;throw console.error(n),Error(n)}}export{e as t};
