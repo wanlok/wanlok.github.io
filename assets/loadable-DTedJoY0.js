@@ -1,1 +1,0 @@
-import{N as e,R as t}from"./index-fyglqEWe.js";var n=new WeakMap,r=new WeakMap;function i(e){r.set(e,new Promise(t=>n.set(e,t)))}function a(e){n.get(e)()}function o(e){return r.get(e)}async function s(n){if(await o(n),e.isBrowser)return t(n),new Promise(e=>requestAnimationFrame(()=>e()))}export{a as n,i as r,s as t};
