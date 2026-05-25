@@ -1,1 +1,0 @@
-import{lE as e}from"./index-BWCyjt2-.js";async function t(t,n){let{data:r}=await e(t,{responseType:`json`,query:{f:`json`,...n?.customParameters,token:n?.apiKey}});return r}export{t};

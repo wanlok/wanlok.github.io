@@ -1,1 +1,0 @@
-import{n as e,t}from"./icon-B3STECEL.js";var n=t,r=e;export{n as CalciteIcon,r as defineCustomElement};

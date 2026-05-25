@@ -1,1 +1,0 @@
-import{d as e}from"./geometryEngineJSON-DVYlnSSg.js";function t(t){return(0,e[t.operation])(...t.parameters)}export{t as executeGEOperation};

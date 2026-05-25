@@ -1,1 +1,0 @@
-import{ZE as e,rk as t}from"./index-BWCyjt2-.js";import{t as n}from"./DynamicLayerView3D-3i_44Scg.js";var r=class extends n{constructor(){super(...arguments),this.type=`base-dynamic-3d`}};r=t([e(`esri.views.3d.layers.BaseDynamicLayerView3D`)],r);var i=r;export{i as default};

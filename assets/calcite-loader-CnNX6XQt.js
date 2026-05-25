@@ -1,1 +1,0 @@
-import{n as e,t}from"./loader-DJppydoQ.js";var n=t,r=e;export{n as CalciteLoader,r as defineCustomElement};
