@@ -1,1 +1,0 @@
-import{r as e,t}from"./action-group-UR2F5A4z.js";var n=t,r=e;export{n as CalciteActionGroup,r as defineCustomElement};

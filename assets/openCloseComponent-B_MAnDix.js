@@ -1,1 +1,0 @@
-import{H as e}from"./index-01CH9aD6.js";import{w as t}from"./dom-DX786vx-.js";var n=e;function r(e){return`opened`in e?e.opened:e.open}function i(e){n(()=>{e.transitionEl&&t(e.transitionEl,e.openTransitionProp,()=>{r(e)?e.onBeforeOpen():e.onBeforeClose()},()=>{r(e)?e.onOpen():e.onClose()})})}export{i as t};
