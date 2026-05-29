@@ -1,1 +1,0 @@
-import{Rn as e,i as t}from"./index-Dvt6_3V-.js";import{r as n}from"./queryTopFeatures-Cc2_P_pY.js";async function r(r,i,a){return(await n(e(r),t.from(i),{...a})).data.objectIds}export{r as executeForTopIds};

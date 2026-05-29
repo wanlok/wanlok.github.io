@@ -1,0 +1,1 @@
+import"./index-k_xmxIhg.js";import{n as e}from"./SlicePlaneMaterial.glsl-CPSLPWMY.js";export{e as build};

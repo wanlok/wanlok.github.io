@@ -1,1 +1,0 @@
-import{jw as e}from"./index-Dvt6_3V-.js";function t(t,n){return t===null?n:new e({url:t.field(`url`)})}export{t};
