@@ -1,0 +1,1 @@
+import{lE as e}from"./index-CN6foY6_.js";async function t(t,n){let{data:r}=await e(t,{responseType:`json`,query:{f:`json`,...n?.customParameters,token:n?.apiKey}});return r}export{t};
