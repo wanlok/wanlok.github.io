@@ -1,1 +1,0 @@
-import{n as e,t}from"./action-DQka3FZS.js";var n=t,r=e;export{n as CalciteAction,r as defineCustomElement};
