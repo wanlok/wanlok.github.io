@@ -1,1 +1,0 @@
-import{jw as e}from"./index-__I8QSHl.js";function t(t,n){return t===null?n:new e({url:t.field(`url`)})}export{t};
