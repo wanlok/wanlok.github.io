@@ -1,0 +1,1 @@
+import{n as e,t}from"./loader-Ci_jPEgN.js";var n=t,r=e;export{n as CalciteLoader,r as defineCustomElement};
