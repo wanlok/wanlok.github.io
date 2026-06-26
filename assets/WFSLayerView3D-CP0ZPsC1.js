@@ -1,0 +1,1 @@
+import{ZE as e,rk as t,tD as n}from"./index-BtPyDOg_.js";import{t as r}from"./FeatureLayerViewBase3D-CWhBHFRZ.js";var i=class extends r{constructor(){super(...arguments),this.type=`wfs-3d`}};t([n()],i.prototype,`layer`,void 0),i=t([e(`esri.views.3d.layers.WFSLayerView3D`)],i);var a=i;export{a as default};
