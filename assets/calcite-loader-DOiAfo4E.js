@@ -1,0 +1,1 @@
+import{n as e,t}from"./loader-J9i4kUF0.js";var n=t,r=e;export{n as CalciteLoader,r as defineCustomElement};

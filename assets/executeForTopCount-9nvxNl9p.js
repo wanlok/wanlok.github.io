@@ -1,1 +1,0 @@
-import{Rn as e,i as t}from"./index-BtPyDOg_.js";import{t as n}from"./queryTopFeatures-Ch8roFGK.js";async function r(r,i,a){return(await n(e(r),t.from(i),{...a})).data.count}export{r as executeForTopCount};
