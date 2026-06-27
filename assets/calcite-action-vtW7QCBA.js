@@ -1,1 +1,0 @@
-import{n as e,t}from"./action-Cox30H97.js";var n=t,r=e;export{n as CalciteAction,r as defineCustomElement};
