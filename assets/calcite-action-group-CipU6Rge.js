@@ -1,0 +1,1 @@
+import{r as e,t}from"./action-group-DMGEUt_t.js";var n=t,r=e;export{n as CalciteActionGroup,r as defineCustomElement};

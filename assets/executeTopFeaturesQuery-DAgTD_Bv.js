@@ -1,1 +1,0 @@
-import{Rn as e,i as t,v as n}from"./index-CT02vMCE.js";import{i as r}from"./queryTopFeatures-BX46iI_F.js";async function i(i,a,o,s){let c=e(i),l={...s},{data:u}=await r(c,t.from(a),o,l);return n.fromJSON(u)}export{i as executeTopFeaturesQuery};
