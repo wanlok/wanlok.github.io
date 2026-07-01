@@ -1,1 +1,0 @@
-import{Fw as e,Rn as t,i as n}from"./index-Ds-I3SNu.js";import{n as r}from"./queryTopFeatures-CFrNLEHE.js";async function i(i,a,o){let s=await r(t(i),n.from(a),{...o}),c=s.data.extent;return!c||isNaN(c.xmin)||isNaN(c.ymin)||isNaN(c.xmax)||isNaN(c.ymax)?{count:s.data.count,extent:null}:{count:s.data.count,extent:e.fromJSON(c)}}export{i as executeForTopExtents};

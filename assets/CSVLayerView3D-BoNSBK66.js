@@ -1,1 +1,0 @@
-import{ZE as e,rk as t,tD as n}from"./index-Ds-I3SNu.js";import{t as r}from"./FeatureLayerViewBase3D-B_eblZqE.js";var i=class extends r{constructor(){super(...arguments),this.type=`csv-3d`}};t([n()],i.prototype,`layer`,void 0),i=t([e(`esri.views.3d.layers.CSVLayerView3D`)],i);var a=i;export{a as default};

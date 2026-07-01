@@ -1,1 +1,0 @@
-import{Vy as e,ZE as t,jD as n,rk as r,yO as i}from"./index-Ds-I3SNu.js";var a=a=>{let o=class extends a{initialize(){this.addHandles(e((()=>this.layer),`refresh`,(e=>{this.doRefresh(e.dataChanged).catch((e=>{n(e)||i.getLogger(this).error(e)}))})),`RefreshableLayerView`)}};return o=r([t(`esri.layers.mixins.RefreshableLayerView`)],o),o};export{a as t};
