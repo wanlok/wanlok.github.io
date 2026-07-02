@@ -1,1 +1,0 @@
-import{n as e,t}from"./icon-LF8VplY9.js";var n=t,r=e;export{n as CalciteIcon,r as defineCustomElement};

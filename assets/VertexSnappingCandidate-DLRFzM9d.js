@@ -1,0 +1,1 @@
+import{c as e,n as t,u as n}from"./EdgeSnappingCandidate-f-jxMZId.js";var r=class extends t{constructor(t){super({...t,constraint:new e(t.targetPoint)})}get hints(){return[new n(this.targetPoint,this.isDraped,this.domain)]}};export{r as t};

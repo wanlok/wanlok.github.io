@@ -1,1 +1,0 @@
-import{jw as e}from"./index-BKAXQA0Y.js";function t(t,n){return t===null?n:new e({url:t.field(`url`)})}export{t};

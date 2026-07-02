@@ -1,0 +1,1 @@
+import{ZE as e,rk as t,tD as n}from"./index-eLryVsXn.js";import{t as r}from"./FeatureLayerViewBase3D-DzRl19T9.js";var i=class extends r{constructor(){super(...arguments),this.type=`geojson-3d`}};t([n()],i.prototype,`layer`,void 0),i=t([e(`esri.views.3d.layers.GeoJSONLayerView3D`)],i);var a=i;export{a as default};

@@ -1,0 +1,1 @@
+import{d as e}from"./geometryEngineJSON-D2Vorgsw.js";function t(t){return(0,e[t.operation])(...t.parameters)}export{t as executeGEOperation};
