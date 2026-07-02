@@ -1,0 +1,1 @@
+import{Rn as e,ep as t}from"./index-C0NrEFS9.js";import{n,o as r}from"./query-CP24Ddst.js";async function i(r,i,a){return n(e(r),t.from(i),{...a}).then((e=>e.data.count))}async function a(n,i,a){return r(e(n),t.from(i),{...a}).then((e=>e.data.objectIds))}export{i as n,a as t};

@@ -1,0 +1,1 @@
+import{jw as e}from"./index-C0NrEFS9.js";function t(t,n){return t===null?n:new e({url:t.field(`url`)})}export{t};
