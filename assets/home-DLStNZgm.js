@@ -1,0 +1,1 @@
+import{Dt as e,b as t,t as n}from"./mountApp-z7e2JqMF.js";var r=e();n((0,r.jsx)(t,{activeSection:`home`,children:(0,r.jsx)(()=>(0,r.jsx)(`div`,{children:`Landing`}),{})}));
