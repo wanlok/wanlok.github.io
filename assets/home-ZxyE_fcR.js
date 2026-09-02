@@ -1,0 +1,1 @@
+import{b as e,kt as t,t as n}from"./mountApp-DsFenoK_.js";var r=t();n((0,r.jsx)(e,{activeSection:`home`,children:(0,r.jsx)(()=>(0,r.jsx)(`div`,{children:`Landing`}),{})}));
