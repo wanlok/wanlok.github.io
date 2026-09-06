@@ -1,0 +1,1 @@
+import{Z as e,kt as t}from"./mountApp-DsFenoK_.js";var n=t(),r=e((0,n.jsx)(`path`,{d:`M2.01 21 23 12 2.01 3 2 10l15 2-15 2z`}),`Send`);export{r as t};
